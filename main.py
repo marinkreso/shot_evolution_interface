@@ -5,7 +5,7 @@ from pathlib import Path
 
 from nicegui import app, run, ui
 
-from report_core import compute_columns
+from report_core import compute_columns, load_leaderboard
 from report_render import create_shot_evolution
 
 APP_DIR = Path(__file__).parent
@@ -239,8 +239,10 @@ async def index():
         create_button.disable()
         try:
             title = ' / '.join(dict.fromkeys(p for col in columns for p in col.players))[:60]
-            datas = await run.cpu_bound(compute_columns, payload)
-            file_name = await run.cpu_bound(create_shot_evolution, uuid.uuid4().hex[:12], title, datas)
+            # io_bound (thread) instead of cpu_bound: forking a second Python
+            # process doubles memory and OOMs small Render instances.
+            datas = await run.io_bound(compute_columns, payload)
+            file_name = await run.io_bound(create_shot_evolution, uuid.uuid4().hex[:12], title, datas)
             ui.navigate.to(f'/reports/{file_name}', new_tab=True)
         finally:
             spinner_row.visible = False
@@ -251,6 +253,7 @@ async def index():
 
 
 if __name__ in {'__main__', '__mp_main__'}:
+    load_leaderboard()  # warm the cache before serving so the first report is fast
     ui.run(
         host='0.0.0.0',
         port=int(os.environ.get('PORT', 8080)),
