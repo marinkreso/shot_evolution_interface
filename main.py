@@ -33,7 +33,7 @@ class ColumnState:
         self.years = []
         self.surfaces = []
         self.tournaments = []
-        self.handedness = 'BOTH'
+        self.handedness = 'RIGHT'
         self.selected_matches = None  # None -> all matches that pass the filters
 
 

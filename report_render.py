@@ -399,7 +399,7 @@ def create_shot_evolution(report_id, player, data):
     from convert_gsa_report import convert_gsa_report
     html_output = convert_gsa_report(output_text, title="Shot Quality Evolution Report", subtitle="")
 
-    file_name = f"{player}_{report_id}.html".replace(' ', '_').replace('/', '-')
+    file_name = f"{report_id}.html"
     reports_dir = APP_DIR / 'reports'
     reports_dir.mkdir(exist_ok=True)
     with open(reports_dir / file_name, 'w') as f:
