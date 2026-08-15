@@ -5,13 +5,30 @@ no database, match visuals load from Azure blob storage (public URLs), and the
 per-match data comes from the local matches_new2/ folder.
 """
 import json
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
-from nicegui import run, ui
+from nicegui import run
+from nicegui import ui as _ui
 
 from report_util_new import main3
 from utils_bootstrap_new2 import *
+
+
+class _UiCompat:
+    """NiceGUI 3.x shim for page code written against 1.x: ui.html was unsanitized."""
+
+    def __getattr__(self, name):
+        return getattr(_ui, name)
+
+    @staticmethod
+    def html(content='', **kwargs):
+        kwargs.setdefault('sanitize', False)
+        return _ui.html(content, **kwargs)
+
+
+ui = _UiCompat()
 
 with open('post_match_metadata_with_hash.json') as f:
     post_match_hashes = json.load(f)
@@ -25,7 +42,14 @@ for player in post_match_hashes:
 @ui.page('/gui/match_new/{match_str}', response_timeout=15, favicon='https://operationslakedb.blob.core.windows.net/gsa-post-match/fav.png')
 async def main_page_new(match_str: str):
     if not '_' in match_str:
+        if match_str not in match_id_dict:
+            ui.label(f'REPORT NOT FOUND: {match_str}').classes('mx-auto mt-16 text-2xl')
+            ui.label('PLEASE CHECK THAT THE LINK WAS COPIED COMPLETELY.').classes('mx-auto text-lg')
+            return
         match_str = match_id_dict[match_str]
+    if not Path(f'matches_new2/{match_str}').exists():
+        ui.label(f'REPORT NOT FOUND: {match_str}').classes('mx-auto mt-16 text-2xl')
+        return
     sel_playerx = match_str.split('_')[0]
     ui.page_title(sel_playerx + ' POST MATCH')
     

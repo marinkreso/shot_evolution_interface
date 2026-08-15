@@ -1,5 +1,5 @@
-# pinned <3: the post-match page uses NiceGUI 2.x APIs (unsanitized ui.html)
-nicegui>=2,<3
+# 3.x required: the interface header/layout relies on NiceGUI 3's Tailwind build
+nicegui>=3,<4
 pandas
 numpy
 pyarrow
