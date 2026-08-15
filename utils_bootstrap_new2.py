@@ -414,37 +414,37 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
         ui.separator().classes('w-10/12').classes('mx-auto')
         with ui.row().classes('w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
             if np.isnan(item['p1']):
-              ui.label('NA').classes('w-1/12').style('text-align: right;')  #.classes('')
               ui.linear_progress(0, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
+              ui.label('NA').classes('w-1/12').style('text-align: left;')  #.classes('')
             else:
-              ui.label(item['p1']).classes('w-1/12').style('text-align: right;')  #.classes('')
               ui.linear_progress(item['p1_perc'] / 100, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
-              
+              ui.label(item['p1']).classes('w-1/12').style('text-align: left;')  #.classes('')
+
             with ui.row().classes('w-2/12').classes('place-content-center'):
                 ui.label(key).style('text-align: center;').classes('w-full')#.classes('')
             if np.isnan(item['p2']):
+              ui.label('NA').classes('w-1/12').style('text-align: right;')#.classes('')
               ui.linear_progress(0, color='#dc3545', show_value=False, size="20px").classes('w-4/12').props('rounded')
-              ui.label('NA').classes('w-1/12')#.classes('')
             else:
+              ui.label(item['p2']).classes('w-1/12').style('text-align: right;')#.classes('')
               ui.linear_progress(1 - (item['p1_perc'] / 100), color='#dc3545', show_value=False, size="20px").classes('w-4/12').props('rounded')
-              ui.label(item['p2']).classes('w-1/12')#.classes('')
       else:
          ui.separator().classes('w-10/12').classes('mx-auto')
          with ui.row().classes('w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
             if np.isnan(item['p1']):
-              ui.label('NA').classes('w-1/12').style('text-align: right;')  #.classes('')
               ui.linear_progress(0, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
+              ui.label('NA').classes('w-1/12').style('text-align: left;')  #.classes('')
             else:
-              ui.label(item['p1']).classes('w-1/12').style('text-align: right;')  #.classes('')
               ui.linear_progress(item['p1'] / 100, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
+              ui.label(item['p1']).classes('w-1/12').style('text-align: left;')  #.classes('')
             with ui.row().classes('w-2/12').classes('place-content-center'):
                 ui.label(key).style('text-align: center;').classes('w-full')#.classes('')
             if np.isnan(item['p2']):
+              ui.label('NA').classes('w-1/12').style('text-align: right;')#.classes('')
               ui.linear_progress(0, color='#dc3545', show_value=False, size="20px").classes('w-4/12').props('rounded')
-              ui.label('NA').classes('w-1/12')#.classes('')
             else:
+              ui.label(item['p2']).classes('w-1/12').style('text-align: right;')#.classes('')
               ui.linear_progress((item['p2'] / 100), color='#dc3545', show_value=False, size="20px").classes('w-4/12').props('rounded')
-              ui.label(item['p2']).classes('w-1/12')#.classes('')
          
 
     with ui.column().classes('h-8 border'):
