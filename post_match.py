@@ -68,12 +68,9 @@ async def main_page_new(match_str: str):
     match = '_'.join(match_str.split('_')[1:])
     sel_playerx = match_str.split('_')[0]
     ui.colors(accent='#6AD4DD')
-    dark_mode = ui.dark_mode(False)  # light by default, switchable
     #with ui.page_sticky(x_offset=18, y_offset=18):
     with ui.page_sticky(position='top-left').classes('z-50'):
         ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to('/')).props('fab')
-    with ui.page_sticky(position='top-right').classes('z-50'):
-        ui.button(icon='dark_mode', on_click=dark_mode.toggle).props('fab')
 
 
 
