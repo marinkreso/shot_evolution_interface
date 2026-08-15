@@ -143,6 +143,16 @@ async def main_page_new(match_str: str):
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <style>
+        .sticky-controls {
+            position: sticky;
+            top: 0;
+            z-index: 40;
+            background-color: #ffffff;
+            padding-bottom: 4px;
+        }
+        .body--dark .sticky-controls {
+            background-color: #121212;
+        }
         .progress-label {
         float: left;
         margin-right: 1em;
@@ -183,22 +193,23 @@ async def main_page_new(match_str: str):
     #ui.label('')
     
     
-    with ui.tabs().classes('mx-auto') as tabs:
-            ui.tab('s1', label='1st Serve')
-            ui.tab('s2', label='2nd Serve')
-            ui.tab('r1', label='1st Return')
-            ui.tab('r2', label='2nd Return')
-            ui.tab('gs', label='Groundstrokes')
-            # ui.tab('fh', label='FH')
-            # ui.tab('bh', label='BH')
-            # ui.tab('o', label='OFFENSIVE')
-            ui.tab('m', label='MOVEMENT')
-            ui.tab('ms', label='SHOT MOVEMENT')
-            if sel_playerx == 'NAVARRO':
-                ui.tab('heat', label='MOVEMENT HEATMAP')
-            ui.tab('o', label='OTHER')
-            #ui.tab('v', label='Video')
-    ui.label('SELECT SET').classes('mx-auto')
+    with ui.column().classes('w-full items-center sticky-controls').style('gap: 0.25rem;') as sticky_controls:
+        with ui.tabs().classes('mx-auto') as tabs:
+                ui.tab('s1', label='1st Serve')
+                ui.tab('s2', label='2nd Serve')
+                ui.tab('r1', label='1st Return')
+                ui.tab('r2', label='2nd Return')
+                ui.tab('gs', label='Groundstrokes')
+                # ui.tab('fh', label='FH')
+                # ui.tab('bh', label='BH')
+                # ui.tab('o', label='OFFENSIVE')
+                ui.tab('m', label='MOVEMENT')
+                ui.tab('ms', label='SHOT MOVEMENT')
+                if sel_playerx == 'NAVARRO':
+                    ui.tab('heat', label='MOVEMENT HEATMAP')
+                ui.tab('o', label='OTHER')
+                #ui.tab('v', label='Video')
+        ui.label('SELECT SET').classes('mx-auto')
     @ui.refreshable
     def report_view():
             
@@ -351,16 +362,16 @@ async def main_page_new(match_str: str):
     def update_ui(e):
             chosen_set_object.chosen_set = e.value
             report_view.refresh()
-    if 'sets' in dm:
-        toggle = ui.toggle(dm['sets'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
-    else:
-        toggle = ui.toggle(['ALL', '1', '2', '3'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
-
     def _toggle_averages(e):
         dm['_show_averages'] = e.value
         report_view.refresh()
 
-    ui.switch('SHOW AVERAGES', on_change=_toggle_averages).classes('mx-auto')
+    with sticky_controls:
+        if 'sets' in dm:
+            toggle = ui.toggle(dm['sets'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
+        else:
+            toggle = ui.toggle(['ALL', '1', '2', '3'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
+        ui.switch('SHOW AVERAGES', on_change=_toggle_averages).classes('mx-auto')
     report_view()
 
 
