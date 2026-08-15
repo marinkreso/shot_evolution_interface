@@ -127,11 +127,11 @@ async def main_page_new(match_str: str):
         parts = matches.groups()
         tournament = parts[0].replace('_', ' ').strip().upper()
         year = parts[1]
-        ui.image('gsa_logo_smaller.png').classes('w-1/4').classes('mx-auto')
+        ui.image('gsa_logo_smaller.png').classes('w-2/3 md:w-1/4').classes('mx-auto')
         ui.markdown('# Post match report').classes('mx-auto')
         ui.markdown(f'### {dm["selected_player_name"].upper()} VS {dm["opponent_name"].upper()} - {tournament} {year}').classes('mx-auto')
     else:
-        ui.image('gsa_logo_smaller.png').classes('w-1/4').classes('mx-auto')
+        ui.image('gsa_logo_smaller.png').classes('w-2/3 md:w-1/4').classes('mx-auto')
         ui.markdown('# Combined report').classes('mx-auto')
         #ui.markdown(f'### {dm["selected_player_name"].upper()} VS {dm["opponent_name"].upper()}').classes('mx-auto')
         
@@ -207,14 +207,15 @@ async def main_page_new(match_str: str):
                 ui.tab('o', label='OTHER')
                 #ui.tab('v', label='Video')
         ui.label('SELECT SET').classes('mx-auto')
+    # Tabs are built lazily: only the visible tab is rendered, visited tabs are
+    # kept until the set / averages selection changes (then everything rebuilds).
+    lazy_tabs = {'fill': None}
+
     @ui.refreshable
     def report_view():
-            
             data1 = data1_all[chosen_set_object.chosen_set]
             data2 = data2_all[chosen_set_object.chosen_set]
-            
-            #ui.label('chosen set'  + toggle.value).classes('mx-auto')
-            
+
             def to_int(x, y):
                 try:
                     if x + y == 0:
@@ -228,134 +229,61 @@ async def main_page_new(match_str: str):
                     print(x, y)
                     return 50
 
+            def build_items(order_key, mark_missing=True, swallow_errors=False):
+                items = dict()
+                for key in data_order[order_key]:
+                    try:
+                        items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
+                        if mark_missing:
+                            if data2[key + '_total'] == 0:
+                                items[pretty_dict.get(key, key)]['p2'] = np.nan
+                            if data1[key + '_total'] == 0:
+                                items[pretty_dict.get(key, key)]['p1'] = np.nan
+                    except:
+                        if not swallow_errors:
+                            raise
+                return items
 
+            def build_heat():
+                for img_key in ['heatmap_rallies', 'heatmap_first_return', 'heatmap_second_return',
+                                'heatmap_first_splus', 'heatmap_second_splus']:
+                    ui.image(images[img_key]).classes('w-full md:w-1/2').classes('mx-auto')
+
+            builders = {
+                's1': lambda: serve_new_html(ui, dm, '1st Serve', None, build_items('serve', swallow_errors=True), images, chosen_set_object.chosen_set),
+                's2': lambda: serve_new_html_2nd(ui, dm, '2nd Serve', build_items('serve_2nd'), images, chosen_set_object.chosen_set),
+                'r1': lambda: return_new_html(ui, dm, '1st Return Quality', build_items('return'), images, chosen_set_object.chosen_set),
+                'r2': lambda: return_new_html2(ui, dm, '2nd Return Quality', build_items('return_2nd'), images, chosen_set_object.chosen_set),
+                'gs': lambda: groundstroke_new_html(ui, dm, 'GS Table', build_items('groundstroke_table')),
+                'm': lambda: movement_new_html(ui, dm, df_games),
+                'ms': lambda: shot_movement_new_html(ui, dm, 'SHOT MOVEMENT', build_items('movement', mark_missing=False)),
+                'o': lambda: other_new_html(ui, dm, 'OTHER', build_items('other')),
+            }
+            if sel_playerx == 'NAVARRO':
+                builders['heat'] = build_heat
+
+            current = selected_tab.number if selected_tab.number in builders else 's1'
+            built = {current}
+            panels = {}
             with ui.tab_panels(tabs).classes('w-full').bind_value(selected_tab, 'number'):
-                with ui.tab_panel('s1'):
-                    active_tab_test = 's1'
-                    #ui.label('Main Content')
-                    items = dict()
-                    for key in data_order['serve']:
-                        #if '1st' in key.lower():
-                        if True:
-                            try:
-                                items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                                if data2[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p2'] = np.nan
-                                if data1[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p1'] = np.nan
-                            except:
-                                c = 1 
-                                
-                    serve_new_html(ui, dm, '1st Serve', None, items, images, chosen_set_object.chosen_set)
-                with ui.tab_panel('s2'):
-                    active_tab_test = 's2'
-                    items = dict()
-                    for key in data_order['serve_2nd']:
-                        #if '2nd' in key.lower():
-                        if True:
-                            #print(items)
-                            items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                            if data2[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p2'] = np.nan
-                            if data1[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p1'] = np.nan
-                    serve_new_html_2nd(ui, dm, '2nd Serve', items, images, chosen_set_object.chosen_set)
-                with ui.tab_panel('r1'):
-                    active_tab_test = 'r1'
-                    items = dict()
-                    for key in data_order['return']:
-                        #if '1st' in key.lower():
-                        if True:
-                            items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                            if data2[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p2'] = np.nan
-                            if data1[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p1'] = np.nan
-                    return_new_html(ui, dm, '1st Return Quality', items, images, chosen_set_object.chosen_set)
-                if sel_playerx == 'NAVARRO':
-                    with ui.tab_panel('heat'):
-                        ui.image(images['heatmap_rallies']).classes('w-1/2').classes('mx-auto')
-                        ui.image(images['heatmap_first_return']).classes('w-1/2').classes('mx-auto')
-                        ui.image(images['heatmap_second_return']).classes('w-1/2').classes('mx-auto')
-                        ui.image(images['heatmap_first_splus']).classes('w-1/2').classes('mx-auto')
-                        ui.image(images['heatmap_second_splus']).classes('w-1/2').classes('mx-auto')
-                        
+                for tab_id, builder in builders.items():
+                    with ui.tab_panel(tab_id) as panel:
+                        panels[tab_id] = panel
+                        if tab_id == current:
+                            builder()
 
-                with ui.tab_panel('o'):
-                    active_tab_test = 'o'
-                    items = dict()
-                    for key in data_order['other']:
-                        #if '1st' in key.lower():
-                        if True:
-                            items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                            if data2[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p2'] = np.nan
-                            if data1[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p1'] = np.nan
-                    other_new_html(ui, dm, 'OTHER', items, images, chosen_set_object.chosen_set)
-                with ui.tab_panel('r2'):
-                    active_tab_test = 'r2'
-                    items = dict()
-                    for key in data_order['return_2nd']:
-                        #if '1st' in key.lower():
-                        if True:
-                            items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                            if data2[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p2'] = np.nan
-                            if data1[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p1'] = np.nan
-                    return_new_html2(ui, dm, '2nd Return Quality', items, images, chosen_set_object.chosen_set)
-                
-                with ui.tab_panel('m'):
-                    active_tab_test = 'm'
-                    items = dict()
-                    for key in data_order['return_2nd']:
-                        #if '1st' in key.lower():
-                        if True:
-                            items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                            
-                    movement_new_html(ui, dm, df_games)
-                with ui.tab_panel('gs'):
-                    active_tab_test = 'gs'
-                    items = dict()
-                    for key in data_order['groundstroke_table']:
-                        #if '1st' in key.lower():
-                        if True:
-                            items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                            if data2[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p2'] = np.nan
-                            if data1[key + '_total'] == 0:
-                                    items[pretty_dict.get(key, key)]['p1'] = np.nan
-                    groundstroke_new_html(ui, dm, 'GS Table', items)
-                with ui.tab_panel('ms'):
-                    active_tab_test = 'ms'
-                    items = dict()
-                    for key in data_order['movement']:
-                        #if '1st' in key.lower():
-                        if True:
-                            items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                    shot_movement_new_html(ui, dm, 'SHOT MOVEMENT', items)
-                
-                # with ui.tab_panel('fh'):
-                #     items = dict()
-                #     for key in data_order['groundstroke_table']:
-                #         #if '1st' in key.lower():
-                #         if True:
-                #           items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                #     fh_html(ui, dm, 'FH table', items)
-                # with ui.tab_panel('bh'):
-                #     items = dict()
-                #     for key in data_order['groundstroke_table']:
-                        
-                #         if True:
-                #           items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
-                #     bh_html(ui, dm, 'BH table', items)
-            #ui.html('<h1 class="text-center">Item Comparison</h1>')
-            if selected_tab.number:
-                
-                tabs.set_value(selected_tab.number)
-            else:
-                tabs.set_value('s1')
+            def fill_tab(tab_id):
+                if tab_id in built or tab_id not in builders:
+                    return
+                with panels[tab_id]:
+                    builders[tab_id]()
+                built.add(tab_id)
+
+            lazy_tabs['fill'] = fill_tab
+            tabs.set_value(current)
+
+    tabs.on_value_change(lambda e: lazy_tabs['fill'] and lazy_tabs['fill'](e.value))
+
     def update_ui(e):
             chosen_set_object.chosen_set = e.value
             report_view.refresh()

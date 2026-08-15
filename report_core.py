@@ -18,12 +18,14 @@ _leaderboard = None
 
 
 def load_leaderboard():
-    """Load the leaderboard once and keep it cached (memory is tight on Render)."""
+    """Prepare the shot-evolution view of the leaderboard once and cache it."""
     global _leaderboard
     if _leaderboard is None:
-        leaderboard = pd.read_parquet(LEADERBOARD_PATH)
+        # report_util_new owns the single on-disk read; reuse it instead of
+        # loading the parquet a second time.
+        from report_util_new import leaderboard3
         # Keep whole-match rows only; the per-set rows would double-count matches.
-        leaderboard = leaderboard[leaderboard.sets == 'ALL'].copy()
+        leaderboard = leaderboard3[leaderboard3.sets == 'ALL'].copy()
         # This leaderboard stores percentages on a 0-100 scale; card.py expects
         # 0-1 fractions (it multiplies by 100 when formatting).
         pct_cols = [k for k in set(funcs) - set(not_by_100) if k in leaderboard.columns]

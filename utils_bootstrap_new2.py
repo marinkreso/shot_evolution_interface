@@ -34,7 +34,7 @@ def movement_new_html(ui, movement_json, df):
     ui.table(
     columns=[{'name': col, 'label': col, 'field': col, 'align': 'center'} for col in df2.columns],
     rows=df2.to_dict('records'),
-).classes('mx-auto')#.classes('w-1/2')
+).classes('mx-auto')#.classes('w-full md:w-1/2')
     #items['table_title'] = 'BH TABLE'
     #ui_table_jinja_nicegui(ui, movement_json, items, 'BH TABLE')
     #ui_table(ui)
@@ -86,7 +86,7 @@ def movement_new_html(ui, movement_json, df):
           ).classes('mx-auto')
       
     
-    #ui.image('movement_visual.png').classes('mx-auto').classes('w-1/2')
+    #ui.image('movement_visual.png').classes('mx-auto').classes('w-full md:w-1/2')
 def bh_new_html(ui,movement_json, x, items):
     #items['table_title'] = 'BH TABLE'
     #ui_table_jinja_nicegui(ui, movement_json, items, 'BH TABLE')
@@ -186,21 +186,21 @@ def other_new_html(ui, movement_json, returnx, items, images, chosen_set):
 def return_new_html(ui, movement_json, returnx, items, images, chosen_set):
     ui.markdown(f'### 1st Return'.upper()).classes('mx-auto').classes('font-bold')
     if chosen_set == 'ALL':
-      ui.image(images['first_return']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['first_return']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['first_return'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
+       ui.image(images['first_return'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
     return_first_table = {x: items[x] for x in items if x in ['In%', 'In% - pressure points', f'In% - break points', 'Return Win %', 'Win% - Pressure points', 'Win% - Break points', 'FH Return In%', 'BH Return In%']}
     ui_table_jinja_nicegui(ui, movement_json, return_first_table, returnx.upper())
     ui.markdown(f'### 1ST RETURNS: DEPTH AND SPEED'.upper()).classes('mx-auto').classes('font-bold')
     if chosen_set == 'ALL':
-      ui.image(images['return_depth']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['return_depth']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['return_depth'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
+       ui.image(images['return_depth'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
     return_first_table = {x: items[x] for x in items if x not in ['In%', 'In% - pressure points', f'In% - break points', 'Return Win %', 'Win% - Pressure points', 'Win% - Break points', 'FH Return In%', 'BH Return In%']}
     ui_table_jinja_nicegui(ui, movement_json, return_first_table, 'RETURN CHARACTER')
     #with ui.row().classes('w-full no-wrap flex-nowrap'):
-    #  ui.image('1st_deuce_returns.png').classes('w-1/2')
-    #  ui.image('1st_ad_returns.png').classes('w-1/2')
+    #  ui.image('1st_deuce_returns.png').classes('w-full md:w-1/2')
+    #  ui.image('1st_ad_returns.png').classes('w-full md:w-1/2')
       #ui.label('Third column with some more text').classes('bg-blue-100 w-1/3')
     #ui.html('<h1>Return directions</h1>').classes('mx-auto').classes('text-2xl')
     #ui.image('return_percentages.png').classes('w-96').classes('mx-auto')
@@ -211,27 +211,27 @@ def return_new_html2(ui, movement_json, returnx, items, images, chosen_set):
     
     ui.markdown(f'### 2nd Return'.upper()).classes('mx-auto').classes('font-bold')
     if chosen_set == 'ALL':
-      ui.image(images['second_return']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['second_return']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['second_return'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
+       ui.image(images['second_return'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
     columns_first = ['In%', 'Win%', 'FH Return In%', 'BH Return In%', '% of good 2nd returns that extended the point (5+) or player won the point', '% of deep returns']
     
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in items if x in columns_first}, 'Return Quality')
     ui.markdown(f'### 2nd Deuce Return Direction'.upper()).classes('mx-auto').classes('font-bold')
     if chosen_set == 'ALL':
-      ui.image(images['return_dir_deuce']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['return_dir_deuce']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['return_dir_deuce'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
+       ui.image(images['return_dir_deuce'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
     ui.markdown(f'### 2nd Ad Return Direction'.upper()).classes('mx-auto').classes('font-bold')
     if chosen_set == 'ALL':
-      ui.image(images['return_dir_ad']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['return_dir_ad']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['return_dir_ad'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
+       ui.image(images['return_dir_ad'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in items if x not in columns_first}, 'Return Character')
     ui.label('Aggresive returns = Returner won the point under 5 shots').classes('mx-auto')
     #with ui.row().classes('w-full no-wrap flex-nowrap'):
-    #  ui.image('2nd_deuce_returns.png').classes('w-1/2')
-    #  ui.image('2nd_ad_returns.png').classes('w-1/2')
+    #  ui.image('2nd_deuce_returns.png').classes('w-full md:w-1/2')
+    #  ui.image('2nd_ad_returns.png').classes('w-full md:w-1/2')
       #ui.label('Third column with some more text').classes('bg-blue-100 w-1/3')
     #ui.html('<h1>Return directions</h1>').classes('mx-auto').classes('text-2xl')
     #ui.image('return_percentages.png').classes('w-96').classes('mx-auto')
@@ -255,10 +255,10 @@ def serve_new_html(ui, movement_json, serve, rally_win, items, images, chosen_se
     ui.markdown(f'### 1st Serve Direction {movement_json.get("selected_player_name","Player" )}'.upper()).classes('mx-auto').classes('font-bold')
     #ui.image('1stServe.png').classes('mx-auto').classes('w-1/4')
     if chosen_set == 'ALL':
-      ui.image(images['first_serve']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['first_serve']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['first_serve'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
-    #ui.image('Serve1.jpg').classes('mx-auto').classes('w-1/2')
+       ui.image(images['first_serve'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
+    #ui.image('Serve1.jpg').classes('mx-auto').classes('w-full md:w-1/2')
     ui_table_jinja_nicegui(ui, movement_json, items, serve)
     ui.markdown(f'### {movement_json.get("selected_player_name","Player" )} 1st Serve Placement < 40 cm of the side lines '.upper()).classes('mx-auto').classes('font-bold')
     ui.table(
@@ -271,16 +271,16 @@ def serve_new_html(ui, movement_json, serve, rally_win, items, images, chosen_se
       {'Serve Direction': 'AD T', 'Placement%': movement_json['placement_first']['1st AD T']}],
     ).classes('mx-auto')
     if chosen_set == 'ALL':
-      ui.image(images['serve_placement']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['serve_placement']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['serve_placement'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
+       ui.image(images['serve_placement'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
     #ui.markdown(f'### RALLY LENGTH STATISTICS'.upper()).classes('mx-auto').classes('font-bold')
     #ui.image('1stServe.png').classes('mx-auto').classes('w-1/4')
-    #ui.image('rally_length_0373d014-a19d-4ae6-b0ba-aaece44913d3.png').classes('mx-auto').classes('w-1/2')
+    #ui.image('rally_length_0373d014-a19d-4ae6-b0ba-aaece44913d3.png').classes('mx-auto').classes('w-full md:w-1/2')
     #ui.image('placement_first.png').classes('w-1/4').classes('mx-auto')
-    #ui.image('serve_direction2.png').classes('w-1/2').classes('mx-auto')
+    #ui.image('serve_direction2.png').classes('w-full md:w-1/2').classes('mx-auto')
     #ui.image('serve_rally.png').classes('w-96').classes('mx-auto')
-    #ui.image('serve_placement2.png').classes('w-1/2').classes('mx-auto')
+    #ui.image('serve_placement2.png').classes('w-full md:w-1/2').classes('mx-auto')
 
 def serve_new_html_2nd(ui, movement_json, serve, items, images, chosen_set):
     #with ui.element('div').classes('text-center'):
@@ -301,9 +301,9 @@ def serve_new_html_2nd(ui, movement_json, serve, items, images, chosen_set):
     xd = movement_json.get('placement_second')
     ui.markdown(f'### 2nd Serve Direction {movement_json.get("selected_player_name","Player".upper() )}'.upper()).classes('mx-auto').classes('font-bold')
     if chosen_set == 'ALL':
-      ui.image(images['second_serve']).classes('mx-auto').classes('w-1/2')
+      ui.image(images['second_serve']).classes('mx-auto').classes('w-full md:w-1/2')
     else:
-       ui.image(images['second_serve'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
+       ui.image(images['second_serve'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-full md:w-1/2')
     # if xd:
     #   ui.markdown(f'### 2nd Serve Direction {movement_json.get("selected_player_name","Player" )}').classes('mx-auto').classes('font-bold')
     #   rows = []
@@ -319,10 +319,10 @@ def serve_new_html_2nd(ui, movement_json, serve, items, images, chosen_set):
     # ui.image('serve_placement.png').classes('mx-auto').classes('w-1/4')
     # ui.markdown(f'### RALLY LENGTH STATISTICS'.upper()).classes('mx-auto').classes('font-bold')
     # #ui.image('1stServe.png').classes('mx-auto').classes('w-1/4')
-    # ui.image('rally_length_dd348f8d-48f0-4b75-a2f6-df9ac3284af7.png').classes('mx-auto').classes('w-1/2')
+    # ui.image('rally_length_dd348f8d-48f0-4b75-a2f6-df9ac3284af7.png').classes('mx-auto').classes('w-full md:w-1/2')
     #ui.image('placement_second.png').classes('w-1/4').classes('mx-auto')
     #ui.image('serve_rally.png').classes('w-96').classes('mx-auto')
-    #ui.image('serve_placement2.png').classes('w-1/2').classes('mx-auto')
+    #ui.image('serve_placement2.png').classes('w-full md:w-1/2').classes('mx-auto')
 
 def ui_table_jinja(ui, mj, items, table_title):
     ui.html(f'<h1 class="text-center">{table_title}</h1>').classes('text-2xl').classes('mx-auto')
@@ -431,7 +431,7 @@ def _render_row_with_averages(ui, movement_json, key, item):
         return max(0.0, min(1.0, float(v) / denom))
 
     averages = movement_json.get('_averages') or {}
-    with ui.row().classes('w-10/12 no-wrap flex-nowrap items-center').classes('mx-auto'):
+    with ui.row().classes('w-full md:w-10/12 no-wrap flex-nowrap items-center').classes('mx-auto'):
         with ui.column().classes('w-5/12').style('gap: 2px;'):
             _reference_row(ui, 'MATCH', p1_fill, 'NA' if np.isnan(p1) else p1, '#28a745', left=True, main=True)
             avg = averages.get('p1')
@@ -439,7 +439,7 @@ def _render_row_with_averages(ui, movement_json, key, item):
                 _reference_row(ui, avg['year_label'], _avg_fill(avg['year'].get(key)), _avg_fmt(avg['year'].get(key)), '#28a745', left=True)
                 _reference_row(ui, avg['top10_label'], _avg_fill(avg['top10'].get(key)), _avg_fmt(avg['top10'].get(key)), '#28a745', left=True)
         with ui.row().classes('w-2/12').classes('place-content-center'):
-            ui.label(key).style('text-align: center;').classes('w-full')
+            ui.label(key).style('text-align: center;').classes('w-full text-xs md:text-base')
         with ui.column().classes('w-5/12').style('gap: 2px;'):
             _reference_row(ui, 'MATCH', p2_fill, 'NA' if np.isnan(p2) else p2, '#dc3545', left=False, main=True)
             avg = averages.get('p2')
@@ -452,9 +452,9 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
     ui.html(f'<h1 class="text-center">{table_title}</h1>').classes('text-2xl').classes('mx-auto')
     
 
-    ui.separator().classes('w-10/12').classes('mx-auto')
+    ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
 
-    # with ui.row().classes('w-2/3 no-wrap flex-nowrap').classes('mx-auto'):
+    # with ui.row().classes('w-full md:w-2/3 no-wrap flex-nowrap').classes('mx-auto'):
     #     #ui.label(movement_json['selected_player_name']).classes('w-6/12').style('color: #28a745').classes('mx-auto')
     #     ui.label('').style('color: #28a745').classes('mx-auto').classes('w-1/12')
     #     ui.label(movement_json['selected_player_name']).style('color: #28a745').classes('w-4/12').classes('justify-start')
@@ -464,7 +464,7 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
     #     #ui.label('').classes('w-8/12')
     #     #ui.label(movement_json['opponent_name']).classes('w-6/12').style('color: #dc3545').classes('mx-auto')
 
-    with ui.row().classes('w-2/3 no-wrap flex-nowrap').classes('mx-auto'):
+    with ui.row().classes('w-full md:w-2/3 no-wrap flex-nowrap').classes('mx-auto'):
       ui.label('').classes('w-1/12')
       ui.label(movement_json['selected_player_name']).classes('w-4/12').style('color: #28a745').style('text-align: left;')
       ui.label('').classes('w-2/12')
@@ -474,11 +474,11 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
     for key, item in items.items():
       import numpy as np
       if movement_json.get('_show_averages') and (movement_json.get('_averages') or {}).get('p1'):
-        ui.separator().classes('w-10/12').classes('mx-auto')
+        ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
         _render_row_with_averages(ui, movement_json, key, item)
       elif not ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower()):
-        ui.separator().classes('w-10/12').classes('mx-auto')
-        with ui.row().classes('w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
+        ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
+        with ui.row().classes('w-full md:w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
             if np.isnan(item['p1']):
               ui.linear_progress(0, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
               ui.label('NA').classes('w-1/12').style('text-align: left;')  #.classes('')
@@ -487,7 +487,7 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
               ui.label(item['p1']).classes('w-1/12').style('text-align: left;')  #.classes('')
 
             with ui.row().classes('w-2/12').classes('place-content-center'):
-                ui.label(key).style('text-align: center;').classes('w-full')#.classes('')
+                ui.label(key).style('text-align: center;').classes('w-full text-xs md:text-base')#.classes('')
             if np.isnan(item['p2']):
               ui.label('NA').classes('w-1/12').style('text-align: right;')#.classes('')
               ui.linear_progress(0, color='#dc3545', show_value=False, size="20px").classes('w-4/12').props('rounded')
@@ -495,8 +495,8 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
               ui.label(item['p2']).classes('w-1/12').style('text-align: right;')#.classes('')
               ui.linear_progress(1 - (item['p1_perc'] / 100), color='#dc3545', show_value=False, size="20px").classes('w-4/12').props('rounded')
       else:
-         ui.separator().classes('w-10/12').classes('mx-auto')
-         with ui.row().classes('w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
+         ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
+         with ui.row().classes('w-full md:w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
             if np.isnan(item['p1']):
               ui.linear_progress(0, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
               ui.label('NA').classes('w-1/12').style('text-align: left;')  #.classes('')
@@ -504,7 +504,7 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
               ui.linear_progress(item['p1'] / 100, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
               ui.label(item['p1']).classes('w-1/12').style('text-align: left;')  #.classes('')
             with ui.row().classes('w-2/12').classes('place-content-center'):
-                ui.label(key).style('text-align: center;').classes('w-full')#.classes('')
+                ui.label(key).style('text-align: center;').classes('w-full text-xs md:text-base')#.classes('')
             if np.isnan(item['p2']):
               ui.label('NA').classes('w-1/12').style('text-align: right;')#.classes('')
               ui.linear_progress(0, color='#dc3545', show_value=False, size="20px").classes('w-4/12').props('rounded')
@@ -674,4 +674,4 @@ def ui_table(ui):
   </table>
 </div>
 
-                 ''').classes('w-1/2').classes('mx-auto')
+                 ''').classes('w-full md:w-1/2').classes('mx-auto')
