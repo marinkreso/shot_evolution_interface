@@ -1,0 +1,4 @@
+Game Description,Distance covered per point,Average movement speed,Average acceleration,Average deceleration,Serve Speed Avg,Forehand Speed Avg,Backhand Speed Avg (without slices),Backhand Speed Avg (with slices)
+1-6 game split,14.27,2.16,5.04,-6.27,212.98,123.28,130.48,130.48
+7-12 game split,15.25,1.99,5.16,-6.38,212.61,133.4,126.57,119.76
+13-17 game split,15.89,2.07,5.01,-6.14,207.3,124.66,123.12,113.61

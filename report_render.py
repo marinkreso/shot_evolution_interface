@@ -88,8 +88,7 @@ data_order = {
         'groundstroke_table': [
     {'columns': ['rally_winners_per_match',
     'rally_ue_per_match',
-    'fh_amount',
-    'bh_amount',
+    # fh_amount / bh_amount are not present in the current leaderboard
     'fh_cc_speed',
     
     

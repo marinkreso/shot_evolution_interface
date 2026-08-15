@@ -1,5 +1,1845 @@
 [
     {
+        "PLAYER": "FARIA",
+        "OPPONENT": "BROOKSBY",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Faria_Brooksby"
+    },
+    {
+        "PLAYER": "BROOKSBY",
+        "OPPONENT": "FARIA",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Faria_Brooksby"
+    },
+    {
+        "PLAYER": "GAUFF",
+        "OPPONENT": "RYBAKINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_SF_Gauff_Rybakina"
+    },
+    {
+        "PLAYER": "RYBAKINA",
+        "OPPONENT": "GAUFF",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_SF_Gauff_Rybakina"
+    },
+    {
+        "PLAYER": "MAROZSAN",
+        "OPPONENT": "ZHENG",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Marozsan_Zheng"
+    },
+    {
+        "PLAYER": "ZHENG",
+        "OPPONENT": "MAROZSAN",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Marozsan_Zheng"
+    },
+    {
+        "PLAYER": "TRUNGELLITI",
+        "OPPONENT": "MEDJEDOVIC",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Medjedovic_Trungelliti"
+    },
+    {
+        "PLAYER": "MEDJEDOVIC",
+        "OPPONENT": "TRUNGELLITI",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Medjedovic_Trungelliti"
+    },
+    {
+        "PLAYER": "MAJCHRZAK",
+        "OPPONENT": "O'CONNELL",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_O'Connell_Majchrzak"
+    },
+    {
+        "PLAYER": "O'CONNELL",
+        "OPPONENT": "MAJCHRZAK",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_O'Connell_Majchrzak"
+    },
+    {
+        "PLAYER": "ROYER",
+        "OPPONENT": "TSITSIPAS",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Royer_Tsitsipas"
+    },
+    {
+        "PLAYER": "TSITSIPAS",
+        "OPPONENT": "ROYER",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Royer_Tsitsipas"
+    },
+    {
+        "PLAYER": "WONG",
+        "OPPONENT": "ALTMAIER",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Wong_Altmaier"
+    },
+    {
+        "PLAYER": "ALTMAIER",
+        "OPPONENT": "WONG",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Wong_Altmaier"
+    },
+    {
+        "PLAYER": "RYBAKINA",
+        "OPPONENT": "SWIATEK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "F",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_F_Swiatek_Rybakina"
+    },
+    {
+        "PLAYER": "SWIATEK",
+        "OPPONENT": "RYBAKINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "F",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_F_Swiatek_Rybakina"
+    },
+    {
+        "PLAYER": "SWIATEK",
+        "OPPONENT": "SVITOLINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_SF_Svitolina_Swiatek"
+    },
+    {
+        "PLAYER": "SVITOLINA",
+        "OPPONENT": "SWIATEK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_SF_Svitolina_Swiatek"
+    },
+    {
+        "PLAYER": "NAVONE",
+        "OPPONENT": "COLLIGNON",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Navone_Collignon"
+    },
+    {
+        "PLAYER": "COLLIGNON",
+        "OPPONENT": "NAVONE",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Navone_Collignon"
+    },
+    {
+        "PLAYER": "SVAJDA",
+        "OPPONENT": "BELLUCCI",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Svajda_Bellucci"
+    },
+    {
+        "PLAYER": "BELLUCCI",
+        "OPPONENT": "SVAJDA",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Svajda_Bellucci"
+    },
+    {
+        "PLAYER": "UGO CARABELLI",
+        "OPPONENT": "KECMANOVIC",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Ugo-Carabelli_Kecmanovic"
+    },
+    {
+        "PLAYER": "KECMANOVIC",
+        "OPPONENT": "UGO CARABELLI",
+        "TOURNAMENT": "CINCINNATI",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Cincinnati_2026_1st_Ugo-Carabelli_Kecmanovic"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "SHELTON",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "F",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_F_Shelton_Nakashima"
+    },
+    {
+        "PLAYER": "SHELTON",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "F",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_F_Shelton_Nakashima"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "JODAR",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_SF_Jodar_Nakashima"
+    },
+    {
+        "PLAYER": "JODAR",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_SF_Jodar_Nakashima"
+    },
+    {
+        "PLAYER": "RYBAKINA",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Osaka_Rybakina"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "RYBAKINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Osaka_Rybakina"
+    },
+    {
+        "PLAYER": "SHNAIDER",
+        "OPPONENT": "SWIATEK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Shnaider_Swiatek"
+    },
+    {
+        "PLAYER": "SWIATEK",
+        "OPPONENT": "SHNAIDER",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Shnaider_Swiatek"
+    },
+    {
+        "PLAYER": "SWIATEK",
+        "OPPONENT": "KOSTYUK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Kostyuk_Swiatek"
+    },
+    {
+        "PLAYER": "FERNANDEZ",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Fernandez_Osaka"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "FERNANDEZ",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Fernandez_Osaka"
+    },
+    {
+        "PLAYER": "KOSTYUK",
+        "OPPONENT": "SWIATEK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Kostyuk_Swiatek"
+    },
+    {
+        "PLAYER": "RYBAKINA",
+        "OPPONENT": "SAMSONOVA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Samsonova_Rybakina"
+    },
+    {
+        "PLAYER": "SAMSONOVA",
+        "OPPONENT": "RYBAKINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Samsonova_Rybakina"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "DARDERI",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Darderi_Nakashima"
+    },
+    {
+        "PLAYER": "DARDERI",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Darderi_Nakashima"
+    },
+    {
+        "PLAYER": "JODAR",
+        "OPPONENT": "FILS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Jodar_Fils"
+    },
+    {
+        "PLAYER": "FILS",
+        "OPPONENT": "JODAR",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Jodar_Fils"
+    },
+    {
+        "PLAYER": "MENSIK",
+        "OPPONENT": "SHELTON",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Mensik_Shelton"
+    },
+    {
+        "PLAYER": "SHELTON",
+        "OPPONENT": "MENSIK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_QF_Mensik_Shelton"
+    },
+    {
+        "PLAYER": "SHELTON",
+        "OPPONENT": "FONSECA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Fonseca_Shelton"
+    },
+    {
+        "PLAYER": "FONSECA",
+        "OPPONENT": "SHELTON",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Fonseca_Shelton"
+    },
+    {
+        "PLAYER": "MENSIK",
+        "OPPONENT": "VAN DE ZANDSCHULP",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_van-de-Zandschulp_Mensik"
+    },
+    {
+        "PLAYER": "VAN DE ZANDSCHULP",
+        "OPPONENT": "MENSIK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_van-de-Zandschulp_Mensik"
+    },
+    {
+        "PLAYER": "FILS",
+        "OPPONENT": "NORRIE",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Fils_Norrie"
+    },
+    {
+        "PLAYER": "NORRIE",
+        "OPPONENT": "FILS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Fils_Norrie"
+    },
+    {
+        "PLAYER": "JODAR",
+        "OPPONENT": "LEHECKA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Lehecka_Jodar"
+    },
+    {
+        "PLAYER": "LEHECKA",
+        "OPPONENT": "JODAR",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R16_Lehecka_Jodar"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "RINDERKNECH",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Rinderknech_Nakashima"
+    },
+    {
+        "PLAYER": "RINDERKNECH",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Rinderknech_Nakashima"
+    },
+    {
+        "PLAYER": "SWIATEK",
+        "OPPONENT": "GOLUBIC",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Golubic_Swiatek"
+    },
+    {
+        "PLAYER": "GOLUBIC",
+        "OPPONENT": "SWIATEK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Golubic_Swiatek"
+    },
+    {
+        "PLAYER": "LI",
+        "OPPONENT": "RYBAKINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Li_Rybakina"
+    },
+    {
+        "PLAYER": "RYBAKINA",
+        "OPPONENT": "LI",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Li_Rybakina"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "MERTENS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Mertens_Osaka"
+    },
+    {
+        "PLAYER": "MERTENS",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Mertens_Osaka"
+    },
+    {
+        "PLAYER": "ATMANE",
+        "OPPONENT": "MENSIK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Atmane_Mensik"
+    },
+    {
+        "PLAYER": "MENSIK",
+        "OPPONENT": "ATMANE",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Atmane_Mensik"
+    },
+    {
+        "PLAYER": "SHELTON",
+        "OPPONENT": "BERGS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Bergs_Shelton"
+    },
+    {
+        "PLAYER": "BERGS",
+        "OPPONENT": "SHELTON",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Bergs_Shelton"
+    },
+    {
+        "PLAYER": "RUUD",
+        "OPPONENT": "FONSECA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Ruud_Fonseca"
+    },
+    {
+        "PLAYER": "FONSECA",
+        "OPPONENT": "RUUD",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Ruud_Fonseca"
+    },
+    {
+        "PLAYER": "LEHECKA",
+        "OPPONENT": "BLOCKX",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Lehecka_Blockx"
+    },
+    {
+        "PLAYER": "BLOCKX",
+        "OPPONENT": "LEHECKA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Lehecka_Blockx"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "DROGUET",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Nakashima_Droguet"
+    },
+    {
+        "PLAYER": "DROGUET",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Nakashima_Droguet"
+    },
+    {
+        "PLAYER": "FILS",
+        "OPPONENT": "NAVONE",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Navone_Fils"
+    },
+    {
+        "PLAYER": "NAVONE",
+        "OPPONENT": "FILS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R32_Navone_Fils"
+    },
+    {
+        "PLAYER": "BEJLEK",
+        "OPPONENT": "SWIATEK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Bejlek_Swiatek"
+    },
+    {
+        "PLAYER": "SWIATEK",
+        "OPPONENT": "BEJLEK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Bejlek_Swiatek"
+    },
+    {
+        "PLAYER": "RYBAKINA",
+        "OPPONENT": "KASATKINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Kasatkina_Rybakina"
+    },
+    {
+        "PLAYER": "KASATKINA",
+        "OPPONENT": "RYBAKINA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Kasatkina_Rybakina"
+    },
+    {
+        "PLAYER": "NAVARRO",
+        "OPPONENT": "KORNEEVA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Korneeva_Navarro"
+    },
+    {
+        "PLAYER": "KORNEEVA",
+        "OPPONENT": "NAVARRO",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Korneeva_Navarro"
+    },
+    {
+        "PLAYER": "UDVARDY",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Udvardy_Osaka"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "UDVARDY",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Udvardy_Osaka"
+    },
+    {
+        "PLAYER": "COLLIGNON",
+        "OPPONENT": "POPYRIN",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Collignon_Popyrin"
+    },
+    {
+        "PLAYER": "POPYRIN",
+        "OPPONENT": "COLLIGNON",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Collignon_Popyrin"
+    },
+    {
+        "PLAYER": "MENSIK",
+        "OPPONENT": "FEARNLEY",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Fearnley_Mensik"
+    },
+    {
+        "PLAYER": "FEARNLEY",
+        "OPPONENT": "MENSIK",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Fearnley_Mensik"
+    },
+    {
+        "PLAYER": "RINDERKNECH",
+        "OPPONENT": "KECMANOVIC",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Kecmanovic_Rinderknech"
+    },
+    {
+        "PLAYER": "KECMANOVIC",
+        "OPPONENT": "RINDERKNECH",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Kecmanovic_Rinderknech"
+    },
+    {
+        "PLAYER": "SHELTON",
+        "OPPONENT": "BROOKSBY",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Brooksby_Shelton"
+    },
+    {
+        "PLAYER": "BROOKSBY",
+        "OPPONENT": "SHELTON",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Brooksby_Shelton"
+    },
+    {
+        "PLAYER": "SVAJDA",
+        "OPPONENT": "FILS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Svajda_Fils"
+    },
+    {
+        "PLAYER": "FILS",
+        "OPPONENT": "SVAJDA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Svajda_Fils"
+    },
+    {
+        "PLAYER": "BAEZ",
+        "OPPONENT": "BERGS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Bergs_Baez"
+    },
+    {
+        "PLAYER": "BERGS",
+        "OPPONENT": "BAEZ",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Bergs_Baez"
+    },
+    {
+        "PLAYER": "ETCHEVERRY",
+        "OPPONENT": "BORGES",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Borges_Etcheverry"
+    },
+    {
+        "PLAYER": "BORGES",
+        "OPPONENT": "ETCHEVERRY",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Borges_Etcheverry"
+    },
+    {
+        "PLAYER": "FONSECA",
+        "OPPONENT": "TSITSIPAS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Tsitsipas_Fonseca"
+    },
+    {
+        "PLAYER": "TSITSIPAS",
+        "OPPONENT": "FONSECA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Tsitsipas_Fonseca"
+    },
+    {
+        "PLAYER": "VACHEROT",
+        "OPPONENT": "NAVONE",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Vacherot_Navone"
+    },
+    {
+        "PLAYER": "NAVONE",
+        "OPPONENT": "VACHEROT",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Vacherot_Navone"
+    },
+    {
+        "PLAYER": "MEDJEDOVIC",
+        "OPPONENT": "CERUNDOLO",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Cerundolo_Medjedovic"
+    },
+    {
+        "PLAYER": "CERUNDOLO",
+        "OPPONENT": "MEDJEDOVIC",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Cerundolo_Medjedovic"
+    },
+    {
+        "PLAYER": "MAROZSAN",
+        "OPPONENT": "MOCHIZUKI",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Mochizuki_Marozsan"
+    },
+    {
+        "PLAYER": "MOCHIZUKI",
+        "OPPONENT": "MAROZSAN",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Mochizuki_Marozsan"
+    },
+    {
+        "PLAYER": "KOPRIVA",
+        "OPPONENT": "LEHECKA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Lehecka_Kopriva"
+    },
+    {
+        "PLAYER": "LEHECKA",
+        "OPPONENT": "KOPRIVA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Lehecka_Kopriva"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "ALTMAIER",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Nakashima_Altmaier"
+    },
+    {
+        "PLAYER": "ALTMAIER",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_R64_Nakashima_Altmaier"
+    },
+    {
+        "PLAYER": "BAEZ",
+        "OPPONENT": "BELLUCCI",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Baez_Bellucci"
+    },
+    {
+        "PLAYER": "BELLUCCI",
+        "OPPONENT": "BAEZ",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Baez_Bellucci"
+    },
+    {
+        "PLAYER": "DAMM",
+        "OPPONENT": "TSITSIPAS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Damm_Tsitsipas"
+    },
+    {
+        "PLAYER": "TSITSIPAS",
+        "OPPONENT": "DAMM",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Damm_Tsitsipas"
+    },
+    {
+        "PLAYER": "BROOKSBY",
+        "OPPONENT": "WALTON",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Walton_Brooksby"
+    },
+    {
+        "PLAYER": "WALTON",
+        "OPPONENT": "BROOKSBY",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Walton_Brooksby"
+    },
+    {
+        "PLAYER": "NAVONE",
+        "OPPONENT": "BERRETTINI",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Berrettini_Navone"
+    },
+    {
+        "PLAYER": "BERRETTINI",
+        "OPPONENT": "NAVONE",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Berrettini_Navone"
+    },
+    {
+        "PLAYER": "DUCKWORTH",
+        "OPPONENT": "O'CONNELL",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Duckworth_O'Connell"
+    },
+    {
+        "PLAYER": "O'CONNELL",
+        "OPPONENT": "DUCKWORTH",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Duckworth_O'Connell"
+    },
+    {
+        "PLAYER": "VUKIC",
+        "OPPONENT": "ALTMAIER",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Vukic_Altmaier"
+    },
+    {
+        "PLAYER": "ALTMAIER",
+        "OPPONENT": "VUKIC",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Vukic_Altmaier"
+    },
+    {
+        "PLAYER": "KECMANOVIC",
+        "OPPONENT": "ZHENG",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Zheng_Kecmanovic"
+    },
+    {
+        "PLAYER": "ZHENG",
+        "OPPONENT": "KECMANOVIC",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_1st_Zheng_Kecmanovic"
+    },
+    {
+        "PLAYER": "TSITSIPAS",
+        "OPPONENT": "RICE",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "Q",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_Q_Tsitsipas_Rice"
+    },
+    {
+        "PLAYER": "RICE",
+        "OPPONENT": "TSITSIPAS",
+        "TOURNAMENT": "ROGERS-CUP",
+        "YEAR": "2026",
+        "ROUND": "Q",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Rogers_cup_2026_Q_Tsitsipas_Rice"
+    },
+    {
+        "PLAYER": "FRITZ",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_SF_Nakashima_Fritz"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "FRITZ",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_SF_Nakashima_Fritz"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "DE MINAUR",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_QF_de-Minaur_Nakashima"
+    },
+    {
+        "PLAYER": "DE MINAUR",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_QF_de-Minaur_Nakashima"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "COCCIARETTO",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_QF_Cocciaretto_Osaka"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "KRUEGER",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R16_Krueger_Osaka"
+    },
+    {
+        "PLAYER": "COCCIARETTO",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_QF_Cocciaretto_Osaka"
+    },
+    {
+        "PLAYER": "COCCIARETTO",
+        "OPPONENT": "NAVARRO",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R16_Navarro_Cocciaretto"
+    },
+    {
+        "PLAYER": "KRUEGER",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R16_Krueger_Osaka"
+    },
+    {
+        "PLAYER": "NAVARRO",
+        "OPPONENT": "COCCIARETTO",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R16_Navarro_Cocciaretto"
+    },
+    {
+        "PLAYER": "WONG",
+        "OPPONENT": "BROOKSBY",
+        "TOURNAMENT": "LOS-CABOS",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Los_Cabos_2026_QF_Wong_Brooksby"
+    },
+    {
+        "PLAYER": "BROOKSBY",
+        "OPPONENT": "WONG",
+        "TOURNAMENT": "LOS-CABOS",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Los_Cabos_2026_QF_Wong_Brooksby"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "MENSIK",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R16_Nakashima_Mensik"
+    },
+    {
+        "PLAYER": "MENSIK",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R16_Nakashima_Mensik"
+    },
+    {
+        "PLAYER": "NAVARRO",
+        "OPPONENT": "KENIN",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Navarro_Kenin"
+    },
+    {
+        "PLAYER": "KENIN",
+        "OPPONENT": "NAVARRO",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Navarro_Kenin"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "JACQUEMOT",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_1st_Jacquemot_Osaka"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "SABALENKA",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_R16_Sabalenka_Osaka"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "KASATKINA",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_R32_Kasatkina_Osaka"
+    },
+    {
+        "PLAYER": "OSAKA",
+        "OPPONENT": "GASANOVA",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_R64_Gasanova_Osaka"
+    },
+    {
+        "PLAYER": "JACQUEMOT",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "1st",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_1st_Jacquemot_Osaka"
+    },
+    {
+        "PLAYER": "SABALENKA",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_R16_Sabalenka_Osaka"
+    },
+    {
+        "PLAYER": "KASATKINA",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_R32_Kasatkina_Osaka"
+    },
+    {
+        "PLAYER": "GASANOVA",
+        "OPPONENT": "OSAKA",
+        "TOURNAMENT": "WIMBLEDON",
+        "YEAR": "2026",
+        "ROUND": "R64",
+        "SURFACE": "grass",
+        "FORMAT": "HE",
+        "match_id": "Wimbledon_2026_R64_Gasanova_Osaka"
+    },
+    {
+        "PLAYER": "LEHECKA",
+        "OPPONENT": "WONG",
+        "TOURNAMENT": "LOS-CABOS",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Los_Cabos_2026_R16_Lehecka_Wong"
+    },
+    {
+        "PLAYER": "WONG",
+        "OPPONENT": "LEHECKA",
+        "TOURNAMENT": "LOS-CABOS",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Los_Cabos_2026_R16_Lehecka_Wong"
+    },
+    {
+        "PLAYER": "WINTER",
+        "OPPONENT": "BROOKSBY",
+        "TOURNAMENT": "LOS-CABOS",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Los-Cabos_2026_R16_Winter_Brooksby"
+    },
+    {
+        "PLAYER": "BROOKSBY",
+        "OPPONENT": "WINTER",
+        "TOURNAMENT": "LOS-CABOS",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Los-Cabos_2026_R16_Winter_Brooksby"
+    },
+    {
+        "PLAYER": "TSITSIPAS",
+        "OPPONENT": "DE MINAUR",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_de-Minaur_Tsitsipas"
+    },
+    {
+        "PLAYER": "DE MINAUR",
+        "OPPONENT": "TSITSIPAS",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_de-Minaur_Tsitsipas"
+    },
+    {
+        "PLAYER": "JODAR",
+        "OPPONENT": "FILS",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Fils_Jodar"
+    },
+    {
+        "PLAYER": "FILS",
+        "OPPONENT": "JODAR",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Fils_Jodar"
+    },
+    {
+        "PLAYER": "NAKASHIMA",
+        "OPPONENT": "ETCHEVERRY",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Nakashima_Etcheverry"
+    },
+    {
+        "PLAYER": "ETCHEVERRY",
+        "OPPONENT": "NAKASHIMA",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Nakashima_Etcheverry"
+    },
+    {
+        "PLAYER": "SVAJDA",
+        "OPPONENT": "MENSIK",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Svajda_Mensik"
+    },
+    {
+        "PLAYER": "MENSIK",
+        "OPPONENT": "SVAJDA",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Svajda_Mensik"
+    },
+    {
+        "PLAYER": "FRITZ",
+        "OPPONENT": "BERGS",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Fritz_Bergs"
+    },
+    {
+        "PLAYER": "BERGS",
+        "OPPONENT": "FRITZ",
+        "TOURNAMENT": "WASHINGTON",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Washington_2026_R32_Fritz_Bergs"
+    },
+    {
+        "PLAYER": "BLOCKX",
+        "OPPONENT": "VAN ASSCHE",
+        "TOURNAMENT": "ESTORIL",
+        "YEAR": "2026",
+        "ROUND": "F",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Estoril_2026_F_Van-assche_Blockx"
+    },
+    {
+        "PLAYER": "BLOCKX",
+        "OPPONENT": "DARDERI",
+        "TOURNAMENT": "ESTORIL",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Estoril_2026_SF_Blockx_Darderi"
+    },
+    {
+        "PLAYER": "VAN ASSCHE",
+        "OPPONENT": "BLOCKX",
+        "TOURNAMENT": "ESTORIL",
+        "YEAR": "2026",
+        "ROUND": "F",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Estoril_2026_F_Van-assche_Blockx"
+    },
+    {
+        "PLAYER": "DARDERI",
+        "OPPONENT": "BLOCKX",
+        "TOURNAMENT": "ESTORIL",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Estoril_2026_SF_Blockx_Darderi"
+    },
+    {
+        "PLAYER": "BUBLIK",
+        "OPPONENT": "ETCHEVERRY",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_SF_Bublik_Etcheverry"
+    },
+    {
+        "PLAYER": "ETCHEVERRY",
+        "OPPONENT": "BUBLIK",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "SF",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_SF_Bublik_Etcheverry"
+    },
+    {
+        "PLAYER": "BLOCKX",
+        "OPPONENT": "JACQUET",
+        "TOURNAMENT": "ESTORIL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Estoril_2026_R16_Jacquet_Blockx"
+    },
+    {
+        "PLAYER": "JACQUET",
+        "OPPONENT": "BLOCKX",
+        "TOURNAMENT": "ESTORIL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "hard",
+        "FORMAT": "HE",
+        "match_id": "Estoril_2026_R16_Jacquet_Blockx"
+    },
+    {
+        "PLAYER": "BUSE",
+        "OPPONENT": "ETCHEVERRY",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_QF_Etcheverry_Buse"
+    },
+    {
+        "PLAYER": "ETCHEVERRY",
+        "OPPONENT": "BUSE",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_QF_Etcheverry_Buse"
+    },
+    {
+        "PLAYER": "ETCHEVERRY",
+        "OPPONENT": "RODIONOV",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R16_Etcheverry_Rodionov"
+    },
+    {
+        "PLAYER": "HALYS",
+        "OPPONENT": "NAVONE",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_QF_Navone_Halys"
+    },
+    {
+        "PLAYER": "NAVONE",
+        "OPPONENT": "HALYS",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "QF",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_QF_Navone_Halys"
+    },
+    {
+        "PLAYER": "NAVONE",
+        "OPPONENT": "STRUFF",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R16_Struff_Navone"
+    },
+    {
+        "PLAYER": "NAVONE",
+        "OPPONENT": "MULLER",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R32_Muller_Navone"
+    },
+    {
+        "PLAYER": "RODIONOV",
+        "OPPONENT": "ETCHEVERRY",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R16_Etcheverry_Rodionov"
+    },
+    {
+        "PLAYER": "MOLCAN",
+        "OPPONENT": "ALTMAIER",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R16_Molcan_Altmaier"
+    },
+    {
+        "PLAYER": "ALTMAIER",
+        "OPPONENT": "MOLCAN",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R16_Molcan_Altmaier"
+    },
+    {
+        "PLAYER": "ALTMAIER",
+        "OPPONENT": "COLLIGNON",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R32_Altmaier_Collignon"
+    },
+    {
+        "PLAYER": "STRUFF",
+        "OPPONENT": "NAVONE",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R16",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R16_Struff_Navone"
+    },
+    {
+        "PLAYER": "COLLIGNON",
+        "OPPONENT": "ALTMAIER",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R32_Altmaier_Collignon"
+    },
+    {
+        "PLAYER": "KECMANOVIC",
+        "OPPONENT": "BAEZ",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R32_Baez_Kecmanovic"
+    },
+    {
+        "PLAYER": "BAEZ",
+        "OPPONENT": "KECMANOVIC",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R32_Baez_Kecmanovic"
+    },
+    {
+        "PLAYER": "MULLER",
+        "OPPONENT": "NAVONE",
+        "TOURNAMENT": "KITZBUHEL",
+        "YEAR": "2026",
+        "ROUND": "R32",
+        "SURFACE": "clay",
+        "FORMAT": "HE",
+        "match_id": "Kitzbuhel_2026_R32_Muller_Navone"
+    },
+    {
         "PLAYER": "VACHEROT",
         "OPPONENT": "COLLIGNON",
         "TOURNAMENT": "GSTAAD",

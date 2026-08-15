@@ -1,0 +1,72 @@
+{
+    "selected_player_name": "PAVLYUCHENKOVA",
+    "opponent_name": "SAVILLE",
+    "Movement_data": {
+        "Total Match Duration": "87 minute(s)",
+        "Effective Playing Time": "20 minute(s)",
+        "Effective Time / Total Match Duration": "23%",
+        "Total Distance Covered": "1621.94 m",
+        "Avg Speed": "1.83 m/s",
+        "Sum of All Strokes": 298
+    },
+    "1st_serve_placement": "1st DEUCE W: 33%, 1st DEUCE T: 17%, 1st AD W: 38%, 1st AD T: 17%",
+    "Number of runs to reach dropshots": 4,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 59,
+        "Second Serve": 20,
+        "Forehand": 121,
+        "Backhand": 96,
+        "Forehand Return": 28,
+        "Backhand Return": 30,
+        "Volleys": 6
+    },
+    "distance_moved": {
+        "0-1 m": "1% (1 times)",
+        "1-2 m": "12% (19 times)",
+        "2-3 m": "33% (53 times)",
+        "3-4 m": "29% (46 times)",
+        "4-5 m": "13% (21 times)",
+        "5-10 m": "11% (17 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "54 times (48% win)",
+        "11-25 m": "50 times (58% win)",
+        "26-50 m": "18 times (56% win)",
+        "51-75 m": "0 times",
+        "76-100 m": "0 times",
+        "101-500 m": "0 times"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "80 times (51% win)",
+        "1 - 1.5 m/s": "153 times (56% win)",
+        "1.5 - 2 m/s": "163 times (60% win)",
+        "2 - 2.5 m/s": "102 times (65% win)",
+        "2.5 - 3 m/s": "59 times (47% win)",
+        "3 - 3.5 m/s": "14 times (93% win)",
+        "3.5 - 4 m/s": "12 times (33% win)",
+        "4 - 4.5 m/s": "6 times (50% win)",
+        "4.5 - 5 m/s": "2 times (50% win)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "60% (3 serves), 100 win%",
+        "1st DEUCE B": "0% (0 serves), nan win%",
+        "1st DEUCE T": "40% (2 serves), 50 win%",
+        "1st AD W": "75% (3 serves), 67 win%",
+        "1st AD B": "0% (0 serves), nan win%",
+        "1st AD T": "25% (1 serves), 100 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "0% (0 serves), nan% win",
+        "2nd DEUCE B": "33% (2 serves), 0.0% win",
+        "2nd DEUCE T": "67% (4 serves), 0.0% win",
+        "2nd AD W": "55% (6 serves), 50% win",
+        "2nd AD B": "45% (5 serves), 100% win",
+        "2nd AD T": "0% (0 serves), nan% win"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2"
+    ]
+}

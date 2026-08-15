@@ -3,17 +3,25 @@ import os
 import uuid
 from pathlib import Path
 
+APP_DIR = Path(__file__).parent
+os.chdir(APP_DIR)  # the ported post-match page reads matches_new2/... relatively
+
 from nicegui import app, run, ui
 
 from report_core import compute_columns, load_leaderboard
 from report_render import create_shot_evolution
 
-APP_DIR = Path(__file__).parent
+import post_match  # noqa: F401  (registers the /gui/match_new/{id} page)
 REPORTS_DIR = APP_DIR / 'reports'
 REPORTS_DIR.mkdir(exist_ok=True)
 
 with open(APP_DIR / 'all_data2.json') as f:
     ALL_MATCHES = sorted(json.load(f), key=lambda x: x['match_id'])
+
+# Only offer matches the leaderboard actually has stats for, so a column never
+# silently averages over fewer matches than the user selected.
+_leaderboard_match_ids = set(load_leaderboard().match_id.unique())
+ALL_MATCHES = [m for m in ALL_MATCHES if m['match_id'] in _leaderboard_match_ids]
 
 with open(APP_DIR / 'lefties.json') as f:
     LEFTIE_PLAYERS = set(json.load(f))
@@ -174,6 +182,7 @@ async def index():
 
                 def on_players_change(e):
                     col.players = e.value or []
+                    e.sender.run_method('updateInputValue', '')  # drop leftover typed search text
                     on_filter_change()
 
                 ui.select(
@@ -188,6 +197,7 @@ async def index():
                 for dim, label in [('years', 'Year(s)'), ('surfaces', 'Surfaces'), ('tournaments', 'Tournaments')]:
                     def on_change(e, dim=dim):
                         setattr(col, dim, e.value or [])
+                        e.sender.run_method('updateInputValue', '')  # drop leftover typed search text
                         on_filter_change()
 
                     selects[dim] = ui.select(

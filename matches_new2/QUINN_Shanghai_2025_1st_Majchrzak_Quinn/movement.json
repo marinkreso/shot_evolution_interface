@@ -1,0 +1,72 @@
+{
+    "selected_player_name": "QUINN",
+    "opponent_name": "MAJCHRZAK",
+    "Movement_data": {
+        "Total Match Duration": "66 minute(s)",
+        "Effective Playing Time": "13 minute(s)",
+        "Effective Time / Total Match Duration": "20%",
+        "Total Distance Covered": "851.45 m",
+        "Avg Speed": "1.48 m/s",
+        "Sum of All Strokes": 228
+    },
+    "1st_serve_placement": "1st DEUCE W: 60%, 1st DEUCE T: 50%, 1st AD W: 43%, 1st AD T: 25%",
+    "Number of runs to reach dropshots": 2,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 51,
+        "Second Serve": 21,
+        "Forehand": 66,
+        "Backhand": 90,
+        "Forehand Return": 23,
+        "Backhand Return": 22,
+        "Volleys": 3
+    },
+    "distance_moved": {
+        "0-1 m": "8% (9 times)",
+        "1-2 m": "24% (27 times)",
+        "2-3 m": "34% (38 times)",
+        "3-4 m": "23% (26 times)",
+        "4-5 m": "8% (9 times)",
+        "5-10 m": "2% (2 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "68 times (74% win)",
+        "11-25 m": "24 times (58% win)",
+        "26-50 m": "6 times (83% win)",
+        "51-75 m": "0 times",
+        "76-100 m": "0 times",
+        "101-500 m": "0 times"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "159 times (85% win)",
+        "1 - 1.5 m/s": "112 times (70% win)",
+        "1.5 - 2 m/s": "84 times (70% win)",
+        "2 - 2.5 m/s": "40 times (68% win)",
+        "2.5 - 3 m/s": "22 times (64% win)",
+        "3 - 3.5 m/s": "10 times (50% win)",
+        "3.5 - 4 m/s": "4 times (25% win)",
+        "4 - 4.5 m/s": "3 times (33% win)",
+        "4.5 - 5 m/s": "1 times (100% win)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "43% (3 serves), 100 win%",
+        "1st DEUCE B": "0% (0 serves), nan win%",
+        "1st DEUCE T": "57% (4 serves), 75 win%",
+        "1st AD W": "60% (3 serves), 100 win%",
+        "1st AD B": "0% (0 serves), nan win%",
+        "1st AD T": "40% (2 serves), 100 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "18% (2 serves), 50% win",
+        "2nd DEUCE B": "55% (6 serves), 83% win",
+        "2nd DEUCE T": "27% (3 serves), 33% win",
+        "2nd AD W": "57% (4 serves), 50% win",
+        "2nd AD B": "29% (2 serves), 0.0% win",
+        "2nd AD T": "14% (1 serves), 100% win"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2"
+    ]
+}

@@ -12,7 +12,7 @@ import pandas as pd
 from card import funcs, get_data_for_matches, not_by_100
 
 APP_DIR = Path(__file__).parent
-LEADERBOARD_PATH = APP_DIR / 'leaderboard_haddad_new.parquet'
+LEADERBOARD_PATH = APP_DIR / 'leaderboard_haddad_new_wta_with_sets_clean.parquet'
 
 _leaderboard = None
 
@@ -22,12 +22,18 @@ def load_leaderboard():
     global _leaderboard
     if _leaderboard is None:
         leaderboard = pd.read_parquet(LEADERBOARD_PATH)
-        # A handful of rows store percentage stats on a 0-100 scale instead of 0-1;
-        # bring them back to fractions so the weighted averages stay correct.
-        for k in set(funcs) - set(not_by_100):
-            if k in leaderboard.columns:
-                mis_scaled = leaderboard[k] > 1.5
-                leaderboard.loc[mis_scaled, k] = leaderboard.loc[mis_scaled, k] / 100
+        # Keep whole-match rows only; the per-set rows would double-count matches.
+        leaderboard = leaderboard[leaderboard.sets == 'ALL'].copy()
+        # This leaderboard stores percentages on a 0-100 scale; card.py expects
+        # 0-1 fractions (it multiplies by 100 when formatting).
+        pct_cols = [k for k in set(funcs) - set(not_by_100) if k in leaderboard.columns]
+        leaderboard[pct_cols] = leaderboard[pct_cols] / 100
+        # Stats missing from this leaderboard degrade to 'NO SHOTS/RALLIES'.
+        for k in funcs:
+            if k not in leaderboard.columns:
+                leaderboard[k] = float('nan')
+            if f'{k}_total' not in leaderboard.columns:
+                leaderboard[f'{k}_total'] = 0
         _leaderboard = leaderboard
     return _leaderboard
 

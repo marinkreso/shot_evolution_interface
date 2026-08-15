@@ -1,4 +1,5 @@
-nicegui>=2.0
+# pinned <3: the post-match page uses NiceGUI 2.x APIs (unsanitized ui.html)
+nicegui>=2,<3
 pandas
 numpy
 pyarrow
