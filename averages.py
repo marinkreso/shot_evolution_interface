@@ -34,8 +34,12 @@ def _match_year(match_id):
     return m.group(1) if m else None
 
 
+_REAL_SURFACES = {'hard', 'clay', 'grass'}
+
 _all_rows = leaderboard3[leaderboard3.sets == 'ALL'].copy()
 _all_rows['year'] = _all_rows.match_id.map(_match_year)
+# surface values are mixed-case and include 'ALL' pseudo-rows for combined reports
+_all_rows['surface_norm'] = _all_rows.surface.astype(str).str.lower()
 
 
 def _weighted(rows, keys):
@@ -56,16 +60,18 @@ def compute_averages(player, match_id, keys):
     match_rows = _all_rows[_all_rows.match_id == match_id]
     if not len(match_rows):
         return None
-    surface = match_rows.surface.iloc[0]
+    surface = str(match_rows.surface_norm.iloc[0])
+    if surface not in _REAL_SURFACES:
+        return None  # combined/pseudo reports have no meaningful surface reference
     match_year = _match_year(match_id)
 
-    on_surface = _all_rows[(_all_rows.player_name == player) & (_all_rows.surface == surface)]
+    on_surface = _all_rows[(_all_rows.player_name == player) & (_all_rows.surface_norm == surface)]
     years = sorted(y for y in on_surface.year.dropna().unique())
     use_year = match_year if match_year in years else (years[-1] if years else None)
     year_rows = on_surface[on_surface.year == use_year]
 
     tour = 'WTA' if player in WTA_PLAYERS else 'ATP'
-    top_rows = _all_rows[(_all_rows.player_name.isin(TOP_10[tour])) & (_all_rows.surface == surface)]
+    top_rows = _all_rows[(_all_rows.player_name.isin(TOP_10[tour])) & (_all_rows.surface_norm == surface)]
 
     surface_label = str(surface).upper()
     return {

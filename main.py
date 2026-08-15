@@ -18,10 +18,11 @@ REPORTS_DIR.mkdir(exist_ok=True)
 with open(APP_DIR / 'all_data2.json') as f:
     ALL_MATCHES = sorted(json.load(f), key=lambda x: x['match_id'])
 
-# Only offer matches the leaderboard actually has stats for, so a column never
-# silently averages over fewer matches than the user selected.
-_leaderboard_match_ids = set(load_leaderboard().match_id.unique())
-ALL_MATCHES = [m for m in ALL_MATCHES if m['match_id'] in _leaderboard_match_ids]
+# Only offer (player, match) pairs the leaderboard actually has rows for, so a
+# column never silently averages over fewer matches than the user selected.
+_leaderboard = load_leaderboard()
+_leaderboard_pairs = set(zip(_leaderboard.player_name, _leaderboard.match_id))
+ALL_MATCHES = [m for m in ALL_MATCHES if (m['PLAYER'], m['match_id']) in _leaderboard_pairs]
 
 with open(APP_DIR / 'lefties.json') as f:
     LEFTIE_PLAYERS = set(json.load(f))

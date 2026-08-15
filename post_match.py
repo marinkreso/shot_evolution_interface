@@ -12,6 +12,7 @@ import pandas as pd
 from nicegui import run
 from nicegui import ui as _ui
 
+from averages import compute_averages
 from report_util_new import main3
 from utils_bootstrap_new2 import *
 
@@ -96,40 +97,38 @@ async def main_page_new(match_str: str):
 
     }
     pretty_dict, data1_all, data2_all, data_order = await run.io_bound(main3, [dm['selected_player_name']], [dm['opponent_name']], [match])
-    #fprint('DATA1 ALL', data1_all)
+    if 'ALL' not in data1_all or 'ALL' not in data2_all:
+        ui.label(f'REPORT DATA NOT AVAILABLE FOR: {match_str}').classes('mx-auto mt-16 text-2xl')
+        ui.label('THE LEADERBOARD HAS NO ROWS FOR THIS MATCH.').classes('mx-auto text-lg')
+        return
 
-    # reference averages (rendered by ui_table_jinja_nicegui when the toggle is on)
-    from averages import compute_averages
+    # reference averages, keyed by RAW stat key (pretty labels collide between
+    # tabs, e.g. 'Win%' is used by both 2nd-serve and 2nd-return stats)
     _avg_keys = sorted({k for key_list in data_order.values() for k in key_list})
-    _avg_p1 = await run.io_bound(compute_averages, dm['selected_player_name'], match, _avg_keys)
-    _avg_p2 = await run.io_bound(compute_averages, dm['opponent_name'], match, _avg_keys)
 
-    def _pretty_averages(avg):
-        if not avg:
-            return None
-        return {
-            'year': {pretty_dict.get(k, k): avg['year'][k] for k in _avg_keys},
-            'year_label': avg['year_label'],
-            'top10': {pretty_dict.get(k, k): avg['top10'][k] for k in _avg_keys},
-            'top10_label': avg['top10_label'],
-        }
+    def _both_averages():
+        return (compute_averages(dm['selected_player_name'], match, _avg_keys),
+                compute_averages(dm['opponent_name'], match, _avg_keys))
 
-    dm['_averages'] = {'p1': _pretty_averages(_avg_p1), 'p2': _pretty_averages(_avg_p2)}
+    _avg_p1, _avg_p2 = await run.io_bound(_both_averages)
+    dm['_averages'] = {'p1': _avg_p1, 'p2': _avg_p2}
     dm['_show_averages'] = False
 
     df_games = pd.read_csv(f"matches_new2/{match_str}/{dm['path_to_games']}")
     if not 'combined' in match_str.lower():
         import re
-        pattern = re.compile(r'(\D+)(\d{4})(.+)')
-
-        # Use the pattern to match and extract the partssss
-        matches = pattern.match(match)
-        parts = matches.groups()
-        tournament = parts[0].replace('_', ' ').strip().upper()
-        year = parts[1]
+        # find the year anywhere in the id: tournament names may end in a digit
+        # (e.g. Adelaide1_2022_...), which breaks a leading \D+ pattern
+        year_match = re.search(r'(20\d{2})', match)
+        if year_match:
+            tournament = match[:year_match.start()].replace('_', ' ').strip().upper()
+            year = year_match.group(1)
+            title_suffix = f' - {tournament} {year}'
+        else:
+            title_suffix = ''
         ui.image('gsa_logo_smaller.png').classes('w-2/3 md:w-1/4').classes('mx-auto')
         ui.markdown('# Post match report').classes('mx-auto')
-        ui.markdown(f'### {dm["selected_player_name"].upper()} VS {dm["opponent_name"].upper()} - {tournament} {year}').classes('mx-auto')
+        ui.markdown(f'### {dm["selected_player_name"].upper()} VS {dm["opponent_name"].upper()}{title_suffix}').classes('mx-auto')
     else:
         ui.image('gsa_logo_smaller.png').classes('w-2/3 md:w-1/4').classes('mx-auto')
         ui.markdown('# Combined report').classes('mx-auto')
@@ -213,8 +212,11 @@ async def main_page_new(match_str: str):
 
     @ui.refreshable
     def report_view():
-            data1 = data1_all[chosen_set_object.chosen_set]
-            data2 = data2_all[chosen_set_object.chosen_set]
+            chosen = chosen_set_object.chosen_set
+            if chosen not in data1_all or chosen not in data2_all:
+                chosen = 'ALL'  # a set can exist in movement.json but not in the leaderboard
+            data1 = data1_all[chosen]
+            data2 = data2_all[chosen]
 
             def to_int(x, y):
                 try:
@@ -229,11 +231,21 @@ async def main_page_new(match_str: str):
                     print(x, y)
                     return 50
 
+            averages = dm.get('_averages') or {}
+
             def build_items(order_key, mark_missing=True, swallow_errors=False):
                 items = dict()
                 for key in data_order[order_key]:
                     try:
-                        items[pretty_dict.get(key, key)] = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
+                        item = {'p1': data1[key], 'p2': data2[key], 'p1_perc': to_int(data1[key], data2[key])}
+                        # attach reference averages by RAW key here: pretty labels
+                        # collide across tabs, so they cannot be used as lookup keys
+                        item['avg'] = {
+                            side: {'year': avg['year'].get(key), 'year_label': avg['year_label'],
+                                   'top10': avg['top10'].get(key), 'top10_label': avg['top10_label']}
+                            for side, avg in averages.items() if avg
+                        }
+                        items[pretty_dict.get(key, key)] = item
                         if mark_missing:
                             if data2[key + '_total'] == 0:
                                 items[pretty_dict.get(key, key)]['p2'] = np.nan
@@ -292,10 +304,10 @@ async def main_page_new(match_str: str):
         report_view.refresh()
 
     with sticky_controls:
-        if 'sets' in dm:
-            toggle = ui.toggle(dm['sets'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
-        else:
-            toggle = ui.toggle(['ALL', '1', '2', '3'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
+        # only offer sets that actually have leaderboard rows for both players
+        set_options = [s for s in dm.get('sets', ['ALL', '1', '2', '3'])
+                       if s in data1_all and s in data2_all] or ['ALL']
+        toggle = ui.toggle(set_options, value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
         ui.switch('SHOW AVERAGES', on_change=_toggle_averages).classes('mx-auto')
     report_view()
 

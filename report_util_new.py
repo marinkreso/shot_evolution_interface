@@ -301,7 +301,7 @@ def main3(selected_player_name='BERRETTINI',
         'strong_serve_plus1': '% of Strong Serve +1',
         'weak_serve_plus1': '% of Weak Serve +1',
         'second_return_in_percentage': 'In%',
-        'first_return_in_percentage': f'In% ',
+        'first_return_in_percentage': 'In%',
 'first_return_in_percentage_pressure': 'In% - pressure points',
 'first_return_in_percentage_break': 'In% - break points',
 

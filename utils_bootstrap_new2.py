@@ -430,22 +430,22 @@ def _render_row_with_averages(ui, movement_json, key, item):
             return 0
         return max(0.0, min(1.0, float(v) / denom))
 
-    averages = movement_json.get('_averages') or {}
+    item_avgs = item.get('avg') or {}
     with ui.row().classes('w-full md:w-10/12 no-wrap flex-nowrap items-center').classes('mx-auto'):
         with ui.column().classes('w-5/12').style('gap: 2px;'):
             _reference_row(ui, 'MATCH', p1_fill, 'NA' if np.isnan(p1) else p1, '#28a745', left=True, main=True)
-            avg = averages.get('p1')
+            avg = item_avgs.get('p1')
             if avg:
-                _reference_row(ui, avg['year_label'], _avg_fill(avg['year'].get(key)), _avg_fmt(avg['year'].get(key)), '#28a745', left=True)
-                _reference_row(ui, avg['top10_label'], _avg_fill(avg['top10'].get(key)), _avg_fmt(avg['top10'].get(key)), '#28a745', left=True)
+                _reference_row(ui, avg['year_label'], _avg_fill(avg['year']), _avg_fmt(avg['year']), '#28a745', left=True)
+                _reference_row(ui, avg['top10_label'], _avg_fill(avg['top10']), _avg_fmt(avg['top10']), '#28a745', left=True)
         with ui.row().classes('w-2/12').classes('place-content-center'):
             ui.label(key).style('text-align: center;').classes('w-full text-xs md:text-base')
         with ui.column().classes('w-5/12').style('gap: 2px;'):
             _reference_row(ui, 'MATCH', p2_fill, 'NA' if np.isnan(p2) else p2, '#dc3545', left=False, main=True)
-            avg = averages.get('p2')
+            avg = item_avgs.get('p2')
             if avg:
-                _reference_row(ui, avg['year_label'], _avg_fill(avg['year'].get(key)), _avg_fmt(avg['year'].get(key)), '#dc3545', left=False)
-                _reference_row(ui, avg['top10_label'], _avg_fill(avg['top10'].get(key)), _avg_fmt(avg['top10'].get(key)), '#dc3545', left=False)
+                _reference_row(ui, avg['year_label'], _avg_fill(avg['year']), _avg_fmt(avg['year']), '#dc3545', left=False)
+                _reference_row(ui, avg['top10_label'], _avg_fill(avg['top10']), _avg_fmt(avg['top10']), '#dc3545', left=False)
 
 
 def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
