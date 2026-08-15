@@ -39,7 +39,7 @@ for player in post_match_hashes:
         match_id_dict[match_data['hash_id']] = f"{match_data['PLAYER'].replace('-', ' ')}_{match_data['match_id']}"
 
 
-@ui.page('/gui/match_new/{match_str}', response_timeout=15, favicon='https://operationslakedb.blob.core.windows.net/gsa-post-match/fav.png')
+@ui.page('/gui/match_new/{match_str}', response_timeout=15, dark=False, favicon='https://operationslakedb.blob.core.windows.net/gsa-post-match/fav.png')
 async def main_page_new(match_str: str):
     if not '_' in match_str:
         if match_str not in match_id_dict:
@@ -68,14 +68,12 @@ async def main_page_new(match_str: str):
     match = '_'.join(match_str.split('_')[1:])
     sel_playerx = match_str.split('_')[0]
     ui.colors(accent='#6AD4DD')
+    dark_mode = ui.dark_mode(False)  # light by default, switchable
     #with ui.page_sticky(x_offset=18, y_offset=18):
     with ui.page_sticky(position='top-left').classes('z-50'):
-        if sel_playerx == 'SINNER':
-            ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to(f'https://gsalanding.com/post-match-reports')).props('fab')
-        elif sel_playerx == 'FILS':
-            ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to(f'https://gsa-fils.com/post-match-reports')).props('fab')
-        else:
-            ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to(f'https://gsademo.com/{sel_playerx}/post-match-reports')).props('fab')
+        ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to('/')).props('fab')
+    with ui.page_sticky(position='top-right').classes('z-50'):
+        ui.button(icon='dark_mode', on_click=dark_mode.toggle).props('fab')
 
 
 
@@ -102,6 +100,26 @@ async def main_page_new(match_str: str):
     }
     pretty_dict, data1_all, data2_all, data_order = await run.io_bound(main3, [dm['selected_player_name']], [dm['opponent_name']], [match])
     #fprint('DATA1 ALL', data1_all)
+
+    # reference averages (rendered by ui_table_jinja_nicegui when the toggle is on)
+    from averages import compute_averages
+    _avg_keys = sorted({k for key_list in data_order.values() for k in key_list})
+    _avg_p1 = await run.io_bound(compute_averages, dm['selected_player_name'], match, _avg_keys)
+    _avg_p2 = await run.io_bound(compute_averages, dm['opponent_name'], match, _avg_keys)
+
+    def _pretty_averages(avg):
+        if not avg:
+            return None
+        return {
+            'year': {pretty_dict.get(k, k): avg['year'][k] for k in _avg_keys},
+            'year_label': avg['year_label'],
+            'top10': {pretty_dict.get(k, k): avg['top10'][k] for k in _avg_keys},
+            'top10_label': avg['top10_label'],
+        }
+
+    dm['_averages'] = {'p1': _pretty_averages(_avg_p1), 'p2': _pretty_averages(_avg_p2)}
+    dm['_show_averages'] = False
+
     df_games = pd.read_csv(f"matches_new2/{match_str}/{dm['path_to_games']}")
     if not 'combined' in match_str.lower():
         import re
@@ -333,10 +351,16 @@ async def main_page_new(match_str: str):
     def update_ui(e):
             chosen_set_object.chosen_set = e.value
             report_view.refresh()
-    if 'sets' in dm:  
+    if 'sets' in dm:
         toggle = ui.toggle(dm['sets'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
     else:
         toggle = ui.toggle(['ALL', '1', '2', '3'], value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
+
+    def _toggle_averages(e):
+        dm['_show_averages'] = e.value
+        report_view.refresh()
+
+    ui.switch('SHOW AVERAGES', on_change=_toggle_averages).classes('mx-auto')
     report_view()
 
 

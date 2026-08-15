@@ -385,6 +385,69 @@ def ui_table_jinja(ui, mj, items, table_title):
     rtemplate = Environment(loader=BaseLoader()).from_string(x)
     ui.html(rtemplate.render(items=items, dm=mj)).classes('w-full').classes('mx-auto')
 
+def _avg_fmt(v):
+    import numpy as np
+    if v is None or (isinstance(v, float) and np.isnan(v)):
+        return 'NA'
+    r = round(float(v), 1)
+    return str(int(r)) if r == int(r) else str(r)
+
+
+def _reference_row(ui, label, fill, value_text, color, left, main=False):
+    size = '20px' if main else '12px'
+    with ui.row().classes('w-full no-wrap flex-nowrap items-center'):
+        if left:
+            ui.label(label).classes('w-3/12 text-xs opacity-70').style('text-align: right;')
+            ui.linear_progress(fill, color=color, show_value=False, size=size).classes('w-7/12').props('reverse').props('rounded')
+            ui.label(value_text).classes('w-2/12').style('text-align: left;')
+        else:
+            ui.label(value_text).classes('w-2/12').style('text-align: right;')
+            ui.linear_progress(fill, color=color, show_value=False, size=size).classes('w-7/12').props('rounded')
+            ui.label(label).classes('w-3/12 text-xs opacity-70')
+
+
+def _render_row_with_averages(ui, movement_json, key, item):
+    import numpy as np
+    is_pct = ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower())
+    p1, p2 = item['p1'], item['p2']
+    if is_pct:
+        p1_fill = 0 if np.isnan(p1) else p1 / 100
+        p2_fill = 0 if np.isnan(p2) else p2 / 100
+    else:
+        p1_fill = 0 if np.isnan(p1) else item['p1_perc'] / 100
+        p2_fill = 0 if np.isnan(p2) else 1 - (item['p1_perc'] / 100)
+
+    def _avg_fill(v):
+        if v is None or (isinstance(v, float) and np.isnan(v)):
+            return 0
+        if is_pct:
+            return max(0.0, min(1.0, float(v) / 100))
+        try:
+            denom = float(p1) + float(p2)
+        except (TypeError, ValueError):
+            return 0
+        if not denom or np.isnan(denom):
+            return 0
+        return max(0.0, min(1.0, float(v) / denom))
+
+    averages = movement_json.get('_averages') or {}
+    with ui.row().classes('w-10/12 no-wrap flex-nowrap items-center').classes('mx-auto'):
+        with ui.column().classes('w-5/12').style('gap: 2px;'):
+            _reference_row(ui, 'MATCH', p1_fill, 'NA' if np.isnan(p1) else p1, '#28a745', left=True, main=True)
+            avg = averages.get('p1')
+            if avg:
+                _reference_row(ui, avg['year_label'], _avg_fill(avg['year'].get(key)), _avg_fmt(avg['year'].get(key)), '#28a745', left=True)
+                _reference_row(ui, avg['top10_label'], _avg_fill(avg['top10'].get(key)), _avg_fmt(avg['top10'].get(key)), '#28a745', left=True)
+        with ui.row().classes('w-2/12').classes('place-content-center'):
+            ui.label(key).style('text-align: center;').classes('w-full')
+        with ui.column().classes('w-5/12').style('gap: 2px;'):
+            _reference_row(ui, 'MATCH', p2_fill, 'NA' if np.isnan(p2) else p2, '#dc3545', left=False, main=True)
+            avg = averages.get('p2')
+            if avg:
+                _reference_row(ui, avg['year_label'], _avg_fill(avg['year'].get(key)), _avg_fmt(avg['year'].get(key)), '#dc3545', left=False)
+                _reference_row(ui, avg['top10_label'], _avg_fill(avg['top10'].get(key)), _avg_fmt(avg['top10'].get(key)), '#dc3545', left=False)
+
+
 def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
     ui.html(f'<h1 class="text-center">{table_title}</h1>').classes('text-2xl').classes('mx-auto')
     
@@ -410,7 +473,10 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
 
     for key, item in items.items():
       import numpy as np
-      if not ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower()):
+      if movement_json.get('_show_averages') and (movement_json.get('_averages') or {}).get('p1'):
+        ui.separator().classes('w-10/12').classes('mx-auto')
+        _render_row_with_averages(ui, movement_json, key, item)
+      elif not ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower()):
         ui.separator().classes('w-10/12').classes('mx-auto')
         with ui.row().classes('w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
             if np.isnan(item['p1']):
