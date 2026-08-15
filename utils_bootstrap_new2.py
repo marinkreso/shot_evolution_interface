@@ -198,7 +198,7 @@ def return_new_html(ui, movement_json, returnx, items, images, chosen_set):
        ui.image(images['return_depth'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
     return_first_table = {x: items[x] for x in items if x not in ['In%', 'In% - pressure points', f'In% - break points', 'Return Win %', 'Win% - Pressure points', 'Win% - Break points', 'FH Return In%', 'BH Return In%']}
     ui_table_jinja_nicegui(ui, movement_json, return_first_table, 'RETURN CHARACTER')
-    #with ui.row().classes('w-full no-wrap'):
+    #with ui.row().classes('w-full no-wrap flex-nowrap'):
     #  ui.image('1st_deuce_returns.png').classes('w-1/2')
     #  ui.image('1st_ad_returns.png').classes('w-1/2')
       #ui.label('Third column with some more text').classes('bg-blue-100 w-1/3')
@@ -229,7 +229,7 @@ def return_new_html2(ui, movement_json, returnx, items, images, chosen_set):
        ui.image(images['return_dir_ad'].replace('.png', f'_{chosen_set}.png')).classes('mx-auto').classes('w-1/2')
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in items if x not in columns_first}, 'Return Character')
     ui.label('Aggresive returns = Returner won the point under 5 shots').classes('mx-auto')
-    #with ui.row().classes('w-full no-wrap'):
+    #with ui.row().classes('w-full no-wrap flex-nowrap'):
     #  ui.image('2nd_deuce_returns.png').classes('w-1/2')
     #  ui.image('2nd_ad_returns.png').classes('w-1/2')
       #ui.label('Third column with some more text').classes('bg-blue-100 w-1/3')
@@ -391,7 +391,7 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
 
     ui.separator().classes('w-10/12').classes('mx-auto')
 
-    # with ui.row().classes('w-2/3 no-wrap').classes('mx-auto'):
+    # with ui.row().classes('w-2/3 no-wrap flex-nowrap').classes('mx-auto'):
     #     #ui.label(movement_json['selected_player_name']).classes('w-6/12').style('color: #28a745').classes('mx-auto')
     #     ui.label('').style('color: #28a745').classes('mx-auto').classes('w-1/12')
     #     ui.label(movement_json['selected_player_name']).style('color: #28a745').classes('w-4/12').classes('justify-start')
@@ -401,7 +401,7 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
     #     #ui.label('').classes('w-8/12')
     #     #ui.label(movement_json['opponent_name']).classes('w-6/12').style('color: #dc3545').classes('mx-auto')
 
-    with ui.row().classes('w-2/3 no-wrap').classes('mx-auto'):
+    with ui.row().classes('w-2/3 no-wrap flex-nowrap').classes('mx-auto'):
       ui.label('').classes('w-1/12')
       ui.label(movement_json['selected_player_name']).classes('w-4/12').style('color: #28a745').style('text-align: left;')
       ui.label('').classes('w-2/12')
@@ -412,7 +412,7 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
       import numpy as np
       if not ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower()):
         ui.separator().classes('w-10/12').classes('mx-auto')
-        with ui.row().classes('w-10/12 no-wrap').classes('mx-auto'):
+        with ui.row().classes('w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
             if np.isnan(item['p1']):
               ui.label('NA').classes('w-1/12').style('text-align: right;')  #.classes('')
               ui.linear_progress(0, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
@@ -430,7 +430,7 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
               ui.label(item['p2']).classes('w-1/12')#.classes('')
       else:
          ui.separator().classes('w-10/12').classes('mx-auto')
-         with ui.row().classes('w-10/12 no-wrap').classes('mx-auto'):
+         with ui.row().classes('w-10/12 no-wrap flex-nowrap').classes('mx-auto'):
             if np.isnan(item['p1']):
               ui.label('NA').classes('w-1/12').style('text-align: right;')  #.classes('')
               ui.linear_progress(0, color='#28a745', show_value=False, size="20px").classes('w-4/12').props('reverse').props('rounded')
