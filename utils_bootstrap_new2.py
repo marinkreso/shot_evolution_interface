@@ -410,6 +410,53 @@ def _bullet_bar(ui, fill, color, reverse, year_fill=None, year_tip=None, top_fil
                     ui.tooltip(top_tip)
 
 
+# same-hue shade ramp for the grouped-bars variant: match / year avg / top-10 avg
+_AVG_SHADES = {
+    'p1': ('#28a745', '#89cf99', '#c9e9d0'),
+    'p2': ('#dc3545', '#ec9099', '#f6ccd0'),
+}
+
+
+def _render_row_with_avg_bars(ui, movement_json, key, item):
+    import numpy as np
+    p1_fill, p2_fill, avg_fill = _row_fills(key, item)
+    item_avgs = item.get('avg') or {}
+
+    def _bar(color, bar_fill, text, is_ref, reverse):
+        ref = ' ref' if is_ref else ''
+        with ui.element('div').classes('gsa-bar-row'):
+            def draw_bar():
+                with ui.element('div').classes('gsa-bar' + ref + (' reverse' if reverse else '')):
+                    ui.element('div').classes('gsa-fill').style(f'width: {bar_fill * 100:.1f}%; background: {color};')
+            if reverse:
+                draw_bar()
+                ui.label(text).classes('gsa-value' + ref).style('text-align: left;')
+            else:
+                ui.label(text).classes('gsa-value' + ref).style('text-align: right;')
+                draw_bar()
+
+    def _side(side, value, fill, reverse):
+        match_color, year_color, top_color = _AVG_SHADES[side]
+        value_text = 'NA' if (isinstance(value, float) and np.isnan(value)) else value
+        _bar(match_color, fill, value_text, False, reverse)
+        avg = item_avgs.get(side)
+        if avg:
+            for color, which in ((year_color, 'year'), (top_color, 'top10')):
+                v = avg.get(which)
+                if v is None or (isinstance(v, float) and np.isnan(v)):
+                    _bar(color, 0, 'NA', True, reverse)
+                else:
+                    _bar(color, avg_fill(v), _avg_fmt(v), True, reverse)
+
+    with ui.element('div').classes('avg-stat-row'):
+        with ui.element('div').classes('avg-name'):
+            ui.label(key)
+        with ui.element('div').classes('avg-stack avg-left'):
+            _side('p1', item['p1'], p1_fill, reverse=True)
+        with ui.element('div').classes('avg-stack avg-right'):
+            _side('p2', item['p2'], p2_fill, reverse=False)
+
+
 def _legend_entry(ui, glyph, text, color=None):
     with ui.element('div').style('display: flex; align-items: center; gap: 6px; flex: 0 0 auto;'):
         if glyph == 'match':
@@ -422,7 +469,8 @@ def _legend_entry(ui, glyph, text, color=None):
         ui.label(text).classes('text-xs opacity-70').style('white-space: nowrap;')
 
 
-def _render_row_with_averages(ui, movement_json, key, item):
+def _row_fills(key, item):
+    """Bar fill fractions for a stat row: (p1_fill, p2_fill, avg_fill_fn)."""
     import numpy as np
     is_pct = ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower())
     p1, p2 = item['p1'], item['p2']
@@ -446,6 +494,13 @@ def _render_row_with_averages(ui, movement_json, key, item):
             return 0
         return max(0.0, min(1.0, float(v) / denom))
 
+    return p1_fill, p2_fill, _avg_fill
+
+
+def _render_row_with_averages(ui, movement_json, key, item):
+    import numpy as np
+    p1, p2 = item['p1'], item['p2']
+    p1_fill, p2_fill, _avg_fill = _row_fills(key, item)
     item_avgs = item.get('avg') or {}
 
     def _marker(avg, which):
@@ -512,26 +567,36 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
     show_avgs = bool(movement_json.get('_show_averages') and first_avg)
     if show_avgs:
         # one legend per table instead of a label on every bar row
+        bars_style = movement_json.get('_avg_style') == 'bars'
+
+        def _side_legend(side, avg):
+            if not avg:
+                return
+            if bars_style:
+                match_c, year_c, top_c = _AVG_SHADES[side]
+                _legend_entry(ui, 'match', 'MATCH', color=match_c)
+                _legend_entry(ui, 'match', avg['year_label'], color=year_c)
+                _legend_entry(ui, 'match', avg['top10_label'], color=top_c)
+            else:
+                _legend_entry(ui, 'match', 'MATCH', color=_AVG_SHADES[side][0])
+                _legend_entry(ui, 'year', avg['year_label'])
+                _legend_entry(ui, 'top10', avg['top10_label'])
+
         with ui.element('div').classes('avg-legend-row'):
             with ui.element('div').classes('avg-legend'):
-                p1_avg = first_avg.get('p1')
-                if p1_avg:
-                    _legend_entry(ui, 'match', 'MATCH', color='#28a745')
-                    _legend_entry(ui, 'year', p1_avg['year_label'])
-                    _legend_entry(ui, 'top10', p1_avg['top10_label'])
+                _side_legend('p1', first_avg.get('p1'))
             ui.element('div').classes('avg-legend-spacer')
             with ui.element('div').classes('avg-legend right'):
-                p2_avg = first_avg.get('p2')
-                if p2_avg:
-                    _legend_entry(ui, 'match', 'MATCH', color='#dc3545')
-                    _legend_entry(ui, 'year', p2_avg['year_label'])
-                    _legend_entry(ui, 'top10', p2_avg['top10_label'])
+                _side_legend('p2', first_avg.get('p2'))
 
     for key, item in items.items():
       import numpy as np
       if show_avgs:
         ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
-        _render_row_with_averages(ui, movement_json, key, item)
+        if movement_json.get('_avg_style') == 'bars':
+            _render_row_with_avg_bars(ui, movement_json, key, item)
+        else:
+            _render_row_with_averages(ui, movement_json, key, item)
       elif not ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower()):
         ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
         with ui.row().classes('w-full md:w-10/12 no-wrap flex-nowrap').classes('mx-auto'):

@@ -113,6 +113,7 @@ async def main_page_new(match_str: str):
     _avg_p1, _avg_p2 = await run.io_bound(_both_averages)
     dm['_averages'] = {'p1': _avg_p1, 'p2': _avg_p2}
     dm['_show_averages'] = False
+    dm['_avg_style'] = 'markers'
 
     df_games = pd.read_csv(f"matches_new2/{match_str}/{dm['path_to_games']}")
     if not 'combined' in match_str.lower():
@@ -160,6 +161,9 @@ async def main_page_new(match_str: str):
             .avg-legend.right { justify-content: flex-end; }
             .avg-legend-spacer { display: block; width: 16.6667%; }
         }
+        /* grouped-bars averages variant */
+        .gsa-bar.ref { height: 8px; }
+        .gsa-value.ref { font-weight: 400; font-size: 11px; color: #868e96; }
         /* bullet bar: match value = fill, averages = markers on the same track */
         .gsa-bar { position: relative; flex: 1 1 auto; min-width: 0; height: 14px; background: #e9ecef; border-radius: 4px; }
         .gsa-bar .gsa-fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px; }
@@ -335,6 +339,11 @@ async def main_page_new(match_str: str):
             report_view.refresh()
     def _toggle_averages(e):
         dm['_show_averages'] = e.value
+        avg_style_toggle.visible = e.value
+        report_view.refresh()
+
+    def _set_avg_style(e):
+        dm['_avg_style'] = e.value.lower()
         report_view.refresh()
 
     with sticky_controls:
@@ -343,6 +352,8 @@ async def main_page_new(match_str: str):
                        if s in data1_all and s in data2_all] or ['ALL']
         toggle = ui.toggle(set_options, value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
         ui.switch('SHOW AVERAGES', on_change=_toggle_averages).classes('mx-auto')
+        avg_style_toggle = ui.toggle(['MARKERS', 'BARS'], value='MARKERS', on_change=_set_avg_style).classes('mx-auto')
+        avg_style_toggle.visible = False
     report_view()
 
 
