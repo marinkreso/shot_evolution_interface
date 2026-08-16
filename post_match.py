@@ -112,7 +112,7 @@ async def main_page_new(match_str: str):
 
     _avg_p1, _avg_p2 = await run.io_bound(_both_averages)
     dm['_averages'] = {'p1': _avg_p1, 'p2': _avg_p2}
-    dm['_show_averages'] = False
+    dm['_show_averages'] = True  # averages view is the default (falls back to plain rows when a report has no averages)
 
     df_games = pd.read_csv(f"matches_new2/{match_str}/{dm['path_to_games']}")
     if not 'combined' in match_str.lower():
@@ -321,16 +321,11 @@ async def main_page_new(match_str: str):
     def update_ui(e):
             chosen_set_object.chosen_set = e.value
             report_view.refresh()
-    def _toggle_averages(e):
-        dm['_show_averages'] = e.value
-        report_view.refresh()
-
     with sticky_controls:
         # only offer sets that actually have leaderboard rows for both players
         set_options = [s for s in dm.get('sets', ['ALL', '1', '2', '3'])
                        if s in data1_all and s in data2_all] or ['ALL']
         toggle = ui.toggle(set_options, value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
-        ui.switch('SHOW AVERAGES', on_change=_toggle_averages).classes('mx-auto')
     report_view()
 
 
