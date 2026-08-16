@@ -393,80 +393,10 @@ def _avg_fmt(v):
     return str(int(r)) if r == int(r) else str(r)
 
 
-# bullet-bar rendering: the match value is the fill, the two reference averages
-# are markers on the same track (tick = year avg, dot = tour top-10 avg)
-
-def _bullet_bar(ui, fill, color, reverse, year_fill=None, year_tip=None, top_fill=None, top_tip=None):
+def _bullet_bar(ui, fill, color, reverse):
     with ui.element('div').classes('gsa-bar' + (' reverse' if reverse else '')):
         ui.element('div').classes('gsa-fill').style(f'width: {fill * 100:.1f}%; background: {color};')
-        side = 'right' if reverse else 'left'
-        if year_fill is not None:
-            with ui.element('div').classes('gsa-tick').style(f'{side}: {year_fill * 100:.1f}%;'):
-                if year_tip:
-                    ui.tooltip(year_tip)
-        if top_fill is not None:
-            with ui.element('div').classes('gsa-dot').style(f'{side}: {top_fill * 100:.1f}%;'):
-                if top_tip:
-                    ui.tooltip(top_tip)
 
-
-# same-hue shade ramp for the grouped-bars variant: match / year avg / top-10 avg
-_AVG_SHADES = {
-    'p1': ('#28a745', '#89cf99', '#c9e9d0'),
-    'p2': ('#dc3545', '#ec9099', '#f6ccd0'),
-}
-
-
-def _render_row_with_avg_bars(ui, movement_json, key, item):
-    import numpy as np
-    p1_fill, p2_fill, avg_fill = _row_fills(key, item)
-    item_avgs = item.get('avg') or {}
-
-    def _bar(color, bar_fill, text, is_ref, reverse):
-        ref = ' ref' if is_ref else ''
-        with ui.element('div').classes('gsa-bar-row'):
-            def draw_bar():
-                with ui.element('div').classes('gsa-bar' + ref + (' reverse' if reverse else '')):
-                    ui.element('div').classes('gsa-fill').style(f'width: {bar_fill * 100:.1f}%; background: {color};')
-            if reverse:
-                draw_bar()
-                ui.label(text).classes('gsa-value' + ref).style('text-align: left;')
-            else:
-                ui.label(text).classes('gsa-value' + ref).style('text-align: right;')
-                draw_bar()
-
-    def _side(side, value, fill, reverse):
-        match_color, year_color, top_color = _AVG_SHADES[side]
-        value_text = 'NA' if (isinstance(value, float) and np.isnan(value)) else value
-        _bar(match_color, fill, value_text, False, reverse)
-        avg = item_avgs.get(side)
-        if avg:
-            for color, which in ((year_color, 'year'), (top_color, 'top10')):
-                v = avg.get(which)
-                if v is None or (isinstance(v, float) and np.isnan(v)):
-                    _bar(color, 0, 'NA', True, reverse)
-                else:
-                    _bar(color, avg_fill(v), _avg_fmt(v), True, reverse)
-
-    with ui.element('div').classes('avg-stat-row'):
-        with ui.element('div').classes('avg-name'):
-            ui.label(key)
-        with ui.element('div').classes('avg-stack avg-left'):
-            _side('p1', item['p1'], p1_fill, reverse=True)
-        with ui.element('div').classes('avg-stack avg-right'):
-            _side('p2', item['p2'], p2_fill, reverse=False)
-
-
-def _legend_entry(ui, glyph, text, color=None):
-    with ui.element('div').style('display: flex; align-items: center; gap: 6px; flex: 0 0 auto;'):
-        if glyph == 'match':
-            ui.element('div').style(
-                f'width: 16px; height: 8px; border-radius: 2px; background: {color}; flex-shrink: 0;')
-        elif glyph == 'year':
-            ui.element('div').classes('gsa-legend-tick')
-        else:
-            ui.element('div').classes('gsa-legend-dot')
-        ui.label(text).classes('text-xs opacity-70').style('white-space: nowrap;')
 
 
 def _row_fills(key, item):
@@ -498,46 +428,44 @@ def _row_fills(key, item):
 
 
 def _render_row_with_averages(ui, movement_json, key, item):
+    """Plain match bars; the player's references appear as one caption line
+    under the green bar: '<PLAYER> AVG: x · TOP 10 AVG: y'."""
     import numpy as np
     p1, p2 = item['p1'], item['p2']
-    p1_fill, p2_fill, _avg_fill = _row_fills(key, item)
-    item_avgs = item.get('avg') or {}
+    p1_fill, p2_fill, _ = _row_fills(key, item)
+    avg = (item.get('avg') or {}).get('p1')
 
-    def _marker(avg, which):
-        v = avg.get(which) if avg else None
-        if v is None or (isinstance(v, float) and np.isnan(v)):
-            return None, None
-        return _avg_fill(v), f"{avg[which + '_label']}: {_avg_fmt(v)}"
-
-    def _side(avg, value, fill, color, reverse):
-        year_fill, year_tip = _marker(avg, 'year')
-        top_fill, top_tip = _marker(avg, 'top10')
+    def _bar_row(value, fill, color, reverse):
         with ui.element('div').classes('gsa-bar-row'):
             value_text = 'NA' if (isinstance(value, float) and np.isnan(value)) else value
             if reverse:  # player side: bar fills toward the center, value beside it
-                _bullet_bar(ui, fill, color, True, year_fill, year_tip, top_fill, top_tip)
+                _bullet_bar(ui, fill, color, True)
                 ui.label(value_text).classes('gsa-value').style('text-align: left;')
             else:
                 ui.label(value_text).classes('gsa-value').style('text-align: right;')
-                _bullet_bar(ui, fill, color, False, year_fill, year_tip, top_fill, top_tip)
-        parts = []
-        if year_fill is not None:
-            parts.append(f"AVG {_avg_fmt(avg['year'])}")
-        if top_fill is not None:
-            parts.append(f"TOP 10 {_avg_fmt(avg['top10'])}")
-        if parts:
-            align = 'left' if reverse else 'right'
-            ui.label('  ·  '.join(parts)).classes('gsa-caption w-full').style(f'text-align: {align}; white-space: pre;')
+                _bullet_bar(ui, fill, color, False)
 
-    # layout comes from the .avg-* CSS in the page head: phones stack
-    # name / player bars / opponent bars; md+ is side | name | side
+    def _valid(v):
+        return v is not None and not (isinstance(v, float) and np.isnan(v))
+
+    # layout comes from the .avg-* CSS in the page head: phones show
+    # name above with sides split half/half; md+ is side | name | side
     with ui.element('div').classes('avg-stat-row'):
         with ui.element('div').classes('avg-name'):
             ui.label(key)
         with ui.element('div').classes('avg-stack avg-left'):
-            _side(item_avgs.get('p1'), p1, p1_fill, '#28a745', reverse=True)
+            _bar_row(p1, p1_fill, '#28a745', reverse=True)
+            parts = []
+            if avg and _valid(avg.get('year')):
+                parts.append(f"{str(movement_json.get('selected_player_name', 'PLAYER')).upper()} AVG: {_avg_fmt(avg['year'])}")
+            if avg and _valid(avg.get('top10')):
+                parts.append(f"TOP 10 AVG: {_avg_fmt(avg['top10'])}")
+            if parts:
+                # non-breaking spaces inside each phrase: wrap only at the separator
+                text = ' · '.join(p.replace(' ', ' ') for p in parts)
+                ui.label(text).classes('gsa-caption w-full').style('text-align: left;')
         with ui.element('div').classes('avg-stack avg-right'):
-            _side(item_avgs.get('p2'), p2, p2_fill, '#dc3545', reverse=False)
+            _bar_row(p2, p2_fill, '#dc3545', reverse=False)
 
 
 def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
@@ -565,38 +493,12 @@ def ui_table_jinja_nicegui(ui, movement_json, items, table_title):
 
     first_avg = next((it.get('avg') for it in items.values() if it.get('avg')), None)
     show_avgs = bool(movement_json.get('_show_averages') and first_avg)
-    if show_avgs:
-        # one legend per table instead of a label on every bar row
-        bars_style = movement_json.get('_avg_style') == 'bars'
-
-        def _side_legend(side, avg):
-            if not avg:
-                return
-            if bars_style:
-                match_c, year_c, top_c = _AVG_SHADES[side]
-                _legend_entry(ui, 'match', 'MATCH', color=match_c)
-                _legend_entry(ui, 'match', avg['year_label'], color=year_c)
-                _legend_entry(ui, 'match', avg['top10_label'], color=top_c)
-            else:
-                _legend_entry(ui, 'match', 'MATCH', color=_AVG_SHADES[side][0])
-                _legend_entry(ui, 'year', avg['year_label'])
-                _legend_entry(ui, 'top10', avg['top10_label'])
-
-        with ui.element('div').classes('avg-legend-row'):
-            with ui.element('div').classes('avg-legend'):
-                _side_legend('p1', first_avg.get('p1'))
-            ui.element('div').classes('avg-legend-spacer')
-            with ui.element('div').classes('avg-legend right'):
-                _side_legend('p2', first_avg.get('p2'))
 
     for key, item in items.items():
       import numpy as np
       if show_avgs:
         ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
-        if movement_json.get('_avg_style') == 'bars':
-            _render_row_with_avg_bars(ui, movement_json, key, item)
-        else:
-            _render_row_with_averages(ui, movement_json, key, item)
+        _render_row_with_averages(ui, movement_json, key, item)
       elif not ('%' in key or 'offensive serve' in key.lower() or 'defensive serve' in key.lower()):
         ui.separator().classes('w-full md:w-10/12').classes('mx-auto')
         with ui.row().classes('w-full md:w-10/12 no-wrap flex-nowrap').classes('mx-auto'):

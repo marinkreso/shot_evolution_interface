@@ -113,7 +113,6 @@ async def main_page_new(match_str: str):
     _avg_p1, _avg_p2 = await run.io_bound(_both_averages)
     dm['_averages'] = {'p1': _avg_p1, 'p2': _avg_p2}
     dm['_show_averages'] = False
-    dm['_avg_style'] = 'markers'
 
     df_games = pd.read_csv(f"matches_new2/{match_str}/{dm['path_to_games']}")
     if not 'combined' in match_str.lower():
@@ -141,42 +140,27 @@ async def main_page_new(match_str: str):
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <style>
         /* layout for the SHOW AVERAGES stat rows (rendered in utils_bootstrap_new2):
-           phones stack name / player bars / opponent bars; md+ is side|name|side */
-        .avg-stat-row { display: flex; flex-wrap: wrap; align-items: center; width: 100%; margin: 0 auto; row-gap: 6px; }
+           phones show the name above with the sides split half/half;
+           md+ is side | name | side */
+        .avg-stat-row { display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; margin: 0 auto; row-gap: 6px; column-gap: 12px; }
         .avg-name { width: 100%; order: 0; display: flex; justify-content: center; text-align: center; font-size: 12px; }
         .avg-stack { display: flex; flex-direction: column; gap: 2px; width: 100%; }
-        .avg-left { order: 1; }
-        .avg-right { order: 2; }
-        .avg-legend-row { display: flex; flex-wrap: wrap; width: 100%; margin: 0 auto; row-gap: 4px; }
-        .avg-legend { display: flex; align-items: center; gap: 14px; row-gap: 2px; flex-wrap: wrap; width: 100%; }
-        .avg-legend-spacer { display: none; }
+        .avg-left { order: 1; width: calc(50% - 6px); }
+        .avg-right { order: 2; width: calc(50% - 6px); }
         @media (min-width: 768px) {
-            .avg-stat-row { flex-wrap: nowrap; width: 83.3333%; }
+            .avg-stat-row { flex-wrap: nowrap; width: 83.3333%; align-items: center; column-gap: 0; }
             .avg-name { width: 16.6667%; order: 1; font-size: 16px; }
             .avg-left, .avg-right { width: 41.6667%; }
             .avg-left { order: 0; }
             .avg-right { order: 2; }
-            .avg-legend-row { width: 83.3333%; }
-            .avg-legend { width: 41.6667%; }
-            .avg-legend.right { justify-content: flex-end; }
-            .avg-legend-spacer { display: block; width: 16.6667%; }
         }
-        /* grouped-bars averages variant */
-        .gsa-bar.ref { height: 8px; }
-        .gsa-value.ref { font-weight: 400; font-size: 11px; color: #868e96; }
-        /* bullet bar: match value = fill, averages = markers on the same track */
+        /* match bar with value; player's averages as a caption line under it */
         .gsa-bar { position: relative; flex: 1 1 auto; min-width: 0; height: 14px; background: #e9ecef; border-radius: 4px; }
         .gsa-bar .gsa-fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px; }
         .gsa-bar.reverse .gsa-fill { left: auto; right: 0; }
-        .gsa-tick { position: absolute; top: -4px; bottom: -4px; width: 3px; background: #343a40; border-radius: 1.5px; transform: translateX(-50%); }
-        .gsa-bar.reverse .gsa-tick { transform: translateX(50%); }
-        .gsa-dot { position: absolute; top: 50%; width: 9px; height: 9px; border: 2px solid #343a40; background: #ffffff; border-radius: 50%; transform: translate(-50%, -50%); }
-        .gsa-bar.reverse .gsa-dot { transform: translate(50%, -50%); }
         .gsa-value { flex: 0 0 2.6rem; font-size: 0.875rem; font-weight: 600; }
         .gsa-caption { font-size: 11px; color: #868e96; line-height: 1.2; }
         .gsa-bar-row { display: flex; align-items: center; gap: 8px; width: 100%; flex-wrap: nowrap; }
-        .gsa-legend-tick { width: 3px; height: 14px; background: #343a40; border-radius: 1.5px; flex-shrink: 0; }
-        .gsa-legend-dot { width: 9px; height: 9px; border: 2px solid #343a40; background: #ffffff; border-radius: 50%; flex-shrink: 0; }
         .sticky-controls {
             position: sticky;
             top: 0;
@@ -339,11 +323,6 @@ async def main_page_new(match_str: str):
             report_view.refresh()
     def _toggle_averages(e):
         dm['_show_averages'] = e.value
-        avg_style_toggle.visible = e.value
-        report_view.refresh()
-
-    def _set_avg_style(e):
-        dm['_avg_style'] = e.value.lower()
         report_view.refresh()
 
     with sticky_controls:
@@ -352,8 +331,6 @@ async def main_page_new(match_str: str):
                        if s in data1_all and s in data2_all] or ['ALL']
         toggle = ui.toggle(set_options, value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
         ui.switch('SHOW AVERAGES', on_change=_toggle_averages).classes('mx-auto')
-        avg_style_toggle = ui.toggle(['MARKERS', 'BARS'], value='MARKERS', on_change=_set_avg_style).classes('mx-auto')
-        avg_style_toggle.visible = False
     report_view()
 
 
