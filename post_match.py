@@ -139,6 +139,40 @@ async def main_page_new(match_str: str):
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <style>
+        /* layout for the SHOW AVERAGES stat rows (rendered in utils_bootstrap_new2):
+           phones stack name / player bars / opponent bars; md+ is side|name|side */
+        .avg-stat-row { display: flex; flex-wrap: wrap; align-items: center; width: 100%; margin: 0 auto; row-gap: 6px; }
+        .avg-name { width: 100%; order: 0; display: flex; justify-content: center; text-align: center; font-size: 12px; }
+        .avg-stack { display: flex; flex-direction: column; gap: 2px; width: 100%; }
+        .avg-left { order: 1; }
+        .avg-right { order: 2; }
+        .avg-legend-row { display: flex; flex-wrap: wrap; width: 100%; margin: 0 auto; row-gap: 4px; }
+        .avg-legend { display: flex; align-items: center; gap: 14px; row-gap: 2px; flex-wrap: wrap; width: 100%; }
+        .avg-legend-spacer { display: none; }
+        @media (min-width: 768px) {
+            .avg-stat-row { flex-wrap: nowrap; width: 83.3333%; }
+            .avg-name { width: 16.6667%; order: 1; font-size: 16px; }
+            .avg-left, .avg-right { width: 41.6667%; }
+            .avg-left { order: 0; }
+            .avg-right { order: 2; }
+            .avg-legend-row { width: 83.3333%; }
+            .avg-legend { width: 41.6667%; }
+            .avg-legend.right { justify-content: flex-end; }
+            .avg-legend-spacer { display: block; width: 16.6667%; }
+        }
+        /* bullet bar: match value = fill, averages = markers on the same track */
+        .gsa-bar { position: relative; flex: 1 1 auto; min-width: 0; height: 14px; background: #e9ecef; border-radius: 4px; }
+        .gsa-bar .gsa-fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px; }
+        .gsa-bar.reverse .gsa-fill { left: auto; right: 0; }
+        .gsa-tick { position: absolute; top: -4px; bottom: -4px; width: 3px; background: #343a40; border-radius: 1.5px; transform: translateX(-50%); }
+        .gsa-bar.reverse .gsa-tick { transform: translateX(50%); }
+        .gsa-dot { position: absolute; top: 50%; width: 9px; height: 9px; border: 2px solid #343a40; background: #ffffff; border-radius: 50%; transform: translate(-50%, -50%); }
+        .gsa-bar.reverse .gsa-dot { transform: translate(50%, -50%); }
+        .gsa-value { flex: 0 0 2.6rem; font-size: 0.875rem; font-weight: 600; }
+        .gsa-caption { font-size: 11px; color: #868e96; line-height: 1.2; }
+        .gsa-bar-row { display: flex; align-items: center; gap: 8px; width: 100%; flex-wrap: nowrap; }
+        .gsa-legend-tick { width: 3px; height: 14px; background: #343a40; border-radius: 1.5px; flex-shrink: 0; }
+        .gsa-legend-dot { width: 9px; height: 9px; border: 2px solid #343a40; background: #ffffff; border-radius: 50%; flex-shrink: 0; }
         .sticky-controls {
             position: sticky;
             top: 0;
