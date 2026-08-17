@@ -154,10 +154,13 @@ async def main_page_new(match_str: str):
             .avg-left { order: 0; }
             .avg-right { order: 2; }
         }
-        /* match bar with value; player's averages as a caption line under it */
+        /* three bars per side: this match / player year avg / top-10 avg */
         .gsa-bar { position: relative; flex: 1 1 auto; min-width: 0; height: 14px; background: #e9ecef; border-radius: 4px; }
         .gsa-bar .gsa-fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px; }
         .gsa-bar.reverse .gsa-fill { left: auto; right: 0; }
+        .gsa-bar.ref { height: 9px; }
+        .gsa-value.ref { font-weight: 400; font-size: 11px; color: #868e96; }
+        .gsa-caption { margin-bottom: 5px; }
         .gsa-value { flex: 0 0 2.6rem; font-size: 0.875rem; font-weight: 600; }
         .gsa-caption { font-size: 11px; color: #868e96; line-height: 1.2; }
         .gsa-bar-row { display: flex; align-items: center; gap: 8px; width: 100%; flex-wrap: nowrap; }
