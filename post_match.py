@@ -76,7 +76,7 @@ async def main_page_new(match_str: str):
     # player ids for the portal live in post_match_links.json (name -> uuid);
     # keys are hyphenated while report prefixes use spaces, so try both
     player_portal_id = portal_player_ids.get(sel_playerx) or portal_player_ids.get(sel_playerx.replace(' ', '-'))
-    portal_url = f'https://portal.goldensetanalytics.com/{player_portal_id}' if player_portal_id else 'https://portal.goldensetanalytics.com'
+    portal_url = f'https://portal.goldensetanalytics.com/post-match-report/{player_portal_id}' if player_portal_id else 'https://portal.goldensetanalytics.com'
     with ui.page_sticky(position='top-left').classes('z-50'):
         ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to(portal_url)).props('fab')
 
