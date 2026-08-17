@@ -70,8 +70,10 @@ async def main_page_new(match_str: str):
     sel_playerx = match_str.split('_')[0]
     ui.colors(accent='#6AD4DD')
     #with ui.page_sticky(x_offset=18, y_offset=18):
+    from urllib.parse import quote
+    portal_url = f'https://portal.goldensetanalytics.com/{quote(sel_playerx)}'
     with ui.page_sticky(position='top-left').classes('z-50'):
-        ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to('/')).props('fab')
+        ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to(portal_url)).props('fab')
 
 
 
