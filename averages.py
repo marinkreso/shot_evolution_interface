@@ -19,6 +19,10 @@ APP_DIR = Path(__file__).parent
 with open(APP_DIR / 'wta_players.json') as f:
     WTA_PLAYERS = set(json.load(f))
 
+# hand-editable list of each player's best wins (seeded by gen_best_matches.py)
+with open(APP_DIR / 'best_matches.json') as f:
+    BEST_MATCHES = json.load(f)
+
 # EDIT HERE to keep the reference groups current.
 TOP_10 = {
     'ATP': ['SINNER', 'ALCARAZ', 'ZVEREV', 'DJOKOVIC', 'FRITZ',
@@ -73,10 +77,15 @@ def compute_averages(player, match_id, keys):
     tour = 'WTA' if player in WTA_PLAYERS else 'ATP'
     top_rows = _all_rows[(_all_rows.player_name.isin(TOP_10[tour])) & (_all_rows.surface_norm == surface)]
 
+    best_ids = BEST_MATCHES.get(player) or BEST_MATCHES.get(player.replace(' ', '-')) or []
+    best_rows = _all_rows[(_all_rows.player_name == player) & (_all_rows.match_id.isin(best_ids))]
+
     surface_label = str(surface).upper()
     return {
         'year': _weighted(year_rows, keys),
         'year_label': f'{use_year} {surface_label} AVG' if use_year else 'YEAR AVG',
         'top10': _weighted(top_rows, keys),
         'top10_label': f'{tour} TOP 10 {surface_label} AVG',
+        'best': _weighted(best_rows, keys) if len(best_rows) else {k: float('nan') for k in keys},
+        'best_label': f'BEST WINS AVG ({len(best_rows)} MATCHES)' if len(best_rows) else 'BEST WINS AVG',
     }

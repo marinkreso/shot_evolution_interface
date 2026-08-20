@@ -1,0 +1,367 @@
+{
+  "ALCARAZ": [
+    "Beijing_2024_F_Sinner_Alcaraz",
+    "Indian_Wells_2024_QF_Zverev_Alcaraz",
+    "Indian_Wells_2024_SF_Sinner_Alcaraz",
+    "Madrid_2023_R16_Alcaraz_Zverev",
+    "RG_2025_F_Sinner_Alcaraz",
+    "Rome_2025_F_Sinner_Alcaraz",
+    "US_Open_2025_F_Sinner_Alcaraz"
+  ],
+  "ALTMAIER": [
+    "Acapulco_2024_R32_Zverev_Altmaier",
+    "Halle_2026_QF_Altmaier_Medvedev",
+    "Paris_2025_R32_Altmaier_Ruud"
+  ],
+  "ANDREEVA": [
+    "Dubai_2025_QF_Andreeva_Swiatek",
+    "Madrid_2024_R16_Andreeva_Paolini",
+    "Stuttgart_2026_QF_Swiatek_Andreeva",
+    "Wimbledon_2025_R16_Andreeva_Navarro"
+  ],
+  "ANISIMOVA": [
+    "Beijing_2025_SF_Anisimova_Gauff",
+    "Charleston_2025_QF_Anisimova_Navarro",
+    "Rogers_cup_2024_SF_Navarro_Anisimova",
+    "US_Open_2025_QF_Anisimova_Swiatek",
+    "WTA-Finals_2025_RR_Swiatek_Anisimova"
+  ],
+  "BADOSA": [
+    "AO_2025_QF_Gauff_Badosa",
+    "Madrid_2023_R32_Gauff_Badosa",
+    "Rome_2024_1st_Andreeva_Badosa",
+    "Rome_2024_R64_Navarro_Badosa"
+  ],
+  "BAEZ": [
+    "Auckland_2026_QF_Shelton_Baez",
+    "Rome_2024_R32_Baez_Rune"
+  ],
+  "BELLUCCI": [
+    "Rotterdam_2025_R16_Bellucci_Medvedev"
+  ],
+  "BENCIC": [
+    "Indian_Wells_2025_R16_Gauff_Bencic",
+    "United_Cup_2026_F_Swiatek_Bencic"
+  ],
+  "BERGS": [
+    "Shanghai_2025_R64_Bergs_Ruud"
+  ],
+  "BLOCKX": [
+    "Madrid_2026_QF_Ruud_Blockx"
+  ],
+  "BOUZKOVA": [
+    "Nottingham_2026_F_Bouzkova_Navarro",
+    "Rome_2023_R32_Gauff_Bouzkova"
+  ],
+  "BROOKSBY": [
+    "Tokyo_2025_QF_Brooksby_Rune"
+  ],
+  "COBOLLI": [
+    "Cincinnati_2024_R64_Cobolli_Paul",
+    "Geneva_2024_R16_Cobolli_Shelton",
+    "Madrid_2025_R64_Cobolli_Rune",
+    "Washington_2024_SF_Cobolli_Shelton"
+  ],
+  "COMESANA": [
+    "Rio_de_Janeiro_2025_QF_Zverev_Comesana"
+  ],
+  "DAVIDOVICH FOKINA": [
+    "Monte_Carlo_2025_R64_Davidovich-Fokina_Shelton",
+    "Toronto_2023_R32_Zverev_Davidovich-Fokina"
+  ],
+  "DIMITROV": [
+    "Miami_2024_SF_Dimitrov_Zverev",
+    "Wimbledon_2025_R16_Sinner_Dimitrov"
+  ],
+  "DJOKOVIC": [
+    "Miami_2025_R16_Musetti_Djokovic"
+  ],
+  "DRAPER": [
+    "Madrid_2025_R16_Draper_Paul"
+  ],
+  "ETCHEVERRY": [
+    "Hamburg_2026_R16_Paul_Etcheverry"
+  ],
+  "FILS": [
+    "Barcelona_2026_QF_Fils_Musetti",
+    "Hamburg_2024_F_Zverev_Fils",
+    "Hamburg_2024_QF_Fils_Rune",
+    "Indian_Wells_2025_R32_Fils_Musetti",
+    "Miami_2025_R16_Zverev_Fils",
+    "Miami_2026_QF_Paul_Fils",
+    "Tokyo_2024_QF_Fils_Shelton",
+    "Tokyo_2024_R32_Fritz_Fils"
+  ],
+  "FONSECA": [
+    "Indian_Wells_2026_R32_Fonseca_Paul",
+    "RG_2026_R16_Ruud_Fonseca",
+    "RG_2026_R32_Fonseca_Djokovic"
+  ],
+  "GAUFF": [
+    "Auckland_2024_SF_Gauff_Navarro",
+    "Cincinnati_2023_QF_Paolini_Gauff",
+    "Cincinnati_2023_SF_Swiatek_Gauff",
+    "Cincinnati_2025_QF_Paolini_Gauff",
+    "Madrid_2024_R16_Gauff_Keys",
+    "Madrid_2025_QF_Andreeva_Gauff",
+    "Madrid_2025_SF_Gauff_Swiatek",
+    "RG_2025_F_Sabalenka_Gauff",
+    "RG_2025_QF_Keys_Gauff",
+    "Rome_2024_QF_Gauff_Zheng",
+    "Rome_2025_QF_Gauff_Andreeva",
+    "Rome_2025_SF_Zheng_Gauff",
+    "Rome_2026_QF_Gauff_Andreeva",
+    "US_Open_2023_F_Gauff_Sabalenka",
+    "US_Open_2023_R64_Andreeva_Gauff",
+    "US_Open_2024_R16_Navarro_Gauff",
+    "United_Cup_2025_QF_Gauff_Swiatek",
+    "United_Cup_2026_SF_Gauff_Swiatek",
+    "WTA-Finals_2025_RR_Gauff_Paolini",
+    "WTA_Finals_2024_F_Gauff_Zheng",
+    "WTA_Finals_2024_R32_Gauff_Pegula",
+    "WTA_Finals_2024_R32_Swiatek_Gauff",
+    "WTA_Finals_2024_SF_Sabalenka_Gauff"
+  ],
+  "HADDAD MAIA": [
+    "AO_2025_R64_Haddad-Maia_Andreeva",
+    "Queens_2025_R16_Navarro_Haddad-Maia"
+  ],
+  "HURKACZ": [
+    "Geneva_2025_QF_Fritz_Hurkacz",
+    "Madrid_2024_R64_Hurkacz_Draper",
+    "Monte_Carlo_2024_R64_Hurkacz_Draper"
+  ],
+  "KECMANOVIC": [
+    "AO_2025_R32_Kecmanovic_Rune"
+  ],
+  "KEYS": [
+    "AO_2025_R16_Rybakina_Keys",
+    "AO_2025_SF_Keys_Swiatek"
+  ],
+  "KORDA": [
+    "Dallas_2026_QF_Fritz_Korda",
+    "Delray_Beach_2026_QF_Korda_Ruud",
+    "Hertogenbosch_2024_QF_Korda_Paul"
+  ],
+  "LEHECKA": [
+    "Brisbane_2025_R32_Lehecka_Rune",
+    "Doha_2025_QF_Alcaraz_Lehecka",
+    "Madrid_2026_R16_Lehecka_Musetti",
+    "Miami_2026_R16_Lehecka_Fritz",
+    "Queens_2025_R32_de-Minaur_Lehecka",
+    "Queens_2025_SF_Lehecka_Draper",
+    "Rogers_cup_2025_R16_Lehecka_Fritz"
+  ],
+  "LI": [
+    "Madrid_2026_R32_Swiatek_Li"
+  ],
+  "MAROZSAN": [
+    "Auckland_2026_R16_Marozsan_Ruud"
+  ],
+  "MARTINEZ": [
+    "Rotterdam_2025_R16_Martinez_Rune"
+  ],
+  "MBOKO": [
+    "Adelaide_2026_QF_Mboko_Keys",
+    "Doha_2026_QF_Mboko_Rybakina",
+    "RG_2026_R32_Mboko_Keys",
+    "Rogers_cup_2025_R16_Gauff_Mboko",
+    "Rogers_cup_2025_SF_Mboko_Rybakina"
+  ],
+  "MEDJEDOVIC": [
+    "Marseille_2025_SF_Medvedev_Medjedovic"
+  ],
+  "MENSIK": [
+    "Doha_2026_QF_Mensik_Sinner",
+    "Madrid_2025_R32_Shelton_Mensik",
+    "Miami_2025_SF_Mensik_Fritz",
+    "RG_2026_R32_de-Minaur_Mensik",
+    "United_Cup_2026_RR_Mensik_Ruud"
+  ],
+  "MERTENS": [
+    "Dubai_2026_R32_Mertens_Navarro"
+  ],
+  "NAKASHIMA": [
+    "Cincinnati_2024_R64_Fritz_Nakashima",
+    "Queens_2026_QF_de-Minaur_Nakashima",
+    "Vienna_2024_R32_Nakashima_Paul",
+    "Washington_2026_QF_de-Minaur_Nakashima"
+  ],
+  "NAVARRO": [
+    "Bad_Homburg_2026_R16_Swiatek_Navarro",
+    "Beijing_2025_R16_Swiatek_Navarro",
+    "Doha_2024_R64_Navarro_Paolini",
+    "Indian_Wells_2024_R16_Navarro_Sabalenka",
+    "Miami_2024_R32_Paolini_Navarro"
+  ],
+  "NAVONE": [
+    "Buenos_Aires_2025_R16_Navone_Rune"
+  ],
+  "O'CONNELL": [
+    "Chengdu_2024_R16_Musetti_O'Connell",
+    "Indian_Wells_2024_1st_O'Connell_Draper"
+  ],
+  "OPELKA": [
+    "Brisbane_2025_QF_Djokovic_Opelka",
+    "Cincinnati_2025_R64_de-Minaur_Opelka",
+    "Hertogenbosch_2025_QF_Medvedev_Opelka",
+    "Miami_2025_R64_Rune_Opelka",
+    "Miami_2026_R64_Draper_Opelka"
+  ],
+  "OSAKA": [
+    "RG_2024_R64_Swiatek_Osaka",
+    "US_Open_2025_R16_Osaka_Gauff",
+    "Wimbledon_2026_R16_Sabalenka_Osaka"
+  ],
+  "PAUL": [
+    "Dallas_2024_SF_Shelton_Paul",
+    "Delray_Beach_2026_QF_Fritz_Paul",
+    "Rome_2025_R16_Paul_de-Minaur"
+  ],
+  "PAVLYUCHENKOVA": [
+    "Cincinnati_2024_R16_Zheng_Pavlyuchenkova"
+  ],
+  "RYBAKINA": [
+    "AO_2026_F_Sabalenka_Rybakina",
+    "AO_2026_QF_Rybakina_Swiatek",
+    "AO_2026_SF_Pegula_Rybakina",
+    "Brisbane_2024_SF_Sabalenka_Rybakina",
+    "Cincinnati_2025_QF_Sabalenka_Rybakina",
+    "Doha_2024_R16_Navarro_Rybakina",
+    "Doha_2026_R16_Zheng_Rybakina",
+    "Indian_Wells_2026_F_Sabalenka_Rybakina",
+    "Indian_Wells_2026_QF_Pegula_Rybakina",
+    "Madrid_2026_R32_Zheng_Rybakina",
+    "Miami_2024_R16_Keys_Rybakina",
+    "Rogers_cup_2026_SF_Gauff_Rybakina",
+    "Stuttgart_2026_SF_Rybakina_Andreeva",
+    "WTA-Finals_2024_RR_Sabalenka_Rybakina",
+    "WTA-Finals_2025_F_Sabalenka_Rybakina"
+  ],
+  "SHANG": [
+    "Atlanta_2024_R16_Shelton_Shang"
+  ],
+  "SHAPOVALOV": [
+    "Dallas_2025_F_Shapovalov_Ruud",
+    "Dallas_2025_R16_Fritz_Shapovalov",
+    "Dallas_2025_SF_Shapovalov_Paul"
+  ],
+  "SINNER": [
+    "AO_2024_SF_Djokovic_Sinner",
+    "AO_2025_F_Sinner_Zverev",
+    "AO_2025_QF_Sinner_de-Minaur",
+    "AO_2025_R16_Sinner_Rune",
+    "AO_2025_SF_Sinner_Shelton",
+    "AO_2026_QF_Shelton_Sinner",
+    "AO_2026_SF_Djokovic_Sinner",
+    "Beijing_2025_SF_Sinner_de-Minaur",
+    "Indian_Wells_2024_R16_Shelton_Sinner",
+    "Indian_Wells_2026_F_Medvedev_Sinner",
+    "Indian_Wells_2026_SF_Zverev_Sinner",
+    "Madrid_2026_F_Sinner_Zverev",
+    "Miami_2024_SF_Medvedev_Sinner",
+    "Miami_2026_SF_Zverev_Sinner",
+    "Monte_Carlo_2024_QF_Rune_Sinner",
+    "Monte_Carlo_2026_SF_Zverev_Sinner",
+    "Paris_2025_QF_Shelton_Sinner",
+    "Paris_2025_SF_Zverev_Sinner",
+    "RG_2025_SF_Sinner_Djokovic",
+    "Rome_2025_QF_Sinner_Ruud",
+    "Rome_2025_SF_Sinner_Paul",
+    "Rome_2026_F_Sinner_Ruud",
+    "Rome_2026_SF_Sinner_Medvedev",
+    "Shanghai_2024_QF_Sinner_Medvedev",
+    "Shanghai_2024_R16_Sinner_Shelton",
+    "Turin_2024_F_Sinner_Fritz",
+    "Turin_2024_RR_Sinner_Fritz",
+    "Turin_2024_RR_Sinner_Medvedev",
+    "Turin_2024_RR_Sinner_de-Minaur",
+    "Turin_2024_SF_Sinner_Ruud",
+    "Turin_2025_F_Alcaraz_Sinner",
+    "Turin_2025_RR_Sinner_Shelton",
+    "Turin_2025_RR_Sinner_Zverev",
+    "Turin_2025_SF_Sinner_de-Minaur",
+    "US_Open_2024_F_Sinner_Fritz",
+    "US_Open_2024_QF_Sinner_Medvedev",
+    "US_Open_2024_R16_Sinner_Paul",
+    "US_Open_2024_SF_Sinner_Draper",
+    "US_Open_2025_QF_Sinner_Musetti",
+    "Vienna_2025_F_Sinner_Zverev",
+    "Vienna_2025_SF_Sinner_de-Minaur",
+    "Wimbledon_2024_R16_Sinner_Shelton",
+    "Wimbledon_2025_F_Sinner_Alcaraz",
+    "Wimbledon_2025_QF_Sinner_Shelton",
+    "Wimbledon_2025_SF_Sinner_Djokovic",
+    "Wimbledon_2026_F_Sinner_Zverev",
+    "Wimbledon_2026_SF_Sinner_Djokovic"
+  ],
+  "STARODUBTSEVA": [
+    "Charleston_2026_SF_Keys_Starodubtseva",
+    "RG_2026_R64_Starodubtseva_Rybakina"
+  ],
+  "STEARNS": [
+    "Rome_2025_R32_Keys_Stearns"
+  ],
+  "SVITOLINA": [
+    "AO_2026_QF_Gauff_Svitolina",
+    "Indian_Wells_2026_QF_Svitolina_Swiatek",
+    "Rome_2026_F_Gauff_Svitolina",
+    "Rome_2026_QF_Svitolina_Rybakina",
+    "Rome_2026_SF_Swiatek_Svitolina"
+  ],
+  "SWIATEK": [
+    "AO_2025_QF_Navarro_Swiatek",
+    "Cincinnati_2024_QF_Swiatek_Andreeva",
+    "Cincinnati_2025_F_Swiatek_Paolini",
+    "Cincinnati_2025_SF_Rybakina_Swiatek",
+    "Doha_2024_F_Swiatek_Rybakina",
+    "Doha_2025_QF_Rybakina_Swiatek",
+    "Indian_Wells_2025_QF_Zheng_Swiatek",
+    "Indian_Wells_2025_SF_Andreeva_Swiatek",
+    "Madrid_2025_QF_Keys_Swiatek",
+    "RG_2024_F_Swiatek_Paolini",
+    "RG_2024_SF_Swiatek_Gauff",
+    "Rogers_cup_2026_F_Swiatek_Rybakina",
+    "Rome_2024_SF_Swiatek_Gauff",
+    "Rome_2026_QF_Pegula_Swiatek",
+    "United_Cup_2025_R16_Rybakina_Swiatek",
+    "WTA-Finals_2025_RR_Swiatek_Keys"
+  ],
+  "THOMPSON": [
+    "Los_Cabos_2024_SF_Zverev_Thompson"
+  ],
+  "TIEN": [
+    "Acapulco_2025_R16_Zverev_Tien",
+    "Mallorca_2025_R16_Shelton_Tien"
+  ],
+  "TSITSIPAS": [
+    "Doha_2026_R16_Medvedev_Tsitsipas",
+    "Miami_2026_R64_Tsitsipas_de-Minaur",
+    "Monte_Carlo_2024_R16_Zverev_Tsitsipas",
+    "Monte_Carlo_2024_SF_Tsitsipas_Sinner",
+    "Paris_2023_R16_Tsitsipas_Zverev"
+  ],
+  "ZHANG": [
+    "Beijing_2024_R64_Navarro_Zhang"
+  ],
+  "ZHENG": [
+    "Miami_2026_R32_Zheng_Keys"
+  ],
+  "ZVEREV": [
+    "AO_2025_QF_Paul_Zverev",
+    "AO_2025_SF_Djokovic_Zverev",
+    "Cincinnati_2023_R16_Zverev_Medvedev",
+    "Cincinnati_2024_QF_Zverev_Shelton",
+    "Cincinnati_2024_SF_Sinner_Zverev",
+    "Indian_Wells_2024_R16_Zverev_de-Minaur",
+    "Munich_2025_F_Zverev_Shelton",
+    "Paris_2024_SF_Rune_Zverev",
+    "Paris_2025_QF_Medvedev_Zverev",
+    "Rome_2024_QF_Zverev_Fritz",
+    "Turin_2023_RR_Alcaraz_Zverev",
+    "Turin_2024_RR_Zverev_Alcaraz",
+    "Turin_2024_RR_Zverev_Ruud",
+    "Turin_2024_SF_Zverev_Fritz",
+    "Vienna_2024_QF_Zverev_Musetti"
+  ]
+}
