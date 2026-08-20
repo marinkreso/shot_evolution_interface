@@ -124,7 +124,6 @@ async def main_page_new(match_str: str):
     _avg_p1, _avg_p2 = await run.io_bound(_both_averages)
     dm['_averages'] = {'p1': _avg_p1, 'p2': _avg_p2}
     dm['_show_averages'] = True  # averages view is the default
-    dm['_best_style'] = 'bar'
 
     df_games = pd.read_csv(f"matches_new2/{match_str}/{dm['path_to_games']}")
     if not 'combined' in match_str.lower():
@@ -171,9 +170,6 @@ async def main_page_new(match_str: str):
         .gsa-bar .gsa-fill { position: absolute; top: 0; bottom: 0; left: 0; border-radius: 4px; }
         .gsa-bar.reverse .gsa-fill { left: auto; right: 0; }
         .gsa-bar.ref { height: 9px; }
-        .gsa-tick { position: absolute; top: -4px; bottom: -4px; width: 3px; background: #343a40;
-                    border-radius: 1.5px; transform: translateX(-50%); z-index: 1; }
-        .gsa-bar.reverse .gsa-tick { transform: translateX(50%); }
         .gsa-caption { margin-bottom: 5px; }
         .gsa-value { flex: 0 0 2.6rem; font-size: 0.875rem; font-weight: 600; }
         .gsa-caption { font-size: 11px; color: #868e96; line-height: 1.2; }
@@ -359,16 +355,11 @@ async def main_page_new(match_str: str):
     def update_ui(e):
             chosen_set_object.chosen_set = e.value
             report_view.refresh()
-    def _set_best_style(e):
-        dm['_best_style'] = 'marker' if 'MARKER' in e.value else 'bar'
-        report_view.refresh()
-
     with sticky_controls:
         # only offer sets that actually have leaderboard rows for both players
         set_options = [s for s in dm.get('sets', ['ALL', '1', '2', '3'])
                        if s in data1_all and s in data2_all] or ['ALL']
         toggle = ui.toggle(set_options, value='ALL', on_change=lambda e: update_ui(e)).classes('mx-auto')
-        ui.toggle(['BEST WINS BAR', 'BEST WINS MARKER'], value='BEST WINS BAR', on_change=_set_best_style).classes('mx-auto')
     report_view()
 
 

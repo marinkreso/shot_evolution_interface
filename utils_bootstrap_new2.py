@@ -440,17 +440,12 @@ def _render_row_with_averages(ui, movement_json, key, item):
     def _valid(v):
         return v is not None and not (isinstance(v, float) and np.isnan(v))
 
-    def _bar_with_label(fill, value_text, color, label, reverse, ref, tick_fill=None, tick_tip=None):
+    def _bar_with_label(fill, value_text, color, label, reverse, ref):
         bar_ref_cls = ' ref' if ref else ''
         with ui.element('div').classes('gsa-bar-row'):
             def draw_bar():
                 with ui.element('div').classes('gsa-bar' + bar_ref_cls + (' reverse' if reverse else '')):
                     ui.element('div').classes('gsa-fill').style(f'width: {fill * 100:.1f}%; background: {color};')
-                    if tick_fill is not None:
-                        side = 'right' if reverse else 'left'
-                        with ui.element('div').classes('gsa-tick').style(f'{side}: {tick_fill * 100:.1f}%;'):
-                            if tick_tip:
-                                ui.tooltip(tick_tip)
             if reverse:  # player side: bar fills toward the center, value beside it
                 draw_bar()
                 ui.label(value_text).classes('gsa-value').style('text-align: left;')
@@ -463,17 +458,7 @@ def _render_row_with_averages(ui, movement_json, key, item):
         color = _SIDE_COLORS[side_key]
         value_text = 'NA' if (isinstance(value, float) and np.isnan(value)) else value
         avg = item_avgs.get(side_key)
-        # best wins: only on the player's side, as a 4th bar or a marker on the match bar
-        best_style = movement_json.get('_best_style', 'bar')
-        best = avg.get('best') if (avg and side_key == 'p1') else None
-        show_best = _valid(best)
-        match_label = 'THIS MATCH'
-        tick_fill = tick_tip = None
-        if show_best and best_style == 'marker':
-            tick_fill = _avg_fill(best)
-            tick_tip = f"{avg.get('best_label', 'BEST WINS AVG')}: {_avg_fmt(best)}"
-            match_label = f'THIS MATCH  |  BEST WINS AVG: {_avg_fmt(best)}'
-        _bar_with_label(fill, value_text, color, match_label, reverse, ref=False, tick_fill=tick_fill, tick_tip=tick_tip)
+        _bar_with_label(fill, value_text, color, 'THIS MATCH', reverse, ref=False)
         if not avg:
             return
         # year_label comes as e.g. '2026 HARD AVG' -> 'TSITSIPAS AVG HARD 2026'
@@ -483,7 +468,9 @@ def _render_row_with_averages(ui, movement_json, key, item):
             _bar_with_label(_avg_fill(avg['year']), _avg_fmt(avg['year']), color, year_desc, reverse, ref=True)
         if _valid(avg.get('top10')):
             _bar_with_label(_avg_fill(avg['top10']), _avg_fmt(avg['top10']), color, 'TOP 10 AVG', reverse, ref=True)
-        if show_best and best_style == 'bar':
+        # best wins: player's side only
+        best = avg.get('best') if side_key == 'p1' else None
+        if _valid(best):
             _bar_with_label(_avg_fill(best), _avg_fmt(best), color, f'{player_name} BEST WINS AVG', reverse, ref=True)
 
     # layout comes from the .avg-* CSS in the page head: phones show
