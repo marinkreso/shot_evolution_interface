@@ -1,0 +1,9 @@
+Serve,Court Side,Spin Type,Total Returns,Return In %,Win if In %
+1st,Deuce,Slice,10,80%,37%
+1st,Deuce,Non-Slice,8,75%,16%
+1st,Ad,Slice,5,80%,50%
+1st,Ad,Non-Slice,10,50%,20%
+2nd,Deuce,Slice,1,0%,NO DATA
+2nd,Deuce,Non-Slice,7,85%,33%
+2nd,Ad,Slice,0,NO DATA,NO DATA
+2nd,Ad,Non-Slice,9,100%,44%

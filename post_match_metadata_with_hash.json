@@ -4737,6 +4737,30 @@
             "match_id": "Rogers_cup_2026_R64_Korneeva_Navarro",
             "DATE": "2026-08-05",
             "hash_id": "143e865182a215b7"
+        },
+        {
+            "PLAYER": "NAVARRO",
+            "OPPONENT": "KALININA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Navarro_Kalinina",
+            "DATE": "2026-08-15",
+            "hash_id": "82f894d8e4a72c96"
+        },
+        {
+            "PLAYER": "NAVARRO",
+            "OPPONENT": "PEGULA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Navarro_Pegula",
+            "DATE": "2026-08-17",
+            "hash_id": "a017489150655b3d"
         }
     ],
     "FONSECA": [
@@ -5591,6 +5615,18 @@
             "match_id": "Rogers_cup_2026_R16_Fonseca_Shelton",
             "DATE": "2026-08-09",
             "hash_id": "23d6b39192fc9d19"
+        },
+        {
+            "PLAYER": "FONSECA",
+            "OPPONENT": "VAN-DE-ZANDSCHULP",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Fonseca_van-de-Zandschulp",
+            "DATE": "2026-08-16",
+            "hash_id": "912f2ecaa4b797c3"
         }
     ],
     "SWIATEK": [
@@ -6853,6 +6889,42 @@
             "match_id": "Rogers_cup_2026_SF_Svitolina_Swiatek",
             "DATE": "2026-08-13",
             "hash_id": "2a0fa612de4d3b54"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "ARANGO",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Swiatek_Arango",
+            "DATE": "2026-08-16",
+            "hash_id": "fa1fa75c3289583d"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "SAKKARI",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Swiatek_Sakkari",
+            "DATE": "2026-08-17",
+            "hash_id": "bd24ce751268c9ff"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "PARRY",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Swiatek_Parry",
+            "DATE": "2026-08-19",
+            "hash_id": "cd33a6e2d01e83ec"
         }
     ],
     "KORDA": [
@@ -8419,6 +8491,42 @@
             "match_id": "Rogers_cup_2026_SF_Gauff_Rybakina",
             "DATE": "2026-08-13",
             "hash_id": "1f17e77423baab01"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "TOWNSEND",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Townsend_Rybakina",
+            "DATE": "2026-08-16",
+            "hash_id": "8958f4f2861d8322"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "FRECH",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Frech_Rybakina",
+            "DATE": "2026-08-17",
+            "hash_id": "cc867a12223e5650"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "SHNAIDER",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Shnaider_Rybakina",
+            "DATE": "2026-08-19",
+            "hash_id": "dc391ab9875f39f7"
         }
     ],
     "DJOKOVIC": [
@@ -10107,6 +10215,18 @@
             "match_id": "Rogers_cup_2026_R32_Bergs_Shelton",
             "DATE": "2026-08-07",
             "hash_id": "49860ffe277687e8"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "MERIDA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Merida_Bergs",
+            "DATE": "2026-08-16",
+            "hash_id": "a781f2b85c4d8096"
         }
     ],
     "KECMANOVIC": [
@@ -11021,6 +11141,18 @@
             "match_id": "Cincinnati_2026_1st_Ugo-Carabelli_Kecmanovic",
             "DATE": "2026-08-13",
             "hash_id": "6955441b4dd81430"
+        },
+        {
+            "PLAYER": "KECMANOVIC",
+            "OPPONENT": "COBOLLI",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Kecmanovic_Cobolli",
+            "DATE": "2026-08-15",
+            "hash_id": "bb2be34f7b2ccf6a"
         }
     ],
     "NAKASHIMA": [
@@ -12283,6 +12415,42 @@
             "match_id": "Rogers_cup_2026_F_Shelton_Nakashima",
             "DATE": "2026-08-14",
             "hash_id": "11a54df4f5336d41"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "KOVACEVIC",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Nakashima_Kovacevic",
+            "DATE": "2026-08-16",
+            "hash_id": "7ce726afec871cf0"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "MEDVEDEV",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Nakashima_Medvedev",
+            "DATE": "2026-08-18",
+            "hash_id": "5fb0dede2b4e6d4e"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "BORGES",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Borges_Nakashima",
+            "DATE": "2026-08-19",
+            "hash_id": "8b63b5c621e125ae"
         }
     ],
     "TSITSIPAS": [
@@ -13365,6 +13533,18 @@
             "match_id": "Cincinnati_2026_1st_Royer_Tsitsipas",
             "DATE": "2026-08-14",
             "hash_id": "adc2fb2390bbb6aa"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "AUGER-ALIASSIME",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Tsitsipas_Auger-Aliassime",
+            "DATE": "2026-08-16",
+            "hash_id": "3b33320ee5866914"
         }
     ],
     "PAUL": [
@@ -18813,6 +18993,18 @@
             "match_id": "Cincinnati_2026_1st_Wong_Altmaier",
             "DATE": "2026-08-14",
             "hash_id": "6fe64bea6e9296f5"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "MUSETTI",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Altmaier_Musetti",
+            "DATE": "2026-08-16",
+            "hash_id": "1d326c3bb465bd84"
         }
     ],
     "SEYBOTH WILD": [
@@ -20055,6 +20247,42 @@
             "match_id": "Rogers_cup_2026_QF_Jodar_Fils",
             "DATE": "2026-08-11",
             "hash_id": "829177ffc5631d7e"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "HANFMANN",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Hanfmann_Fils",
+            "DATE": "2026-08-16",
+            "hash_id": "407d4b60488a133d"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "LEHECKA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Lehecka_Fils",
+            "DATE": "2026-08-18",
+            "hash_id": "d974df4602832731"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "DE-MINAUR",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Fils_de-Minaur",
+            "DATE": "2026-08-19",
+            "hash_id": "840e0b1f9bf152e6"
         }
     ],
     "THOMPSON": [
@@ -21218,6 +21446,18 @@
             "match_id": "Cincinnati_2026_1st_Navone_Collignon",
             "DATE": "2026-08-13",
             "hash_id": "3e187529162a4cfb"
+        },
+        {
+            "PLAYER": "NAVONE",
+            "OPPONENT": "BLOCKX",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Blockx_Navone",
+            "DATE": "2026-08-15",
+            "hash_id": "1e80c2e05a0e75b9"
         }
     ],
     "GASTON": [
@@ -25914,6 +26154,18 @@
             "match_id": "Rogers_cup_2026_R64_Borges_Etcheverry",
             "DATE": "2026-08-05",
             "hash_id": "a849ff8ffc848555"
+        },
+        {
+            "PLAYER": "ETCHEVERRY",
+            "OPPONENT": "ATMANE",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Atmane_Etcheverry",
+            "DATE": "2026-08-15",
+            "hash_id": "3e832d4c72c715f7"
         }
     ],
     "CORIC": [
@@ -27824,6 +28076,42 @@
             "match_id": "Rogers_cup_2026_QF_Mensik_Shelton",
             "DATE": "2026-08-11",
             "hash_id": "f1f3f2167e1c88c6"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "BELLUCCI",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Bellucci_Mensik",
+            "DATE": "2026-08-15",
+            "hash_id": "f03afb4012481366"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "HIJIKATA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Hijikata_Mensik",
+            "DATE": "2026-08-17",
+            "hash_id": "cabf844a91e2d13a"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "TIRANTE",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Tirante_Mensik",
+            "DATE": "2026-08-19",
+            "hash_id": "f1912610447ae4d7"
         }
     ],
     "BENCIC": [
@@ -31382,6 +31670,18 @@
             "match_id": "Cincinnati_2026_1st_Svajda_Bellucci",
             "DATE": "2026-08-14",
             "hash_id": "58af6a53716f564f"
+        },
+        {
+            "PLAYER": "BELLUCCI",
+            "OPPONENT": "MENSIK",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Bellucci_Mensik",
+            "DATE": "2026-08-15",
+            "hash_id": "9013f8de84050033"
         }
     ],
     "SELL": [
@@ -31830,6 +32130,30 @@
             "match_id": "Rogers_cup_2026_R32_Lehecka_Blockx",
             "DATE": "2026-08-06",
             "hash_id": "c1fa75258146c22d"
+        },
+        {
+            "PLAYER": "BLOCKX",
+            "OPPONENT": "NAVONE",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Blockx_Navone",
+            "DATE": "2026-08-15",
+            "hash_id": "f69b391c2f7f0bde"
+        },
+        {
+            "PLAYER": "BLOCKX",
+            "OPPONENT": "COBOLLI",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Blockx_Cobolli",
+            "DATE": "2026-08-17",
+            "hash_id": "dfd369ff26b495ec"
         }
     ],
     "MAROZSAN": [
@@ -37737,6 +38061,30 @@
             "match_id": "Rogers_cup_2026_R16_Lehecka_Jodar",
             "DATE": "2026-08-09",
             "hash_id": "bbc04c002971a1bd"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "BERRETTINI",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Lehecka_Berrettini",
+            "DATE": "2026-08-15",
+            "hash_id": "4ed8f819fbebd859"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "FILS",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Lehecka_Fils",
+            "DATE": "2026-08-18",
+            "hash_id": "361e1fcc66ec66c1"
         }
     ],
     "VALENTOVA": [
@@ -38579,6 +38927,20 @@
             "match_id": "Rogers_cup_2026_R32_Li_Rybakina",
             "DATE": "2026-08-07",
             "hash_id": "6efe1a55117dfa34"
+        }
+    ],
+    "TIRANTE": [
+        {
+            "PLAYER": "TIRANTE",
+            "OPPONENT": "MENSIK",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Tirante_Mensik",
+            "DATE": "2026-08-19",
+            "hash_id": "cfc49cafe19e645c"
         }
     ]
 }

@@ -69,6 +69,10 @@ async def main_page_new(match_str: str):
     chosen_set_object = ChosenSet()
     with open(f'matches_new2/{match_str}/movement.json') as f:
         dm = json.load(f)
+    fonseca_return = fonseca_spin = None
+    if Path(f'matches_new2/{match_str}/fonseca_return.csv').exists():
+        fonseca_return = pd.read_csv(f'matches_new2/{match_str}/fonseca_return.csv')
+        fonseca_spin = pd.read_csv(f'matches_new2/{match_str}/fonseca_spin.csv')
     match = '_'.join(match_str.split('_')[1:])
     sel_playerx = match_str.split('_')[0]
     ui.colors(accent='#6AD4DD')
@@ -236,8 +240,7 @@ async def main_page_new(match_str: str):
                 # ui.tab('o', label='OFFENSIVE')
                 ui.tab('m', label='MOVEMENT')
                 ui.tab('ms', label='SHOT MOVEMENT')
-                if sel_playerx == 'NAVARRO':
-                    ui.tab('heat', label='MOVEMENT HEATMAP')
+                ui.tab('heat', label='MOVEMENT HEATMAP')
                 ui.tab('o', label='OTHER')
                 #ui.tab('v', label='Video')
         ui.label('SELECT SET').classes('mx-auto')
@@ -293,22 +296,43 @@ async def main_page_new(match_str: str):
                 return items
 
             def build_heat():
+                # per-set heatmaps live next to the match ones with a _<set> suffix
+                chosen = chosen_set_object.chosen_set
                 for img_key in ['heatmap_rallies', 'heatmap_first_return', 'heatmap_second_return',
                                 'heatmap_first_splus', 'heatmap_second_splus']:
-                    ui.image(images[img_key]).classes('w-full md:w-1/2').classes('mx-auto')
+                    src = images[img_key] if chosen == 'ALL' else images[img_key].replace('.png', f'_{chosen}.png')
+                    ui.image(src).classes('w-full md:w-1/2').classes('mx-auto')
+
+            def build_fonseca_tables(first_serve):
+                if fonseca_return is None:
+                    return
+                for title, df in (('Return Position', fonseca_return), ('Return Spin', fonseca_spin)):
+                    sub = df[df.Serve == '1st'] if first_serve else df[df.Serve != '1st']
+                    ui.label(title).classes('mx-auto').classes('font-bold')
+                    ui.table(
+                        columns=[{'name': col, 'label': col, 'field': col, 'align': 'center'} for col in sub.columns],
+                        rows=sub.to_dict('records'),
+                    ).classes('mx-auto')
+
+            def build_r1():
+                return_new_html(ui, dm, '1st Return Quality', build_items('return'), images, chosen_set_object.chosen_set)
+                build_fonseca_tables(first_serve=True)
+
+            def build_r2():
+                return_new_html2(ui, dm, '2nd Return Quality', build_items('return_2nd'), images, chosen_set_object.chosen_set)
+                build_fonseca_tables(first_serve=False)
 
             builders = {
                 's1': lambda: serve_new_html(ui, dm, '1st Serve', None, build_items('serve', swallow_errors=True), images, chosen_set_object.chosen_set),
                 's2': lambda: serve_new_html_2nd(ui, dm, '2nd Serve', build_items('serve_2nd'), images, chosen_set_object.chosen_set),
-                'r1': lambda: return_new_html(ui, dm, '1st Return Quality', build_items('return'), images, chosen_set_object.chosen_set),
-                'r2': lambda: return_new_html2(ui, dm, '2nd Return Quality', build_items('return_2nd'), images, chosen_set_object.chosen_set),
+                'r1': build_r1,
+                'r2': build_r2,
                 'gs': lambda: groundstroke_new_html(ui, dm, 'GS Table', build_items('groundstroke_table')),
                 'm': lambda: movement_new_html(ui, dm, df_games),
                 'ms': lambda: shot_movement_new_html(ui, dm, 'SHOT MOVEMENT', build_items('movement', mark_missing=False)),
                 'o': lambda: other_new_html(ui, dm, 'OTHER', build_items('other')),
+                'heat': build_heat,
             }
-            if sel_playerx == 'NAVARRO':
-                builders['heat'] = build_heat
 
             current = selected_tab.number if selected_tab.number in builders else 's1'
             built = {current}
