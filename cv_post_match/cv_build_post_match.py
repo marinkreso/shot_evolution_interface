@@ -45,7 +45,11 @@ def _slug(s):
 
 def parse_title(title, date_str):
     """-> (tournament, year, name_a, name_b) from either title format."""
-    year = date_str.split('/')[-1]
+    if date_str:
+        year = date_str.split('/')[-1]
+    else:  # some API entries carry no matchDate; fall back to the title
+        m = re.search(r'(20\d\d)', title)
+        year = m.group(1) if m else '2026'
     if '|' in title:
         parts = [p.strip() for p in title.split('|')]
         tournament = parts[0]
@@ -282,7 +286,8 @@ def main():
                 entry = {'PLAYER': str(me).upper(), 'OPPONENT': str(opp).upper(),
                          'TOURNAMENT': tournament.upper(), 'YEAR': year, 'ROUND': 'CV',
                          'SURFACE': surface, 'FORMAT': 'CV', 'match_id': match_id,
-                         'DATE': datetime.strptime(m['date'], '%m/%d/%Y').strftime('%Y-%m-%d')}
+                         'DATE': (datetime.strptime(m['date'], '%m/%d/%Y').strftime('%Y-%m-%d')
+                                  if m.get('date') else f'{year}-01-01')}
                 base = f"{entry['PLAYER']}_{match_id}_{HASH_SALT}"
                 entry['hash_id'] = hashlib.sha256(base.encode()).hexdigest()[:16]
                 match_meta.append(entry)

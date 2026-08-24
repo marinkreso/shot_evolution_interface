@@ -18,7 +18,7 @@ HERE = Path(__file__).parent
 OUT = HERE / 'cv_matches'
 API = 'https://api.goldensetanalytics.com'
 MIN_MEANINGFUL_POINTS = 50
-WANTED = 10
+WANTED = 20
 
 PLAYERS = ['Julieta Pareja', 'Henry Bernet', 'Julia Stusek', 'Yeri Hong', 'Reda Bennani', 'Elizaveta Anikina']
 

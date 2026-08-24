@@ -85,12 +85,38 @@ def return_visual(df, server, serve_number, player_label, opponent_label):
         pies_percentages=pies, preset=ColorPreset.ORANGE)
 
 
+def process_one(task):
+    """Render + upload the 4 court images for one (match, player). Skips
+    folders whose images are already on the blob, so reruns are cheap."""
+    parquet, match_id, me, opp = task
+    folder = f'{str(me).upper()}_{match_id}/'
+    try:
+        container = get_container()
+        if container.get_blob_client(folder + 'second_return.png').exists():
+            return f'skip {folder}'
+        df = pd.read_parquet(parquet)
+        images = {
+            'first_serve.png': serve_visual(df, me, 1, str(me).upper(), str(opp).upper()),
+            'second_serve.png': serve_visual(df, me, 2, str(me).upper(), str(opp).upper()),
+            'first_return.png': return_visual(df, me, 1, str(me).upper(), str(opp).upper()),
+            'second_return.png': return_visual(df, me, 2, str(me).upper(), str(opp).upper()),
+        }
+        tmp = Path(tempfile.mkdtemp(prefix='cv_courts_'))
+        for name, img in images.items():
+            path = tmp / name
+            img.save(path, optimize=True)
+            with open(path, 'rb') as fh:
+                container.get_blob_client(folder + name).upload_blob(fh, overwrite=True)
+        return f'uploaded {folder}'
+    except Exception as e:
+        return f'FAILED {folder}: {str(e)[:120]}'
+
+
 def main():
-    container = get_container()
+    from concurrent.futures import ProcessPoolExecutor
     with open(HERE / 'cv_match_candidates.json') as f:
         candidates = json.load(f)
-    tmp = Path(tempfile.mkdtemp(prefix='cv_courts_'))
-    done = failed = 0
+    tasks = []
     for player_label, info in candidates.items():
         for m in info['picked']:
             if m.get('duplicate_of_previous'):
@@ -103,25 +129,15 @@ def main():
                 continue
             for me in players:
                 opp = [p for p in players if p != me][0]
-                folder = f'{str(me).upper()}_{match_id}/'
-                try:
-                    images = {
-                        'first_serve.png': serve_visual(df, me, 1, str(me).upper(), str(opp).upper()),
-                        'second_serve.png': serve_visual(df, me, 2, str(me).upper(), str(opp).upper()),
-                        'first_return.png': return_visual(df, me, 1, str(me).upper(), str(opp).upper()),
-                        'second_return.png': return_visual(df, me, 2, str(me).upper(), str(opp).upper()),
-                    }
-                    for name, img in images.items():
-                        path = tmp / name
-                        img.save(path, optimize=True)
-                        container.get_blob_client(folder + name).upload_blob(
-                            open(path, 'rb'), overwrite=True)
-                    done += 1
-                    print(f'uploaded {folder}', flush=True)
-                except Exception as e:
-                    failed += 1
-                    print(f'FAILED {folder}: {str(e)[:120]}', flush=True)
-    print(f'DONE players uploaded: {done} | failed: {failed}', flush=True)
+                tasks.append((m['parquet'], match_id, me, opp))
+    print(f'tasks: {len(tasks)}', flush=True)
+    done = failed = 0
+    with ProcessPoolExecutor(max_workers=6) as ex:
+        for result in ex.map(process_one, tasks):
+            print(result, flush=True)
+            failed += result.startswith('FAILED')
+            done += not result.startswith('FAILED')
+    print(f'DONE ok: {done} | failed: {failed}', flush=True)
 
 
 if __name__ == '__main__':

@@ -1,0 +1,74 @@
+{
+    "selected_player_name": "NGIJOL CARR",
+    "opponent_name": "PAREJA",
+    "Movement_data": {
+        "Total Match Duration": "116 minute(s)",
+        "Effective Playing Time": "50 minute(s)",
+        "Effective Time / Total Match Duration": "43%",
+        "Total Distance Covered": "1271.2 m",
+        "Avg Speed": "1.95 m/s",
+        "Sum of All Strokes": 464
+    },
+    "1st_serve_placement": "1st DEUCE W: 24%, 1st DEUCE T: 24%, 1st AD W: 74%, 1st AD T: 0%",
+    "Number of runs to reach dropshots": 3,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 62,
+        "Second Serve": 28,
+        "Forehand": 170,
+        "Backhand": 144,
+        "Forehand Return": 35,
+        "Backhand Return": 25,
+        "Volleys": 2,
+        "Slices": 16,
+        "Dropshots": 3
+    },
+    "distance_moved": {
+        "0-1 m": "5% (20 times)",
+        "1-2 m": "17% (65 times)",
+        "2-3 m": "30% (117 times)",
+        "3-4 m": "25% (98 times)",
+        "4-5 m": "13% (51 times)",
+        "5-10 m": "7% (27 times)",
+        "10+ m": "2% (7 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "52% (59 times)",
+        "11-25 m": "37% (42 times)",
+        "26-50 m": "11% (12 times)",
+        "51-75 m": "0% (0 times)",
+        "76-100 m": "0% (0 times)",
+        "101-500 m": "0% (0 times)"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "0% (1 times)",
+        "1 - 1.5 m/s": "0% (1 times)",
+        "1.5 - 2 m/s": "3% (13 times)",
+        "2 - 2.5 m/s": "5% (21 times)",
+        "2.5 - 3 m/s": "9% (37 times)",
+        "3 - 3.5 m/s": "18% (72 times)",
+        "3.5+ m/s": "64% (261 times)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "24% (5 serves), 20 win%",
+        "1st DEUCE B": "52% (11 serves), 55 win%",
+        "1st DEUCE T": "24% (5 serves), 40 win%",
+        "1st AD W": "74% (14 serves), 64 win%",
+        "1st AD B": "26% (5 serves), 40 win%",
+        "1st AD T": "0% (0 serves), nan win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "14% (1 serves), 100 win%",
+        "2nd DEUCE B": "71% (5 serves), 40 win%",
+        "2nd DEUCE T": "14% (1 serves), 100 win%",
+        "2nd AD W": "67% (6 serves), 50 win%",
+        "2nd AD B": "33% (3 serves), 67 win%",
+        "2nd AD T": "0% (0 serves), nan win%"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2"
+    ],
+    "source": "cv"
+}
