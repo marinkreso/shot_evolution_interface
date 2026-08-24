@@ -1,0 +1,75 @@
+{
+    "selected_player_name": "GIUSTINO",
+    "opponent_name": "BERNET",
+    "Movement_data": {
+        "Total Match Duration": "158 minute(s)",
+        "Effective Playing Time": "58 minute(s)",
+        "Effective Time / Total Match Duration": "37%",
+        "Total Distance Covered": "965.1 m",
+        "Avg Speed": "2.08 m/s",
+        "Sum of All Strokes": 432
+    },
+    "1st_serve_placement": "1st DEUCE W: 37%, 1st DEUCE T: 54%, 1st AD W: 60%, 1st AD T: 28%",
+    "Number of runs to reach dropshots": 2,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 98,
+        "Second Serve": 42,
+        "Forehand": 125,
+        "Backhand": 83,
+        "Forehand Return": 41,
+        "Backhand Return": 43,
+        "Volleys": 6,
+        "Slices": 18,
+        "Dropshots": 2
+    },
+    "distance_moved": {
+        "0-1 m": "7% (20 times)",
+        "1-2 m": "25% (69 times)",
+        "2-3 m": "22% (61 times)",
+        "3-4 m": "16% (46 times)",
+        "4-5 m": "12% (33 times)",
+        "5-10 m": "15% (41 times)",
+        "10+ m": "3% (9 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "75% (103 times)",
+        "11-25 m": "22% (30 times)",
+        "26-50 m": "3% (4 times)",
+        "51-75 m": "0% (0 times)",
+        "76-100 m": "0% (0 times)",
+        "101-500 m": "0% (0 times)"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "0% (1 times)",
+        "1 - 1.5 m/s": "3% (8 times)",
+        "1.5 - 2 m/s": "8% (25 times)",
+        "2 - 2.5 m/s": "9% (27 times)",
+        "2.5 - 3 m/s": "11% (34 times)",
+        "3 - 3.5 m/s": "10% (32 times)",
+        "3.5+ m/s": "59% (182 times)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "37% (13 serves), 62 win%",
+        "1st DEUCE B": "9% (3 serves), 67 win%",
+        "1st DEUCE T": "54% (19 serves), 84 win%",
+        "1st AD W": "60% (24 serves), 67 win%",
+        "1st AD B": "12% (5 serves), 60 win%",
+        "1st AD T": "28% (11 serves), 64 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "28% (5 serves), 60 win%",
+        "2nd DEUCE B": "22% (4 serves), 75 win%",
+        "2nd DEUCE T": "50% (9 serves), 56 win%",
+        "2nd AD W": "53% (10 serves), 60 win%",
+        "2nd AD B": "47% (9 serves), 67 win%",
+        "2nd AD T": "0% (0 serves), nan win%"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2",
+        "3"
+    ],
+    "source": "cv"
+}

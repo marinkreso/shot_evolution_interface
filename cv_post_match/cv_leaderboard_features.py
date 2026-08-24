@@ -25,7 +25,9 @@ def get_locations_at_shot(df, column_name):
 
 
 def preprocess(df, selected_player_name):
-    df['point_no'] = df.point_id.apply(lambda x: float(x.split('_')[2]))
+    if 'point_no' not in df.columns:   # CV frames carry point_no already; the
+        # HE derivation assumes a fixed point_id layout that CV ids don't have
+        df['point_no'] = df.point_id.apply(lambda x: float(x.split('_')[2]))
     df = df.sort_values(by=['match_id', 'set_no', 'game_no', 'point_no', 'serve_number', 'shot_no'])
     df['time_for_shot'] = df['shot_time_start'] - df['shot_time_start'].shift(1)
     #Simplified, because we only want to know for 3+ shots

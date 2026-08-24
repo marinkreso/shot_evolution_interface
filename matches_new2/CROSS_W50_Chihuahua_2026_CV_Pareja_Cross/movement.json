@@ -1,0 +1,74 @@
+{
+    "selected_player_name": "CROSS",
+    "opponent_name": "PAREJA",
+    "Movement_data": {
+        "Total Match Duration": "85 minute(s)",
+        "Effective Playing Time": "15 minute(s)",
+        "Effective Time / Total Match Duration": "18%",
+        "Total Distance Covered": "226.3 m",
+        "Avg Speed": "2.03 m/s",
+        "Sum of All Strokes": 102
+    },
+    "1st_serve_placement": "1st DEUCE W: 11%, 1st DEUCE T: 44%, 1st AD W: 10%, 1st AD T: 40%",
+    "Number of runs to reach dropshots": 0,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 39,
+        "Second Serve": 15,
+        "Forehand": 30,
+        "Backhand": 9,
+        "Forehand Return": 6,
+        "Backhand Return": 3,
+        "Volleys": 2,
+        "Slices": 1,
+        "Dropshots": 0
+    },
+    "distance_moved": {
+        "0-1 m": "0% (0 times)",
+        "1-2 m": "13% (7 times)",
+        "2-3 m": "30% (16 times)",
+        "3-4 m": "26% (14 times)",
+        "4-5 m": "7% (4 times)",
+        "5-10 m": "19% (10 times)",
+        "10+ m": "6% (3 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "71% (20 times)",
+        "11-25 m": "29% (8 times)",
+        "26-50 m": "0% (0 times)",
+        "51-75 m": "0% (0 times)",
+        "76-100 m": "0% (0 times)",
+        "101-500 m": "0% (0 times)"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "0% (0 times)",
+        "1 - 1.5 m/s": "0% (0 times)",
+        "1.5 - 2 m/s": "0% (0 times)",
+        "2 - 2.5 m/s": "3% (2 times)",
+        "2.5 - 3 m/s": "5% (3 times)",
+        "3 - 3.5 m/s": "11% (7 times)",
+        "3.5+ m/s": "82% (54 times)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "11% (1 serves), 0 win%",
+        "1st DEUCE B": "44% (4 serves), 75 win%",
+        "1st DEUCE T": "44% (4 serves), 100 win%",
+        "1st AD W": "10% (1 serves), 100 win%",
+        "1st AD B": "50% (5 serves), 60 win%",
+        "1st AD T": "40% (4 serves), 50 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "0% (0 serves), nan win%",
+        "2nd DEUCE B": "0% (0 serves), nan win%",
+        "2nd DEUCE T": "100% (2 serves), 100 win%",
+        "2nd AD W": "33% (2 serves), 100 win%",
+        "2nd AD B": "50% (3 serves), 100 win%",
+        "2nd AD T": "17% (1 serves), 0 win%"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2"
+    ],
+    "source": "cv"
+}

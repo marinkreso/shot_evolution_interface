@@ -12,6 +12,20 @@ from card_new2 import get_data_for_matches_new2
 APP_DIR = Path(__file__).parent
 leaderboard3 = pd.read_parquet(APP_DIR / 'leaderboard_haddad_new_wta_with_sets_clean.parquet')
 
+# CV-derived leaderboard rows live in their own parquet so Hawk-Eye data
+# refreshes never overwrite them; the app sees one combined leaderboard.
+_cv_leaderboard = APP_DIR / 'cv_post_match' / 'leaderboard_cv.parquet'
+if _cv_leaderboard.exists():
+    leaderboard3 = pd.concat([leaderboard3, pd.read_parquet(_cv_leaderboard)], ignore_index=True)
+
+# Some archive exports store serve-speed columns x100 (e.g. 19000 for 190 km/h).
+# No tennis ball travels 1000+ km/h, so fix any such row at load time.
+for _c in leaderboard3.columns:
+    if 'speed' in _c and not _c.endswith('_total') and leaderboard3[_c].dtype.kind in 'if':
+        _mis = leaderboard3[_c] > 1000
+        if _mis.any():
+            leaderboard3.loc[_mis, _c] = leaderboard3.loc[_mis, _c] / 100
+
 def main3(selected_player_name='BERRETTINI', 
         opponent_name='',
         matches=[],
