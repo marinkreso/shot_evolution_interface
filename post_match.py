@@ -76,13 +76,12 @@ async def main_page_new(match_str: str):
     match = '_'.join(match_str.split('_')[1:])
     sel_playerx = match_str.split('_')[0]
     ui.colors(accent='#6AD4DD')
-    #with ui.page_sticky(x_offset=18, y_offset=18):
-    # player ids for the portal live in post_match_links.json (name -> uuid);
-    # keys are hyphenated while report prefixes use spaces, so try both
-    player_portal_id = portal_player_ids.get(sel_playerx) or portal_player_ids.get(sel_playerx.replace(' ', '-'))
-    portal_url = f'https://portal.goldensetanalytics.com/post-match-report/{player_portal_id}' if player_portal_id else 'https://portal.goldensetanalytics.com'
-    with ui.page_sticky(position='top-left').classes('z-50'):
-        ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to(portal_url)).props('fab')
+    # back-to-portal button removed for now; portal ids stay available in
+    # post_match_links.json if it comes back
+    # player_portal_id = portal_player_ids.get(sel_playerx) or portal_player_ids.get(sel_playerx.replace(' ', '-'))
+    # portal_url = f'https://portal.goldensetanalytics.com/post-match-report/{player_portal_id}' if player_portal_id else 'https://portal.goldensetanalytics.com'
+    # with ui.page_sticky(position='top-left').classes('z-50'):
+    #     ui.button(icon='arrow_back', on_click=lambda: ui.navigate.to(portal_url)).props('fab')
 
 
 
