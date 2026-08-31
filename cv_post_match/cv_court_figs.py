@@ -187,8 +187,8 @@ def draw_return_direction(df_player_returns, ax, match_name, serve_no, side, dir
     else:
         title_text = selected_player_name + ' ' + serve_no.replace('_', ' ').upper() + ' RETURN PLACEMENT'    
     
-    ax.text(-5.7, -1.35, title_text, fontsize=22, weight='bold')
-    ax.text(-5.7, -1.7, match_name, fontsize=16, weight='normal')
+    ax.text(-5.7, -1.3, title_text, fontsize=19, weight='bold')
+    ax.text(-5.7, -1.7, match_name, fontsize=14, weight='normal')
         
     if side == 'all_sides':
         side_text = 'BOTH SIDES'
@@ -200,7 +200,7 @@ def draw_return_direction(df_player_returns, ax, match_name, serve_no, side, dir
         side_text = side_text + ' ' + direction.upper()
     side_text = side_text + ' SERVE'
     
-    ax.text(5.6, -1.2, side_text, fontsize=16, ha='right')
+    ax.text(5.6, -1.25, side_text, fontsize=14, ha='right')
     ax.text(5.6, -1.7, str(len(df_return)) + ' RETURNS - ' + str(len(df_return_in)) + ' IN (' + str(int(round(100*len(df_return_in)/np.nextafter(len(df_return), 1),0))) + ' %)', fontsize=16, ha='right')
     
     #If no points finish here
@@ -708,8 +708,8 @@ def draw_return_depth(df_player_returns, ax, match_name, serve_no, side, directi
     else:
         title_text = selected_player_name + ' ' + serve_no.replace('_', ' ').upper() + ' RETURN PLACEMENT' 
         
-    ax.text(-5.7, -1.35, title_text, fontsize=22, weight='bold')
-    ax.text(-5.7, -1.7, match_name, fontsize=16, weight='normal')
+    ax.text(-5.7, -1.3, title_text, fontsize=19, weight='bold')
+    ax.text(-5.7, -1.7, match_name, fontsize=14, weight='normal')
         
     if side == 'all_sides':
         side_text = 'BOTH SIDES'
@@ -721,13 +721,13 @@ def draw_return_depth(df_player_returns, ax, match_name, serve_no, side, directi
         side_text = side_text + ' ' + direction.upper()
     side_text = side_text + ' SERVE'
     
-    ax.text(5.6, -1.2, side_text, fontsize=16, ha='right')
+    ax.text(5.6, -1.25, side_text, fontsize=14, ha='right')
     #ax.text(5.6, -1.7, str(len(df_return)) + ' RETURNS', fontsize=16, ha='right')
     if len(df_return) == 0:
         return_in_perc = 0
     else:
         return_in_perc = int(round(100*len(df_return_in)/len(df_return),0))
-    ax.text(5.6, -1.7, str(len(df_return)) + ' RETURNS - ' + str(len(df_return_in)) + ' IN (' + str(return_in_perc) + ' %)', fontsize=16, ha='right')
+    ax.text(5.6, -1.7, str(len(df_return)) + ' RETURNS - ' + str(len(df_return_in)) + ' IN (' + str(return_in_perc) + ' %)', fontsize=14, ha='right')
     
     
     #If no points finish here
@@ -823,6 +823,11 @@ def draw_return_depth(df_player_returns, ax, match_name, serve_no, side, directi
     
     subax3.set_title('Short Return Win %', fontsize=18, y=box_y_start)
     ax.text(4.1, total_y_start, str(len(df_return_short_in)) + ' TOTAL (' + str(int(round(100*len(df_return_short_in)/np.nextafter(len(df_return_in),1), 0))) + ' %)', fontsize=13, ha='center', va='center')
+    subax3.pie([len(df_return_short_in_win), len(df_return_short_in_lose)], colors = [c_green, c_orange], shadow=True, startangle=90)
+    ax.text(3.4, player_name_y, selected_player_name, fontsize=13, ha='right', va='center')
+    ax.text(3.1, player_perc_y, str(int(round(100*len(df_return_short_in_win)/np.nextafter(len(df_return_short_in), 1), 0))) + '%', fontsize=13, ha='right', va='center')
+    ax.text(4.9, player_name_y, 'OPPONENT', fontsize=13, ha='left', va='center')
+    ax.text(5.1, player_perc_y, str(int(round(100*len(df_return_short_in_lose)/np.nextafter(len(df_return_short_in), 1), 0))) + '%', fontsize=13, ha='left', va='center')
 
 
 # --- additional verbatim helpers ---
@@ -919,7 +924,6 @@ def set_embeded_graphs(ax, y_pos):
     height = 0.10
     width = 0.15
     #y_pos = 0.16
-    y_pos = 0.06
     
     #1
     x_pos = 0.157

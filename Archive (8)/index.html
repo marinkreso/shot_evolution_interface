@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSA</title>
+
+
+  <!--Fav icon -->
+  <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+  <!--tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--custom -->
+  <link rel="stylesheet" href="style.css" />
+  <!--animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header class="bg-[url('images/banner.jpg')] w-full relative">
+    <div
+      class="absolute left-0 top-0 bg-[linear-gradient(240deg,_rgba(0,_0,_0,_0.00)_24.28%,_#000_63.81%)] h-full w-2/4">
+    </div>
+    <div class="container relative mx-auto flex items-center  content-center align-middle h-full min-h-[700px]">
+      <a href="#" class="absolute top-10 left-0" data-aos="fade-in">
+        <img src="images/logo.png" alt="">
+      </a>
+
+      <div class="mt-10">
+        <h1
+          class=" text-white font-light leading-none tracking-[3.05px] text-[61px] mb-12 font-['TitlingGothicFB-Light']">
+          <span class="block font-medium tracking-[3.75px] text-[75px] font-['TitlingGothicFB-Normal']">PLAYER</span>
+          <span class="text-[#D5AA2A]">MOVEMENT</span> REPORTS
+        </h1>
+        
+      </div>
+
+    </div>
+  </header>
+
+  <section>
+
+    <div class=" mx-auto">
+      <!-- Tabs Navigation -->
+      <ul id="tabs" class="flex border-b justify-center text-[20px] font-light  font-['TitlingGothicFB-Light']">
+        <li class="border-b-2 border-gray-800 ">
+          <a href="#tab1" class="text-black hover:text-gray-900 px-5 py-10 block">Duration</a>
+        </li>
+        <li class="pb-2 border-b-2  hover:border-gray-800">
+          <a href="#tab2" class="text-black hover:text-gray-900 px-5 py-10 block">Shot Movement</a>
+        </li>
+        <li class="border-b-2  hover:border-gray-800">
+          <a href="#tab3" class="text-black hover:text-gray-900 px-5 py-10 block">Rally Length</a>
+        </li>
+        <li class="border-b-2  hover:border-gray-800">
+          <a href="#tab4" class="text-black hover:text-gray-900 py-10 block">Shot Type</a>
+        </li>
+        <li class=" border-b-2  hover:border-gray-800">
+          <a href="#tab5" class="text-black hover:text-gray-900 px-5  py-10 block">Point Distance</a>
+        </li>
+        <li class="pb-2 border-b-2  hover:border-gray-800">
+          <a href="#tab6" class="text-black hover:text-gray-900 px-5  py-10 block">Sprints</a>
+        </li>
+        <li class=" border-b-2  hover:border-gray-800">
+          <a href="#tab7" class="text-black hover:text-gray-900 px-5  py-10 block">Heatmap</a>
+        </li>
+        <li class="border-b-2  hover:border-gray-800">
+          <a href="#tab8" class="text-black hover:text-gray-900 px-5  py-10 block">Longest points</a>
+        </li>
+        <li class=" border-b-2  hover:border-gray-800">
+          <a href="#tab9" class="text-black hover:text-gray-900 px-5  py-10 block">Fatigue</a>
+        </li>
+        <li class=" border-b-2  hover:border-gray-800">
+          <a href="#tab10" class="text-black hover:text-gray-900 px-5  py-10 block">Match Info</a>
+        </li>
+
+
+        <!-- Add more tabs as needed -->
+      </ul>
+
+      <!-- Tab Contents -->
+      <div id="tab-contents" class="mt-6">
+        <div id="tab1" class="tab-content container mx-auto py-10 mb-20 min-h-[400px]">
+
+          <h2 class="text-[28px] text-center  mb-10 text-black" data-aos="fade-up">Match Duration Info and Movement
+            Patterns</h2>
+
+          <div class="w-[70%] mx-auto mt-20 mb-20" data-aos="fade-up">
+            <table class="min-w-full text-left text-xl text-gray-800">
+              <thead class="bg-[#F2F2F2] font-medium text-center text-[20px]">
+                <tr>
+                  <th class="py-8 px-6 border-r border-white ">Metric</th>
+                  <th class="py-8 px-6 ">Value</th>
+                </tr>
+              </thead>
+              <tbody class="text-center text-[20px] font-light text-black font-[TitlingGothicFB-Light]">
+                <tr class="border-b">
+                  <td class="py-8 px-6">Match Duration (per match)</td>
+                  <td class="py-8 px-6">119 minutes</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Match Effective Time (per match)</td>
+                  <td class="py-8 px-6">24 minutes</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Effective Time / Match Duration</td>
+                  <td class="py-8 px-6">21%</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Total Distance Run (per match)</td>
+                  <td class="py-8 px-6">2018.61 m</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Average Speed</td>
+                  <td class="py-8 px-6">1.84 m/s</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Number of strokes (per match)</td>
+                  <td class="py-8 px-6">399</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Changes of direction (per point)</td>
+                  <td class="py-8 px-6">710</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Longest Single Run</td>
+                  <td class="py-8 px-6">15.01 m</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Time more than 1m inside the court</td>
+                  <td class="py-8 px-6">9%</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Time from 1m inside the BL to BL</td>
+                  <td class="py-8 px-6">14%</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Time from BL to 1m behind the BL</td>
+                  <td class="py-8 px-6">16%</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Time from 1m to 2m behind the BL</td>
+                  <td class="py-8 px-6">14%</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Time from 2m to 3m behind the BL</td>
+                  <td class="py-8 px-6">14%</td>
+                </tr>
+                <tr class="border-b">
+                  <td class="py-8 px-6">Time more than 3m behind the BL</td>
+                  <td class="py-8 px-6">33%</td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+          <h2 class="text-[28px] text-center  mb-10 text-black" data-aos="fade-up">Number of moves in each direction
+            (per point)</h2>
+
+          <div class="w-[70%] mx-auto mt-20 mb-20" data-aos="fade-up">
+            <table class="min-w-full text-left text-xl text-gray-800">
+              <thead class="bg-[#F2F2F2] font-medium text-center text-[20px]">
+                <tr>
+                  <th class="py-8 px-6 border-r border-white">forward</th>
+                  <th class="py-8 px-6 border-r border-white">backward</th>
+                  <th class="py-8 px-6 border-r border-white">left</th>
+                  <th class="py-8 px-6">right</th>
+                </tr>
+              </thead>
+              <tbody class="text-center text-[20px] font-light text-black font-[TitlingGothicFB-Light]">
+                <tr class="border-b">
+                  <td class="py-8 px-6">2.15</td>
+                  <td class="py-8 px-6">1.22</td>
+                  <td class="py-8 px-6">1.76</td>
+                  <td class="py-8 px-6">1.96</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+
+          <h2 class="text-[28px] text-center  mb-10 text-black" data-aos="fade-up">Number of moves in each direction
+            (total)</h2>
+
+          <div class="w-[70%] mx-auto mt-20 " data-aos="fade-up">
+            <table class="min-w-full text-left text-xl text-gray-800">
+              <thead class="bg-[#F2F2F2] font-medium text-center text-[20px]">
+                <tr>
+                  <th class="py-8 px-6 border-r border-white">forward</th>
+                  <th class="py-8 px-6 border-r border-white">backward</th>
+                  <th class="py-8 px-6 border-r border-white">left</th>
+                  <th class="py-8 px-6">right</th>
+                </tr>
+              </thead>
+              <tbody class="text-center text-[20px] font-light text-black font-[TitlingGothicFB-Light]">
+                <tr class="border-b">
+                  <td class="py-8 px-6">302</td>
+                  <td class="py-8 px-6">172</td>
+                  <td class="py-8 px-6">246</td>
+                  <td class="py-8 px-6">273</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </div>
+
+        <div id="tab2" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden">
+          <div class="w-[70%] mx-auto  mb-20">
+            <h2 class="text-[28px] text-center  mb-10 text-black" data-aos="fade-up">Movement to the Forehand</h2>
+  
+            <div class="bg-gray-100 text-center py-6 mb-14 mt-20" data-aos="fade-up">
+              <span class="text-black text-[20px] font-medium">AVG SPEED</span>
+            </div>
+
+            <div class="space-y-8 font-light font-[TitlingGothicFB-Light]" >
+
+              <div class="flex items-center" data-aos="fade-up">
+                <span class="w-1/4 text-black text-[20px]">MATCH AVERAGE</span>
+                <div class="w-4/5 bg-gray-200 rounded-[5px] h-6 overflow-hidden ml-2">
+                  <div class="bg-[#008FD5] h-full animate-grow" style="--target-width: 95%;"></div>
+                </div>
+                <span class="w-1/6 text-right text-[20px] text-black">2.55 m/s</span>
+              </div>
+
+              <div class="flex items-center" data-aos="fade-up">
+                <span class="w-1/4 text-black text-[20px]">PLAYER AVERAGE</span>
+                <div class="w-4/5 bg-gray-200 rounded-[5px] h-6 overflow-hidden ml-2">
+                  <div class="bg-[#77AB43] h-full animate-grow" style="--target-width: 95%;"></div>
+                </div>
+                <span class="w-1/6 text-right text-[20px] text-black">2.55 m/s</span>
+              </div>
+
+              <div class="flex items-center" data-aos="fade-up">
+                <span class="w-1/4 text-black text-[20px]">TOUR AVERAGE</span>
+                <div class="w-4/5 bg-gray-200 rounded-[5px] h-6 overflow-hidden ml-2">
+                  <div class="bg-[#FF2700] h-full animate-grow" style="--target-width: 100%;"></div>
+                </div>
+                <span class="w-1/6 text-right text-[20px] text-black">2.55 m/s</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="w-[70%] mx-auto ">
+
+            <div class="bg-gray-100 text-center py-6 mb-14" data-aos="fade-up">
+              <span class="text-black text-[20px] font-medium">AVG Acceleration</span>
+            </div>
+
+            <div class="space-y-8 font-light font-[TitlingGothicFB-Light]">
+
+              <div class="flex items-center" data-aos="fade-up">
+                <span class="w-1/4 text-black text-[20px]">MATCH AVERAGE</span>
+                <div class="w-4/5 bg-gray-200 rounded-[5px] h-6 overflow-hidden ml-2">
+                  <div class="bg-[#008FD5] h-full animate-grow" style="--target-width: 95%;"></div>
+                </div>
+                <span class="w-1/6 text-right text-[20px] text-black">5.61 m/s2</span>
+              </div>
+
+              <div class="flex items-center" data-aos="fade-up">
+                <span class="w-1/4 text-black text-[20px]">PLAYER AVERAGE</span>
+                <div class="w-4/5 bg-gray-200 rounded-[5px] h-6 overflow-hidden ml-2">
+                  <div class="bg-[#77AB43] h-full animate-grow" style="--target-width: 95%;"></div>
+                </div>
+                <span class="w-1/6 text-right text-[20px] text-black">5.6 m/s2</span>
+              </div>
+
+              <div class="flex items-center" data-aos="fade-up">
+                <span class="w-1/4 text-black text-[20px]">TOUR AVERAGE</span>
+                <div class="w-4/5 bg-gray-200 rounded-[5px] h-6 overflow-hidden ml-2">
+                  <div class="bg-[#FF2700] h-full animate-grow" style="--target-width: 100%;"></div>
+                </div>
+                <span class="w-1/6 text-right text-[20px] text-black">5.17 m/s</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="tab3" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+        <div id="tab4" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+        <div id="tab5" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+        <div id="tab6" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+        <div id="tab7" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+        <div id="tab8" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+        <div id="tab9" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+        <div id="tab10" class="tab-content container mx-auto py-10 mb-20 min-h-[400px] hidden"></div>
+
+
+        <!-- Add more tab contents as needed -->
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="bg-[url('images/footer.jpg')] py-32 pox-10 text-center">
+    <a href="#" class="inline-block mb-5">
+      <img src="images/gsa_logo.png" alt="">
+    </a>
+    <div class="flex gap-5 justify-center items-center align-middle ">
+      <a href="#"
+        class="w-12 rounded-full border-2 border-white p-3 hoverbg-[#EBA53D] hover:bg-[#EBA53D] transition-all hover:[box-shadow:0px_15px_125px_0px_rgba(195,_159,_51,_0.75)]"><img
+          src="images/facebook.svg" alt=""></a>
+
+      <a href="#"
+        class="w-12 rounded-full border-2 border-white p-3 hoverbg-[#EBA53D] hover:bg-[#EBA53D] transition-all hover:[box-shadow:0px_15px_125px_0px_rgba(195,_159,_51,_0.75)]"><img
+          src="images/linkedin.svg" alt=""></a>
+
+      <a href="#"
+        class="w-12 rounded-full border-2 border-white p-2 hoverbg-[#EBA53D] hover:bg-[#EBA53D] transition-all hover:[box-shadow:0px_15px_125px_0px_rgba(195,_159,_51,_0.75)]"><img
+          src="images/youtube.svg" alt=""></a>
+
+      <a href="#"
+        class="w-12 rounded-full border-2 border-white p-2 hoverbg-[#EBA53D] hover:bg-[#EBA53D] transition-all hover:[box-shadow:0px_15px_125px_0px_rgba(195,_159,_51,_0.75)]"><img
+          src="images/instagram.svg" alt=""></a>
+    </div>
+  </footer>
+
+  <!-- The Modal -->
+  <div id="myModal" class="fixed inset-0 z-50 hidden bg-black bg-opacity-50 flex items-center justify-center">
+
+    <div class=" pt-32 shadow-lg transform transition-all duration-500 ease-out opacity-0 scale-95 w-[1068px] mx-auto "
+      id="modalContent">
+
+      <div class="bg-[#D5AA2A] py-14 px-16">
+
+        <div class="grid grid-cols-12 justify-center space-x-4 mb-6 font-['Manrope',_sans-serif]">
+          <!-- Surfaces Dropdown -->
+          <div class="relative inline-block col-span-4">
+            <button id="surfaceDropdownBtn"
+              class="w-full bg-white text-black rounded-full text-[18px] py-6 px-10  flex justify-between items-center">
+              Surfaces
+              <svg class="w-7 h-7 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06 0L10 10.939l3.71-3.72a.75.75 0 011.06 1.061l-4 4a.75.75 0 01-1.06 0l-4-4a.75.75 0 010-1.06z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
+            <!-- Dropdown Menu -->
+            <div id="surfaceDropdown"
+              class="hidden absolute z-10 mt-2 w-full bg-white border border-gray-200 rounded shadow-lg">
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Clay</a>
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Hard</a>
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Grass</a>
+            </div>
+          </div>
+
+          <!-- Seasons Dropdown -->
+          <div class="relative inline-block col-span-4 ">
+            <button id="seasonDropdownBtn"
+              class="w-full bg-white text-black rounded-full text-[18px] py-6 px-10  flex justify-between items-center">
+              Seasons
+              <svg class="w-7 h-7 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06 0L10 10.939l3.71-3.72a.75.75 0 011.06 1.061l-4 4a.75.75 0 01-1.06 0l-4-4a.75.75 0 010-1.06z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
+            <!-- Dropdown Menu -->
+            <div id="seasonDropdown"
+              class="hidden absolute z-10 mt-2 w-full bg-white border border-gray-200 rounded shadow-lg">
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">2023</a>
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">2024</a>
+            </div>
+          </div>
+
+          <!-- Opponents Dropdown -->
+          <div class="relative inline-block col-span-4 ">
+            <button id="opponentDropdownBtn"
+              class="w-full bg-white text-black rounded-full text-[18px] py-6 px-10  flex justify-between items-center">
+              Opponents
+              <svg class="w-7 h-7 ml-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06 0L10 10.939l3.71-3.72a.75.75 0 011.06 1.061l-4 4a.75.75 0 01-1.06 0l-4-4a.75.75 0 010-1.06z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
+            <!-- Dropdown Menu -->
+            <div id="opponentDropdown"
+              class="hidden absolute z-10 mt-2 w-full bg-white border border-gray-200 rounded shadow-lg">
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Paul</a>
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Korda</a>
+              <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-100">Sinner</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="h-[77vh] overflow-auto pb-10 bg-white">
+        <!-- Table Section -->
+        <div class=" pt-12 border-b px-10">
+          <table class="min-w-full bg-white border  text-center border-none">
+            <thead class="">
+              <tr class="text-[16px] text-black">
+                <th class="py-2 px-4 border-r">SELECT</th>
+                <th class="py-2 px-4 border-r">OPPONENT</th>
+                <th class="py-2 px-4 border-r">TOURNAMENT</th>
+                <th class="py-2 px-4 border-r">YEAR</th>
+                <th class="py-2 px-4 ">SURFACE</th>
+              </tr>
+            </thead>
+            <tbody class="relative">
+              <tr>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 "></td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox  w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">PAUL</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2024</td>
+                <td class="py-3 px-4 b">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">KORDA</td>
+                <td class="py-3 px-4 border-r">MADRID</td>
+                <td class="py-3 px-4 border-r">2024</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">SINNER</td>
+                <td class="py-3 px-4 border-r">MIAMI</td>
+                <td class="py-3 px-4 border-r">2024</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">PAUL</td>
+                <td class="py-3 px-4 border-r">INDIAN WELLS</td>
+                <td class="py-3 px-4 border-r">2024</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">DAVIDOVICH FOKINA</td>
+                <td class="py-3 px-4 border-r">DUBAI</td>
+                <td class="py-3 px-4 border-r">2024</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">SINNER</td>
+                <td class="py-3 px-4 border-r">AO</td>
+                <td class="py-3 px-4 border-r">2024</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">SINNER</td>
+                <td class="py-3 px-4 border-r">TURIN</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">TSITSIPAS</td>
+                <td class="py-3 px-4 border-r">VIENNA</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">SINNER</td>
+                <td class="py-3 px-4 border-r">BEIJING</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">PAUL</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">RUNE</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">TSITSIPAS</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">KHAN</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">PAUL</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">ZHIZHEN ZHANG</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">KUBLER</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">NARDI</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">ZHIZHEN ZHANG</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">WAWRINKA</td>
+                <td class="py-3 px-4 border-r">MADRID</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">RUNE</td>
+                <td class="py-3 px-4 border-r">MONTE-CARLO</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">SINNER</td>
+                <td class="py-3 px-4 border-r">ROME</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">Clay</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">BUBLIK</td>
+                <td class="py-3 px-4 border-r">MIAMI</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">NAKASHIMA</td>
+                <td class="py-3 px-4 border-r">INDIAN WELLS</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">HALYS</td>
+                <td class="py-3 px-4 border-r">MIAMI</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">DAVIDOVICH FOKINA</td>
+                <td class="py-3 px-4 border-r">INDIAN WELLS</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">WAWRINKA</td>
+                <td class="py-3 px-4 border-r">INDIAN WELLS</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4 border-r"><input type="checkbox" class="form-checkbox w-5 h-5"></td>
+                <td class="py-3 px-4 border-r">NAKASHIMA</td>
+                <td class="py-3 px-4 border-r">INDIAN WELLS</td>
+                <td class="py-3 px-4 border-r">2023</td>
+                <td class="py-3 px-4 ">hard</td>
+              </tr>
+              <tr>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 border-r"></td>
+                <td class="py-3 "></td>
+              </tr>
+
+
+            </tbody>
+          </table>
+        </div>
+
+        <div class="py-12 text-center">
+          <input type="submit"
+            class="rounded-[5px] cursor-pointer text-white hover:bg-[#ff9c0a] transition-all hover:[box-shadow:0px_15px_125px_0px_rgba(195,_159,_51,_0.75)] min-w-[186px] bg-[#D5AA2A] text-[16px] tracking-[0.8px] uppercase py-5 px-5 font-semibold text-center inline-block"
+            value="Apply Now" name="" id="">
+        </div>
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+
+  // JavaScript for Tabs 
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('#tabs a');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        tabContents.forEach(content => content.classList.add('hidden'));
+
+        const target = document.querySelector(tab.getAttribute('href'));
+        target.classList.remove('hidden');
+
+        tabs.forEach(tab => {
+          tab.parentElement.classList.remove('border-gray-800');
+          tab.classList.remove('text-gray-900');
+          tab.classList.add('text-gray-600');
+        });
+        tab.parentElement.classList.add('border-gray-800');
+        tab.classList.add('text-gray-900');
+      });
+    });
+  });
+
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  var modalContent = document.getElementById("modalContent");
+  var btn = document.getElementById("openModalBtn");
+  var span = document.getElementsByClassName("close")[0];
+
+  btn.onclick = function () {
+    modal.classList.remove("hidden");
+    setTimeout(function () {
+      modalContent.classList.remove("opacity-0", "scale-95");
+      modalContent.classList.add("opacity-100", "scale-100");
+    }, 10);
+  }
+
+
+
+  window.onclick = function (event) {
+
+    if (event.target == modal) {
+      modalContent.classList.add("opacity-0", "scale-95");
+      modalContent.classList.remove("opacity-100", "scale-100");
+      setTimeout(function () {
+        modal.classList.add("hidden");
+      }, 500);
+    }
+  }
+
+
+  // Dropdown Toggle Logic
+  document.getElementById('surfaceDropdownBtn').addEventListener('click', function () {
+    toggleDropdown('surfaceDropdown');
+  });
+
+  document.getElementById('seasonDropdownBtn').addEventListener('click', function () {
+    toggleDropdown('seasonDropdown');
+  });
+
+  document.getElementById('opponentDropdownBtn').addEventListener('click', function () {
+    toggleDropdown('opponentDropdown');
+  });
+
+  function toggleDropdown(dropdownId) {
+    document.getElementById(dropdownId).classList.toggle('hidden');
+  }
+
+  // Close dropdown if clicked outside
+  // window.onclick = function (event) {
+  //   if (!event.target.matches('.relative button')) {
+  //     var dropdowns = document.querySelectorAll('.relative .hidden');
+  //     dropdowns.forEach(function (dropdown) {
+  //       dropdown.classList.add('hidden');
+  //     });
+  //   }
+  // }
+
+
+
+
+  //Aos Animation
+  AOS.init({
+    duration: 1000,
+  });
+  AOS.refresh();
+
+</script>
+
+
+</html>

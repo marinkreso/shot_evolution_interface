@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GSA </title>
+
+
+  <!--Fav icon -->
+  <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+  <!--tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--custom -->
+  <link rel="stylesheet" href="style.css" />
+  <!--animation-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+
+  <div class="lg:px-36 lg:pt-14 bg-[#1E1E1E]">
+    <header class=" w-full relative overflow-hidden">
+      <a href="#" class="absolute z-30 top-10 md:left-20 left-10" data-aos="fade-in">
+        <img src="images/logo.png" alt="">
+      </a>
+      <div
+        class="absolute left-0 top-0 bg-[url('images/banner_overlay.png')] bg-cover z-10 h-full w-full">
+      </div>
+      <div class="swiper-container lg:h-[400px] md:h-[600px] h-[400px]">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide bg-[url('images/slide1.png')] bg-no-repeat bg-cover"> </div>
+        </div>
+        <div class="mt-10 md:left-20 left-10 absolute top-[50%] z-30" data-aos="fade-up">
+          <h1
+            class="leading-none mb-12 ">
+            <span class="block md:mb-0 mb-2  text-white font-medium md:tracking-[3.05px] md:text-[57px] text-[20px] font-['TitlingGothicFB-Normal']">REPORT</span>
+            <span class="text-[#D5AA2A] tracking-[2.15px] font-['TitlingGothicFB-Light'] md:text-[43px] text-[18px]">GSA Shot Quality Evolution</span> 
+          </h1>
+          <div class="flex gap-10">
+            <div class="swiper-button-prev hover:bg-[#D5AA2A] relative rounded-[34px] border-[1px] border-[solid] md:w-[68px] w-[40px] md:h-[68px] h-[40px] border-[#FFF]"></div>
+            <div class="swiper-button-next hover:bg-[#D5AA2A]  relative rounded-[34px] border-[1px] border-[solid] md:w-[68px] w-[40px] md:h-[68px] h-[40px] border-[#FFF]"></div>
+           
+          </div>
+         
+        </div>
+
+        <!-- Add Arrows -->
+      
+       
+    </div>
+      <!-- <div class="container relative mx-auto flex items-center  content-center align-middle h-full min-h-[700px]">
+
+  
+  
+  
+      </div> -->
+  
+  
+  
+    </header>
+  </div>
+ 
+
+  <section class="bg-[#1E1E1E]">
+
+    <div class="relative flex ">
+    
+      <button id="scrollLeft"
+        class="absolute left-0 z-10  hover:bg-gray-400 text-white p-2 rounded-full opacity-0 pointer-events-none">
+        &#9664; 
+      </button>
+
+      <div id="tabsWrapper" class="border-b-2 border-[#745D1A] overflow-x-auto whitespace-nowrap scroll-smooth w-full no-scrollbar">
+        <!-- Tabs Navigation -->
+        <ul id="tabs"
+          class="flex justify-center    lg:text-[19px] md:text-[16px] text-[14px] font-light  font-['TitlingGothicFB-Light']">
+          <li class="border-b-2 border-[#FFF500] ">
+            <a href="#tab1" class="text-white hover:text-[#FFF500] px-5 py-10 block">Serve</a>
+          </li>
+          <li class="pb-2 border-b-2 border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab2" class="text-white hover:text-[#FFF500] px-5 py-10 block">Return</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab3" class="text-white hover:text-[#FFF500] px-5 py-10 block">Return Speed</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab4" class="text-white hover:text-[#FFF500] py-10 block">Consistency</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab5" class="text-white hover:text-[#FFF500] px-5  py-10 block">Initiative</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab6" class="text-white hover:text-[#FFF500] px-5  py-10 block">Pressure</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab7" class="text-white hover:text-[#FFF500] px-5  py-10 block">Rally FH/BH</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab8" class="text-white hover:text-[#FFF500] px-5  py-10 block">Winners</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab9" class="text-white hover:text-[#FFF500] px-5  py-10 block">Approach Stats</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab10" class="text-white hover:text-[#FFF500] px-5  py-10 block">Rally Play Type</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab11" class="text-white hover:text-[#FFF500] px-5  py-10 block">Offensive</a>
+          </li>
+          <li class="border-b-2  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab12" class="text-white hover:text-[#FFF500] px-5  py-10 block">Defensive</a>
+          </li>
+          <li class=" border-b-[1px]  border-[#1E1E1E] hover:border-[#FFF500]">
+            <a href="#tab13" class="text-white hover:text-[#FFF500] px-5  py-10 block">Drop Shots</a>
+          </li>
+
+          <!-- Add more tabs as needed -->
+        </ul>
+
+      </div>
+
+    
+      <button id="scrollRight" class="absolute right-0 z-10  hover:bg-gray-400 text-white p-2 rounded-full">
+        &#9654; 
+      </button>
+    </div>
+
+
+    <!-- Tab Contents -->
+    <div id="tab-contents" class="md:mt-20 mt-10">
+      <div id="tab1" class="tab-content container mx-auto py-2 mb-0 min-h-[400px]">
+
+    
+
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST SERVE IN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">66</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">60</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST SERVE WIN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">78</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">78</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">2ND SERVE WIN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">56</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">52</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST SERVE AVERAGE SPEED</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">200</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">199</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF WELL-PLACED SERVES </td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">40</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">30</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST DEUCE WIDE AVG SPEED</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">185</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">184</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST DEUCE T AVG SPEED</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">209</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">206</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST AD T AVG SPEED</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">199</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">199</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST AD WIDE AVG SPEED</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">206</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">205</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+
+
+      </div>
+
+      <div id="tab2" class="tab-content container mx-auto py-2 mb-0 min-h-[400px] hidden">
+        <h2 class="text-[28px] text-center  mb-10 text-white" data-aos="fade-up">
+          1ST RETURN
+        </h2>
+
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN% ON 1ST RETURNS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">23</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">27</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST RETURN IN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">63</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">67</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST FH RETURN IN %</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">66</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">69</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST BH RETURN IN %</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">64</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">68</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF DEEP 1ST RETURNS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">22</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">28</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF 1ST SERVE RETURNS THAT LED TO EXTENDED RALLIES (5+)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">51</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">52</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST RETURN DEPTH (IN M)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">7.49</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">7.67</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="text-[28px] text-center  mb-10 text-white" data-aos="fade-up">
+          2ND RETURN
+        </h2>
+
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN% ON 2ND RETURNS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">45</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">45</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">2ND RETURN IN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">81</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">84</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">2ND FH RETURN IN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">81</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">87</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">2ND BH RETURN IN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">84</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">83</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF AGGRESIVE 2ND RETURNS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">21</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">27</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF DEEP 2ND RETURNS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">27</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">29</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">2ND RETURN DEPTH (IN M)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">7.87</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">7.88</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+        
+
+
+
+      </div>
+
+      
+      
+      <div id="tab3" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+
+        <h2 class="text-[28px] text-center  mb-10 text-white" data-aos="fade-up">
+          1ST RETURN
+        </h2>
+
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">105</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">106</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">88</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">91</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DEUCE SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">105</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">107</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DEUCE SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">85</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">88</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH AD SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">105</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">107</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH AD SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">85</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">88</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+
+        <h2 class="text-[28px] text-center  mb-10 text-white" data-aos="fade-up">
+          2ND RETURN
+        </h2>
+
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">131</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">125</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">108</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">106</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DEUCE SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">128</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">125</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DEUCE SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">105</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">103</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH AD SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">128</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">125</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH AD SPEED (IN KMH)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">105</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">103</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+
+        
+
+      </div>
+      <div id="tab4" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+
+      <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+        <table class="min-w-full text-left text-xl  text-white">
+          <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+            <tr>
+              <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+              
+              <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+              
+              <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+              
+            </tr>
+          </thead>
+          <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+            
+            <tr class="border-b border-[F2F2F2]">
+              <td class="md:py-8 py-5 md:px-6 px-3">DEUCE FH BALL IN PLAY%</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">82</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">78</td>
+              
+            </tr>
+            
+            <tr class="border-b border-[F2F2F2]">
+              <td class="md:py-8 py-5 md:px-6 px-3">MIDDLE FH BALL IN PLAY%</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">89</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">86</td>
+              
+            </tr>
+            
+            <tr class="border-b border-[F2F2F2]">
+              <td class="md:py-8 py-5 md:px-6 px-3">AD FH BALL IN PLAY%</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">88</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">84</td>
+              
+            </tr>
+            
+            <tr class="border-b border-[F2F2F2]">
+              <td class="md:py-8 py-5 md:px-6 px-3">MIDDLE BH BALL IN PLAY%</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">82</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">80</td>
+              
+            </tr>
+            
+            <tr class="border-b border-[F2F2F2]">
+              <td class="md:py-8 py-5 md:px-6 px-3">AD BH BALL IN PLAY%</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">85</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">80</td>
+              
+            </tr>
+            
+            <tr class="border-b border-[F2F2F2]">
+              <td class="md:py-8 py-5 md:px-6 px-3">DEUCE BH BALL IN PLAY%</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">NO SHOTS/RALLIES</td>
+              
+              <td class="md:py-8 py-5 md:px-6 px-3">50 (2 SHOTS)</td>
+              
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+      <div id="tab5" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF TIME INSIDE THE COURT
+ ON WHILE SERVER ON 1ST SERVE WHEN
+ RALLIES 9+ SHOTS </td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">14</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">31</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF TIME INSIDE THE COURT
+ ON RALLIES +9 SHOTS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">15</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">28</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF TIME INSIDE THE COURT ON 2ND SERVE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">21</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">28</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF TIME INSIDE THE COURT
+ ON 2ND RETURN</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">11</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">13</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      
+      </div>
+      <div id="tab6" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BREAK POINTS FACED WIN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">56</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">51</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BREAK POINT OPPORTUNITY WIN%</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">29</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">30</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">1ST SERVE SPEED REDUCTION WHEN UNDER PRESSURE VERSUS NO PRESSURE (NEGATIVE MEANS SPEED REDUCTION)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">1</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">1</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">RETURN SPEED REDUCTION ON BREAK POINT OPPORTUNITIES (NEGATIVE MEANS SPEED REDUCTION)</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">-1</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">-1</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="tab7" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">RALLY WINNERS PER MATCH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">9.62</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">13.43</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">RALLY UE PER MATCH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">13.0</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">19.35</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF FH SHOTS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">52</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">55</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF BH SHOTS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">48</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">45</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH CC SPEED - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">135.12</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">134.78</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH CC DEPTH - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.54</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.3</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH CC SPIN - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2684</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2950</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH CC SPEED - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">118.42</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">121.42</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH CC DEPTH - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.37</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.06</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH CC SPIN - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2855</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2884</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DTL SPEED - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">123.96</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">124.15</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DTL DEPTH - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.5</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.21</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DTL SPIN - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2682</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2949</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DTL SPEED - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">125.62</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">123.49</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DTL DEPTH - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">9.11</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.86</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DTL SPIN - AVERAGE IN PLAY</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2479</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2313</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="tab8" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH CC SPEED WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">139.53</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">136.91</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH CC DEPTH WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.32</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.3</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH CC SPIN WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">3038</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">3144</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH CC SPEED WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">122.54</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">122.52</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH CC DEPTH WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">7.95</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.0</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH CC SPIN WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2938</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">3022</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DTL SPEED WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">136.51</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">130.44</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DTL DEPTH WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.47</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.5</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">FH DTL SPIN WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2740</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2938</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DTL SPEED WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">132.39</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">130.66</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DTL DEPTH WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.86</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">8.91</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">BH DTL SPIN WINNERS/FE</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2320</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2335</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="tab9" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN% ON APPROACHES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">85</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">76</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% APPROACHES TO FH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">20</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">28</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% APPROACHES TO BH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">80</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">72</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% APPROACHES IN RALLIES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">6</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">5</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN % ON FH APPROACHES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">87</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">76</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN % ON BH APPROACHES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">72</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">64</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN % APPROACH TO FH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">76</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">72</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN % APPROACH TO BH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">88</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">76</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="tab10" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF LONG RALLIES WON</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">57</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">52</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF 1ST SERVES WON IN 5 SHOTS OR LESS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">64</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">68</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF 1ST SERVES FINISHED IN 5 SHOTS OR LESS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">80</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">84</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF 2ND RETURNS WON IN 5 SHOTS OR LESS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">21</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">27</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab11" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% BH DTL IN ALL RALLIES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">6</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">7</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% BH DTL WELL PLACED</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">22</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">34</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% FAST BH DTL</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">71</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">62</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% FH HIT IN RALLIES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">60</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">60</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% USE RUN AROUND FH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">29</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">30</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% WINNERS WHEN RUN AROUND FH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">20</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">22</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN % IN RALLIES USING RUN AROUND FH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">63</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">60</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% FAST ATTACKING DEUCE FH CROSS SHOTS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">73</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">72</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% FAST ATTACKING DEUCE FH CROSS WON</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">68</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">62</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% FAST ATTACKING DEUCE FH DTL SHOTS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">64</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">55</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% FAST ATTACKING DEUCE FH DTL WON</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">63</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">65</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% MOVED THE OPPONENT AFTER RECEIVING A NEUTRAL BALL</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">0</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">6</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab12" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF TIMES PUT ON THE RUN TO THE FH IN RALLIES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">3</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% OF TIMES PUT ON THE RUN TO THE BH IN RALLIES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">1</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">0</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% WON WHEN ON THE RUN TO FH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">27</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">35</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% WON WHEN ON THE RUN TO BH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">17</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">53</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% USED SLICE WHEN ON THE RUN TO THE BH</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">25</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">46</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% WON WHEN BH SLICE ON THE RUN</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">0</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">15</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% WON WHEN BH SLICE ON THE RUN ON FAST INCOMING BALL</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">0</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">0</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="tab13" class="tab-content container mx-auto py-2  min-h-[400px] hidden">
+        <div class="lg:w-[80%] mx-auto mt-5 mb-20 overflow-auto" data-aos="fade-up">
+          <table class="min-w-full text-left text-xl  text-white">
+            <thead class="bg-[#D5AA2A]  text-center md:text-[18px] text-[14px]">
+              <tr>
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r  border-[#1E1E1E] "></th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2026 HARD</th>
+                
+                <th class="md:py-8 py-5 md:px-6 px-3 border-r font-normal border-[#1E1E1E] ">TSITSIPAS 2025 HARD</th>
+                
+              </tr>
+            </thead>
+            <tbody class="text-center md:text-[20px] text-[14px] font-light text-white font-[TitlingGothicFB-Light]">
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">% DROPSHOTS IN RALLIES</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">1</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">2</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN% ON FH DROP SHOTS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">45</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">53</td>
+                
+              </tr>
+              
+              <tr class="border-b border-[F2F2F2]">
+                <td class="md:py-8 py-5 md:px-6 px-3">WIN% ON BH DROP SHOTS</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">25</td>
+                
+                <td class="md:py-8 py-5 md:px-6 px-3">54</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+      <!-- Add more tab contents as needed -->
+    </div>
+    </div>
+
+  </section>
+
+  <footer class="bg-[url('images/footer.jpg')] py-32 pox-10 text-center">
+    
+  </footer>
+
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+<script>
+ 
+//slider 
+
+// Initialize Swiper
+var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // loop: true,
+    autoplay:true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    effect: 'fade', // Default sliding effect (can be 'fade', 'cube', 'coverflow', etc.)
+});
+
+
+
+
+  //javascript arrow
+
+  const scrollLeftBtn = document.getElementById('scrollLeft');
+  const scrollRightBtn = document.getElementById('scrollRight');
+  const tabsWrapper = document.getElementById('tabsWrapper');
+  const tabs = document.getElementById('tabs');
+
+  // Function to toggle the visibility of scroll arrows
+  function updateArrowVisibility() {
+    const maxScrollLeft = tabsWrapper.scrollWidth - tabsWrapper.clientWidth;
+
+    // Show/hide left arrow
+    if (tabsWrapper.scrollLeft > 0) {
+      scrollLeftBtn.style.opacity = '1';
+      scrollLeftBtn.style.pointerEvents = 'auto'; // Enable click
+      
+    
+    } else {
+      scrollLeftBtn.style.opacity = '0';
+      scrollLeftBtn.style.pointerEvents = 'none'; // Disable click
+    }
+
+    // Show/hide right arrow
+    if (tabsWrapper.scrollLeft < maxScrollLeft) {
+      scrollRightBtn.style.opacity = '1';
+      scrollRightBtn.style.pointerEvents = 'auto'; // Enable click
+      tabs.classList.add('justify-around');
+    } else {
+      scrollRightBtn.style.opacity = '0';
+      scrollRightBtn.style.pointerEvents = 'none'; // Disable click
+    }
+  }
+
+  // Scroll left
+  scrollLeftBtn.addEventListener('click', () => {
+    tabsWrapper.scrollBy({
+      left: -200, // Adjust this value to control the scroll distance
+      behavior: 'smooth'
+    });
+  });
+
+  // Scroll right
+  scrollRightBtn.addEventListener('click', () => {
+    tabsWrapper.scrollBy({
+      left: 200, // Adjust this value to control the scroll distance
+      behavior: 'smooth'
+    });
+  });
+
+  // Attach the updateArrowVisibility function to scroll event
+  tabsWrapper.addEventListener('scroll', updateArrowVisibility);
+
+  // Run on load to check if right arrow is needed initially
+  window.addEventListener('load', updateArrowVisibility);
+
+
+
+
+  // JavaScript for Tabs 
+  document.addEventListener('DOMContentLoaded', function () {
+    const tabs = document.querySelectorAll('#tabs a');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', function (event) {
+        event.preventDefault();
+
+        tabContents.forEach(content => content.classList.add('hidden'));
+
+        const target = document.querySelector(tab.getAttribute('href'));
+        target.classList.remove('hidden');
+
+        tabs.forEach(tab => {
+          tab.parentElement.classList.remove('border-[#FFF500]');
+          tab.parentElement.classList.add('border-[#1E1E1E]');
+
+          
+          // tab.classList.remove('text-white');
+          // tab.classList.add('text-gray-600');
+        });
+        tab.parentElement.classList.add('border-[#FFF500]');
+        // tab.classList.add('text-gray-900');
+      });
+    });
+  });
+
+
+
+  // Close dropdown if clicked outside
+  // window.onclick = function (event) {
+  //   if (!event.target.matches('.relative button')) {
+  //     var dropdowns = document.querySelectorAll('.relative .hidden');
+  //     dropdowns.forEach(function (dropdown) {
+  //       dropdown.classList.add('hidden');
+  //     });
+  //   }
+  // }
+
+
+
+
+  //Aos Animation
+  AOS.init({
+    duration: 1000,
+  });
+  AOS.refresh();
+
+</script>
+
+
+</html>

@@ -1,0 +1,283 @@
+{
+    "selected_player_name": "OSAKA",
+    "opponent_name": "RIERA",
+    "1st Serve": {
+        "1ST SERVE IN%": "57%",
+        "1ST SERVE WIN%": "69%",
+        "1ST DEUCE SERVE WIN%": "71%",
+        "1ST AD SERVE WIN%": "67%",
+        "1ST SERVE EFFICENCY": 39,
+        "1ST SERVE ACES": 8
+    },
+    "2nd Serve": {
+        "2ND SERVE WIN%": "35%",
+        "2ND DEUCE SERVE WIN%": "30%",
+        "2ND AD SERVE WIN%": "40%",
+        "2ND SERVE SPEED": "137 KM/H",
+        "TOP 30 2ND SERVE SPEED AVERAGE": "139 KM/H",
+        "2ND SERVE SPIN (IN RPM)": 1025,
+        "2ND SERVE DF": 0
+    },
+    "2nd Serve Deuce": {
+        "SPEED": {
+            "2ND DEUCE WIDE SERVE SPEED": "141 KM/H",
+            "2ND DEUCE BODY SERVE SPEED": "138 KM/H",
+            "2ND DEUCE T SERVE SPEED": "129 KM/H"
+        },
+        "SPIN": {
+            "2ND DEUCE WIDE SERVE RPM": "NAN RPM",
+            "2ND DEUCE BODY SERVE RPM": "1173 RPM",
+            "2ND DEUCE T SERVE RPM": "1122 RPM"
+        }
+    },
+    "2nd Serve Ad": {
+        "SPEED": {
+            "2ND AD WIDE SERVE SPEED": "0 KM/H",
+            "2ND AD BODY SERVE SPEED": "136 KM/H",
+            "2ND AD T SERVE SPEED": "136 KM/H"
+        },
+        "SPIN": {
+            "2ND AD WIDE SERVE RPM": "NO SERVES RPM",
+            "2ND AD BODY SERVE RPM": "NAN RPM",
+            "2ND AD T SERVE RPM": "913 RPM"
+        }
+    },
+    "Return Data 1st": [
+        {
+            "Metric": "1ST RETURN IN%",
+            "R1 AO 2025": "79%",
+            "R3 AO 2025": "82%",
+            "OSAKA 2024": "74%",
+            "OSAKA 2019-2021": "78%",
+            "TOP 10": "78%"
+        },
+        {
+            "Metric": "1ST RETURN WIN%",
+            "R1 AO 2025": "43%",
+            "R3 AO 2025": "32%",
+            "OSAKA 2024": "33%",
+            "OSAKA 2019-2021": "36%",
+            "TOP 10": "39%"
+        },
+        {
+            "Metric": "% OF DEEP 1ST RETURNS",
+            "R1 AO 2025": "37%",
+            "R3 AO 2025": "30%",
+            "OSAKA 2024": "33%",
+            "OSAKA 2019-2021": "29%",
+            "TOP 10": "31%"
+        }
+    ],
+    "Return Data 2nd": [
+        {
+            "Metric": "2ND RETURN IN%",
+            "R1 AO 2025": "90%",
+            "R3 AO 2025": "58%",
+            "OSAKA 2024": "75%",
+            "OSAKA 2019-2021": "83%",
+            "TOP 10": "84%"
+        },
+        {
+            "Metric": "2ND RETURN WIN%",
+            "R1 AO 2025": "42%",
+            "R3 AO 2025": "42%",
+            "OSAKA 2024": "43%",
+            "OSAKA 2019-2021": "50%",
+            "TOP 10": "51%"
+        }
+    ],
+    "GS DATA": [
+        {
+            "Metric": "FH SPEED",
+            "Value": "121 KM/H"
+        },
+        {
+            "Metric": "FH RPM",
+            "Value": "2127 RPM"
+        },
+        {
+            "Metric": "BH SPEED",
+            "Value": "113 KM/H"
+        },
+        {
+            "Metric": "BH RPM",
+            "Value": "1488 RPM"
+        }
+    ],
+    "FH GS ZONES": [
+        {
+            "ZONE": "FROM A TO A",
+            "% PLAYED": "26.46%",
+            "% IN": "76%",
+            "WINNERS": 4,
+            "UNFORCED ERRORS": 8
+        },
+        {
+            "ZONE": "FROM A TO B",
+            "% PLAYED": "7.94%",
+            "% IN": "73%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 3
+        },
+        {
+            "ZONE": "FROM A TO C",
+            "% PLAYED": "7.41%",
+            "% IN": "79%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 2
+        },
+        {
+            "ZONE": "FROM A TO D",
+            "% PLAYED": "11.11%",
+            "% IN": "71%",
+            "WINNERS": 3,
+            "UNFORCED ERRORS": 4
+        },
+        {
+            "ZONE": "FROM B TO A",
+            "% PLAYED": "13.76%",
+            "% IN": "81%",
+            "WINNERS": 5,
+            "UNFORCED ERRORS": 5
+        },
+        {
+            "ZONE": "FROM B TO B",
+            "% PLAYED": "4.23%",
+            "% IN": "50%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 4
+        },
+        {
+            "ZONE": "FROM B TO C",
+            "% PLAYED": "4.23%",
+            "% IN": "88%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 1
+        },
+        {
+            "ZONE": "FROM B TO D",
+            "% PLAYED": "12.7%",
+            "% IN": "79%",
+            "WINNERS": 4,
+            "UNFORCED ERRORS": 5
+        },
+        {
+            "ZONE": "FROM C TO A",
+            "% PLAYED": "4.23%",
+            "% IN": "50%",
+            "WINNERS": 1,
+            "UNFORCED ERRORS": 4
+        },
+        {
+            "ZONE": "FROM C TO B",
+            "% PLAYED": "0.53%",
+            "% IN": "100%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 0
+        },
+        {
+            "ZONE": "FROM C TO C",
+            "% PLAYED": "0.53%",
+            "% IN": "100%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 0
+        },
+        {
+            "ZONE": "FROM C TO D",
+            "% PLAYED": "5.29%",
+            "% IN": "80%",
+            "WINNERS": 2,
+            "UNFORCED ERRORS": 2
+        },
+        {
+            "ZONE": "FROM D TO A",
+            "% PLAYED": "0.53%",
+            "% IN": "100%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 0
+        },
+        {
+            "ZONE": "FROM D TO D",
+            "% PLAYED": "1.06%",
+            "% IN": "100%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 0
+        }
+    ],
+    "BH GS ZONES": [
+        {
+            "ZONE": "FROM C TO A",
+            "% PLAYED": "11.17%",
+            "% IN": "73%",
+            "WINNERS": 6,
+            "UNFORCED ERRORS": 6
+        },
+        {
+            "ZONE": "FROM C TO B",
+            "% PLAYED": "4.06%",
+            "% IN": "75%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 1
+        },
+        {
+            "ZONE": "FROM C TO C",
+            "% PLAYED": "5.08%",
+            "% IN": "100%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 0
+        },
+        {
+            "ZONE": "FROM C TO D",
+            "% PLAYED": "9.64%",
+            "% IN": "74%",
+            "WINNERS": 2,
+            "UNFORCED ERRORS": 5
+        },
+        {
+            "ZONE": "FROM D TO A",
+            "% PLAYED": "22.34%",
+            "% IN": "64%",
+            "WINNERS": 4,
+            "UNFORCED ERRORS": 11
+        },
+        {
+            "ZONE": "FROM D TO B",
+            "% PLAYED": "9.64%",
+            "% IN": "79%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 1
+        },
+        {
+            "ZONE": "FROM D TO C",
+            "% PLAYED": "12.69%",
+            "% IN": "76%",
+            "WINNERS": 0,
+            "UNFORCED ERRORS": 4
+        },
+        {
+            "ZONE": "FROM D TO D",
+            "% PLAYED": "24.87%",
+            "% IN": "78%",
+            "WINNERS": 3,
+            "UNFORCED ERRORS": 9
+        }
+    ],
+    "CONSISTENCY": [
+        {
+            "Metric": "MIDDLE FH IN PLAY %",
+            "R1 AO 2025": "85%",
+            "R3 AO 2025": "47%",
+            "OSAKA 2024": "77%",
+            "OSAKA 2019-2021": "83%",
+            "TOP 10": "85%"
+        },
+        {
+            "Metric": "MIDDLE BH IN PLAY %",
+            "R1 AO 2025": "75%",
+            "R3 AO 2025": "60%",
+            "OSAKA 2024": "80%",
+            "OSAKA 2019-2021": "84%",
+            "TOP 10": "85%"
+        }
+    ]
+}

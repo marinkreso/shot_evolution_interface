@@ -13605,6 +13605,30 @@
             "match_id": "Cincinnati_2026_R64_Tsitsipas_Auger-Aliassime",
             "DATE": "2026-08-16",
             "hash_id": "3b33320ee5866914"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "BROOKSBY",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Brooksby_Tsitsipas",
+            "DATE": "2026-08-24",
+            "hash_id": "453505b2156cfbf8"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "KOVACEVIC",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R16_Kovacevic_Tsitsipas",
+            "DATE": "2026-08-26",
+            "hash_id": "7c23b2ae1b52ebe3"
         }
     ],
     "PAUL": [
@@ -19065,6 +19089,30 @@
             "match_id": "Cincinnati_2026_R64_Altmaier_Musetti",
             "DATE": "2026-08-16",
             "hash_id": "1d326c3bb465bd84"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "COMESANA",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Altmaier_Comesana",
+            "DATE": "2026-08-25",
+            "hash_id": "d3a0a9703d3ca2a6"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "BUSE",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R16_Altmaier_Buse",
+            "DATE": "2026-08-26",
+            "hash_id": "1e126d6210956d03"
         }
     ],
     "SEYBOTH WILD": [
@@ -21554,6 +21602,18 @@
             "match_id": "Cincinnati_2026_R64_Blockx_Navone",
             "DATE": "2026-08-15",
             "hash_id": "1e80c2e05a0e75b9"
+        },
+        {
+            "PLAYER": "NAVONE",
+            "OPPONENT": "DUCKWORTH",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Duckworth_Navone",
+            "DATE": "2026-08-25",
+            "hash_id": "c5db01bdbc0945c1"
         }
     ],
     "GASTON": [
@@ -22484,6 +22544,18 @@
             "match_id": "Winston_Salem_2026_R64_Mpetshi-Perricard_Brooksby",
             "DATE": "2026-08-23",
             "hash_id": "3bf56563ccefcc18"
+        },
+        {
+            "PLAYER": "BROOKSBY",
+            "OPPONENT": "TSITSIPAS",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Brooksby_Tsitsipas",
+            "DATE": "2026-08-24",
+            "hash_id": "a7066388407484ca"
         }
     ],
     "QUINN": [
@@ -30208,6 +30280,30 @@
             "match_id": "Rogers_cup_2026_R32_Mertens_Osaka",
             "DATE": "2026-08-07",
             "hash_id": "d6996c28d4165ddd"
+        },
+        {
+            "PLAYER": "MERTENS",
+            "OPPONENT": "PARRY",
+            "TOURNAMENT": "CINCINNNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnnati_2026_R64_Mertens_Parry",
+            "DATE": "2026-08-15",
+            "hash_id": "d3c9bbcc3b0d29e5"
+        },
+        {
+            "PLAYER": "MERTENS",
+            "OPPONENT": "BONDAR",
+            "TOURNAMENT": "ROGERS CUP",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Rogers_cup_2026_R64_Mertens_Bondar",
+            "DATE": "2026-08-05",
+            "hash_id": "5c9e869791ec8d8d"
         }
     ],
     "DART": [
@@ -31802,6 +31898,18 @@
             "match_id": "Marrakech_2026_CV_Bellucci_Bennani",
             "DATE": "2026-03-31",
             "hash_id": "ea4b524ef9cec40b"
+        },
+        {
+            "PLAYER": "BELLUCCI",
+            "OPPONENT": "DARDERI",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Bellucci_Darderi",
+            "DATE": "2026-08-25",
+            "hash_id": "6a693973ed295357"
         }
     ],
     "SELL": [
@@ -33116,6 +33224,30 @@
             "match_id": "Cincinnati_2026_1st_Marozsan_Zheng",
             "DATE": "2026-08-14",
             "hash_id": "c4d488fd0c6ebf7b"
+        },
+        {
+            "PLAYER": "MAROZSAN",
+            "OPPONENT": "DAMM",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R16_Damm_Marozsan",
+            "DATE": "2026-08-27",
+            "hash_id": "193449624e7f16d8"
+        },
+        {
+            "PLAYER": "MAROZSAN",
+            "OPPONENT": "KECMANOVIC",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Kecmanovic_Marozsan",
+            "DATE": "2026-08-26",
+            "hash_id": "abda0040eee8a9f3"
         }
     ],
     "ZVEREV": [
@@ -35160,6 +35292,66 @@
             "match_id": "Rogers_cup_2026_R64_Buse_Norrie",
             "DATE": "2026-08-05",
             "hash_id": "bd1f453438758b1c"
+        },
+        {
+            "PLAYER": "BUSE",
+            "OPPONENT": "WALTON",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Walton_Buse",
+            "DATE": "2026-08-25",
+            "hash_id": "85aedf98ec1f566d"
+        },
+        {
+            "PLAYER": "BUSE",
+            "OPPONENT": "ALTMAIER",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R16_Altmaier_Buse",
+            "DATE": "2026-08-26",
+            "hash_id": "cf0f0595422cc2cd"
+        },
+        {
+            "PLAYER": "BUSE",
+            "OPPONENT": "CERUNDOLO",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_QF_Cerundolo_Buse",
+            "DATE": "2026-08-27",
+            "hash_id": "4140fb136a41633c"
+        },
+        {
+            "PLAYER": "BUSE",
+            "OPPONENT": "BONZI",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "SF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_SF_Buse_Bonzi",
+            "DATE": "2026-08-28",
+            "hash_id": "446b30ea6bbb4905"
+        },
+        {
+            "PLAYER": "BUSE",
+            "OPPONENT": "FERY",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "F",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_F_Fery_Buse",
+            "DATE": "2026-08-29",
+            "hash_id": "4039b172d1ef82fa"
         }
     ],
     "ENGEL": [
@@ -35494,6 +35686,18 @@
             "match_id": "Nottingham_2026_R32_Bondar_Navarro",
             "DATE": "2026-06-15",
             "hash_id": "71a75cf3dfc8a999"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "MERTENS",
+            "TOURNAMENT": "ROGERS CUP",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Rogers_cup_2026_R64_Mertens_Bondar",
+            "DATE": "2026-08-05",
+            "hash_id": "600f3f9360e2f0f1"
         }
     ],
     "CRISTIAN": [
@@ -35967,6 +36171,18 @@
             "match_id": "Cincinnati_2026_1st_Navone_Collignon",
             "DATE": "2026-08-13",
             "hash_id": "6a0ee1e4bc0665eb"
+        },
+        {
+            "PLAYER": "COLLIGNON",
+            "OPPONENT": "HIJIKATA",
+            "TOURNAMENT": "WINSTON SALEM",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Winston_Salem_2026_R32_Collignon_Hijikata",
+            "DATE": "2026-08-25",
+            "hash_id": "eb5c8f96cc46a554"
         }
     ],
     "MBOKO": [
@@ -38793,6 +39009,18 @@
             "match_id": "Cincinnati_2026_R32_Lehecka_Fils",
             "DATE": "2026-08-18",
             "hash_id": "361e1fcc66ec66c1"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "CARRENO-BUSTA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Lehecka_Carreno-Busta",
+            "DATE": "2026-08-30",
+            "hash_id": "462f3b7145bfbdb9"
         }
     ],
     "VALENTOVA": [

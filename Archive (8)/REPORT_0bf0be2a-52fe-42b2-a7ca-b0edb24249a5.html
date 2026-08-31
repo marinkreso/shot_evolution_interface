@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Custom Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #050816;
+      --accent-gold: #D5AA2A;
+      --accent-blue: #3b82f6;
+      --accent-orange: #f97316;
+      --accent-purple: #a855f7;
+      --accent-green: #22c55e;
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --border-subtle: rgba(148, 163, 184, 0.3);
+      --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.7);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #1e293b 0, #020617 55%);
+      color: var(--text-main);
+      line-height: 1.5;
+      padding: 32px 16px 48px;
+    }
+
+    @media (min-width: 768px) { body { padding: 40px 32px 64px; } }
+
+    .page { max-width: 1400px; margin: 0 auto; }
+
+    .header { text-align: center; margin-bottom: 28px; }
+
+    .title-sub {
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .title-main {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, #D5AA2A, #f59e0b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .title-player {
+      font-size: 1.2rem;
+      color: var(--text-main);
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-top: 16px;
+    }
+
+    .pill {
+      font-size: 0.75rem;
+      padding: 5px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border-subtle);
+      color: var(--text-muted);
+      background: rgba(2,6,23,0.35);
+    }
+    .pill-gold {
+      border-color: var(--accent-gold);
+      color: var(--accent-gold);
+      background: rgba(213, 170, 42, 0.1);
+      font-weight: 600;
+    }
+
+    .tabs-wrapper {
+      overflow-x: auto;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 6px;
+      min-width: max-content;
+    }
+
+    .tab-btn {
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border-subtle);
+      background: rgba(2, 6, 23, 0.5);
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .tab-btn:hover { background: rgba(213, 170, 42, 0.1); border-color: var(--accent-gold); }
+
+    .tab-btn.active.orange { background: rgba(249, 115, 22, 0.15); border-color: var(--accent-orange); color: var(--accent-orange); }
+    .tab-btn.active.blue { background: rgba(59, 130, 246, 0.15); border-color: var(--accent-blue); color: var(--accent-blue); }
+    .tab-btn.active.purple { background: rgba(168, 85, 247, 0.15); border-color: var(--accent-purple); color: var(--accent-purple); }
+    .tab-btn.active.green { background: rgba(34, 197, 94, 0.15); border-color: var(--accent-green); color: var(--accent-green); }
+
+    .section {
+      padding: 20px;
+      border-radius: 20px;
+      background: radial-gradient(circle at top left, #111827 0, #020617 70%);
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--accent-gold);
+      text-align: center;
+      margin: 24px 0 16px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .section-title:first-child { margin-top: 0; }
+
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 14px;
+      border: 1px solid var(--border-subtle);
+      background: rgba(2,6,23,0.25);
+      margin-bottom: 20px;
+    }
+
+    .table-wrap:last-child { margin-bottom: 0; }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      min-width: 700px;
+    }
+
+    thead th {
+      text-align: center;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-main);
+      padding: 12px 8px;
+      background: linear-gradient(135deg, #D5AA2A, #b8941f);
+      border-bottom: 1px solid var(--border-subtle);
+      white-space: nowrap;
+    }
+
+    thead th.th-stat {
+      text-align: left;
+      border-top-left-radius: 14px;
+      min-width: 200px;
+      padding-left: 14px;
+    }
+
+    thead th:last-child { border-top-right-radius: 14px; }
+
+    tbody td {
+      padding: 10px 8px;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+      font-size: 0.85rem;
+    }
+
+    tbody tr:hover td { background: rgba(213, 170, 42, 0.06); }
+
+    tbody tr:last-child td { border-bottom: none; }
+
+    .col-stat {
+      font-weight: 500;
+      text-align: left;
+      color: var(--text-main);
+      padding-left: 14px;
+    }
+
+    .num {
+      text-align: center;
+      font-variant-numeric: tabular-nums;
+      font-weight: 500;
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-align: right;
+    }
+
+    /* Mobile */
+    @media (max-width: 900px) {
+      body { padding: 18px 12px 28px; }
+      .tab-btn { padding: 8px 10px; font-size: 0.72rem; }
+      .section { padding: 14px; }
+
+      .table-wrap { overflow: visible; border: none; background: transparent; }
+      table { border-collapse: separate; border-spacing: 0 10px; min-width: unset; }
+      thead { display: none; }
+      tbody tr {
+        display: block;
+        border: 1px solid rgba(148, 163, 184, 0.3);
+        background: rgba(2, 6, 23, 0.5);
+        border-radius: 14px;
+        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.5);
+        overflow: hidden;
+      }
+      tbody td {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 8px 12px;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.15);
+        font-size: 0.82rem;
+        text-align: right !important;
+      }
+      tbody td:last-child { border-bottom: none; }
+      tbody td::before {
+        content: attr(data-label);
+        flex: 1 1 auto;
+        text-align: left;
+        color: var(--text-muted);
+        font-size: 0.68rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+      }
+      tbody td.col-stat {
+        background: linear-gradient(135deg, rgba(213, 170, 42, 0.15), rgba(213, 170, 42, 0.05));
+        font-weight: 600;
+        text-align: left !important;
+        padding: 12px;
+      }
+      tbody td.col-stat::before { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="title-sub">GSA Analytics Report</div>
+      <h1 class="title-main">Custom Title</h1>
+      <div class="title-player">Player - Surface</div>
+      <div class="badge-row">
+        <span class="pill pill-gold">Performance Comparison</span>
+<span class="pill">Hard Court</span>
+<span class="pill">GSA Analytics</span>
+      </div>
+    </header>
+
+    <div class="tabs-wrapper">
+      <div class="tabs">
+      <button class="tab-btn active orange" data-tab="serve">Serve</button>
+      <button class="tab-btn blue" data-tab="return">Return</button>
+      <button class="tab-btn purple" data-tab="return-speed">Return Speed</button>
+      <button class="tab-btn green" data-tab="consistency">Consistency</button>
+      <button class="tab-btn orange" data-tab="initiative">Initiative</button>
+      <button class="tab-btn blue" data-tab="pressure">Pressure</button>
+      <button class="tab-btn purple" data-tab="rally-fh-bh">Rally FH/BH</button>
+      <button class="tab-btn green" data-tab="winners">Winners</button>
+      <button class="tab-btn orange" data-tab="approach-stats">Approach Stats</button>
+      <button class="tab-btn blue" data-tab="rally-play-type">Rally Play Type</button>
+      <button class="tab-btn purple" data-tab="offensive">Offensive</button>
+      <button class="tab-btn green" data-tab="defensive">Defensive</button>
+      <button class="tab-btn orange" data-tab="drop-shots">Drop Shots</button>
+      </div>
+    </div>
+
+    <div id="serve" class="tab-content">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST SERVE IN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">67</td><td class="num" data-label="TSITSIPAS 2025 HARD">60</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST SERVE WIN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">78</td><td class="num" data-label="TSITSIPAS 2025 HARD">78</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">2ND SERVE WIN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">59</td><td class="num" data-label="TSITSIPAS 2025 HARD">52</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST SERVE AVERAGE SPEED</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">197</td><td class="num" data-label="TSITSIPAS 2025 HARD">199</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF WELL-PLACED SERVES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">40</td><td class="num" data-label="TSITSIPAS 2025 HARD">30</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST DEUCE WIDE AVG SPEED</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">179</td><td class="num" data-label="TSITSIPAS 2025 HARD">184</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST DEUCE T AVG SPEED</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">206</td><td class="num" data-label="TSITSIPAS 2025 HARD">206</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST AD T AVG SPEED</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">196</td><td class="num" data-label="TSITSIPAS 2025 HARD">199</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST AD WIDE AVG SPEED</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">204</td><td class="num" data-label="TSITSIPAS 2025 HARD">205</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="return" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        <h3 class="section-title">1ST RETURN</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN% ON 1ST RETURNS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">22</td><td class="num" data-label="TSITSIPAS 2025 HARD">27</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST RETURN IN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">54</td><td class="num" data-label="TSITSIPAS 2025 HARD">67</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST FH RETURN IN %</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">58</td><td class="num" data-label="TSITSIPAS 2025 HARD">69</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST BH RETURN IN %</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">51</td><td class="num" data-label="TSITSIPAS 2025 HARD">68</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF DEEP 1ST RETURNS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">29</td><td class="num" data-label="TSITSIPAS 2025 HARD">28</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF 1ST SERVE RETURNS THAT LED TO EXTENDED RALLIES (5+)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">59</td><td class="num" data-label="TSITSIPAS 2025 HARD">52</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST RETURN DEPTH (IN M)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">7.53</td><td class="num" data-label="TSITSIPAS 2025 HARD">7.67</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 class="section-title">2ND RETURN</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN% ON 2ND RETURNS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">45</td><td class="num" data-label="TSITSIPAS 2025 HARD">45</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">2ND RETURN IN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">84</td><td class="num" data-label="TSITSIPAS 2025 HARD">84</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">2ND FH RETURN IN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">82</td><td class="num" data-label="TSITSIPAS 2025 HARD">87</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">2ND BH RETURN IN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">85</td><td class="num" data-label="TSITSIPAS 2025 HARD">83</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF AGGRESIVE 2ND RETURNS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">18</td><td class="num" data-label="TSITSIPAS 2025 HARD">27</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF DEEP 2ND RETURNS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">23</td><td class="num" data-label="TSITSIPAS 2025 HARD">29</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">2ND RETURN DEPTH (IN M)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">7.98</td><td class="num" data-label="TSITSIPAS 2025 HARD">7.88</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="return-speed" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        <h3 class="section-title">1ST RETURN</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">105</td><td class="num" data-label="TSITSIPAS 2025 HARD">106</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">90</td><td class="num" data-label="TSITSIPAS 2025 HARD">91</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DEUCE SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">107</td><td class="num" data-label="TSITSIPAS 2025 HARD">107</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DEUCE SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">82</td><td class="num" data-label="TSITSIPAS 2025 HARD">88</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH AD SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">107</td><td class="num" data-label="TSITSIPAS 2025 HARD">107</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH AD SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">82</td><td class="num" data-label="TSITSIPAS 2025 HARD">88</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h3 class="section-title">2ND RETURN</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">131</td><td class="num" data-label="TSITSIPAS 2025 HARD">125</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">110</td><td class="num" data-label="TSITSIPAS 2025 HARD">106</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DEUCE SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">130</td><td class="num" data-label="TSITSIPAS 2025 HARD">125</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DEUCE SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">108</td><td class="num" data-label="TSITSIPAS 2025 HARD">103</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH AD SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">130</td><td class="num" data-label="TSITSIPAS 2025 HARD">125</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH AD SPEED (IN KMH)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">108</td><td class="num" data-label="TSITSIPAS 2025 HARD">103</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="consistency" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">DEUCE FH BALL IN PLAY%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">84</td><td class="num" data-label="TSITSIPAS 2025 HARD">78</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">MIDDLE FH BALL IN PLAY%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">90</td><td class="num" data-label="TSITSIPAS 2025 HARD">86</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">AD FH BALL IN PLAY%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">91</td><td class="num" data-label="TSITSIPAS 2025 HARD">84</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">MIDDLE BH BALL IN PLAY%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">87</td><td class="num" data-label="TSITSIPAS 2025 HARD">80</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">AD BH BALL IN PLAY%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">87</td><td class="num" data-label="TSITSIPAS 2025 HARD">80</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">DEUCE BH BALL IN PLAY%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">N/A</td><td class="num" data-label="TSITSIPAS 2025 HARD">50 (2 SHOTS)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="initiative" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF TIME INSIDE THE COURT
+ ON WHILE SERVER ON 1ST SERVE WHEN
+ RALLIES 9+ SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">5</td><td class="num" data-label="TSITSIPAS 2025 HARD">31</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF TIME INSIDE THE COURT
+ ON RALLIES +9 SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">10</td><td class="num" data-label="TSITSIPAS 2025 HARD">28</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF TIME INSIDE THE COURT ON 2ND SERVE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">25</td><td class="num" data-label="TSITSIPAS 2025 HARD">28</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF TIME INSIDE THE COURT
+ ON 2ND RETURN</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">9</td><td class="num" data-label="TSITSIPAS 2025 HARD">13</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="pressure" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">BREAK POINTS FACED WIN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">57</td><td class="num" data-label="TSITSIPAS 2025 HARD">51</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BREAK POINT OPPORTUNITY WIN%</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">30</td><td class="num" data-label="TSITSIPAS 2025 HARD">30</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">1ST SERVE SPEED REDUCTION WHEN UNDER PRESSURE VERSUS NO PRESSURE (NEGATIVE MEANS SPEED REDUCTION)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">-2</td><td class="num" data-label="TSITSIPAS 2025 HARD">1</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">RETURN SPEED REDUCTION ON BREAK POINT OPPORTUNITIES (NEGATIVE MEANS SPEED REDUCTION)</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">4</td><td class="num" data-label="TSITSIPAS 2025 HARD">-1</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="rally-fh-bh" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">RALLY WINNERS PER MATCH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.33</td><td class="num" data-label="TSITSIPAS 2025 HARD">13.43</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">RALLY UE PER MATCH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">12.67</td><td class="num" data-label="TSITSIPAS 2025 HARD">19.35</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF FH SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">53</td><td class="num" data-label="TSITSIPAS 2025 HARD">55</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF BH SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">47</td><td class="num" data-label="TSITSIPAS 2025 HARD">45</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH CC SPEED - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">134.08</td><td class="num" data-label="TSITSIPAS 2025 HARD">134.78</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH CC DEPTH - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.33</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.3</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH CC SPIN - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2514</td><td class="num" data-label="TSITSIPAS 2025 HARD">2950</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH CC SPEED - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">117.44</td><td class="num" data-label="TSITSIPAS 2025 HARD">121.42</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH CC DEPTH - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.53</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.06</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH CC SPIN - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2853</td><td class="num" data-label="TSITSIPAS 2025 HARD">2884</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DTL SPEED - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">121.04</td><td class="num" data-label="TSITSIPAS 2025 HARD">124.15</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DTL DEPTH - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.63</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.21</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DTL SPIN - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2550</td><td class="num" data-label="TSITSIPAS 2025 HARD">2949</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DTL SPEED - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">128.38</td><td class="num" data-label="TSITSIPAS 2025 HARD">123.49</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DTL DEPTH - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.85</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.86</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DTL SPIN - AVERAGE IN PLAY</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2549</td><td class="num" data-label="TSITSIPAS 2025 HARD">2313</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="winners" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH CC SPEED WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">134.55</td><td class="num" data-label="TSITSIPAS 2025 HARD">136.91</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH CC DEPTH WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.12</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.3</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH CC SPIN WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2953</td><td class="num" data-label="TSITSIPAS 2025 HARD">3144</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH CC SPEED WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">124.91</td><td class="num" data-label="TSITSIPAS 2025 HARD">122.52</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH CC DEPTH WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">7.93</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.0</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH CC SPIN WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2968</td><td class="num" data-label="TSITSIPAS 2025 HARD">3022</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DTL SPEED WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">133.76</td><td class="num" data-label="TSITSIPAS 2025 HARD">130.44</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DTL DEPTH WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.33</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.5</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">FH DTL SPIN WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2763</td><td class="num" data-label="TSITSIPAS 2025 HARD">2938</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DTL SPEED WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">129.87</td><td class="num" data-label="TSITSIPAS 2025 HARD">130.66</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DTL DEPTH WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">8.72</td><td class="num" data-label="TSITSIPAS 2025 HARD">8.91</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">BH DTL SPIN WINNERS/FE</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2385</td><td class="num" data-label="TSITSIPAS 2025 HARD">2335</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="approach-stats" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN% ON APPROACHES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">96</td><td class="num" data-label="TSITSIPAS 2025 HARD">76</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% APPROACHES TO FH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">14</td><td class="num" data-label="TSITSIPAS 2025 HARD">28</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% APPROACHES TO BH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">86</td><td class="num" data-label="TSITSIPAS 2025 HARD">72</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% APPROACHES IN RALLIES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">4</td><td class="num" data-label="TSITSIPAS 2025 HARD">5</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN % ON FH APPROACHES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">95</td><td class="num" data-label="TSITSIPAS 2025 HARD">76</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN % ON BH APPROACHES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">100</td><td class="num" data-label="TSITSIPAS 2025 HARD">64</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN % APPROACH TO FH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">100</td><td class="num" data-label="TSITSIPAS 2025 HARD">72</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN % APPROACH TO BH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">95</td><td class="num" data-label="TSITSIPAS 2025 HARD">76</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="rally-play-type" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF LONG RALLIES WON</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">60</td><td class="num" data-label="TSITSIPAS 2025 HARD">52</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF 1ST SERVES WON IN 5 SHOTS OR LESS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">64</td><td class="num" data-label="TSITSIPAS 2025 HARD">68</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF 1ST SERVES FINISHED IN 5 SHOTS OR LESS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">82</td><td class="num" data-label="TSITSIPAS 2025 HARD">84</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF 2ND RETURNS WON IN 5 SHOTS OR LESS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">18</td><td class="num" data-label="TSITSIPAS 2025 HARD">27</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="offensive" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">% BH DTL IN ALL RALLIES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">7</td><td class="num" data-label="TSITSIPAS 2025 HARD">7</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% BH DTL WELL PLACED</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">21</td><td class="num" data-label="TSITSIPAS 2025 HARD">34</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% FAST BH DTL</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">82</td><td class="num" data-label="TSITSIPAS 2025 HARD">62</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% FH HIT IN RALLIES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">59</td><td class="num" data-label="TSITSIPAS 2025 HARD">60</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% USE RUN AROUND FH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">31</td><td class="num" data-label="TSITSIPAS 2025 HARD">30</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% WINNERS WHEN RUN AROUND FH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">21</td><td class="num" data-label="TSITSIPAS 2025 HARD">22</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN % IN RALLIES USING RUN AROUND FH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">67</td><td class="num" data-label="TSITSIPAS 2025 HARD">60</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% FAST ATTACKING DEUCE FH CROSS SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">75</td><td class="num" data-label="TSITSIPAS 2025 HARD">72</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% FAST ATTACKING DEUCE FH CROSS WON</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">66</td><td class="num" data-label="TSITSIPAS 2025 HARD">62</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% FAST ATTACKING DEUCE FH DTL SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">56</td><td class="num" data-label="TSITSIPAS 2025 HARD">55</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% FAST ATTACKING DEUCE FH DTL WON</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">71</td><td class="num" data-label="TSITSIPAS 2025 HARD">65</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% MOVED THE OPPONENT AFTER RECEIVING A NEUTRAL BALL</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">0</td><td class="num" data-label="TSITSIPAS 2025 HARD">6</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="defensive" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF TIMES PUT ON THE RUN TO THE FH IN RALLIES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">2</td><td class="num" data-label="TSITSIPAS 2025 HARD">3</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% OF TIMES PUT ON THE RUN TO THE BH IN RALLIES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">1</td><td class="num" data-label="TSITSIPAS 2025 HARD">0</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% WON WHEN ON THE RUN TO FH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">17</td><td class="num" data-label="TSITSIPAS 2025 HARD">35</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% WON WHEN ON THE RUN TO BH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">50</td><td class="num" data-label="TSITSIPAS 2025 HARD">53</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% USED SLICE WHEN ON THE RUN TO THE BH</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">33</td><td class="num" data-label="TSITSIPAS 2025 HARD">46</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% WON WHEN BH SLICE ON THE RUN</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">0</td><td class="num" data-label="TSITSIPAS 2025 HARD">15</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">% WON WHEN BH SLICE ON THE RUN ON FAST INCOMING BALL</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">0</td><td class="num" data-label="TSITSIPAS 2025 HARD">0</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+    <div id="drop-shots" class="tab-content" style="display:none;">
+      <section class="section">
+        
+        
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th class="th-stat">Statistic</th>
+                <th class="th-year">TSITSIPAS 2026 HARD UNITED-CUP</th><th class="th-year">TSITSIPAS 2025 HARD</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="col-stat" data-label="Stat">% DROPSHOTS IN RALLIES</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">1</td><td class="num" data-label="TSITSIPAS 2025 HARD">2</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN% ON FH DROP SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">67</td><td class="num" data-label="TSITSIPAS 2025 HARD">53</td>
+              </tr>
+              <tr>
+                <td class="col-stat" data-label="Stat">WIN% ON BH DROP SHOTS</td>
+                <td class="num" data-label="TSITSIPAS 2026 HARD UNITED-CUP">0</td><td class="num" data-label="TSITSIPAS 2025 HARD">54</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <footer>GSA owned.</footer>
+  </div>
+
+  <script>
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.style.display = 'none');
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab).style.display = 'block';
+      });
+    });
+  </script>
+</body>
+</html>
