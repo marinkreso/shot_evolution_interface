@@ -32,6 +32,13 @@ ALL_PLAYERS = sorted({m['PLAYER'] for m in ALL_MATCHES})
 app.add_static_files('/images', str(APP_DIR / 'images'))
 app.add_static_files('/reports', str(REPORTS_DIR))
 
+
+@app.get('/gui/shot_evolution_interface')
+def _shot_evolution_redirect():
+    # legacy URL from the old frontend; the interface now lives at /
+    from fastapi.responses import RedirectResponse
+    return RedirectResponse('/')
+
 FAVICON = str(APP_DIR / 'images' / 'fav.png')
 
 
