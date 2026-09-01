@@ -1,8 +1,0 @@
-{
-    "name": "PostMatchReport",
-    "description": "Reports for tennis",
-    "start_url": "/",
-    "lang": "en-GB",
-    "display": "standalone",
-    "orientation": "landscape"
-  }

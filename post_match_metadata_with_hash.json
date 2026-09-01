@@ -4773,6 +4773,18 @@
             "match_id": "Cincinnati_2026_R32_Navarro_Pegula",
             "DATE": "2026-08-17",
             "hash_id": "a017489150655b3d"
+        },
+        {
+            "PLAYER": "NAVARRO",
+            "OPPONENT": "BOISSON",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Navarro_Boisson",
+            "DATE": "2026-08-30",
+            "hash_id": "de54f565cd042ebd"
         }
     ],
     "FONSECA": [
@@ -6949,6 +6961,18 @@
             "match_id": "Cincinnati_2026_SF_Pegula_Swiatek",
             "DATE": "2026-08-22",
             "hash_id": "d7cb44286dd4e7e9"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "WANG",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Swiatek_Wang",
+            "DATE": "2026-08-31",
+            "hash_id": "604aa65f37986e71"
         }
     ],
     "KORDA": [
@@ -13629,6 +13653,18 @@
             "match_id": "Winston_Salem_2026_R16_Kovacevic_Tsitsipas",
             "DATE": "2026-08-26",
             "hash_id": "7c23b2ae1b52ebe3"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "FILS",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Tsitsipas_Fils",
+            "DATE": "2026-08-31",
+            "hash_id": "12ade63d14fbb0b8"
         }
     ],
     "PAUL": [
@@ -20427,6 +20463,18 @@
             "match_id": "Cincinnati_2026_F_Fils_Tiafoe",
             "DATE": "2026-08-23",
             "hash_id": "93fdc5991462ae95"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "TSITSIPAS",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Tsitsipas_Fils",
+            "DATE": "2026-08-31",
+            "hash_id": "24daa53a02ae89ea"
         }
     ],
     "THOMPSON": [
@@ -22556,6 +22604,18 @@
             "match_id": "Winston_Salem_2026_R32_Brooksby_Tsitsipas",
             "DATE": "2026-08-24",
             "hash_id": "a7066388407484ca"
+        },
+        {
+            "PLAYER": "BROOKSBY",
+            "OPPONENT": "FARIA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Faria_Brooksby",
+            "DATE": "2026-08-30",
+            "hash_id": "f5405d66f921964b"
         }
     ],
     "QUINN": [
@@ -28292,6 +28352,18 @@
             "match_id": "Cincinnati_2026_R16_Tirante_Mensik",
             "DATE": "2026-08-19",
             "hash_id": "f1912610447ae4d7"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "MOCHIZUKI",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Mensik_Mochizuki",
+            "DATE": "2026-08-31",
+            "hash_id": "37991f0162b98632"
         }
     ],
     "BENCIC": [
@@ -29030,6 +29102,18 @@
             "match_id": "AO_2026_R64_Bouzkova_Swiatek",
             "DATE": "2026-01-22",
             "hash_id": "3a3ec93f8c1f985d"
+        },
+        {
+            "PLAYER": "BOUZKOVA",
+            "OPPONENT": "JACQUEMOT",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Jacquemot_Bouzkova",
+            "DATE": "2026-08-31",
+            "hash_id": "3f30b8b9820c756d"
         }
     ],
     "RAKHIMOVA": [
@@ -37603,6 +37687,54 @@
             "match_id": "AO_2026_1st_Sakamoto_Jodar",
             "DATE": "2026-01-20",
             "hash_id": "c56ac1cfc9fe55eb"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "NISHIKORI",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_Q_Nishikori_Sakamoto",
+            "DATE": "2026-08-28",
+            "hash_id": "941962b25c34d5f6"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "CLARKE",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_Q_Clarke_Sakamoto",
+            "DATE": "2026-08-24",
+            "hash_id": "b4a778701c73a350"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "MULLER",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_Q_Sakamoto_Muller",
+            "DATE": "2026-08-26",
+            "hash_id": "ea283d6ee699f23e"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "VUKIC",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Vukic_Sakamoto",
+            "DATE": "2026-08-30",
+            "hash_id": "983e946d1ab9d07e"
         }
     ],
     "JODAR": [
