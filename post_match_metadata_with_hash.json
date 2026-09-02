@@ -8575,6 +8575,18 @@
             "match_id": "Cincinnati_2026_R16_Shnaider_Rybakina",
             "DATE": "2026-08-19",
             "hash_id": "dc391ab9875f39f7"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "FRODIN",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Frodin_Rybakina",
+            "DATE": "2026-09-01",
+            "hash_id": "a1d7f33e0fa97283"
         }
     ],
     "DJOKOVIC": [
@@ -30388,6 +30400,18 @@
             "match_id": "Rogers_cup_2026_R64_Mertens_Bondar",
             "DATE": "2026-08-05",
             "hash_id": "5c9e869791ec8d8d"
+        },
+        {
+            "PLAYER": "MERTENS",
+            "OPPONENT": "QUEVEDO",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Quevedo_Mertens",
+            "DATE": "2026-09-01",
+            "hash_id": "4c10f9fd4a9dcf3f"
         }
     ],
     "DART": [
@@ -35782,6 +35806,18 @@
             "match_id": "Rogers_cup_2026_R64_Mertens_Bondar",
             "DATE": "2026-08-05",
             "hash_id": "600f3f9360e2f0f1"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "HAVLICKOVA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Havlickova_Bondar",
+            "DATE": "2026-09-01",
+            "hash_id": "8a0fef91b1a3b82a"
         }
     ],
     "CRISTIAN": [
@@ -37673,6 +37709,18 @@
             "match_id": "Nottingham_2026_R16_Starodubtseva_Navarro",
             "DATE": "2026-06-17",
             "hash_id": "e91dc619967ac7cc"
+        },
+        {
+            "PLAYER": "STARODUBTSEVA",
+            "OPPONENT": "SEIDEL",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Starodubtseva_Seidel",
+            "DATE": "2026-09-01",
+            "hash_id": "3cd73f255470a744"
         }
     ],
     "SAKAMOTO": [
