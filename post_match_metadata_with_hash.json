@@ -4785,6 +4785,18 @@
             "match_id": "US_Open_2026_1st_Navarro_Boisson",
             "DATE": "2026-08-30",
             "hash_id": "de54f565cd042ebd"
+        },
+        {
+            "PLAYER": "NAVARRO",
+            "OPPONENT": "MCNALLY",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Navarro_Mcnally",
+            "DATE": "2026-09-02",
+            "hash_id": "0afb1fbdd5b8a924"
         }
     ],
     "FONSECA": [
@@ -10287,6 +10299,18 @@
             "match_id": "Cincinnati_2026_R64_Merida_Bergs",
             "DATE": "2026-08-16",
             "hash_id": "a781f2b85c4d8096"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "TABERNER",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Bergs_Taberner",
+            "DATE": "2026-09-01",
+            "hash_id": "eb972198f1a7f2ca"
         }
     ],
     "KECMANOVIC": [
@@ -37783,6 +37807,18 @@
             "match_id": "US_Open_2026_1st_Vukic_Sakamoto",
             "DATE": "2026-08-30",
             "hash_id": "983e946d1ab9d07e"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "TIAFOE",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Sakamoto_Tiafoe",
+            "DATE": "2026-09-02",
+            "hash_id": "6f7512f3cd1a5c40"
         }
     ],
     "JODAR": [
@@ -39201,6 +39237,18 @@
             "match_id": "US_Open_2026_1st_Lehecka_Carreno-Busta",
             "DATE": "2026-08-30",
             "hash_id": "462f3b7145bfbdb9"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "SAMUEL",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Lehecka_Samuel",
+            "DATE": "2026-09-02",
+            "hash_id": "bd3e0ba08b2d5de8"
         }
     ],
     "VALENTOVA": [
