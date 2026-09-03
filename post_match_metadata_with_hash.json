@@ -6985,6 +6985,18 @@
             "match_id": "US_Open_2026_1st_Swiatek_Wang",
             "DATE": "2026-08-31",
             "hash_id": "604aa65f37986e71"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "PODOROSKA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Swiatek_Podoroska",
+            "DATE": "2026-09-03",
+            "hash_id": "039b9f0a56243e2b"
         }
     ],
     "KORDA": [
@@ -28400,6 +28412,18 @@
             "match_id": "US_Open_2026_1st_Mensik_Mochizuki",
             "DATE": "2026-08-31",
             "hash_id": "37991f0162b98632"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "RODIONOV",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Mensik_Rodionov",
+            "DATE": "2026-09-03",
+            "hash_id": "9dc1763e14f30710"
         }
     ],
     "BENCIC": [
@@ -29150,6 +29174,18 @@
             "match_id": "US_Open_2026_1st_Jacquemot_Bouzkova",
             "DATE": "2026-08-31",
             "hash_id": "3f30b8b9820c756d"
+        },
+        {
+            "PLAYER": "BOUZKOVA",
+            "OPPONENT": "DART",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Dart_Bouzkova",
+            "DATE": "2026-09-03",
+            "hash_id": "7ea84996f41c0929"
         }
     ],
     "RAKHIMOVA": [
@@ -30436,6 +30472,18 @@
             "match_id": "US_Open_2026_1st_Quevedo_Mertens",
             "DATE": "2026-09-01",
             "hash_id": "4c10f9fd4a9dcf3f"
+        },
+        {
+            "PLAYER": "MERTENS",
+            "OPPONENT": "TIMOFEEVA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Timofeeva_Mertens",
+            "DATE": "2026-09-03",
+            "hash_id": "0ed96c9a5fe62ea8"
         }
     ],
     "DART": [
@@ -35842,6 +35890,18 @@
             "match_id": "US_Open_2026_1st_Havlickova_Bondar",
             "DATE": "2026-09-01",
             "hash_id": "8a0fef91b1a3b82a"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "KEYS",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Keys_Bondar",
+            "DATE": "2026-09-03",
+            "hash_id": "b7cb477976987bb7"
         }
     ],
     "CRISTIAN": [
