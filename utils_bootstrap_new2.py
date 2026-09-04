@@ -2,6 +2,7 @@
 
 
 
+import numpy as np
 from jinja2 import Environment, BaseLoader
 
 
@@ -95,7 +96,67 @@ def bh_new_html(ui,movement_json, x, items):
     #ui.html('<h1>BH DANGEROUS LOCATIONS</h1>').classes('mx-auto').classes('text-2xl')
     #ui.image('8.png').classes('w-96').classes('mx-auto')
 
+# Radar overview of movement avg speeds, oriented like standing at the
+# baseline looking down the court:
+# net at the top, baseline at the bottom, forehand side to the right,
+# backhand side to the left, forward movement near the top of each side.
+_RADAR_AXES_CLOCKWISE = [
+    ('Recovery 1st serve', 'movement_first_serve_speed'),
+    ('Fhand moving fwd', 'movement_to_fh_direction_forward_avg_speed'),
+    ('Move to forehand', 'movement_to_fh_avg_speed'),
+    ('Fhand moving right', 'movement_to_fh_direction_right_avg_speed'),
+    ('Fhand moving back', 'movement_to_fh_direction_backward_avg_speed'),
+    ('Recovery 2nd serve', 'movement_second_serve_speed'),
+    ('Bhand moving back', 'movement_to_bh_direction_backward_avg_speed'),
+    ('Bhand moving left', 'movement_to_bh_direction_right_avg_speed'),
+    ('Move to backhand', 'movement_to_bh_avg_speed'),
+    ('Bhand moving fwd', 'movement_to_bh_direction_forward_avg_speed'),
+]
+
+
+def movement_radar(ui, movement_json, items):
+    def val(key, side):
+        try:
+            return round(float(items[key][side]), 2)
+        except (KeyError, TypeError, ValueError):
+            return 0
+    # ECharts lays radar indicators out counterclockwise from the top, so keep
+    # the top axis and reverse the rest to get the clockwise court layout
+    axes = [_RADAR_AXES_CLOCKWISE[0]] + _RADAR_AXES_CLOCKWISE[:0:-1]
+    p1_vals = [val(k, 'p1') for _, k in axes]
+    p2_vals = [val(k, 'p2') for _, k in axes]
+    mx = max(p1_vals + p2_vals + [1])
+    mx = float(np.ceil(mx * 2)) / 2  # round up to the next 0.5
+    p1_name = movement_json['selected_player_name']
+    p2_name = movement_json['opponent_name']
+    ui.html('<h1 class="text-center">MOVEMENT OVERVIEW (AVG SPEED)</h1>').classes('text-2xl').classes('mx-auto')
+    ui.label('net ↑ · forehand side → · backhand side ← · baseline ↓').classes('mx-auto text-xs text-gray-500')
+    ui.echart({
+        'legend': {'data': [p1_name, p2_name], 'top': 0},
+        'radar': {
+            'indicator': [{'name': name, 'max': mx} for name, _ in axes],
+            'radius': '65%',
+            'center': ['50%', '55%'],
+            'startAngle': 90,
+            'splitNumber': 3,
+            'axisName': {'color': '#555', 'fontSize': 10},
+        },
+        'series': [{
+            'type': 'radar',
+            'data': [
+                {'value': p1_vals, 'name': p1_name,
+                 'itemStyle': {'color': '#28a745'}, 'lineStyle': {'color': '#28a745'},
+                 'areaStyle': {'color': 'rgba(40,167,69,0.12)'}},
+                {'value': p2_vals, 'name': p2_name,
+                 'itemStyle': {'color': '#dc3545'}, 'lineStyle': {'color': '#dc3545'},
+                 'areaStyle': {'color': 'rgba(220,53,69,0.12)'}},
+            ],
+        }],
+    }).classes('mx-auto w-full md:w-2/3').style('height: 460px')
+
+
 def shot_movement_new_html(ui,movement_json, x, items):
+    movement_radar(ui, movement_json, items)
     # all_items = [
     # "movement_to_bh_direction_forward_avg_speed",
     # "movement_to_bh_direction_forward_avg_acc",
