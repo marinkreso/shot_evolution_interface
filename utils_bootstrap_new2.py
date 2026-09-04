@@ -101,16 +101,16 @@ def bh_new_html(ui,movement_json, x, items):
 # bottom, forehand side to the right, backhand side to the left, forward
 # movement near the top of each side. Three panels: speed / acc / decc.
 # ECharts lays indicators out counterclockwise from startAngle; with
-# startAngle 112.5 this list straddles the top with Bhand fwd / Fhand fwd.
+# startAngle 112.5 this list straddles the top with BH fwd / FH fwd.
 _RADAR_DIR_AXES = [
-    ('Bhand fwd', 'movement_to_bh_direction_forward'),
+    ('BH fwd', 'movement_to_bh_direction_forward'),
     ('Move to BH', 'movement_to_bh'),
-    ('Bhand left', 'movement_to_bh_direction_right'),
-    ('Bhand back', 'movement_to_bh_direction_backward'),
-    ('Fhand back', 'movement_to_fh_direction_backward'),
-    ('Fhand right', 'movement_to_fh_direction_right'),
+    ('BH left', 'movement_to_bh_direction_right'),
+    ('BH back', 'movement_to_bh_direction_backward'),
+    ('FH back', 'movement_to_fh_direction_backward'),
+    ('FH right', 'movement_to_fh_direction_right'),
     ('Move to FH', 'movement_to_fh'),
-    ('Fhand fwd', 'movement_to_fh_direction_forward'),
+    ('FH fwd', 'movement_to_fh_direction_forward'),
 ]
 
 _RADAR_PANELS = [
