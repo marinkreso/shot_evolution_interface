@@ -241,7 +241,7 @@ def fh_new_html(ui, movement_json, x, items):
     #ui.html('<h1>FH DANGEROUS LOCATIONS</h1>').classes('mx-auto').classes('text-2xl')
     #ui.image('7.png').classes('w-96').classes('mx-auto')
 
-def other_new_html(ui, movement_json, returnx, items, images, chosen_set):
+def other_new_html(ui, movement_json, returnx, items, images=None, chosen_set=None):
     ui_table_jinja_nicegui(ui, movement_json, items, 'TYPE OF POINTS WON')
 
 def return_new_html(ui, movement_json, returnx, items, images, chosen_set):
