@@ -8611,6 +8611,18 @@
             "match_id": "US_Open_2026_1st_Frodin_Rybakina",
             "DATE": "2026-09-01",
             "hash_id": "a1d7f33e0fa97283"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "BOUZAS-MANEIRO",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Bouzas-Maneiro_Rybakina",
+            "DATE": "2026-09-04",
+            "hash_id": "0d74026c14ae7e65"
         }
     ],
     "DJOKOVIC": [
@@ -10323,6 +10335,18 @@
             "match_id": "US_Open_2026_1st_Bergs_Taberner",
             "DATE": "2026-09-01",
             "hash_id": "eb972198f1a7f2ca"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "DE-JONG",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Bergs_De-Jong",
+            "DATE": "2026-09-03",
+            "hash_id": "e77ab4b7b5c83d90"
         }
     ],
     "KECMANOVIC": [
@@ -37805,6 +37829,18 @@
             "match_id": "US_Open_2026_1st_Starodubtseva_Seidel",
             "DATE": "2026-09-01",
             "hash_id": "3cd73f255470a744"
+        },
+        {
+            "PLAYER": "STARODUBTSEVA",
+            "OPPONENT": "SAKKARI",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Sakkari_Starodubtseva",
+            "DATE": "2026-09-03",
+            "hash_id": "b0c5e4aa78b7b3b2"
         }
     ],
     "SAKAMOTO": [
