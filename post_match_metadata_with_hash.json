@@ -4797,6 +4797,18 @@
             "match_id": "US_Open_2026_R64_Navarro_Mcnally",
             "DATE": "2026-09-02",
             "hash_id": "0afb1fbdd5b8a924"
+        },
+        {
+            "PLAYER": "NAVARRO",
+            "OPPONENT": "MUCHOVA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Navarro_Muchova",
+            "DATE": "2026-09-04",
+            "hash_id": "8b42e98b8e849e3e"
         }
     ],
     "FONSECA": [
@@ -13737,6 +13749,18 @@
             "match_id": "US_Open_2026_1st_Tsitsipas_Fils",
             "DATE": "2026-08-31",
             "hash_id": "12ade63d14fbb0b8"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "LEHECKA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Lehecka_Tsitsipas",
+            "DATE": "2026-09-04",
+            "hash_id": "ede52383108fad5d"
         }
     ],
     "PAUL": [
@@ -39345,6 +39369,18 @@
             "match_id": "US_Open_2026_R64_Lehecka_Samuel",
             "DATE": "2026-09-02",
             "hash_id": "bd3e0ba08b2d5de8"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "TSITSIPAS",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Lehecka_Tsitsipas",
+            "DATE": "2026-09-04",
+            "hash_id": "16a94503cbb48ec0"
         }
     ],
     "VALENTOVA": [
