@@ -3799,6 +3799,18 @@
             "match_id": "Rogers_cup_2026_QF_Osaka_Rybakina",
             "DATE": "2026-08-11",
             "hash_id": "166306ff17d28248"
+        },
+        {
+            "PLAYER": "OSAKA",
+            "OPPONENT": "MERTENS",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Osaka_Mertens",
+            "DATE": "2026-09-05",
+            "hash_id": "b980f5b4d19d37fd"
         }
     ],
     "NAVARRO": [
@@ -7009,6 +7021,18 @@
             "match_id": "US_Open_2026_R64_Swiatek_Podoroska",
             "DATE": "2026-09-03",
             "hash_id": "039b9f0a56243e2b"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "BOUZKOVA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Swiatek_Bouzkova",
+            "DATE": "2026-09-05",
+            "hash_id": "246a68d4c4a5d438"
         }
     ],
     "KORDA": [
@@ -8635,6 +8659,18 @@
             "match_id": "US_Open_2026_R64_Bouzas-Maneiro_Rybakina",
             "DATE": "2026-09-04",
             "hash_id": "0d74026c14ae7e65"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "STARODUBTSEVA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Starodubtseva_Rybakina",
+            "DATE": "2026-09-06",
+            "hash_id": "03e75784e2a3a3e9"
         }
     ],
     "DJOKOVIC": [
@@ -10359,6 +10395,18 @@
             "match_id": "US_Open_2026_R64_Bergs_De-Jong",
             "DATE": "2026-09-03",
             "hash_id": "e77ab4b7b5c83d90"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "VAN-DE-ZANDSCHULP",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Bergs_Van-De-Zandschulp",
+            "DATE": "2026-09-05",
+            "hash_id": "e88907a3730a3735"
         }
     ],
     "KECMANOVIC": [
@@ -28472,6 +28520,18 @@
             "match_id": "US_Open_2026_R64_Mensik_Rodionov",
             "DATE": "2026-09-03",
             "hash_id": "9dc1763e14f30710"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "TIEN",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Mensik_Tien",
+            "DATE": "2026-09-06",
+            "hash_id": "e611654f144c4f92"
         }
     ],
     "BENCIC": [
@@ -29234,6 +29294,18 @@
             "match_id": "US_Open_2026_R64_Dart_Bouzkova",
             "DATE": "2026-09-03",
             "hash_id": "7ea84996f41c0929"
+        },
+        {
+            "PLAYER": "BOUZKOVA",
+            "OPPONENT": "SWIATEK",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Swiatek_Bouzkova",
+            "DATE": "2026-09-05",
+            "hash_id": "f490d5f570d47dcb"
         }
     ],
     "RAKHIMOVA": [
@@ -30532,6 +30604,18 @@
             "match_id": "US_Open_2026_R64_Timofeeva_Mertens",
             "DATE": "2026-09-03",
             "hash_id": "0ed96c9a5fe62ea8"
+        },
+        {
+            "PLAYER": "MERTENS",
+            "OPPONENT": "OSAKA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Osaka_Mertens",
+            "DATE": "2026-09-05",
+            "hash_id": "24c0d096e0e486b6"
         }
     ],
     "DART": [
@@ -32610,6 +32694,18 @@
             "match_id": "Cincinnati_2026_R32_Blockx_Cobolli",
             "DATE": "2026-08-17",
             "hash_id": "dfd369ff26b495ec"
+        },
+        {
+            "PLAYER": "BLOCKX",
+            "OPPONENT": "COBOLLI",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Blockx_Cobolli",
+            "DATE": "2026-09-05",
+            "hash_id": "8e7b16aa08ef7777"
         }
     ],
     "MAROZSAN": [
@@ -37865,6 +37961,18 @@
             "match_id": "US_Open_2026_R64_Sakkari_Starodubtseva",
             "DATE": "2026-09-03",
             "hash_id": "b0c5e4aa78b7b3b2"
+        },
+        {
+            "PLAYER": "STARODUBTSEVA",
+            "OPPONENT": "RYBAKINA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Starodubtseva_Rybakina",
+            "DATE": "2026-09-06",
+            "hash_id": "06c09417224ef45b"
         }
     ],
     "SAKAMOTO": [
