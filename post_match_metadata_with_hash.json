@@ -1225,6 +1225,18 @@
             "match_id": "Dallas_2026_SF_Shapovalov_Shelton",
             "DATE": "2026-02-15",
             "hash_id": "91c1e40bad303b60"
+        },
+        {
+            "PLAYER": "SHELTON",
+            "OPPONENT": "TSITSIPAS",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Shelton_Tsitsipas",
+            "DATE": "2026-09-06",
+            "hash_id": "03824a365a500ad0"
         }
     ],
     "COBOLLI": [
@@ -4821,6 +4833,18 @@
             "match_id": "US_Open_2026_R32_Navarro_Muchova",
             "DATE": "2026-09-04",
             "hash_id": "8b42e98b8e849e3e"
+        },
+        {
+            "PLAYER": "NAVARRO",
+            "OPPONENT": "KALINSKAYA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Kalinskaya_Navarro",
+            "DATE": "2026-09-07",
+            "hash_id": "f4bfe3a0c8795b0b"
         }
     ],
     "FONSECA": [
@@ -13809,6 +13833,18 @@
             "match_id": "US_Open_2026_R32_Lehecka_Tsitsipas",
             "DATE": "2026-09-04",
             "hash_id": "ede52383108fad5d"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "SHELTON",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Shelton_Tsitsipas",
+            "DATE": "2026-09-06",
+            "hash_id": "9a5aa0f01b0f1f7e"
         }
     ],
     "PAUL": [
