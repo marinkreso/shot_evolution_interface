@@ -3823,6 +3823,18 @@
             "match_id": "US_Open_2026_R32_Osaka_Mertens",
             "DATE": "2026-09-05",
             "hash_id": "b980f5b4d19d37fd"
+        },
+        {
+            "PLAYER": "OSAKA",
+            "OPPONENT": "RYBAKINA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Osaka_Rybakina",
+            "DATE": "2026-09-07",
+            "hash_id": "151919e3ef219e28"
         }
     ],
     "NAVARRO": [
@@ -7057,6 +7069,18 @@
             "match_id": "US_Open_2026_R32_Swiatek_Bouzkova",
             "DATE": "2026-09-05",
             "hash_id": "246a68d4c4a5d438"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "ZHENG",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Swiatek_Zheng",
+            "DATE": "2026-09-07",
+            "hash_id": "1e9432cf29ba6c5e"
         }
     ],
     "KORDA": [
@@ -8695,6 +8719,18 @@
             "match_id": "US_Open_2026_R32_Starodubtseva_Rybakina",
             "DATE": "2026-09-06",
             "hash_id": "03e75784e2a3a3e9"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "OSAKA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Osaka_Rybakina",
+            "DATE": "2026-09-07",
+            "hash_id": "48d3d9048e7e7f61"
         }
     ],
     "DJOKOVIC": [
@@ -29576,6 +29612,18 @@
             "match_id": "Rome_2026_R32_Zheng_Ostapenko",
             "DATE": "2026-05-09",
             "hash_id": "bf6e0528b22292ac"
+        },
+        {
+            "PLAYER": "ZHENG",
+            "OPPONENT": "SWIATEK",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Swiatek_Zheng",
+            "DATE": "2026-09-07",
+            "hash_id": "c311cc900870b1a4"
         }
     ],
     "ALCARAZ": [
