@@ -4857,6 +4857,18 @@
             "match_id": "US_Open_2026_R16_Kalinskaya_Navarro",
             "DATE": "2026-09-07",
             "hash_id": "f4bfe3a0c8795b0b"
+        },
+        {
+            "PLAYER": "NAVARRO",
+            "OPPONENT": "PEGULA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_QF_Pegula_Navarro",
+            "DATE": "2026-09-09",
+            "hash_id": "881987364968aa7a"
         }
     ],
     "FONSECA": [
@@ -8731,6 +8743,18 @@
             "match_id": "US_Open_2026_R16_Osaka_Rybakina",
             "DATE": "2026-09-07",
             "hash_id": "48d3d9048e7e7f61"
+        },
+        {
+            "PLAYER": "RYBAKINA",
+            "OPPONENT": "ZHENG",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_QF_Zheng_Rybakina",
+            "DATE": "2026-09-09",
+            "hash_id": "7aa6833e3521011a"
         }
     ],
     "DJOKOVIC": [
@@ -29624,6 +29648,18 @@
             "match_id": "US_Open_2026_R16_Swiatek_Zheng",
             "DATE": "2026-09-07",
             "hash_id": "c311cc900870b1a4"
+        },
+        {
+            "PLAYER": "ZHENG",
+            "OPPONENT": "RYBAKINA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_QF_Zheng_Rybakina",
+            "DATE": "2026-09-09",
+            "hash_id": "e64be1a0bc9a1273"
         }
     ],
     "ALCARAZ": [
@@ -32790,6 +32826,30 @@
             "match_id": "US_Open_2026_R32_Blockx_Cobolli",
             "DATE": "2026-09-05",
             "hash_id": "8e7b16aa08ef7777"
+        },
+        {
+            "PLAYER": "BLOCKX",
+            "OPPONENT": "CERUNDOLO",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Cerundolo_Blockx",
+            "DATE": "2026-09-07",
+            "hash_id": "07f0128290c26c23"
+        },
+        {
+            "PLAYER": "BLOCKX",
+            "OPPONENT": "KHACHANOV",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_QF_Khachanov_Blockx",
+            "DATE": "2026-09-09",
+            "hash_id": "b1896b48b29e4460"
         }
     ],
     "MAROZSAN": [
