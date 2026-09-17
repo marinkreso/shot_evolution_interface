@@ -1,0 +1,75 @@
+{
+    "selected_player_name": "COBOLLI",
+    "opponent_name": "JODAR",
+    "Movement_data": {
+        "Total Match Duration": "151 minute(s)",
+        "Effective Playing Time": "59 minute(s)",
+        "Effective Time / Total Match Duration": "39%",
+        "Total Distance Covered": "0.0 m",
+        "Avg Speed": "NA",
+        "Sum of All Strokes": 595
+    },
+    "1st_serve_placement": "1st DEUCE W: 47%, 1st DEUCE T: 39%, 1st AD W: 43%, 1st AD T: 34%",
+    "Number of runs to reach dropshots": 4,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 113,
+        "Second Serve": 44,
+        "Forehand": 202,
+        "Backhand": 145,
+        "Forehand Return": 47,
+        "Backhand Return": 44,
+        "Volleys": 9,
+        "Slices": 39,
+        "Dropshots": 6
+    },
+    "distance_moved": {
+        "0-1 m": "0% (0 times)",
+        "1-2 m": "0% (0 times)",
+        "2-3 m": "0% (0 times)",
+        "3-4 m": "0% (0 times)",
+        "4-5 m": "0% (0 times)",
+        "5-10 m": "0% (0 times)",
+        "10+ m": "0% (0 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "0% (0 times)",
+        "11-25 m": "0% (0 times)",
+        "26-50 m": "0% (0 times)",
+        "51-75 m": "0% (0 times)",
+        "76-100 m": "0% (0 times)",
+        "101-500 m": "0% (0 times)"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "0% (0 times)",
+        "1 - 1.5 m/s": "0% (0 times)",
+        "1.5 - 2 m/s": "0% (0 times)",
+        "2 - 2.5 m/s": "0% (0 times)",
+        "2.5 - 3 m/s": "0% (0 times)",
+        "3 - 3.5 m/s": "0% (0 times)",
+        "3.5+ m/s": "0% (0 times)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "47% (18 serves), 67 win%",
+        "1st DEUCE B": "13% (5 serves), 60 win%",
+        "1st DEUCE T": "39% (15 serves), 73 win%",
+        "1st AD W": "43% (19 serves), 74 win%",
+        "1st AD B": "23% (10 serves), 50 win%",
+        "1st AD T": "34% (15 serves), 47 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "24% (6 serves), 33 win%",
+        "2nd DEUCE B": "44% (11 serves), 64 win%",
+        "2nd DEUCE T": "32% (8 serves), 88 win%",
+        "2nd AD W": "53% (10 serves), 50 win%",
+        "2nd AD B": "42% (8 serves), 50 win%",
+        "2nd AD T": "5% (1 serves), 100 win%"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2",
+        "3"
+    ],
+    "source": "cv"
+}

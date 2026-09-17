@@ -1,0 +1,76 @@
+{
+    "selected_player_name": "MOCHIZUKI",
+    "opponent_name": "JODAR",
+    "Movement_data": {
+        "Total Match Duration": "180 minute(s)",
+        "Effective Playing Time": "74 minute(s)",
+        "Effective Time / Total Match Duration": "41%",
+        "Total Distance Covered": "0.0 m",
+        "Avg Speed": "NA",
+        "Sum of All Strokes": 606
+    },
+    "1st_serve_placement": "1st DEUCE W: 45%, 1st DEUCE T: 45%, 1st AD W: 58%, 1st AD T: 38%",
+    "Number of runs to reach dropshots": 5,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 121,
+        "Second Serve": 61,
+        "Forehand": 157,
+        "Backhand": 147,
+        "Forehand Return": 69,
+        "Backhand Return": 51,
+        "Volleys": 29,
+        "Slices": 37,
+        "Dropshots": 8
+    },
+    "distance_moved": {
+        "0-1 m": "0% (0 times)",
+        "1-2 m": "0% (0 times)",
+        "2-3 m": "0% (0 times)",
+        "3-4 m": "0% (0 times)",
+        "4-5 m": "0% (0 times)",
+        "5-10 m": "0% (0 times)",
+        "10+ m": "0% (0 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "0% (0 times)",
+        "11-25 m": "0% (0 times)",
+        "26-50 m": "0% (0 times)",
+        "51-75 m": "0% (0 times)",
+        "76-100 m": "0% (0 times)",
+        "101-500 m": "0% (0 times)"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "0% (0 times)",
+        "1 - 1.5 m/s": "0% (0 times)",
+        "1.5 - 2 m/s": "0% (0 times)",
+        "2 - 2.5 m/s": "0% (0 times)",
+        "2.5 - 3 m/s": "0% (0 times)",
+        "3 - 3.5 m/s": "0% (0 times)",
+        "3.5+ m/s": "0% (0 times)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "45% (14 serves), 64 win%",
+        "1st DEUCE B": "10% (3 serves), 33 win%",
+        "1st DEUCE T": "45% (14 serves), 71 win%",
+        "1st AD W": "58% (23 serves), 70 win%",
+        "1st AD B": "5% (2 serves), 100 win%",
+        "1st AD T": "38% (15 serves), 27 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "31% (10 serves), 60 win%",
+        "2nd DEUCE B": "56% (18 serves), 56 win%",
+        "2nd DEUCE T": "12% (4 serves), 25 win%",
+        "2nd AD W": "52% (14 serves), 50 win%",
+        "2nd AD B": "37% (10 serves), 30 win%",
+        "2nd AD T": "11% (3 serves), 33 win%"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2",
+        "3",
+        "4"
+    ],
+    "source": "cv"
+}

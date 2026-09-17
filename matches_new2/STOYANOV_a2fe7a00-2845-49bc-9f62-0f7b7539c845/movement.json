@@ -1,0 +1,75 @@
+{
+    "selected_player_name": "STOYANOV",
+    "opponent_name": "GLUSHKOVA",
+    "Movement_data": {
+        "Total Match Duration": "193 minute(s)",
+        "Effective Playing Time": "74 minute(s)",
+        "Effective Time / Total Match Duration": "38%",
+        "Total Distance Covered": "0.0 m",
+        "Avg Speed": "NA",
+        "Sum of All Strokes": 591
+    },
+    "1st_serve_placement": "1st DEUCE W: 71%, 1st DEUCE T: 16%, 1st AD W: 53%, 1st AD T: 9%",
+    "Number of runs to reach dropshots": 1,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 111,
+        "Second Serve": 48,
+        "Forehand": 226,
+        "Backhand": 123,
+        "Forehand Return": 33,
+        "Backhand Return": 50,
+        "Volleys": 46,
+        "Slices": 3,
+        "Dropshots": 0
+    },
+    "distance_moved": {
+        "0-1 m": "0% (0 times)",
+        "1-2 m": "0% (0 times)",
+        "2-3 m": "0% (0 times)",
+        "3-4 m": "0% (0 times)",
+        "4-5 m": "0% (0 times)",
+        "5-10 m": "0% (0 times)",
+        "10+ m": "0% (0 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "0% (0 times)",
+        "11-25 m": "0% (0 times)",
+        "26-50 m": "0% (0 times)",
+        "51-75 m": "0% (0 times)",
+        "76-100 m": "0% (0 times)",
+        "101-500 m": "0% (0 times)"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "0% (0 times)",
+        "1 - 1.5 m/s": "0% (0 times)",
+        "1.5 - 2 m/s": "0% (0 times)",
+        "2 - 2.5 m/s": "0% (0 times)",
+        "2.5 - 3 m/s": "0% (0 times)",
+        "3 - 3.5 m/s": "0% (0 times)",
+        "3.5+ m/s": "0% (0 times)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "71% (22 serves), 41 win%",
+        "1st DEUCE B": "13% (4 serves), 75 win%",
+        "1st DEUCE T": "16% (5 serves), 80 win%",
+        "1st AD W": "53% (17 serves), 71 win%",
+        "1st AD B": "38% (12 serves), 58 win%",
+        "1st AD T": "9% (3 serves), 33 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "5% (1 serves), 100 win%",
+        "2nd DEUCE B": "41% (9 serves), 67 win%",
+        "2nd DEUCE T": "55% (12 serves), 50 win%",
+        "2nd AD W": "75% (9 serves), 67 win%",
+        "2nd AD B": "25% (3 serves), 0 win%",
+        "2nd AD T": "0% (0 serves), nan win%"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2",
+        "3"
+    ],
+    "source": "cv"
+}
