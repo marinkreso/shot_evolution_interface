@@ -23420,6 +23420,18 @@
             "match_id": "US_Open_2026_1st_Faria_Brooksby",
             "DATE": "2026-08-30",
             "hash_id": "f5405d66f921964b"
+        },
+        {
+            "PLAYER": "BROOKSBY",
+            "OPPONENT": "BAEZ",
+            "TOURNAMENT": "CHENGDU",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Chengdu_2026_R32_Baez_Brooksby",
+            "DATE": "2026-09-23",
+            "hash_id": "6bd9189c1a0283e2"
         }
     ],
     "QUINN": [
@@ -36958,6 +36970,18 @@
             "match_id": "US_Open_2026_R64_Keys_Bondar",
             "DATE": "2026-09-03",
             "hash_id": "b7cb477976987bb7"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "ZARAZUA",
+            "TOURNAMENT": "SEOUL",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Seoul_2026_R32_Bondar_Zarazua",
+            "DATE": "2026-09-22",
+            "hash_id": "b14031ac6e5b4c38"
         }
     ],
     "CRISTIAN": [
