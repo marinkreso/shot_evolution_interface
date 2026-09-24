@@ -1501,6 +1501,30 @@
             "match_id": "f6fd7275-da7e-4d01-8f55-1d05c8ada452",
             "DATE": "2026-09-11",
             "hash_id": "036c67f501069c17"
+        },
+        {
+            "PLAYER": "SHELTON",
+            "OPPONENT": "MENSIK",
+            "TOURNAMENT": "DAVIS CUP",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Davis_Cup_2026_Q_Mensik_Shelton",
+            "DATE": "2026-09-19",
+            "hash_id": "d21c2c5e66b32d4e"
+        },
+        {
+            "PLAYER": "SHELTON",
+            "OPPONENT": "LEHECKA",
+            "TOURNAMENT": "DAVIS CUP",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Davis_Cup_2026_Q_Lehecka_Shelton",
+            "DATE": "2026-09-18",
+            "hash_id": "ffc95eb817ac2a90"
         }
     ],
     "COBOLLI": [
@@ -29312,6 +29336,30 @@
             "match_id": "US_Open_2026_R32_Mensik_Tien",
             "DATE": "2026-09-06",
             "hash_id": "e611654f144c4f92"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "SHELTON",
+            "TOURNAMENT": "DAVIS CUP",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Davis_Cup_2026_Q_Mensik_Shelton",
+            "DATE": "2026-09-19",
+            "hash_id": "10c83abd93045ca4"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "TIEN",
+            "TOURNAMENT": "DAVIS CUP",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Davis_Cup_2026_Q_Mensik_Tien",
+            "DATE": "2026-09-18",
+            "hash_id": "22872a65e5e2de15"
         }
     ],
     "BENCIC": [
@@ -36982,6 +37030,18 @@
             "match_id": "Seoul_2026_R32_Bondar_Zarazua",
             "DATE": "2026-09-22",
             "hash_id": "b14031ac6e5b4c38"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "CHARAEVA",
+            "TOURNAMENT": "SEOUL",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Seoul_2026_R16_Bondar_Charaeva",
+            "DATE": "2026-09-24",
+            "hash_id": "f33036326f7631ae"
         }
     ],
     "CRISTIAN": [
@@ -40726,6 +40786,30 @@
             "match_id": "US_Open_2026_R32_Lehecka_Tsitsipas",
             "DATE": "2026-09-04",
             "hash_id": "16a94503cbb48ec0"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "TIEN",
+            "TOURNAMENT": "DAVIS CUP",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Davis_Cup_2026_Q_Lehecka_Tien",
+            "DATE": "2026-09-19",
+            "hash_id": "3862c8fb0df31170"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "SHELTON",
+            "TOURNAMENT": "DAVIS CUP",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Davis_Cup_2026_Q_Lehecka_Shelton",
+            "DATE": "2026-09-18",
+            "hash_id": "5844a028bb2afcce"
         }
     ],
     "VALENTOVA": [
