@@ -11981,6 +11981,18 @@
             "match_id": "Winston_Salem_2026_R64_Shimabukuro_Kecmanovic",
             "DATE": "2026-08-23",
             "hash_id": "6420a5b823bbff60"
+        },
+        {
+            "PLAYER": "KECMANOVIC",
+            "OPPONENT": "BASILASHVILI",
+            "TOURNAMENT": "CHENGDU",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Chengdu_2026_R32_Kecmanovic_Basilashvili",
+            "DATE": "2026-09-24",
+            "hash_id": "f93a5bbe94bc6d58"
         }
     ],
     "NAKASHIMA": [
@@ -17151,6 +17163,18 @@
             "match_id": "Hertogenbosch_2026_R32_Zhang_Brooksby",
             "DATE": "2026-06-09",
             "hash_id": "b2f9153f6817c6ec"
+        },
+        {
+            "PLAYER": "ZHANG",
+            "OPPONENT": "WONG",
+            "TOURNAMENT": "HANGZHOU",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Hangzhou_2026_R32_Zhang_Wong",
+            "DATE": "2026-09-24",
+            "hash_id": "5d9a1164a9d4f066"
         }
     ],
     "GAUFF": [
@@ -23456,6 +23480,18 @@
             "match_id": "Chengdu_2026_R32_Baez_Brooksby",
             "DATE": "2026-09-23",
             "hash_id": "6bd9189c1a0283e2"
+        },
+        {
+            "PLAYER": "BROOKSBY",
+            "OPPONENT": "SONEGO",
+            "TOURNAMENT": "CHENGDU",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Chengdu_2026_R16_Brooksby_Sonego",
+            "DATE": "2026-09-25",
+            "hash_id": "4033e5093581ea16"
         }
     ],
     "QUINN": [
@@ -27318,6 +27354,18 @@
             "match_id": "Cincinnati_2026_R64_Atmane_Etcheverry",
             "DATE": "2026-08-15",
             "hash_id": "3e832d4c72c715f7"
+        },
+        {
+            "PLAYER": "ETCHEVERRY",
+            "OPPONENT": "JACQUET",
+            "TOURNAMENT": "HANGZHOU",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Hangzhou_2026_R16_Jacquet_Etcheverry",
+            "DATE": "2026-09-25",
+            "hash_id": "f10d9495ba7ba479"
         }
     ],
     "CORIC": [
@@ -33110,6 +33158,18 @@
             "match_id": "Winston_Salem_2026_R32_Bellucci_Darderi",
             "DATE": "2026-08-25",
             "hash_id": "6a693973ed295357"
+        },
+        {
+            "PLAYER": "BELLUCCI",
+            "OPPONENT": "MAJCHRZAK",
+            "TOURNAMENT": "HANGZHOU",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Hangzhou_2026_R32_Bellucci_Majchrzak",
+            "DATE": "2026-09-24",
+            "hash_id": "8a43ff9bb1b18fc2"
         }
     ],
     "SELL": [
@@ -34484,6 +34544,18 @@
             "match_id": "Winston_Salem_2026_R32_Kecmanovic_Marozsan",
             "DATE": "2026-08-26",
             "hash_id": "abda0040eee8a9f3"
+        },
+        {
+            "PLAYER": "MAROZSAN",
+            "OPPONENT": "BOLT",
+            "TOURNAMENT": "HANGZHOU",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Hangzhou_2026_R32_Marozsan_Bolt",
+            "DATE": "2026-09-24",
+            "hash_id": "81a1d73c65c56b5c"
         }
     ],
     "ZVEREV": [
