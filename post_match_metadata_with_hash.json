@@ -11993,6 +11993,18 @@
             "match_id": "Chengdu_2026_R32_Kecmanovic_Basilashvili",
             "DATE": "2026-09-24",
             "hash_id": "f93a5bbe94bc6d58"
+        },
+        {
+            "PLAYER": "KECMANOVIC",
+            "OPPONENT": "MANNARINO",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_Q_Kecmanovic_Mannarino",
+            "DATE": "2026-09-28",
+            "hash_id": "3b1490f8c9800ed5"
         }
     ],
     "NAKASHIMA": [
@@ -13315,6 +13327,18 @@
             "match_id": "Cincinnati_2026_SF_Nakashima_Tiafoe",
             "DATE": "2026-08-23",
             "hash_id": "ea11e2185ecd366e"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "MENSIK",
+            "TOURNAMENT": "LAVER CUP",
+            "YEAR": "2026",
+            "ROUND": "RR",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Laver_Cup_2026_RR_Mensik_Nakashima",
+            "DATE": "2026-09-25",
+            "hash_id": "d9f0778e96d6d2ab"
         }
     ],
     "TSITSIPAS": [
@@ -14469,6 +14493,18 @@
             "match_id": "US_Open_2026_R16_Shelton_Tsitsipas",
             "DATE": "2026-09-06",
             "hash_id": "9a5aa0f01b0f1f7e"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "NISHIOKA",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_Q_Tsitsipas_Nishioka",
+            "DATE": "2026-09-28",
+            "hash_id": "2581024a90c44f99"
         }
     ],
     "PAUL": [
@@ -19989,6 +20025,18 @@
             "match_id": "Winston_Salem_2026_R16_Altmaier_Buse",
             "DATE": "2026-08-26",
             "hash_id": "1e126d6210956d03"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "CUI",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_Q_Cui_Altmaier",
+            "DATE": "2026-09-28",
+            "hash_id": "dda0101fe3382f37"
         }
     ],
     "SEYBOTH WILD": [
@@ -21315,6 +21363,18 @@
             "match_id": "US_Open_2026_1st_Tsitsipas_Fils",
             "DATE": "2026-08-31",
             "hash_id": "24daa53a02ae89ea"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "DAMM",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_Q_Fils_Damm",
+            "DATE": "2026-09-28",
+            "hash_id": "5ea3e855de0565f4"
         }
     ],
     "THOMPSON": [
@@ -29420,6 +29480,18 @@
             "match_id": "Davis_Cup_2026_Q_Mensik_Tien",
             "DATE": "2026-09-18",
             "hash_id": "22872a65e5e2de15"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "NAKASHIMA",
+            "TOURNAMENT": "LAVER CUP",
+            "YEAR": "2026",
+            "ROUND": "RR",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Laver_Cup_2026_RR_Mensik_Nakashima",
+            "DATE": "2026-09-25",
+            "hash_id": "ce6828c1db1b1dec"
         }
     ],
     "BENCIC": [
