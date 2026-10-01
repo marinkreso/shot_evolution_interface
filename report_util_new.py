@@ -207,6 +207,10 @@ def main3(selected_player_name='BERRETTINI',
             'rally_winners_and_forcing_error_per_match', # WINNERS & ERRORS
 'bh_consistency_new',
 'fh_consistency_new',
+'fh_deuce_consistency',
+'fh_ad_consistency',
+'bh_deuce_consistency',
+'bh_ad_consistency',
 'fh_errors',
 'bh_errors',
 'shots_hit_further_back', # LOCATION
@@ -486,6 +490,10 @@ def main3(selected_player_name='BERRETTINI',
 'rally_winners_and_forcing_error_per_match': 'WINNERS + FORCING ERRORS', # WINNERS & ERRORS
 'bh_consistency_new': 'BH IN PLAY %',
 'fh_consistency_new': 'FH IN PLAY %',
+'fh_deuce_consistency': 'DEUCE FH IN PLAY %',
+'fh_ad_consistency': 'AD FH IN PLAY %',
+'bh_deuce_consistency': 'DEUCE BH IN PLAY %',
+'bh_ad_consistency': 'AD BH IN PLAY %',
 'fh_errors': 'FH ERRORS',
 'bh_errors': 'BH ERRORS',
 'shots_hit_inside': '% OF SHOTS HIT INSIDE THE COURT', # LOCATION
