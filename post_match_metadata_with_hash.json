@@ -14505,6 +14505,18 @@
             "match_id": "Tokyo_2026_Q_Tsitsipas_Nishioka",
             "DATE": "2026-09-28",
             "hash_id": "2581024a90c44f99"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "HIJIKATA",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_Q_Tsitsipas_Hijikata",
+            "DATE": "2026-09-29",
+            "hash_id": "828d807c048c04dc"
         }
     ],
     "PAUL": [
@@ -21375,6 +21387,18 @@
             "match_id": "Tokyo_2026_Q_Fils_Damm",
             "DATE": "2026-09-28",
             "hash_id": "5ea3e855de0565f4"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "MAJCHRZAK",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_Q_Fils_Majchrzak",
+            "DATE": "2026-09-29",
+            "hash_id": "f98ffd0a34015087"
         }
     ],
     "THOMPSON": [
@@ -37198,6 +37222,42 @@
             "match_id": "Seoul_2026_R16_Bondar_Charaeva",
             "DATE": "2026-09-24",
             "hash_id": "f33036326f7631ae"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "ZARAZUA",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_1st_Bondar_Zarazua",
+            "DATE": "2026-09-30",
+            "hash_id": "d542cd3d217fb2ca"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "RUSE",
+            "TOURNAMENT": "SEOUL",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Seoul_2026_QF_Bondar_Ruse",
+            "DATE": "2026-09-26",
+            "hash_id": "0e799729caba0e6e"
+        },
+        {
+            "PLAYER": "BONDAR",
+            "OPPONENT": "BIRRELL",
+            "TOURNAMENT": "SEOUL",
+            "YEAR": "2026",
+            "ROUND": "SF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Seoul_2026_SF_Bondar_Birrell",
+            "DATE": "2026-09-26",
+            "hash_id": "dc7b214b01184998"
         }
     ],
     "CRISTIAN": [
