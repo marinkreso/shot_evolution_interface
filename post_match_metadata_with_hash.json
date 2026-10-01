@@ -11043,6 +11043,18 @@
             "match_id": "US_Open_2026_R32_Bergs_Van-De-Zandschulp",
             "DATE": "2026-09-05",
             "hash_id": "e88907a3730a3735"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "LEHECKA",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_R32_Lehecka_Bergs",
+            "DATE": "2026-10-01",
+            "hash_id": "0049bcb82aca6761"
         }
     ],
     "KECMANOVIC": [
@@ -13339,6 +13351,18 @@
             "match_id": "Laver_Cup_2026_RR_Mensik_Nakashima",
             "DATE": "2026-09-25",
             "hash_id": "d9f0778e96d6d2ab"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "HUMBERT",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_R32_Nakashima_Humbert",
+            "DATE": "2026-10-01",
+            "hash_id": "271063468339b8ff"
         }
     ],
     "TSITSIPAS": [
@@ -14517,6 +14541,18 @@
             "match_id": "Tokyo_2026_Q_Tsitsipas_Hijikata",
             "DATE": "2026-09-29",
             "hash_id": "828d807c048c04dc"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "ETCHEVERRY",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_R32_Etcheverry_Tsitsipas",
+            "DATE": "2026-10-01",
+            "hash_id": "a568c6bedcba47d1"
         }
     ],
     "PAUL": [
@@ -22598,6 +22634,18 @@
             "match_id": "ce33c3fd-b365-4307-be99-8a61dd201c33",
             "DATE": "2026-07-01",
             "hash_id": "989a72fae87acbac"
+        },
+        {
+            "PLAYER": "NAVONE",
+            "OPPONENT": "DE-MINAUR",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R32_de-Minaur_Navone",
+            "DATE": "2026-10-01",
+            "hash_id": "13d98afcff0273f6"
         }
     ],
     "GASTON": [
@@ -27462,6 +27510,18 @@
             "match_id": "Hangzhou_2026_R16_Jacquet_Etcheverry",
             "DATE": "2026-09-25",
             "hash_id": "f10d9495ba7ba479"
+        },
+        {
+            "PLAYER": "ETCHEVERRY",
+            "OPPONENT": "TSITSIPAS",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_R32_Etcheverry_Tsitsipas",
+            "DATE": "2026-10-01",
+            "hash_id": "a183bfe0e5ed915e"
         }
     ],
     "CORIC": [
@@ -36804,6 +36864,18 @@
             "match_id": "Winston_Salem_2026_F_Fery_Buse",
             "DATE": "2026-08-29",
             "hash_id": "4039b172d1ef82fa"
+        },
+        {
+            "PLAYER": "BUSE",
+            "OPPONENT": "HALYS",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R32_Buse_Halys",
+            "DATE": "2026-10-01",
+            "hash_id": "7e1e11f4651eb599"
         }
     ],
     "ENGEL": [
@@ -41026,6 +41098,18 @@
             "match_id": "Davis_Cup_2026_Q_Lehecka_Shelton",
             "DATE": "2026-09-18",
             "hash_id": "5844a028bb2afcce"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "BERGS",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_R32_Lehecka_Bergs",
+            "DATE": "2026-10-01",
+            "hash_id": "dd12968ac1131834"
         }
     ],
     "VALENTOVA": [

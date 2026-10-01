@@ -1,0 +1,309 @@
+{
+  "Tokyo_2026_R32_Etcheverry_Tsitsipas": {
+    "player": "ETCHEVERRY",
+    "opponent": "TSITSIPAS",
+    "points_total": 156,
+    "sets": {
+      "ALL": {
+        "player": "ETCHEVERRY",
+        "opponent": "TSITSIPAS",
+        "points_total": 156,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 62,
+            "points_won": {
+              "ETCHEVERRY": 33,
+              "TSITSIPAS": 29
+            },
+            "pct_won_poi": 53.2,
+            "frequency_pct": 39.7
+          },
+          "3-4 shots": {
+            "points_played": 43,
+            "points_won": {
+              "ETCHEVERRY": 16,
+              "TSITSIPAS": 27
+            },
+            "pct_won_poi": 37.2,
+            "frequency_pct": 27.6
+          },
+          "5-8 shots": {
+            "points_played": 35,
+            "points_won": {
+              "ETCHEVERRY": 12,
+              "TSITSIPAS": 23
+            },
+            "pct_won_poi": 34.3,
+            "frequency_pct": 22.4
+          },
+          "9+ shots": {
+            "points_played": 16,
+            "points_won": {
+              "ETCHEVERRY": 10,
+              "TSITSIPAS": 6
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 10.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 3,
+              "4": 5
+            },
+            "lost": {
+              "2": 4,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 5
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 71,
+          "lost": 85,
+          "won_pct": 45.5,
+          "lost_pct": 54.5
+        }
+      },
+      "1": {
+        "player": "ETCHEVERRY",
+        "opponent": "TSITSIPAS",
+        "points_total": 47,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 24,
+            "points_won": {
+              "ETCHEVERRY": 13,
+              "TSITSIPAS": 11
+            },
+            "pct_won_poi": 54.2,
+            "frequency_pct": 51.1
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "ETCHEVERRY": 4,
+              "TSITSIPAS": 7
+            },
+            "pct_won_poi": 36.4,
+            "frequency_pct": 23.4
+          },
+          "5-8 shots": {
+            "points_played": 5,
+            "points_won": {
+              "ETCHEVERRY": 3,
+              "TSITSIPAS": 2
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 10.6
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "ETCHEVERRY": 6,
+              "TSITSIPAS": 1
+            },
+            "pct_won_poi": 85.7,
+            "frequency_pct": 14.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 26,
+          "lost": 21,
+          "won_pct": 55.3,
+          "lost_pct": 44.7
+        }
+      },
+      "2": {
+        "player": "ETCHEVERRY",
+        "opponent": "TSITSIPAS",
+        "points_total": 52,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 18,
+            "points_won": {
+              "ETCHEVERRY": 9,
+              "TSITSIPAS": 9
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 34.6
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "ETCHEVERRY": 3,
+              "TSITSIPAS": 11
+            },
+            "pct_won_poi": 21.4,
+            "frequency_pct": 26.9
+          },
+          "5-8 shots": {
+            "points_played": 13,
+            "points_won": {
+              "ETCHEVERRY": 5,
+              "TSITSIPAS": 8
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 25.0
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "ETCHEVERRY": 3,
+              "TSITSIPAS": 4
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 13.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 4,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 20,
+          "lost": 32,
+          "won_pct": 38.5,
+          "lost_pct": 61.5
+        }
+      },
+      "3": {
+        "player": "ETCHEVERRY",
+        "opponent": "TSITSIPAS",
+        "points_total": 57,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "ETCHEVERRY": 11,
+              "TSITSIPAS": 9
+            },
+            "pct_won_poi": 55.0,
+            "frequency_pct": 35.1
+          },
+          "3-4 shots": {
+            "points_played": 18,
+            "points_won": {
+              "ETCHEVERRY": 9,
+              "TSITSIPAS": 9
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 31.6
+          },
+          "5-8 shots": {
+            "points_played": 17,
+            "points_won": {
+              "ETCHEVERRY": 4,
+              "TSITSIPAS": 13
+            },
+            "pct_won_poi": 23.5,
+            "frequency_pct": 29.8
+          },
+          "9+ shots": {
+            "points_played": 2,
+            "points_won": {
+              "ETCHEVERRY": 1,
+              "TSITSIPAS": 1
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 3.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 25,
+          "lost": 32,
+          "won_pct": 43.9,
+          "lost_pct": 56.1
+        }
+      }
+    }
+  }
+}

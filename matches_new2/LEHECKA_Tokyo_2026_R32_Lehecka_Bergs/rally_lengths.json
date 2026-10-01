@@ -1,0 +1,309 @@
+{
+  "Tokyo_2026_R32_Lehecka_Bergs": {
+    "player": "LEHECKA",
+    "opponent": "BERGS",
+    "points_total": 205,
+    "sets": {
+      "ALL": {
+        "player": "LEHECKA",
+        "opponent": "BERGS",
+        "points_total": 205,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 86,
+            "points_won": {
+              "LEHECKA": 49,
+              "BERGS": 37
+            },
+            "pct_won_poi": 57.0,
+            "frequency_pct": 42.0
+          },
+          "3-4 shots": {
+            "points_played": 47,
+            "points_won": {
+              "LEHECKA": 16,
+              "BERGS": 31
+            },
+            "pct_won_poi": 34.0,
+            "frequency_pct": 22.9
+          },
+          "5-8 shots": {
+            "points_played": 50,
+            "points_won": {
+              "LEHECKA": 32,
+              "BERGS": 18
+            },
+            "pct_won_poi": 64.0,
+            "frequency_pct": 24.4
+          },
+          "9+ shots": {
+            "points_played": 22,
+            "points_won": {
+              "LEHECKA": 11,
+              "BERGS": 11
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 10.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 4,
+              "4": 11
+            },
+            "lost": {
+              "2": 8,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 9
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 108,
+          "lost": 97,
+          "won_pct": 52.7,
+          "lost_pct": 47.3
+        }
+      },
+      "1": {
+        "player": "LEHECKA",
+        "opponent": "BERGS",
+        "points_total": 70,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 27,
+            "points_won": {
+              "LEHECKA": 14,
+              "BERGS": 13
+            },
+            "pct_won_poi": 51.9,
+            "frequency_pct": 38.6
+          },
+          "3-4 shots": {
+            "points_played": 17,
+            "points_won": {
+              "LEHECKA": 8,
+              "BERGS": 9
+            },
+            "pct_won_poi": 47.1,
+            "frequency_pct": 24.3
+          },
+          "5-8 shots": {
+            "points_played": 18,
+            "points_won": {
+              "LEHECKA": 11,
+              "BERGS": 7
+            },
+            "pct_won_poi": 61.1,
+            "frequency_pct": 25.7
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "LEHECKA": 5,
+              "BERGS": 3
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 11.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 3
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 32,
+          "won_pct": 54.3,
+          "lost_pct": 45.7
+        }
+      },
+      "2": {
+        "player": "LEHECKA",
+        "opponent": "BERGS",
+        "points_total": 84,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 34,
+            "points_won": {
+              "LEHECKA": 21,
+              "BERGS": 13
+            },
+            "pct_won_poi": 61.8,
+            "frequency_pct": 40.5
+          },
+          "3-4 shots": {
+            "points_played": 19,
+            "points_won": {
+              "LEHECKA": 4,
+              "BERGS": 15
+            },
+            "pct_won_poi": 21.1,
+            "frequency_pct": 22.6
+          },
+          "5-8 shots": {
+            "points_played": 23,
+            "points_won": {
+              "LEHECKA": 13,
+              "BERGS": 10
+            },
+            "pct_won_poi": 56.5,
+            "frequency_pct": 27.4
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "LEHECKA": 3,
+              "BERGS": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 9.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 4
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 4
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 41,
+          "lost": 43,
+          "won_pct": 48.8,
+          "lost_pct": 51.2
+        }
+      },
+      "3": {
+        "player": "LEHECKA",
+        "opponent": "BERGS",
+        "points_total": 51,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "LEHECKA": 14,
+              "BERGS": 11
+            },
+            "pct_won_poi": 56.0,
+            "frequency_pct": 49.0
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "LEHECKA": 4,
+              "BERGS": 7
+            },
+            "pct_won_poi": 36.4,
+            "frequency_pct": 21.6
+          },
+          "5-8 shots": {
+            "points_played": 9,
+            "points_won": {
+              "LEHECKA": 8,
+              "BERGS": 1
+            },
+            "pct_won_poi": 88.9,
+            "frequency_pct": 17.6
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "LEHECKA": 3,
+              "BERGS": 3
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 11.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 4
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 29,
+          "lost": 22,
+          "won_pct": 56.9,
+          "lost_pct": 43.1
+        }
+      }
+    }
+  }
+}

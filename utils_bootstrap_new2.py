@@ -227,6 +227,7 @@ def groundstroke_new_html(ui,movement_json, x, items):
     location = ['% OF SHOTS HIT INSIDE THE COURT', '% OF SHOTS HIT FROM BEHIND THE BASELINE', '% OF SHOTS HIT FROM FURTHER BACK']
     conversion = ['FH FINISHING SHOTS ON EASY BALLS', 'BH FINISHING SHOTS ON EASY BALLS', 'FH ERRORS ON EASY BALLS', 'BH ERRORS ON EASY BALLS']
     cross_dtl_patterns = ['WIN% IN CROSS FH RALLIES', 'WIN% IN CROSS BH RALLIES', 'CHANGES OF DIRECTION FH DTL', 'CHANGES OF DIRECTION BH DTL', 'WIN% CHANGING DIRECTION FH DTL', 'WIN% CHANGING DIRECTION BH DTL']
+    direction_win = ['FH CC WIN%', 'BH CC WIN%', 'FH DTL WIN%', 'BH DTL WIN%', 'RFH CC WIN%', 'RFH DTL WIN%']
     on_the_run = ['TIMES PLACING THE OPPONENT ON THE RUN TO FH', 'WIN% PLACING THE OPPONENT ON THE RUN TO FH' ,'TIMES PLACING THE OPPONENT ON THE RUN TO BH', 'WIN% PLACING THE OPPONENT ON THE RUN TO BH']
     dropshots_approaches = ['TIMES HITTING A DROP SHOT', 'WIN% ON DROP SHOTS', 'TIMES USING CROSS BH SLICE DEEP', 'WIN% USING CROSS BH SLICE DEEP', 'TIMES USING CROSS BH SLICE LOW SHORT ANGLE', 'WIN% USING CROSS BH SLICE LOW SHORT ANGLE', 'TIMES APPROACHING THE NET', 'WIN% APPROACHING THE NET']
       
@@ -240,6 +241,8 @@ def groundstroke_new_html(ui,movement_json, x, items):
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in location}, 'LOCATION')
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in conversion}, 'CONVERSION')
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in cross_dtl_patterns}, 'CROSS AND DTL RALLY PATTERNS')
+    if any(x in items for x in direction_win):
+        ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in direction_win if x in items}, 'WIN% BY DIRECTION')
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in on_the_run}, 'ON THE RUN')
     ui_table_jinja_nicegui(ui, movement_json, {x: items[x] for x in dropshots_approaches}, 'DROPSHOTS, SLICES, APPROACHES')
 
@@ -254,8 +257,109 @@ def fh_new_html(ui, movement_json, x, items):
     #ui.html('<h1>FH DANGEROUS LOCATIONS</h1>').classes('mx-auto').classes('text-2xl')
     #ui.image('7.png').classes('w-96').classes('mx-auto')
 
-def other_new_html(ui, movement_json, returnx, items, images=None, chosen_set=None):
+def _rally_bar_row(ui, label_html, p1_val, p2_val, p1_name, p2_name, p1_text=None, p2_text=None):
+    """One green-vs-red bar row in the style of the stat tables."""
+    total = (p1_val or 0) + (p2_val or 0)
+    p1_perc = round(100 * (p1_val or 0) / total) if total else 50
+    ui.html(f'''
+    <div class="container">
+      <table class="table text-center" style="margin-bottom: 0.5rem">
+        <tbody><tr>
+          <td style="width:5%"><h4 class="progress-label-right">{p1_text if p1_text is not None else p1_val}</h4></td>
+          <td style="width:35%">
+            <div class="progress flex-row-reverse">
+              <div class="progress-bar bg-success" role="progressbar" style="width: {p1_perc}%"></div>
+            </div>
+          </td>
+          <td style="width:20%">{label_html}</td>
+          <td style="width:35%">
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: {100 - p1_perc}%"></div>
+            </div>
+          </td>
+          <td style="width:5%"><h4 class="progress-label">{p2_text if p2_text is not None else p2_val}</h4></td>
+        </tr></tbody>
+      </table>
+    </div>''').classes('w-full').classes('mx-auto')
+
+
+def rally_lengths_html(ui, rally, movement_json, chosen_set='ALL'):
+    """RALLY LENGTHS section (EdgeAnalytics-style sheet) from rally_lengths.json.
+
+    New format: {"player", "opponent", "sets": {"ALL": sheet, "1": sheet, ...}};
+    old format (one whole-match sheet, no "sets" key) still renders, ignoring
+    the set selection."""
+    p1 = movement_json['selected_player_name']
+    p2 = movement_json['opponent_name']
+    # the json is written from the selected player's perspective; flip if needed
+    flip = rally.get('player', p1).upper() != p1.upper()
+    set_title = ''
+    if 'sets' in rally:
+        key = str(chosen_set or 'ALL')
+        sheet = rally['sets'].get(key)
+        if sheet is None:
+            ui.html('<h1 class="text-center">RALLY LENGTHS</h1>').classes('text-2xl').classes('mx-auto')
+            ui.label(f'No rally-length data for set {key}.').classes('mx-auto text-gray-500')
+            return
+        rally = dict(sheet)
+        rally.setdefault('player', p1 if not flip else p2)
+        rally.setdefault('opponent', p2 if not flip else p1)
+        if key != 'ALL':
+            set_title = f' — SET {key}'
+    ui.html(f'<h1 class="text-center">RALLY LENGTHS{set_title}</h1>').classes('text-2xl').classes('mx-auto')
+    ui.html(f'''
+    <div class="container"><table class="table text-center" style="margin-bottom:0"><thead><tr>
+      <th style="width:5%"></th><th style="width:35%;color:#28a745">{p1}</th>
+      <th style="width:20%"></th>
+      <th style="width:35%;color:#dc3545">{p2}</th><th style="width:5%"></th>
+    </tr></thead></table></div>''').classes('w-full').classes('mx-auto')
+    for bucket, b in rally.get('rally_lengths', {}).items():
+        won = b.get('points_won', {})
+        vals = list(won.values())
+        if len(vals) == 2:
+            a, o = vals[0], vals[1]
+        else:
+            a = won.get(rally.get('player'), 0); o = won.get(rally.get('opponent'), 0)
+        if flip:
+            a, o = o, a
+        label = (f"{bucket.upper()}<br>"
+                 f"<span style='font-size:12px;color:#888'>{b.get('points_played', 0)} POINTS · "
+                 f"{b.get('frequency_pct', 0)}% OF ALL</span>")
+        _rally_bar_row(ui, label, a, o, p1, p2)
+
+    # points won / lost overall
+    pwl = rally.get('points_won_lost')
+    if pwl:
+        a, o = pwl.get('won', 0), pwl.get('lost', 0)
+        ap, op = pwl.get('won_pct', 0), pwl.get('lost_pct', 0)
+        if flip:
+            a, o, ap, op = o, a, op, ap
+        ui.html('<h1 class="text-center">TOTAL POINTS WON</h1>').classes('text-2xl').classes('mx-auto')
+        _rally_bar_row(ui, 'ALL POINTS', a, o, p1, p2,
+                       p1_text=f'{a} ({ap}%)', p2_text=f'{o} ({op}%)')
+
+    # points in a row (streaks), selected player's perspective
+    streaks = rally.get('points_in_a_row')
+    if streaks and not flip:
+        ui.html('<h1 class="text-center">POINTS IN A ROW</h1>').classes('text-2xl').classes('mx-auto')
+        ui.label(f'How often {p1.title()} strung points together (and conceded runs)').classes('mx-auto text-gray-500')
+        rows = []
+        for kind, title in [('service_games', 'SERVICE GAMES'), ('return_games', 'RETURN GAMES')]:
+            s = streaks.get(kind, {})
+            for res, res_title in [('won', 'WON'), ('lost', 'LOST')]:
+                r = s.get(res, {})
+                rows.append({'Games': title, 'Result': res_title,
+                             '2 in a row': r.get('2', 0), '3 in a row': r.get('3', 0),
+                             '4+ in a row': r.get('4', 0)})
+        cols = ['Games', 'Result', '2 in a row', '3 in a row', '4+ in a row']
+        ui.table(columns=[{'name': c, 'label': c, 'field': c, 'align': 'center'} for c in cols],
+                 rows=rows).classes('mx-auto')
+
+
+def other_new_html(ui, movement_json, returnx, items, images=None, chosen_set=None, rally=None):
     ui_table_jinja_nicegui(ui, movement_json, items, 'TYPE OF POINTS WON')
+    if rally:
+        rally_lengths_html(ui, rally, movement_json, chosen_set or 'ALL')
 
 def return_new_html(ui, movement_json, returnx, items, images, chosen_set):
     ui.markdown(f'### 1st Return'.upper()).classes('mx-auto').classes('font-bold')

@@ -13,6 +13,7 @@ from nicegui import run
 from nicegui import ui as _ui
 
 from averages import compute_averages
+from match_clips import list_match_clips
 from report_util_new import main3
 from utils_bootstrap_new2 import *
 
@@ -73,6 +74,14 @@ async def main_page_new(match_str: str):
     if Path(f'matches_new2/{match_str}/fonseca_return.csv').exists():
         fonseca_return = pd.read_csv(f'matches_new2/{match_str}/fonseca_return.csv')
         fonseca_spin = pd.read_csv(f'matches_new2/{match_str}/fonseca_spin.csv')
+    # optional rally-length sheet (same delivery model as the fonseca CSVs)
+    rally_lengths = None
+    if Path(f'matches_new2/{match_str}/rally_lengths.json').exists():
+        with open(f'matches_new2/{match_str}/rally_lengths.json') as f:
+            rally_lengths = json.load(f)
+        # the generator writes {match_id: sheet}; accept both wrapped and bare
+        if rally_lengths and 'player' not in rally_lengths and len(rally_lengths) == 1:
+            rally_lengths = next(iter(rally_lengths.values()))
     match = '_'.join(match_str.split('_')[1:])
     sel_playerx = match_str.split('_')[0]
     ui.colors(accent='#6AD4DD')
@@ -123,6 +132,11 @@ async def main_page_new(match_str: str):
     _avg_p1, _avg_p2 = await run.io_bound(_both_averages)
     dm['_averages'] = {'p1': _avg_p1, 'p2': _avg_p2}
     dm['_show_averages'] = True  # averages view is the default
+
+    # video clips for this match on the gsa-operations blob (tab only shows when
+    # some exist). Hidden for now — flip SHOW_CLIPS to bring the tab back.
+    SHOW_CLIPS = False
+    match_clips = await run.io_bound(list_match_clips, sel_playerx, match) if SHOW_CLIPS else {}
 
     df_games = pd.read_csv(f"matches_new2/{match_str}/{dm['path_to_games']}")
     if not 'combined' in match_str.lower():
@@ -237,7 +251,8 @@ async def main_page_new(match_str: str):
                 ui.tab('ms', label='SHOT MOVEMENT')
                 ui.tab('heat', label='MOVEMENT HEATMAP')
                 ui.tab('o', label='OTHER')
-                #ui.tab('v', label='Video')
+                if match_clips:
+                    ui.tab('clips', label='CLIPS')
         ui.label('SELECT SET').classes('mx-auto')
     # Tabs are built lazily: only the visible tab is rendered, visited tabs are
     # kept until the set / averages selection changes (then everything rebuilds).
@@ -298,6 +313,36 @@ async def main_page_new(match_str: str):
                     src = images[img_key] if chosen == 'ALL' else images[img_key].replace('.png', f'_{chosen}.png')
                     ui.image(src).classes('w-full md:w-1/2').classes('mx-auto')
 
+            def build_clips():
+                sections = match_clips
+                first = next(iter(sections.values()))[0]
+                state = {'sel': first}
+
+                video_col = {}
+
+                def select(title, url):
+                    state['sel'] = (title, url)
+                    video_col['title'].set_text(title.upper())
+                    video_col['video'].set_source(url)
+                    clip_list.refresh()
+
+                @ui.refreshable
+                def clip_list():
+                    for section, entries in sections.items():
+                        with ui.expansion(f'{section} ({len(entries)})', value=True).classes('w-full').props('dense header-class="font-bold"'):
+                            for title, url in entries:
+                                selected = url == state['sel'][1]
+                                btn = ui.button(title, on_click=lambda t=title, u=url: select(t, u)) \
+                                    .props('flat no-caps align=left size=md').classes('w-full')
+                                btn.props('color=green' if selected else 'color=grey-8')
+
+                with ui.row().classes('w-full justify-center items-start q-px-md'):
+                    with ui.column().classes('w-full md:w-1/4 order-2 md:order-1'):
+                        clip_list()
+                    with ui.column().classes('w-full md:w-2/3 order-1 md:order-2 items-center'):
+                        video_col['title'] = ui.label(state['sel'][0].upper()).classes('font-bold text-lg')
+                        video_col['video'] = ui.video(state['sel'][1], autoplay=False).classes('w-full')
+
             def build_fonseca_tables(first_serve):
                 if fonseca_return is None:
                     return
@@ -325,9 +370,11 @@ async def main_page_new(match_str: str):
                 'gs': lambda: groundstroke_new_html(ui, dm, 'GS Table', build_items('groundstroke_table')),
                 'm': lambda: movement_new_html(ui, dm, df_games),
                 'ms': lambda: shot_movement_new_html(ui, dm, 'SHOT MOVEMENT', build_items('movement', mark_missing=False)),
-                'o': lambda: other_new_html(ui, dm, 'OTHER', build_items('other')),
+                'o': lambda: other_new_html(ui, dm, 'OTHER', build_items('other'), chosen_set=chosen_set_object.chosen_set, rally=rally_lengths),
                 'heat': build_heat,
             }
+            if match_clips:
+                builders['clips'] = build_clips
 
             current = selected_tab.number if selected_tab.number in builders else 's1'
             built = {current}

@@ -62,6 +62,9 @@ def main3(selected_player_name='BERRETTINI',
         'other': [
             'rally_long', 
     'serve_plus_win',
+    'splus_fh',
+    'splus_bh',
+    'splus_rfh',
         ],
         'serve': [
             'first_serve_in_percentage',
@@ -194,6 +197,12 @@ def main3(selected_player_name='BERRETTINI',
             'return_speed_reduction_break'
         ],
         'groundstroke_table': [
+            'fh_cc_win_percentage',  # WIN% BY DIRECTION
+            'bh_cc_win_percentage',
+            'fh_dtl_win_percentage',
+            'bh_dtl_win_percentage',
+            'rfh_cc_win_percentage',
+            'rfh_dtl_win_percentage',
             'rally_winners_and_forcing_error_per_match', # WINNERS & ERRORS
 'bh_consistency_new',
 'fh_consistency_new',
@@ -308,6 +317,15 @@ def main3(selected_player_name='BERRETTINI',
     
     
     pretty_dict = {
+        'fh_cc_win_percentage': 'FH CC WIN%',
+        'bh_cc_win_percentage': 'BH CC WIN%',
+        'fh_dtl_win_percentage': 'FH DTL WIN%',
+        'bh_dtl_win_percentage': 'BH DTL WIN%',
+        'rfh_cc_win_percentage': 'RFH CC WIN%',
+        'rfh_dtl_win_percentage': 'RFH DTL WIN%',
+        'splus_fh': 'Serve+1 FH %',
+        'splus_bh': 'Serve+1 BH %',
+        'splus_rfh': 'Serve+1 RFH %',
         'second_fh_return_in_percentage': 'FH Return In%',
             'second_bh_return_in_percentage': 'BH Return In%',
             'second_return_fh_speed': 'Avg FH Speed',
