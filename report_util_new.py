@@ -62,9 +62,6 @@ def main3(selected_player_name='BERRETTINI',
         'other': [
             'rally_long', 
     'serve_plus_win',
-    'splus_fh',
-    'splus_bh',
-    'splus_rfh',
         ],
         'serve': [
             'first_serve_in_percentage',
@@ -77,7 +74,10 @@ def main3(selected_player_name='BERRETTINI',
             'percent_of_first_serves_within_04m_of_sideline',
             'percent_unreturned_first_serves',
             'strong_serve_plus1',
-            'weak_serve_plus1'
+            'weak_serve_plus1',
+            'splus_fh',
+            'splus_bh',
+            'splus_rfh',
         ],
         'serve_2nd': [
             
@@ -90,9 +90,10 @@ def main3(selected_player_name='BERRETTINI',
             'second_serve_speed_ad_t',
             'second_serve_speed_ad_w',
             'second_serve_speed_deuce_t',
-            'second_serve_speed_deuce_w'
-            
-            
+            'second_serve_speed_deuce_w',
+            'splus_fh_2nd',
+            'splus_bh_2nd',
+            'splus_rfh_2nd',
         ], #
         'movement': ["movement_to_fh_avg_speed",
     "movement_to_fh_avg_acc",
@@ -326,6 +327,9 @@ def main3(selected_player_name='BERRETTINI',
         'splus_fh': 'Serve+1 FH %',
         'splus_bh': 'Serve+1 BH %',
         'splus_rfh': 'Serve+1 RFH %',
+        'splus_fh_2nd': 'Serve+1 FH %',
+        'splus_bh_2nd': 'Serve+1 BH %',
+        'splus_rfh_2nd': 'Serve+1 RFH %',
         'second_fh_return_in_percentage': 'FH Return In%',
             'second_bh_return_in_percentage': 'BH Return In%',
             'second_return_fh_speed': 'Avg FH Speed',
