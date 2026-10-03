@@ -29612,6 +29612,18 @@
             "match_id": "Beijing_2026_R32_Bublik_Mensik",
             "DATE": "2026-10-01",
             "hash_id": "c0b67eebc45520bf"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "CERUNDOLO",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R16_Cerundolo_Mensik",
+            "DATE": "2026-10-03",
+            "hash_id": "9b0ffb8edcfa276f"
         }
     ],
     "BENCIC": [
