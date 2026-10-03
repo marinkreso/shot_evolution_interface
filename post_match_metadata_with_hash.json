@@ -14553,6 +14553,18 @@
             "match_id": "Tokyo_2026_R32_Etcheverry_Tsitsipas",
             "DATE": "2026-10-01",
             "hash_id": "a568c6bedcba47d1"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "VACHEROT",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_R16_Vacherot_Tsitsipas",
+            "DATE": "2026-10-02",
+            "hash_id": "66120a68f235c2e0"
         }
     ],
     "PAUL": [
@@ -21435,6 +21447,18 @@
             "match_id": "Tokyo_2026_Q_Fils_Majchrzak",
             "DATE": "2026-09-29",
             "hash_id": "f98ffd0a34015087"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "TIAFOE",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_R16_Fils_Tiafoe",
+            "DATE": "2026-10-02",
+            "hash_id": "0dd96a2fc3385723"
         }
     ],
     "THOMPSON": [

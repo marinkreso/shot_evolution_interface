@@ -1,0 +1,234 @@
+{
+  "Tokyo_2026_R16_Fils_Tiafoe": {
+    "player": "FILS",
+    "opponent": "TIAFOE",
+    "points_total": 126,
+    "sets": {
+      "ALL": {
+        "player": "FILS",
+        "opponent": "TIAFOE",
+        "points_total": 126,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 56,
+            "points_won": {
+              "FILS": 35,
+              "TIAFOE": 21
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 44.4
+          },
+          "3-4 shots": {
+            "points_played": 26,
+            "points_won": {
+              "FILS": 10,
+              "TIAFOE": 16
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 20.6
+          },
+          "5-8 shots": {
+            "points_played": 32,
+            "points_won": {
+              "FILS": 17,
+              "TIAFOE": 15
+            },
+            "pct_won_poi": 53.1,
+            "frequency_pct": 25.4
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "FILS": 7,
+              "TIAFOE": 5
+            },
+            "pct_won_poi": 58.3,
+            "frequency_pct": 9.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 8,
+              "3": 5,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 6,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 69,
+          "lost": 57,
+          "won_pct": 54.8,
+          "lost_pct": 45.2
+        }
+      },
+      "1": {
+        "player": "FILS",
+        "opponent": "TIAFOE",
+        "points_total": 55,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 28,
+            "points_won": {
+              "FILS": 16,
+              "TIAFOE": 12
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 50.9
+          },
+          "3-4 shots": {
+            "points_played": 9,
+            "points_won": {
+              "FILS": 2,
+              "TIAFOE": 7
+            },
+            "pct_won_poi": 22.2,
+            "frequency_pct": 16.4
+          },
+          "5-8 shots": {
+            "points_played": 12,
+            "points_won": {
+              "FILS": 9,
+              "TIAFOE": 3
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 21.8
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "FILS": 4,
+              "TIAFOE": 2
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 10.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 31,
+          "lost": 24,
+          "won_pct": 56.4,
+          "lost_pct": 43.6
+        }
+      },
+      "2": {
+        "player": "FILS",
+        "opponent": "TIAFOE",
+        "points_total": 71,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 28,
+            "points_won": {
+              "FILS": 19,
+              "TIAFOE": 9
+            },
+            "pct_won_poi": 67.9,
+            "frequency_pct": 39.4
+          },
+          "3-4 shots": {
+            "points_played": 17,
+            "points_won": {
+              "FILS": 8,
+              "TIAFOE": 9
+            },
+            "pct_won_poi": 47.1,
+            "frequency_pct": 23.9
+          },
+          "5-8 shots": {
+            "points_played": 20,
+            "points_won": {
+              "FILS": 8,
+              "TIAFOE": 12
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 28.2
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "FILS": 3,
+              "TIAFOE": 3
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 8.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 3,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 33,
+          "won_pct": 53.5,
+          "lost_pct": 46.5
+        }
+      }
+    }
+  }
+}
