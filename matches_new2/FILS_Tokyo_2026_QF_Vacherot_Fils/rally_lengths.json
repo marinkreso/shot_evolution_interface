@@ -1,0 +1,309 @@
+{
+  "Tokyo_2026_QF_Vacherot_Fils": {
+    "player": "FILS",
+    "opponent": "VACHEROT",
+    "points_total": 212,
+    "sets": {
+      "ALL": {
+        "player": "FILS",
+        "opponent": "VACHEROT",
+        "points_total": 212,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 84,
+            "points_won": {
+              "FILS": 36,
+              "VACHEROT": 48
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 39.6
+          },
+          "3-4 shots": {
+            "points_played": 55,
+            "points_won": {
+              "FILS": 30,
+              "VACHEROT": 25
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 25.9
+          },
+          "5-8 shots": {
+            "points_played": 50,
+            "points_won": {
+              "FILS": 25,
+              "VACHEROT": 25
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 23.6
+          },
+          "9+ shots": {
+            "points_played": 23,
+            "points_won": {
+              "FILS": 12,
+              "VACHEROT": 11
+            },
+            "pct_won_poi": 52.2,
+            "frequency_pct": 10.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 8,
+              "4": 2
+            },
+            "lost": {
+              "2": 11,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 8,
+              "3": 9,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 103,
+          "lost": 109,
+          "won_pct": 48.6,
+          "lost_pct": 51.4
+        }
+      },
+      "1": {
+        "player": "FILS",
+        "opponent": "VACHEROT",
+        "points_total": 79,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 36,
+            "points_won": {
+              "FILS": 18,
+              "VACHEROT": 18
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 45.6
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "FILS": 7,
+              "VACHEROT": 9
+            },
+            "pct_won_poi": 43.8,
+            "frequency_pct": 20.3
+          },
+          "5-8 shots": {
+            "points_played": 21,
+            "points_won": {
+              "FILS": 8,
+              "VACHEROT": 13
+            },
+            "pct_won_poi": 38.1,
+            "frequency_pct": 26.6
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "FILS": 4,
+              "VACHEROT": 2
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 7.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 6,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 4,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 37,
+          "lost": 42,
+          "won_pct": 46.8,
+          "lost_pct": 53.2
+        }
+      },
+      "2": {
+        "player": "FILS",
+        "opponent": "VACHEROT",
+        "points_total": 68,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 28,
+            "points_won": {
+              "FILS": 11,
+              "VACHEROT": 17
+            },
+            "pct_won_poi": 39.3,
+            "frequency_pct": 41.2
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "FILS": 12,
+              "VACHEROT": 4
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 23.5
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "FILS": 10,
+              "VACHEROT": 6
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 23.5
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "FILS": 4,
+              "VACHEROT": 4
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 11.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 4,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 37,
+          "lost": 31,
+          "won_pct": 54.4,
+          "lost_pct": 45.6
+        }
+      },
+      "3": {
+        "player": "FILS",
+        "opponent": "VACHEROT",
+        "points_total": 65,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "FILS": 7,
+              "VACHEROT": 13
+            },
+            "pct_won_poi": 35.0,
+            "frequency_pct": 30.8
+          },
+          "3-4 shots": {
+            "points_played": 23,
+            "points_won": {
+              "FILS": 11,
+              "VACHEROT": 12
+            },
+            "pct_won_poi": 47.8,
+            "frequency_pct": 35.4
+          },
+          "5-8 shots": {
+            "points_played": 13,
+            "points_won": {
+              "FILS": 7,
+              "VACHEROT": 6
+            },
+            "pct_won_poi": 53.8,
+            "frequency_pct": 20.0
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "FILS": 4,
+              "VACHEROT": 5
+            },
+            "pct_won_poi": 44.4,
+            "frequency_pct": 13.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 29,
+          "lost": 36,
+          "won_pct": 44.6,
+          "lost_pct": 55.4
+        }
+      }
+    }
+  }
+}

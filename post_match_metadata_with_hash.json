@@ -21459,6 +21459,18 @@
             "match_id": "Tokyo_2026_R16_Fils_Tiafoe",
             "DATE": "2026-10-02",
             "hash_id": "0dd96a2fc3385723"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "VACHEROT",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_QF_Vacherot_Fils",
+            "DATE": "2026-10-04",
+            "hash_id": "60a43a895f2d9b1b"
         }
     ],
     "THOMPSON": [
@@ -41182,6 +41194,18 @@
             "match_id": "Tokyo_2026_R16_Humbert_Lehecka",
             "DATE": "2026-10-03",
             "hash_id": "57782f1863d9f51d"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "VALLEJO",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_QF_Lehecka_Vallejo",
+            "DATE": "2026-10-04",
+            "hash_id": "f476c23c464b6ea2"
         }
     ],
     "VALENTOVA": [
