@@ -1,0 +1,309 @@
+{
+  "Beijing_2026_R64_Timofeeva_Osaka": {
+    "player": "OSAKA",
+    "opponent": "TIMOFEEVA",
+    "points_total": 174,
+    "sets": {
+      "ALL": {
+        "player": "OSAKA",
+        "opponent": "TIMOFEEVA",
+        "points_total": 174,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 40,
+            "points_won": {
+              "OSAKA": 22,
+              "TIMOFEEVA": 18
+            },
+            "pct_won_poi": 55.0,
+            "frequency_pct": 23.0
+          },
+          "3-4 shots": {
+            "points_played": 56,
+            "points_won": {
+              "OSAKA": 32,
+              "TIMOFEEVA": 24
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 32.2
+          },
+          "5-8 shots": {
+            "points_played": 58,
+            "points_won": {
+              "OSAKA": 29,
+              "TIMOFEEVA": 29
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 33.3
+          },
+          "9+ shots": {
+            "points_played": 20,
+            "points_won": {
+              "OSAKA": 9,
+              "TIMOFEEVA": 11
+            },
+            "pct_won_poi": 45.0,
+            "frequency_pct": 11.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 10,
+              "3": 7,
+              "4": 2
+            },
+            "lost": {
+              "2": 8,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 5,
+              "3": 3,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 92,
+          "lost": 82,
+          "won_pct": 52.9,
+          "lost_pct": 47.1
+        }
+      },
+      "1": {
+        "player": "OSAKA",
+        "opponent": "TIMOFEEVA",
+        "points_total": 64,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "OSAKA": 10,
+              "TIMOFEEVA": 4
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 21.9
+          },
+          "3-4 shots": {
+            "points_played": 22,
+            "points_won": {
+              "OSAKA": 13,
+              "TIMOFEEVA": 9
+            },
+            "pct_won_poi": 59.1,
+            "frequency_pct": 34.4
+          },
+          "5-8 shots": {
+            "points_played": 21,
+            "points_won": {
+              "OSAKA": 9,
+              "TIMOFEEVA": 12
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 32.8
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "OSAKA": 4,
+              "TIMOFEEVA": 3
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 10.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 4,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 36,
+          "lost": 28,
+          "won_pct": 56.2,
+          "lost_pct": 43.8
+        }
+      },
+      "2": {
+        "player": "OSAKA",
+        "opponent": "TIMOFEEVA",
+        "points_total": 61,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 16,
+            "points_won": {
+              "OSAKA": 6,
+              "TIMOFEEVA": 10
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 26.2
+          },
+          "3-4 shots": {
+            "points_played": 19,
+            "points_won": {
+              "OSAKA": 9,
+              "TIMOFEEVA": 10
+            },
+            "pct_won_poi": 47.4,
+            "frequency_pct": 31.1
+          },
+          "5-8 shots": {
+            "points_played": 18,
+            "points_won": {
+              "OSAKA": 8,
+              "TIMOFEEVA": 10
+            },
+            "pct_won_poi": 44.4,
+            "frequency_pct": 29.5
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "OSAKA": 3,
+              "TIMOFEEVA": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 13.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 26,
+          "lost": 35,
+          "won_pct": 42.6,
+          "lost_pct": 57.4
+        }
+      },
+      "3": {
+        "player": "OSAKA",
+        "opponent": "TIMOFEEVA",
+        "points_total": 49,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 10,
+            "points_won": {
+              "OSAKA": 6,
+              "TIMOFEEVA": 4
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 20.4
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "OSAKA": 10,
+              "TIMOFEEVA": 5
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 30.6
+          },
+          "5-8 shots": {
+            "points_played": 19,
+            "points_won": {
+              "OSAKA": 12,
+              "TIMOFEEVA": 7
+            },
+            "pct_won_poi": 63.2,
+            "frequency_pct": 38.8
+          },
+          "9+ shots": {
+            "points_played": 5,
+            "points_won": {
+              "OSAKA": 2,
+              "TIMOFEEVA": 3
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 10.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 30,
+          "lost": 19,
+          "won_pct": 61.2,
+          "lost_pct": 38.8
+        }
+      }
+    }
+  }
+}

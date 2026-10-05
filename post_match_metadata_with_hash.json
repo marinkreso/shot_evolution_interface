@@ -4363,6 +4363,30 @@
             "match_id": "US_Open_2026_R16_Osaka_Rybakina",
             "DATE": "2026-09-07",
             "hash_id": "151919e3ef219e28"
+        },
+        {
+            "PLAYER": "OSAKA",
+            "OPPONENT": "BEJLEK",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R32_Bejlek_Osaka",
+            "DATE": "2026-10-04",
+            "hash_id": "09ec8c9d12db0638"
+        },
+        {
+            "PLAYER": "OSAKA",
+            "OPPONENT": "TIMOFEEVA",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R64_Timofeeva_Osaka",
+            "DATE": "2026-10-02",
+            "hash_id": "aacc3a077cc39dd1"
         }
     ],
     "NAVARRO": [
@@ -7621,6 +7645,30 @@
             "match_id": "US_Open_2026_R16_Swiatek_Zheng",
             "DATE": "2026-09-07",
             "hash_id": "1e9432cf29ba6c5e"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "GAO",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R64_Gao_Swiatek",
+            "DATE": "2026-10-03",
+            "hash_id": "8b8cca2bfacdef76"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "VEKIC",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R32_Vekic_Swiatek",
+            "DATE": "2026-10-05",
+            "hash_id": "92de4f2bc0922d98"
         }
     ],
     "KORDA": [
