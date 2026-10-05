@@ -41206,6 +41206,18 @@
             "match_id": "Tokyo_2026_QF_Lehecka_Vallejo",
             "DATE": "2026-10-04",
             "hash_id": "f476c23c464b6ea2"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "VACHEROT",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "SF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_SF_Lehecka_Vacherot",
+            "DATE": "2026-10-05",
+            "hash_id": "3105f6373fc34c3e"
         }
     ],
     "VALENTOVA": [
