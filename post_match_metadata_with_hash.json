@@ -32882,6 +32882,18 @@
             "match_id": "Shanghai_2026_Q_Bellucci_Ymer",
             "DATE": "2026-10-05",
             "hash_id": "74eed97af76b9e5c"
+        },
+        {
+            "PLAYER": "BELLUCCI",
+            "OPPONENT": "MULLER",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_Q_Bellucci_Muller",
+            "DATE": "2026-10-06",
+            "hash_id": "2a6cd9a3f6a6b5da"
         }
     ],
     "SELL": [
@@ -38827,6 +38839,18 @@
             "match_id": "Shanghai_2026_Q_Hong_Sakamoto",
             "DATE": "2026-10-05",
             "hash_id": "4f47a84649589e7a"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "JACQUET",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_Q_Jacquet_Sakamoto",
+            "DATE": "2026-10-06",
+            "hash_id": "8c086ae86c7283a1"
         }
     ],
     "JODAR": [
@@ -40317,6 +40341,18 @@
             "match_id": "Tokyo_2026_SF_Lehecka_Vacherot",
             "DATE": "2026-10-05",
             "hash_id": "3105f6373fc34c3e"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "ALCARAZ",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "F",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Tokyo_2026_F_Alcaraz_Lehecka",
+            "DATE": "2026-10-06",
+            "hash_id": "e91621215c994b22"
         }
     ],
     "VALENTOVA": [
