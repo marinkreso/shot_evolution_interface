@@ -347,30 +347,6 @@
             "match_id": "Davis-Cup_2025_QF_Carreno-Busta_Mensik",
             "DATE": "2025-11-20",
             "hash_id": "de8505e95b990398"
-        },
-        {
-            "PLAYER": "CARRENO BUSTA",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "286c31fe-7af4-4457-ad92-4c12f18fb538",
-            "DATE": "2026-07-02",
-            "hash_id": "e8e2a944e31f4f76"
-        },
-        {
-            "PLAYER": "CARRENO BUSTA",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "53a02e4c-a2eb-4868-a7f3-e3a3c6f45135",
-            "DATE": "2026-05-31",
-            "hash_id": "7c1e1b40a55be25d"
         }
     ],
     "SHELTON": [
@@ -1261,246 +1237,6 @@
             "match_id": "US_Open_2026_R16_Shelton_Tsitsipas",
             "DATE": "2026-09-06",
             "hash_id": "03824a365a500ad0"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "ALCARAZ",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "afce892a-3bf7-49e9-aea0-c35cedc9583e",
-            "DATE": "2026-09-09",
-            "hash_id": "7335461bc89f6044"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "SHAPOVALOV",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "b44f8c32-b96a-4622-ae8b-aab74e780375",
-            "DATE": "2026-09-04",
-            "hash_id": "c035c05eda1475aa"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "HURKACZ",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "1a4b10ed-06bc-4d91-9262-ecc7a36ba4df",
-            "DATE": "2026-09-02",
-            "hash_id": "b97844ef6331516a"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "GRIEKSPOOR",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "fc2f75c3-e2a0-4b01-bdb0-5584530565fe",
-            "DATE": "2026-08-31",
-            "hash_id": "4c38e3475b959c98"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "FARIA",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "e48ce190-c534-4c7b-ae98-6f101ac347f5",
-            "DATE": "2026-08-17",
-            "hash_id": "509cbb51c9d892cd"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "TIEN",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "SF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "579d1dbb-d9bd-4147-b35d-e1b980ba4c80",
-            "DATE": "2026-08-13",
-            "hash_id": "2cc005676cbaf1bd"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "TABILO",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "acbdbc64-13b3-45d4-8660-915c9b260b77",
-            "DATE": "2026-08-01",
-            "hash_id": "dbbdaf709fb57fe5"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "HUMBERT",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "1ada8440-98f9-404f-885a-b57030ffcac3",
-            "DATE": "2026-07-31",
-            "hash_id": "68a62680301389dd"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "DAMM",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "b191cb2b-e2ed-4081-8455-45b4ff628139",
-            "DATE": "2026-07-29",
-            "hash_id": "d6ba1adde67ba1d5"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "VIRTANEN",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "ba4373ad-d80f-44ba-a4de-0383c62914e3",
-            "DATE": "2026-06-30",
-            "hash_id": "c1718cb25a7f8dd9"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "FRITZ",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "9d917ed5-f656-4ac6-9635-73af0090ab62",
-            "DATE": "2026-06-19",
-            "hash_id": "4826b0d5cf60c1dd"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "QUINN",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "6a10cd5c-d3cf-47ae-adce-77369ed176ea",
-            "DATE": "2026-06-18",
-            "hash_id": "21b704664f118df4"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "SONEGO",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "0a921d8d-37b5-41d9-8d98-f7d0de560e65",
-            "DATE": "2026-06-17",
-            "hash_id": "37669cae990a3d15"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "FRITZ",
-            "TOURNAMENT": "STUTTGART",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "d79b6d50-c244-48b2-8944-e4cfddf1fa55",
-            "DATE": "2026-06-14",
-            "hash_id": "0d3ae236f51bf87b"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "SHIMABUKURO",
-            "TOURNAMENT": "STUTTGART",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "3c73cec1-3481-47a3-abf8-1003cdbb719b",
-            "DATE": "2026-06-13",
-            "hash_id": "de9034beb17922a4"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "GIRON",
-            "TOURNAMENT": "STUTTGART",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "08e80dd2-e941-41e8-8da6-e19866fda9f4",
-            "DATE": "2026-06-12",
-            "hash_id": "d23ce5ec0dd5d266"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "COLLIGNON",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "1ac5d540-4a55-4eed-9aeb-6a29f85d7f5b",
-            "DATE": "2026-05-28",
-            "hash_id": "1ece1b224495f07c"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "MERIDA",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "6d660a64-e1a0-4471-be24-e3ebe7ff61bc",
-            "DATE": "2026-05-25",
-            "hash_id": "16a547732adeacfd"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "ZVEREV",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "F",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "27d7f072-04a7-4d69-842f-a556bb742dc8",
-            "DATE": "2026-09-13",
-            "hash_id": "5db197e47bef25fd"
-        },
-        {
-            "PLAYER": "SHELTON",
-            "OPPONENT": "TIAFOE",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "SF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "f6fd7275-da7e-4d01-8f55-1d05c8ada452",
-            "DATE": "2026-09-11",
-            "hash_id": "036c67f501069c17"
         },
         {
             "PLAYER": "SHELTON",
@@ -2670,231 +2406,27 @@
         },
         {
             "PLAYER": "COBOLLI",
-            "OPPONENT": "SCHOOLKATE",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "11927958-538b-4e5a-844c-cb2aa8b33768",
-            "DATE": "2026-09-03",
-            "hash_id": "7d6b18a8c39de628"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "COMESANA",
-            "TOURNAMENT": "US OPEN",
+            "OPPONENT": "SAFIULLIN",
+            "TOURNAMENT": "BEIJING",
             "YEAR": "2026",
             "ROUND": "R1",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "3bb40df5-add7-4bd1-ba6b-42aded6ec56a",
-            "DATE": "2026-09-01",
-            "hash_id": "55fce6725405c0ea"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "PAUL",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R4",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "efb56aa9-bac4-4a9b-9364-4b7f9133c4bc",
-            "DATE": "2026-08-20",
-            "hash_id": "f7533f76dea90a12"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R4",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "3b65786a-ae14-4386-aa57-23b5a54df175",
-            "DATE": "2026-08-19",
-            "hash_id": "68807da8a73844b1"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "HANFMANN",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "84ef99de-27a8-4ffc-8741-830dbbb081a7",
-            "DATE": "2026-08-05",
-            "hash_id": "657a44f06bc69086"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "BURRUCHAGA",
-            "TOURNAMENT": "UMAG",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "49eb3a3a-3044-40d3-be1a-3d79aa3ee145",
-            "DATE": "2026-07-15",
-            "hash_id": "81228764ec14635f"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "FERY",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "e194ec00-1741-4b2c-88e1-a6031f254d31",
-            "DATE": "2026-07-08",
-            "hash_id": "a4b82143c5687574"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "DE MINAUR",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "f707fa3e-2522-4883-84fa-93b5ea44be4c",
-            "DATE": "2026-07-06",
-            "hash_id": "723dbaa30661fbc7"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "KHACHANOV",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "6f667b8b-f212-461f-9436-c212dc796e0f",
-            "DATE": "2026-07-04",
-            "hash_id": "426d990ae8a27395"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "DUCKWORTH",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "185993f0-9a83-4912-b27c-efb1dde9c2ae",
-            "DATE": "2026-07-02",
-            "hash_id": "30aefbdb115f6ee6"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "NAVONE",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "ce33c3fd-b365-4307-be99-8a61dd201c33",
-            "DATE": "2026-07-01",
-            "hash_id": "51b16586e8aa0620"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "TIAFOE",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "466f400e-c6d8-4c48-bfb2-eba3ed3f23be",
-            "DATE": "2026-06-15",
-            "hash_id": "ef3b97e9d434098e"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "ZVEREV",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "ddd928b7-8c7f-45c4-9ab7-72e7787c156b",
-            "DATE": "2026-06-07",
-            "hash_id": "b02f61ecc7f872da"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "ALIASSIME",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "ad6ff166-bf6b-42e6-a24a-30616bc01d10",
-            "DATE": "2026-06-03",
-            "hash_id": "47143ac455e28ce2"
+            "match_id": "f1a33936-21bb-483a-97ec-e91834a31b19",
+            "DATE": "2026-10-01",
+            "hash_id": "f4465cdd0b23fa26"
         },
         {
             "PLAYER": "COBOLLI",
             "OPPONENT": "TIEN",
-            "TOURNAMENT": "ROLAND GARROS",
+            "TOURNAMENT": "LAVER CUP",
             "YEAR": "2026",
             "ROUND": "CV",
-            "SURFACE": "clay",
+            "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "2e6eba1e-7bca-4a17-a198-fdc2b4257656",
-            "DATE": "2026-05-30",
-            "hash_id": "0661e5569398aea0"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "WU",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "3b253bf0-07a5-4748-9485-adbac4375155",
-            "DATE": "2026-05-28",
-            "hash_id": "7506e387e7fe24da"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "PELLEGRINO",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "b5776b5b-5877-41d2-86e0-db8fc01bd88c",
-            "DATE": "2026-05-25",
-            "hash_id": "10d1d5eadcf27972"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "TIRANTE",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "d4866499-9a88-4bf2-bfac-59e96a18c577",
-            "DATE": "2026-05-11",
-            "hash_id": "4604a99dae45d667"
-        },
-        {
-            "PLAYER": "COBOLLI",
-            "OPPONENT": "ATMANE",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "50a9d027-14fb-4650-8725-18e3ea2a6e01",
-            "DATE": "2026-05-09",
-            "hash_id": "ded1dd607ba15495"
+            "match_id": "be4c622d-4ff4-47ab-90a0-49851077f170",
+            "DATE": "2026-09-26",
+            "hash_id": "892f32e4d4f4d9fc"
         }
     ],
     "HURKACZ": [
@@ -3437,18 +2969,6 @@
             "match_id": "RG_2025_1st_Hurkacz_Fonseca",
             "DATE": "2025-05-27",
             "hash_id": "eb73b08be55370ef"
-        },
-        {
-            "PLAYER": "HURKACZ",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "1a4b10ed-06bc-4d91-9262-ecc7a36ba4df",
-            "DATE": "2026-09-02",
-            "hash_id": "9e3403b7627f5e43"
         }
     ],
     "OSAKA": [
@@ -15203,18 +14723,6 @@
             "match_id": "Indian_Wells_2026_R32_Fonseca_Paul",
             "DATE": "2026-03-09",
             "hash_id": "70da75497c7e9e07"
-        },
-        {
-            "PLAYER": "PAUL",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R4",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "efb56aa9-bac4-4a9b-9364-4b7f9133c4bc",
-            "DATE": "2026-08-20",
-            "hash_id": "3a7a5100894e7967"
         }
     ],
     "SINNER": [
@@ -20351,6 +19859,18 @@
             "match_id": "Kitzbuhel_2025_QF_Seyboth-wild_Van-de-zandschulp",
             "DATE": "2025-07-24",
             "hash_id": "2070fbd68f68d375"
+        },
+        {
+            "PLAYER": "SEYBOTH WILD",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "a2c271aa-b98c-4ff4-af3d-739da1ead3eb",
+            "DATE": "2026-07-25",
+            "hash_id": "acaa2401a6237d91"
         }
     ],
     "EUBANKS": [
@@ -22709,18 +22229,6 @@
         },
         {
             "PLAYER": "NAVONE",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "ce33c3fd-b365-4307-be99-8a61dd201c33",
-            "DATE": "2026-07-01",
-            "hash_id": "989a72fae87acbac"
-        },
-        {
-            "PLAYER": "NAVONE",
             "OPPONENT": "DE-MINAUR",
             "TOURNAMENT": "BEIJING",
             "YEAR": "2026",
@@ -24358,18 +23866,6 @@
             "match_id": "Indian_Wells_2026_1st_Opelka_Quinn",
             "DATE": "2026-03-04",
             "hash_id": "7cf47009fd96d885"
-        },
-        {
-            "PLAYER": "QUINN",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "6a10cd5c-d3cf-47ae-adce-77369ed176ea",
-            "DATE": "2026-06-18",
-            "hash_id": "588aba2baaad243a"
         }
     ],
     "BAEZ": [
@@ -25814,6 +25310,30 @@
             "match_id": "US_Open_2026_Q_Gea_Basavareddy",
             "DATE": "2026-08-28",
             "hash_id": "faf318cb17b60fa5"
+        },
+        {
+            "PLAYER": "BASAVAREDDY",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "10d79be9-9578-48e4-a1e9-cca0fcfa51c9",
+            "DATE": "2026-09-26",
+            "hash_id": "bf357be7bfaf263a"
+        },
+        {
+            "PLAYER": "BASAVAREDDY",
+            "OPPONENT": "COPPEJANS",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_Q_Coppejans_Basavareddy",
+            "DATE": "2026-10-05",
+            "hash_id": "08574714adda34d3"
         }
     ],
     "COMESANA": [
@@ -26260,18 +25780,6 @@
             "match_id": "Indian_Wells_2026_1st_Korda_Comesana",
             "DATE": "2026-03-06",
             "hash_id": "352d131e3d0ed1c3"
-        },
-        {
-            "PLAYER": "COMESANA",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "3bb40df5-add7-4bd1-ba6b-42aded6ec56a",
-            "DATE": "2026-09-01",
-            "hash_id": "69dee1b1dd12b074"
         }
     ],
     "ETCHEVERRY": [
@@ -27634,18 +27142,6 @@
             "match_id": "Barcelona_2025_R32_Arnaldi_Korda",
             "DATE": "2025-04-14",
             "hash_id": "5fbaa1283ad67908"
-        },
-        {
-            "PLAYER": "ARNALDI",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "9f0a5ffc-a2f5-4abe-bce7-9ad08434a4a4",
-            "DATE": "2026-05-10",
-            "hash_id": "c64a0bedba60f9b6"
         }
     ],
     "MOUTET": [
@@ -27660,18 +27156,6 @@
             "match_id": "Barcelona_2025_Q_Quinn_Moutet",
             "DATE": "2025-04-12",
             "hash_id": "4140af9768b3481a"
-        },
-        {
-            "PLAYER": "MOUTET",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "f868b5d3-f49c-4c8b-ae82-e59cf51b8158",
-            "DATE": "2026-08-05",
-            "hash_id": "d381cea2cc5a7557"
         }
     ],
     "TSENG": [
@@ -27712,18 +27196,6 @@
             "match_id": "Munich_2025_R32_Kecmanovic_Giron",
             "DATE": "2025-04-14",
             "hash_id": "dba7d5b9cec3e905"
-        },
-        {
-            "PLAYER": "GIRON",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "STUTTGART",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "08e80dd2-e941-41e8-8da6-e19866fda9f4",
-            "DATE": "2026-06-12",
-            "hash_id": "ac5e453dc8aef62b"
         }
     ],
     "ANDREESCU": [
@@ -30396,30 +29868,6 @@
             "match_id": "Halle_2025_R16_Shapovalov_Cobolli",
             "DATE": "2025-06-19",
             "hash_id": "68f7cae2a72a6420"
-        },
-        {
-            "PLAYER": "SHAPOVALOV",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "b44f8c32-b96a-4622-ae8b-aab74e780375",
-            "DATE": "2026-09-04",
-            "hash_id": "8f2d640100a48d4f"
-        },
-        {
-            "PLAYER": "SHAPOVALOV",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "1ce59584-d4ed-4dca-aba9-434d8c5a709a",
-            "DATE": "2026-08-16",
-            "hash_id": "ea92c1d0d18091e9"
         }
     ],
     "BOUZKOVA": [
@@ -30766,18 +30214,6 @@
             "match_id": "Tokyo_2025_R32_Alcaraz_Baez",
             "DATE": "2025-09-25",
             "hash_id": "f0e2d0fc33d47817"
-        },
-        {
-            "PLAYER": "ALCARAZ",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "afce892a-3bf7-49e9-aea0-c35cedc9583e",
-            "DATE": "2026-09-09",
-            "hash_id": "e13f1de2220e006d"
         }
     ],
     "GRACHEVA": [
@@ -33413,18 +32849,6 @@
         },
         {
             "PLAYER": "BELLUCCI",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "MARRAKECH 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Marrakech_2026_CV_Bellucci_Bennani",
-            "DATE": "2026-03-31",
-            "hash_id": "ea4b524ef9cec40b"
-        },
-        {
-            "PLAYER": "BELLUCCI",
             "OPPONENT": "DARDERI",
             "TOURNAMENT": "WINSTON SALEM",
             "YEAR": "2026",
@@ -33446,6 +32870,18 @@
             "match_id": "Hangzhou_2026_R32_Bellucci_Majchrzak",
             "DATE": "2026-09-24",
             "hash_id": "8a43ff9bb1b18fc2"
+        },
+        {
+            "PLAYER": "BELLUCCI",
+            "OPPONENT": "YMER",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_Q_Bellucci_Ymer",
+            "DATE": "2026-10-05",
+            "hash_id": "74eed97af76b9e5c"
         }
     ],
     "SELL": [
@@ -36490,42 +35926,6 @@
             "match_id": "Cincinnati_2025_R32_Nakashima_Zverev",
             "DATE": "2025-08-12",
             "hash_id": "1d1bf2711da7efaf"
-        },
-        {
-            "PLAYER": "ZVEREV",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "ddd928b7-8c7f-45c4-9ab7-72e7787c156b",
-            "DATE": "2026-06-07",
-            "hash_id": "9658da62e7642dd2"
-        },
-        {
-            "PLAYER": "ZVEREV",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "6bfe2c15-b019-4ddf-b5df-8c87398e5f01",
-            "DATE": "2026-06-02",
-            "hash_id": "ab6bcf677f38918b"
-        },
-        {
-            "PLAYER": "ZVEREV",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "F",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "27d7f072-04a7-4d69-842f-a556bb742dc8",
-            "DATE": "2026-09-13",
-            "hash_id": "297dbef96b60fb78"
         }
     ],
     "BUSE": [
@@ -37061,18 +36461,6 @@
             "match_id": "Los-Cabos_2025_R16_Altmaier_Schoolkate",
             "DATE": "2025-07-17",
             "hash_id": "3f1a84aa71e688a8"
-        },
-        {
-            "PLAYER": "SCHOOLKATE",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "11927958-538b-4e5a-844c-cb2aa8b33768",
-            "DATE": "2026-09-03",
-            "hash_id": "e0e89c12edeb8c6b"
         }
     ],
     "DZUMHUR": [
@@ -37143,30 +36531,6 @@
             "match_id": "Rogers_cup_2025_1st_Blockx_Svrcina",
             "DATE": "2025-07-28",
             "hash_id": "03d002b7886bbcb2"
-        },
-        {
-            "PLAYER": "SVRCINA",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "TUNIS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Tunis_2026_CV_Svrcina_Bernet",
-            "DATE": "2026-05-11",
-            "hash_id": "11579809de292e7d"
-        },
-        {
-            "PLAYER": "SVRCINA",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "ROME 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Rome_2026_CV_Svrcina_Bernet",
-            "DATE": "2026-04-23",
-            "hash_id": "ac9a69cb8edbf610"
         }
     ],
     "SHANG": [
@@ -37231,18 +36595,6 @@
             "match_id": "Cincinnati_2025_R64_Bergs_Sonego",
             "DATE": "2025-08-09",
             "hash_id": "2c3253aa88b83f18"
-        },
-        {
-            "PLAYER": "SONEGO",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "0a921d8d-37b5-41d9-8d98-f7d0de560e65",
-            "DATE": "2026-06-17",
-            "hash_id": "fff1c69d8ee37336"
         }
     ],
     "AUGER ALIASSIME": [],
@@ -37454,20 +36806,7 @@
             "hash_id": "5faf414d9b02f859"
         }
     ],
-    "DE MINAUR": [
-        {
-            "PLAYER": "DE MINAUR",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "f707fa3e-2522-4883-84fa-93b5ea44be4c",
-            "DATE": "2026-07-06",
-            "hash_id": "a8d0b1b763de935a"
-        }
-    ],
+    "DE MINAUR": [],
     "COLLIGNON": [
         {
             "PLAYER": "COLLIGNON",
@@ -37936,18 +37275,6 @@
             "match_id": "Winston_Salem_2026_R32_Collignon_Hijikata",
             "DATE": "2026-08-25",
             "hash_id": "eb5c8f96cc46a554"
-        },
-        {
-            "PLAYER": "COLLIGNON",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "1ac5d540-4a55-4eed-9aeb-6a29f85d7f5b",
-            "DATE": "2026-05-28",
-            "hash_id": "1d7fc3f82672aef4"
         }
     ],
     "MBOKO": [
@@ -38352,38 +37679,14 @@
         {
             "PLAYER": "TIEN",
             "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "ROLAND GARROS",
+            "TOURNAMENT": "LAVER CUP",
             "YEAR": "2026",
             "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "2e6eba1e-7bca-4a17-a198-fdc2b4257656",
-            "DATE": "2026-05-30",
-            "hash_id": "ab31ea14b64dd395"
-        },
-        {
-            "PLAYER": "TIEN",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "SF",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "579d1dbb-d9bd-4147-b35d-e1b980ba4c80",
-            "DATE": "2026-08-13",
-            "hash_id": "a18f404dcfa3775f"
-        },
-        {
-            "PLAYER": "TIEN",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R4",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "8caebfa0-291f-4ca3-af3a-bf51a9a5a6dd",
-            "DATE": "2026-05-12",
-            "hash_id": "6c5fd6b7b1c91be9"
+            "match_id": "be4c622d-4ff4-47ab-90a0-49851077f170",
+            "DATE": "2026-09-26",
+            "hash_id": "bec9f9a14456e8fa"
         }
     ],
     "PRIZMIC": [
@@ -39512,6 +38815,18 @@
             "match_id": "Tokyo_2026_R32_Arnaldi_Sakamoto",
             "DATE": "2026-09-30",
             "hash_id": "e9c4eb832d2e8378"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "HONG",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_Q_Hong_Sakamoto",
+            "DATE": "2026-10-05",
+            "hash_id": "4f47a84649589e7a"
         }
     ],
     "JODAR": [
@@ -39526,246 +38841,6 @@
             "match_id": "AO_2026_1st_Sakamoto_Jodar",
             "DATE": "2026-01-20",
             "hash_id": "ee94851a251972ff"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R4",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "3b65786a-ae14-4386-aa57-23b5a54df175",
-            "DATE": "2026-08-19",
-            "hash_id": "ce736e411c29d212"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "TABILO",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "5cd21893-b8fc-4b46-9d5f-f43ed2792998",
-            "DATE": "2026-08-17",
-            "hash_id": "cb80f20af97116e1"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "SHAPOVALOV",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "1ce59584-d4ed-4dca-aba9-434d8c5a709a",
-            "DATE": "2026-08-16",
-            "hash_id": "9d19661685f92100"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "MUSETTI",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "54b23f62-5362-44cd-88b7-705639c30bb3",
-            "DATE": "2026-08-07",
-            "hash_id": "f2c871dd617d5b08"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "MOUTET",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "f868b5d3-f49c-4c8b-ae82-e59cf51b8158",
-            "DATE": "2026-08-05",
-            "hash_id": "2337cdc33176f0a7"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "FRITZ",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "4f0f2fd4-d9b2-47e2-9155-1c58b0b50d4d",
-            "DATE": "2026-08-03",
-            "hash_id": "b265490f4ee21d0b"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "TABILO",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "SF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "c3a0560c-91f1-4211-a02f-4e895223e325",
-            "DATE": "2026-08-02",
-            "hash_id": "07a45e081f302fee"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "MUSETTI",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "8d7102b3-69e0-4a70-a395-643788a0862a",
-            "DATE": "2026-08-01",
-            "hash_id": "1cc3205ff8a21464"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "NISHIKORI",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "f5940d17-68b8-4945-8b30-20acc0f466ad",
-            "DATE": "2026-07-30",
-            "hash_id": "1daf24df35994069"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "MOCHIZUKI",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "d1016c01-2d04-4657-a226-fc00eb60dd0f",
-            "DATE": "2026-07-03",
-            "hash_id": "6b1814599c190d10"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "CARRENO BUSTA",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "286c31fe-7af4-4457-ad92-4c12f18fb538",
-            "DATE": "2026-07-02",
-            "hash_id": "ea51a815ef31f731"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "GILL",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "ba8bf91d-da71-4d6f-b4b3-13497f325ab9",
-            "DATE": "2026-06-29",
-            "hash_id": "c0b2a433d9156bfc"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "ZVEREV",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "6bfe2c15-b019-4ddf-b5df-8c87398e5f01",
-            "DATE": "2026-06-02",
-            "hash_id": "a5e42dfdb6489bc9"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "CARRENO BUSTA",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "53a02e4c-a2eb-4868-a7f3-e3a3c6f45135",
-            "DATE": "2026-05-31",
-            "hash_id": "62dfd5cb9d33510e"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "MICHELSEN",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "8288e3bf-53aa-4e5c-b1d2-c72060e67bbd",
-            "DATE": "2026-05-29",
-            "hash_id": "a411a2f289e2560a"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "DUCKWORTH",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "ea8b3bb7-d377-4535-b6e8-b3ebbf4635be",
-            "DATE": "2026-05-27",
-            "hash_id": "1004a03cff4e1db0"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "KOVACEVIC",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "32cb2ab9-8433-45a2-b9e8-4f51f7483fbf",
-            "DATE": "2026-05-25",
-            "hash_id": "40073f37df051ad5"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "DARDERI",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "e8aeb8d0-9967-44cc-a878-9922407499c4",
-            "DATE": "2026-05-14",
-            "hash_id": "12ddc74f8fad5130"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "TIEN",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R4",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "8caebfa0-291f-4ca3-af3a-bf51a9a5a6dd",
-            "DATE": "2026-05-12",
-            "hash_id": "0054d6337c268295"
-        },
-        {
-            "PLAYER": "JODAR",
-            "OPPONENT": "ARNALDI",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "9f0a5ffc-a2f5-4abe-bce7-9ad08434a4a4",
-            "DATE": "2026-05-10",
-            "hash_id": "cfefc1a3d0027d2c"
         }
     ],
     "MUCHOVA": [
@@ -39883,243 +38958,219 @@
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "GIUSTINO",
-            "TOURNAMENT": "SION 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Sion_2026_CV_Giustino_Bernet",
-            "DATE": "2026-08-19",
-            "hash_id": "1765d4461af6aefc"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "NIKLES",
-            "TOURNAMENT": "SION 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Sion_2026_CV_Nikles_Bernet",
-            "DATE": "2026-08-18",
-            "hash_id": "39f2954393f19fe9"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "TORRES",
-            "TOURNAMENT": "ZUG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Zug_2026_CV_Torres_Bernet",
-            "DATE": "2026-07-21",
-            "hash_id": "993a149858bbbf32"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "DELLIEN",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Bernet_Dellien",
-            "DATE": "2026-07-11",
-            "hash_id": "6e29e1dda684be66"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "BONDIOLI",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Bernet_Bondioli",
-            "DATE": "2026-07-10",
-            "hash_id": "97c94084a7847c96"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "GOMEZ",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Gomez_Bernet",
-            "DATE": "2026-07-09",
-            "hash_id": "592d1009fec1917c"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "MARTIN MANZANO",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Manzano_Bernet",
-            "DATE": "2026-07-07",
-            "hash_id": "6761d297c6e2cd77"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "MARTIN",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Martin_Bernet",
-            "DATE": "2026-07-06",
-            "hash_id": "6cb99389f0f4d03b"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "IEMMI",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Iemmi_Bernet",
-            "DATE": "2026-07-05",
-            "hash_id": "3e4a7f5f62da1e6a"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "KOPP",
-            "TOURNAMENT": "M25 KLOSTERS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Klosters_2026_CV_Kopp_Bernet",
-            "DATE": "2026-06-19",
-            "hash_id": "a8d4f882eac2262b"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "THOMAS",
-            "TOURNAMENT": "M25 KLOSTERS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Klosters_2026_CV_Thomas_Bernet",
-            "DATE": "2026-06-18",
-            "hash_id": "8824eb6289ef49c2"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "SVRCINA",
-            "TOURNAMENT": "TUNIS 2026",
+            "OPPONENT": "CHIDEKH",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Tunis_2026_CV_Svrcina_Bernet",
-            "DATE": "2026-05-11",
-            "hash_id": "d7ecad218f87c43f"
+            "match_id": "10518a11-ec9e-40b7-8950-9a64f0324efa",
+            "DATE": "2026-10-03",
+            "hash_id": "5f8f1370c2f923a2"
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "DIAZ ACOSTA",
-            "TOURNAMENT": "FRANCAVILLA AL MARE 2026",
+            "OPPONENT": "BALSHAW",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Francavilla_al_Mare_2026_CV_Acosta_Bernet",
-            "DATE": "2026-05-05",
-            "hash_id": "0b18b2ccdd6eff1e"
+            "match_id": "38ecf543-5b6a-4f88-bc89-ffb0d3af0903",
+            "DATE": "2026-10-02",
+            "hash_id": "db5ea3c8ff80a79d"
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "SVRCINA",
-            "TOURNAMENT": "ROME 2026",
+            "OPPONENT": "STRICKER",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Rome_2026_CV_Svrcina_Bernet",
-            "DATE": "2026-04-23",
-            "hash_id": "4c6974023577c3ab"
+            "match_id": "422c7a5f-0d53-465b-9381-cfed465df383",
+            "DATE": "2026-10-01",
+            "hash_id": "4a50a14b69d4d717"
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "PAVLOVIC",
-            "TOURNAMENT": "ROME 2026",
+            "OPPONENT": "GLINKA",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Rome_2026_CV_Bernet_Pavlovic",
-            "DATE": "2026-04-20",
-            "hash_id": "2fef20744accf667"
+            "match_id": "22db8d18-b43c-4d5e-9a05-70c163c516fb",
+            "DATE": "2026-09-30",
+            "hash_id": "50ed2896a8173116"
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "KOUAME",
-            "TOURNAMENT": "M25 SANTA MARGHERITA DI PULA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Santa_Margherita_di_Pula_2026_CV_Bernet_Kouame",
-            "DATE": "2026-04-14",
-            "hash_id": "d3286145f70c0ebb"
-        },
-        {
-            "PLAYER": "BERNET",
-            "OPPONENT": "MORO CANAS",
-            "TOURNAMENT": "MADRID 2026",
+            "OPPONENT": "BANERJEE",
+            "TOURNAMENT": "M25 FALUN",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Madrid_2026_CV_Bernet_Canas",
-            "DATE": "2026-04-07",
-            "hash_id": "412634e56256f3f4"
+            "match_id": "ea3608e1-cb5b-457f-bf5c-9a13da8b8d26",
+            "DATE": "2026-09-26",
+            "hash_id": "6a3a4b30b63e3901"
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "DOSTANIC",
-            "TOURNAMENT": "HERSONISSOS 2 2026",
+            "OPPONENT": "PETROVIC",
+            "TOURNAMENT": "M25 FALUN",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Hersonissos_2_2026_CV_Bernet_Dostanic",
-            "DATE": "2026-03-09",
-            "hash_id": "d35940a02ec0b172"
+            "match_id": "3af75e51-1b5c-47ac-822e-45c5eda4f9fc",
+            "DATE": "2026-09-25",
+            "hash_id": "011f1ae8417c0062"
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "SORIANO BARRERA",
-            "TOURNAMENT": "HERSONISSOS 1 2026",
+            "OPPONENT": "FRIBERG",
+            "TOURNAMENT": "M25 FALUN",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Hersonissos_1_2026_CV_Barrera_Bernet",
-            "DATE": "2026-03-01",
-            "hash_id": "c17227e5e4953b45"
+            "match_id": "1acde61a-4543-479a-be00-a42d4e4f85be",
+            "DATE": "2026-09-24",
+            "hash_id": "924681b7416dfa52"
         },
         {
             "PLAYER": "BERNET",
-            "OPPONENT": "BUDKOV KJAER",
-            "TOURNAMENT": "LUGANO 2026",
+            "OPPONENT": "SIGSGAARD",
+            "TOURNAMENT": "M25 FALUN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "0913209c-8226-435a-8dc2-18971e066d6e",
+            "DATE": "2026-09-23",
+            "hash_id": "9f9d9713f3e090ef"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "FRYDRYCH",
+            "TOURNAMENT": "M25 FALUN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "5286b87a-3223-488c-889e-ef759b403469",
+            "DATE": "2026-09-21",
+            "hash_id": "7525dec9c249e51a"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "PALOMERO",
+            "TOURNAMENT": "TULLN",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "Lugano_2026_CV_Kjaer_Bernet",
-            "DATE": "2026-02-23",
-            "hash_id": "80f3506a5707e414"
+            "match_id": "3b9ea5ea-0b5d-436e-81aa-e3965a2b7fb8",
+            "DATE": "2026-09-07",
+            "hash_id": "a39260d087f95ead"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "WIEDENMANN",
+            "TOURNAMENT": "TULLN",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "cad7d338-a161-4b8c-980f-d2a4cd692796",
+            "DATE": "2026-09-06",
+            "hash_id": "4e05af8910161cba"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "DODIG",
+            "TOURNAMENT": "COMO",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "17f3041d-27cd-4e50-a490-a4253f982727",
+            "DATE": "2026-09-02",
+            "hash_id": "4c0f230d24ba3a6d"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "NAPOLITANO",
+            "TOURNAMENT": "COMO",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "8bc294e2-1d62-4e62-b4de-86d3e176225c",
+            "DATE": "2026-09-01",
+            "hash_id": "008ae43f25858da0"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "CHEPELEV",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "bc208331-9486-4631-975a-05ac54d3142a",
+            "DATE": "2026-08-30",
+            "hash_id": "d8f65a1a6348ebe7"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "BURDET",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "cb0a21bb-00b3-4ff1-a117-5030f5b22970",
+            "DATE": "2026-08-29",
+            "hash_id": "e55f6fa770f60f2f"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "OVCHARENKO",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "e20a2c1c-5344-47c2-bb0e-d71974b4346f",
+            "DATE": "2026-08-28",
+            "hash_id": "694833dea57a836b"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "BAKER",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "d479f986-9496-4148-a9bc-9e162334fdcb",
+            "DATE": "2026-08-27",
+            "hash_id": "cb7561ef6dac4ca4"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "MARIC",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "24970c20-8ee2-4bc2-b986-6ce19ea50c0c",
+            "DATE": "2026-08-25",
+            "hash_id": "bcb3a765a85f6d47"
         }
     ],
     "MONTEIRO": [
@@ -42066,6 +41117,222 @@
             "match_id": "Gstaad_2026_Q_Dietrich_Monteiro",
             "DATE": "2026-07-12",
             "hash_id": "320612d41178ec11"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "SHELBAYH",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "e9d2f6d3-b03a-4688-9b23-2f8ff204ceab",
+            "DATE": "2026-10-04",
+            "hash_id": "5ff78c7f313bda88"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "ANDRADE",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "e77a6768-fac3-4b0c-af2e-18d15597f83f",
+            "DATE": "2026-10-03",
+            "hash_id": "706afae180e19c2a"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "BLANCH",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "0ed9f224-6057-4fa1-bb7b-d5b5d700ed1c",
+            "DATE": "2026-10-02",
+            "hash_id": "7c21d50e6bd9fefd"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "FENTY",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "36d4c5b6-a68f-457e-8103-b97103aa8a55",
+            "DATE": "2026-09-30",
+            "hash_id": "c9e575fda3197301"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "WOLF",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "c49c91d6-e0ff-4f37-b842-47d385370bb2",
+            "DATE": "2026-09-29",
+            "hash_id": "b2e6c38d0747798e"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "BASAVAREDDY",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "10d79be9-9578-48e4-a1e9-cca0fcfa51c9",
+            "DATE": "2026-09-26",
+            "hash_id": "9ad43b8bf4115f29"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "SEARLE",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "99daf94e-93aa-46bd-a76b-aef7f205205b",
+            "DATE": "2026-09-25",
+            "hash_id": "5a22ea4773bb52e0"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "SMITH",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "61ad2291-af56-4f2a-b688-937efa936a7b",
+            "DATE": "2026-09-23",
+            "hash_id": "9a80b92d5285c8e3"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "DINEV",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "f23c51a4-afa4-42d3-a4e2-96a8cf127959",
+            "DATE": "2026-09-21",
+            "hash_id": "2d0f1ca7fd605775"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "PUCINELLI DE ALMEIDA",
+            "TOURNAMENT": "HAMBURG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "clay",
+            "FORMAT": "CV",
+            "match_id": "2f14fd83-df87-4eae-b4b6-01e3aeaa6499",
+            "DATE": "2026-08-14",
+            "hash_id": "06e1c29e2bc62a10"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "SACHKO",
+            "TOURNAMENT": "HAMBURG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "clay",
+            "FORMAT": "CV",
+            "match_id": "42bae5f1-7165-492a-867c-c39cf549eff0",
+            "DATE": "2026-08-12",
+            "hash_id": "e50cda30a3373ecb"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "KRUTYKH",
+            "TOURNAMENT": "HAMBURG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "clay",
+            "FORMAT": "CV",
+            "match_id": "458424fe-8a88-4311-8721-b352740316a5",
+            "DATE": "2026-08-11",
+            "hash_id": "86f914c228e3bbc0"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "SEYBOTH WILD",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "a2c271aa-b98c-4ff4-af3d-739da1ead3eb",
+            "DATE": "2026-07-25",
+            "hash_id": "5c932b14799fb2f4"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "MAYOT",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "859f5479-519f-4d32-bdd8-1d32e3a64d44",
+            "DATE": "2026-07-24",
+            "hash_id": "588e7f2c4841b3a8"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "ALCALA GURRI",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "e7ad8a22-9139-4751-b40e-a084555f7bec",
+            "DATE": "2026-07-23",
+            "hash_id": "cafdb137edc1ee28"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "BARRIOS VERA",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "b2008536-e186-4e63-a9d1-4f4748da6d9e",
+            "DATE": "2026-07-21",
+            "hash_id": "1c511a88d98fc09b"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "KYM",
+            "TOURNAMENT": "GSTAAD",
+            "YEAR": "2026",
+            "ROUND": "R1",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "78ad0bf5-b248-408e-966e-358d2c0ff6d4",
+            "DATE": "2026-07-14",
+            "hash_id": "e37eb41d4abb707c"
+        },
+        {
+            "PLAYER": "DIETRICH",
+            "OPPONENT": "SANCHEZ IZQUIERDO",
+            "TOURNAMENT": "TRIESTE",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "9f65f4ab-c7d1-4a4a-93a8-6529023338d6",
+            "DATE": "2026-07-07",
+            "hash_id": "1c3b9915eee1c16c"
         }
     ],
     "WONG": [
@@ -42554,1759 +41821,9 @@
             "match_id": "Cincinnati_2026_QF_Tirante_Fils",
             "DATE": "2026-08-21",
             "hash_id": "69d5607efb9b66aa"
-        },
-        {
-            "PLAYER": "TIRANTE",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "d4866499-9a88-4bf2-bfac-59e96a18c577",
-            "DATE": "2026-05-11",
-            "hash_id": "c64167292f628f46"
-        }
-    ],
-    "PAREJA": [
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "WANG",
-            "TOURNAMENT": "MUBADALA DC OPEN",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Mubadala_DC_Open_2026_CV_Wang_Pareja",
-            "DATE": "2026-07-28",
-            "hash_id": "bd16426519654b18"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "KAJI",
-            "TOURNAMENT": "W50 COLUMBUS, OH 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Columbus_OH_2026_CV_Kaji_Pareja",
-            "DATE": "2026-07-10",
-            "hash_id": "b0724c181a5c0189"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "SLAMA",
-            "TOURNAMENT": "W50 COLUMBUS, OH 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Columbus_OH_2026_CV_Pareja_Slama",
-            "DATE": "2026-07-08",
-            "hash_id": "2b8174012fc091fc"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "UDVARDY",
-            "TOURNAMENT": "COPA COLSANITAS COLSUBSIDIO",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Copa_Colsanitas_Colsubsidio_2026_CV_Udvardy_Pareja",
-            "DATE": "2026-04-01",
-            "hash_id": "c3d3054c2cec76fd"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "MANDLIK",
-            "TOURNAMENT": "COPA COLSANITAS COLSUBSIDIO",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Copa_Colsanitas_Colsubsidio_2026_CV_Mandlik_Pareja",
-            "DATE": "2026-03-30",
-            "hash_id": "0f3f7b4dfe3d5047"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "CROSS",
-            "TOURNAMENT": "W50 CHIHUAHUA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Chihuahua_2026_CV_Pareja_Cross",
-            "DATE": "2026-03-21",
-            "hash_id": "25345a80aadbf3c4"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "HINOJOSA GO",
-            "TOURNAMENT": "W50 CHIHUAHUA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Chihuahua_2026_CV_Gomez_Pareja",
-            "DATE": "2026-03-17",
-            "hash_id": "6ea8a74616f0ed23"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "BROADUS",
-            "TOURNAMENT": "W35 ARCADIA, CA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Arcadia_CA_2026_CV_Broadus_Pareja",
-            "DATE": "2026-02-26",
-            "hash_id": "3cca2f2d76a791d8"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "LAGAEV",
-            "TOURNAMENT": "W35 ARCADIA, CA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Arcadia_CA_2026_CV_Pareja_Lagaev",
-            "DATE": "2026-02-25",
-            "hash_id": "be1c5df338094237"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "LIUTOVA",
-            "TOURNAMENT": "W35 LAS VEGAS, NV 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Las_Vegas_NV_2026_CV_Pareja_Liutova",
-            "DATE": "2026-02-21",
-            "hash_id": "433fa9de0161d278"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "HAN",
-            "TOURNAMENT": "W35 LAS VEGAS, NV 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Las_Vegas_NV_2026_CV_HAN_Pareja",
-            "DATE": "2026-02-19",
-            "hash_id": "a581d7c75471d5cf"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "NGIJOL CARR",
-            "TOURNAMENT": "W35 LAS VEGAS, NV 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Las_Vegas_NV_2026_CV_Carre_Pareja",
-            "DATE": "2026-02-18",
-            "hash_id": "4a1ec57d911b7306"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "CABEZAS",
-            "TOURNAMENT": "W50 ORLANDO, FL 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Orlando_FL_2026_CV_Dominguez_Pareja",
-            "DATE": "2026-02-03",
-            "hash_id": "91f49f3bd4c8926e"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "LIUTOVA",
-            "TOURNAMENT": "W100 SAN DIEGO, CA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W100_San_Diego_CA_2026_CV_Pareja_Liutova",
-            "DATE": "2026-01-28",
-            "hash_id": "929bcd8c3969f75e"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "MANDLIK",
-            "TOURNAMENT": "W100 EDMOND, OK 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W100_Edmond_OK_2025_CV_Pareja_Mandlik",
-            "DATE": "2025-10-09",
-            "hash_id": "ff5709239bc69559"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "MARCINKO",
-            "TOURNAMENT": "W100 EDMOND, OK 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W100_Edmond_OK_2025_CV_Marcinko_Pareja",
-            "DATE": "2025-10-08",
-            "hash_id": "4c7759b1a6f2dced"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "JONES",
-            "TOURNAMENT": "W50 RANCHO SANTA FE, CA 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Rancho_Santa_Fe_CA_2025_CV_Jones_Pareja",
-            "DATE": "2025-10-03",
-            "hash_id": "542a60403f59e463"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "NILSSON",
-            "TOURNAMENT": "US OPEN 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "US_Open_2025_CV_Pareja_Nilsson",
-            "DATE": "2025-09-03",
-            "hash_id": "7eaffcd451c0586a"
-        },
-        {
-            "PLAYER": "PAREJA",
-            "OPPONENT": "BUCHNIK",
-            "TOURNAMENT": "US OPEN 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "US_Open_2025_CV_Pareja_Buchnik",
-            "DATE": "2025-08-31",
-            "hash_id": "92716e9f7ef63861"
-        }
-    ],
-    "WANG": [
-        {
-            "PLAYER": "WANG",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "MUBADALA DC OPEN",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Mubadala_DC_Open_2026_CV_Wang_Pareja",
-            "DATE": "2026-07-28",
-            "hash_id": "bd939e8f600e7a55"
-        }
-    ],
-    "KAJI": [
-        {
-            "PLAYER": "KAJI",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W50 COLUMBUS, OH 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Columbus_OH_2026_CV_Kaji_Pareja",
-            "DATE": "2026-07-10",
-            "hash_id": "23174484339d2684"
-        }
-    ],
-    "SLAMA": [
-        {
-            "PLAYER": "SLAMA",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W50 COLUMBUS, OH 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Columbus_OH_2026_CV_Pareja_Slama",
-            "DATE": "2026-07-08",
-            "hash_id": "7b8ecb80a11724b5"
-        }
-    ],
-    "UDVARDY": [
-        {
-            "PLAYER": "UDVARDY",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "COPA COLSANITAS COLSUBSIDIO",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Copa_Colsanitas_Colsubsidio_2026_CV_Udvardy_Pareja",
-            "DATE": "2026-04-01",
-            "hash_id": "867d6cf4e4522442"
-        }
-    ],
-    "MANDLIK": [
-        {
-            "PLAYER": "MANDLIK",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "COPA COLSANITAS COLSUBSIDIO",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Copa_Colsanitas_Colsubsidio_2026_CV_Mandlik_Pareja",
-            "DATE": "2026-03-30",
-            "hash_id": "ecca86b31429ff7b"
-        },
-        {
-            "PLAYER": "MANDLIK",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W100 EDMOND, OK 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W100_Edmond_OK_2025_CV_Pareja_Mandlik",
-            "DATE": "2025-10-09",
-            "hash_id": "86f0f5e3933dbfda"
-        }
-    ],
-    "CROSS": [
-        {
-            "PLAYER": "CROSS",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W50 CHIHUAHUA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Chihuahua_2026_CV_Pareja_Cross",
-            "DATE": "2026-03-21",
-            "hash_id": "f3338b6198d464e4"
-        }
-    ],
-    "HINOJOSA GO": [
-        {
-            "PLAYER": "HINOJOSA GO",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W50 CHIHUAHUA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Chihuahua_2026_CV_Gomez_Pareja",
-            "DATE": "2026-03-17",
-            "hash_id": "f77559fcfe045b00"
-        }
-    ],
-    "BROADUS": [
-        {
-            "PLAYER": "BROADUS",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W35 ARCADIA, CA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Arcadia_CA_2026_CV_Broadus_Pareja",
-            "DATE": "2026-02-26",
-            "hash_id": "38acc4c2bd9652a0"
-        }
-    ],
-    "LAGAEV": [
-        {
-            "PLAYER": "LAGAEV",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W35 ARCADIA, CA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Arcadia_CA_2026_CV_Pareja_Lagaev",
-            "DATE": "2026-02-25",
-            "hash_id": "cbf70e9c60cfac6b"
-        },
-        {
-            "PLAYER": "LAGAEV",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "AUSTRALIAN OPEN",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "7cac5129-13d7-4173-abe5-5357ae90179a",
-            "DATE": "2026-01-27",
-            "hash_id": "d45f9d8f62fe0e82"
-        }
-    ],
-    "GIUSTINO": [
-        {
-            "PLAYER": "GIUSTINO",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "SION 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Sion_2026_CV_Giustino_Bernet",
-            "DATE": "2026-08-19",
-            "hash_id": "8e715760f412366f"
-        }
-    ],
-    "NIKLES": [
-        {
-            "PLAYER": "NIKLES",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "SION 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Sion_2026_CV_Nikles_Bernet",
-            "DATE": "2026-08-18",
-            "hash_id": "86544efd034b343c"
-        }
-    ],
-    "TORRES": [
-        {
-            "PLAYER": "TORRES",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "ZUG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Zug_2026_CV_Torres_Bernet",
-            "DATE": "2026-07-21",
-            "hash_id": "d149b4ed584ace3d"
-        }
-    ],
-    "DELLIEN": [
-        {
-            "PLAYER": "DELLIEN",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Bernet_Dellien",
-            "DATE": "2026-07-11",
-            "hash_id": "7499bc2b0d663a6f"
-        }
-    ],
-    "BONDIOLI": [
-        {
-            "PLAYER": "BONDIOLI",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Bernet_Bondioli",
-            "DATE": "2026-07-10",
-            "hash_id": "6de52a0a7658ae06"
-        }
-    ],
-    "GOMEZ": [
-        {
-            "PLAYER": "GOMEZ",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Gomez_Bernet",
-            "DATE": "2026-07-09",
-            "hash_id": "6dc9e0208b72e6a4"
-        }
-    ],
-    "MARTIN MANZANO": [
-        {
-            "PLAYER": "MARTIN MANZANO",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Manzano_Bernet",
-            "DATE": "2026-07-07",
-            "hash_id": "b7c2f964b7bd9b4e"
-        }
-    ],
-    "MARTIN": [
-        {
-            "PLAYER": "MARTIN",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Martin_Bernet",
-            "DATE": "2026-07-06",
-            "hash_id": "17a5bcb3361c5555"
-        }
-    ],
-    "IEMMI": [
-        {
-            "PLAYER": "IEMMI",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "TRIESTE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "Trieste_2026_CV_Iemmi_Bernet",
-            "DATE": "2026-07-05",
-            "hash_id": "c29e0bcb4faa3b99"
-        }
-    ],
-    "KOPP": [
-        {
-            "PLAYER": "KOPP",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "M25 KLOSTERS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Klosters_2026_CV_Kopp_Bernet",
-            "DATE": "2026-06-19",
-            "hash_id": "43276cc9f6a6edff"
-        }
-    ],
-    "STUSEK": [
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "CEMBRANOS",
-            "TOURNAMENT": "W75 HECHINGEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W75_Hechingen_2026_CV_Stusek_Cembranos",
-            "DATE": "2026-07-29",
-            "hash_id": "3f4eeb928eee7a5b"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "KORPATSCH",
-            "TOURNAMENT": "MSC HAMBURG LADIES OPEN",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "MSC_Hamburg_Ladies_Open_2026_CV_Korpatsch_Stusek",
-            "DATE": "2026-07-22",
-            "hash_id": "cfe2d3841fb434cb"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "PODOROSKA",
-            "TOURNAMENT": "MSC HAMBURG LADIES OPEN",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "MSC_Hamburg_Ladies_Open_2026_CV_Podoroska_Stusek",
-            "DATE": "2026-07-20",
-            "hash_id": "445ffc8709e5ec54"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "SCHUNK",
-            "TOURNAMENT": "W50 DARMSTADT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W50_Darmstadt_2026_CV_Schunk_Stusek",
-            "DATE": "2026-07-15",
-            "hash_id": "06336b536b9498ee"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "PAQUET",
-            "TOURNAMENT": "W50 STUTTGART-VAIHINGEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W50_Stuttgart_Vaihingen_2026_CV_Stusek_Paquet",
-            "DATE": "2026-07-01",
-            "hash_id": "b9d07282e55b5d75"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "NAGY",
-            "TOURNAMENT": "W35 KLOSTERS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W35_Klosters_2026_CV_Nagy_Stusek",
-            "DATE": "2026-06-20",
-            "hash_id": "87e534b1af76765e"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "KOKKINIS",
-            "TOURNAMENT": "W35 SANTA MARGHERITA DI PULA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W35_Santa_Margherita_di_Pula_2026_CV_Stusek_Kokkinis",
-            "DATE": "2026-05-05",
-            "hash_id": "b972faeb0b0bdbd9"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "DESSOLIS",
-            "TOURNAMENT": "W35 SANTA MARGHERITA DI PULA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W35_Santa_Margherita_di_Pula_2026_CV_Stusek_Dessolis",
-            "DATE": "2026-04-22",
-            "hash_id": "faee78d51a3fb3c8"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "GAO",
-            "TOURNAMENT": "W50 CROISSY-BEAUBOURG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Croissy_Beaubourg_2026_CV_Gao_Stusek",
-            "DATE": "2026-03-25",
-            "hash_id": "24db6ba5ef742762"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "RYSER",
-            "TOURNAMENT": "W50 CROISSY-BEAUBOURG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Croissy_Beaubourg_2026_CV_Ryser_Stusek",
-            "DATE": "2026-03-24",
-            "hash_id": "43f6b7c462a83b8c"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "SHAPATAVA",
-            "TOURNAMENT": "W50 CROISSY-BEAUBOURG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Croissy_Beaubourg_2026_CV_Shapatava_Stusek",
-            "DATE": "2026-03-23",
-            "hash_id": "e12b7c4e4c710c7d"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "AVDEEVA",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Avdeeva_Stusek",
-            "DATE": "2026-02-21",
-            "hash_id": "1abc9dbb819b624b"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "GRANWEHR",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Granwehr_Stusek",
-            "DATE": "2026-02-20",
-            "hash_id": "c20f3dca6891ff0d"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "HODZIC",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Hodzic_Stusek",
-            "DATE": "2026-02-19",
-            "hash_id": "263e0b76a5a9aa7e"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "RAJECKI",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Rajecki_Stusek",
-            "DATE": "2026-02-17",
-            "hash_id": "865d6b234f18335c"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "VOGT",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Vogt_Stusek",
-            "DATE": "2026-02-16",
-            "hash_id": "7372a98a24b55118"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "HERRMANN",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Herrmann_Stusek",
-            "DATE": "2026-02-15",
-            "hash_id": "b70efb48d75ca44c"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "DUNNE",
-            "TOURNAMENT": "W35 SHEFFIELD 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Sheffield_2026_CV_Stusek_Dunne",
-            "DATE": "2026-02-06",
-            "hash_id": "833792933b03940d"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "BAINS",
-            "TOURNAMENT": "W35 SHEFFIELD 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Sheffield_2026_CV_Bains_Stusek",
-            "DATE": "2026-02-05",
-            "hash_id": "5a48a13716024f30"
-        },
-        {
-            "PLAYER": "STUSEK",
-            "OPPONENT": "COOLING",
-            "TOURNAMENT": "W35 SHEFFIELD 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Sheffield_2026_CV_Cooling_Stusek",
-            "DATE": "2026-02-03",
-            "hash_id": "a9edec6d262066bd"
-        }
-    ],
-    "CEMBRANOS": [
-        {
-            "PLAYER": "CEMBRANOS",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W75 HECHINGEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W75_Hechingen_2026_CV_Stusek_Cembranos",
-            "DATE": "2026-07-29",
-            "hash_id": "78fd80015d5f3b12"
-        }
-    ],
-    "KORPATSCH": [
-        {
-            "PLAYER": "KORPATSCH",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "MSC HAMBURG LADIES OPEN",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "MSC_Hamburg_Ladies_Open_2026_CV_Korpatsch_Stusek",
-            "DATE": "2026-07-22",
-            "hash_id": "f8536e4f01a8896d"
-        }
-    ],
-    "PODOROSKA": [
-        {
-            "PLAYER": "PODOROSKA",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "MSC HAMBURG LADIES OPEN",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "MSC_Hamburg_Ladies_Open_2026_CV_Podoroska_Stusek",
-            "DATE": "2026-07-20",
-            "hash_id": "d6539e9036bd80b8"
-        }
-    ],
-    "SCHUNK": [
-        {
-            "PLAYER": "SCHUNK",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W50 DARMSTADT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W50_Darmstadt_2026_CV_Schunk_Stusek",
-            "DATE": "2026-07-15",
-            "hash_id": "b10806263bf33c6b"
-        }
-    ],
-    "PAQUET": [
-        {
-            "PLAYER": "PAQUET",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W50 STUTTGART-VAIHINGEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W50_Stuttgart_Vaihingen_2026_CV_Stusek_Paquet",
-            "DATE": "2026-07-01",
-            "hash_id": "22303d36a7c00014"
-        }
-    ],
-    "NAGY": [
-        {
-            "PLAYER": "NAGY",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W35 KLOSTERS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W35_Klosters_2026_CV_Nagy_Stusek",
-            "DATE": "2026-06-20",
-            "hash_id": "c8229c4285bb275b"
-        }
-    ],
-    "KOKKINIS": [
-        {
-            "PLAYER": "KOKKINIS",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W35 SANTA MARGHERITA DI PULA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W35_Santa_Margherita_di_Pula_2026_CV_Stusek_Kokkinis",
-            "DATE": "2026-05-05",
-            "hash_id": "c290ec3f2e0f4f04"
-        }
-    ],
-    "DESSOLIS": [
-        {
-            "PLAYER": "DESSOLIS",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W35 SANTA MARGHERITA DI PULA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "W35_Santa_Margherita_di_Pula_2026_CV_Stusek_Dessolis",
-            "DATE": "2026-04-22",
-            "hash_id": "8009c02e0a76ef07"
-        }
-    ],
-    "GAO": [
-        {
-            "PLAYER": "GAO",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W50 CROISSY-BEAUBOURG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Croissy_Beaubourg_2026_CV_Gao_Stusek",
-            "DATE": "2026-03-25",
-            "hash_id": "e815279724362feb"
-        }
-    ],
-    "RYSER": [
-        {
-            "PLAYER": "RYSER",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W50 CROISSY-BEAUBOURG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Croissy_Beaubourg_2026_CV_Ryser_Stusek",
-            "DATE": "2026-03-24",
-            "hash_id": "3bfd713f6969c0e3"
-        }
-    ],
-    "HONG": [
-        {
-            "PLAYER": "HONG",
-            "OPPONENT": "LEE",
-            "TOURNAMENT": "W35 GOYANG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Goyang_2026_CV_Lee_Hong",
-            "DATE": "2026-04-28",
-            "hash_id": "03ec7b3d082f6514"
-        },
-        {
-            "PLAYER": "HONG",
-            "OPPONENT": "JANG",
-            "TOURNAMENT": "W35 GOYANG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Goyang_2026_CV_Jang_Hong",
-            "DATE": "2026-04-30",
-            "hash_id": "15fdfe10bb09c910"
-        }
-    ],
-    "LEE": [
-        {
-            "PLAYER": "LEE",
-            "OPPONENT": "HONG",
-            "TOURNAMENT": "W35 GOYANG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Goyang_2026_CV_Lee_Hong",
-            "DATE": "2026-04-28",
-            "hash_id": "f8ac283575c4d09e"
-        }
-    ],
-    "JANG": [
-        {
-            "PLAYER": "JANG",
-            "OPPONENT": "HONG",
-            "TOURNAMENT": "W35 GOYANG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Goyang_2026_CV_Jang_Hong",
-            "DATE": "2026-04-30",
-            "hash_id": "5b6f62b89f1b6253"
-        }
-    ],
-    "VTERKOVSKI": [
-        {
-            "PLAYER": "VTERKOVSKI",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 KURSUMLIJSKA BANJA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Kursumlijska_Banja_2026_CV_Vterkovskiy_Bennani",
-            "DATE": "2026-08-05",
-            "hash_id": "a22afea4cef7683c"
-        }
-    ],
-    "BENNANI": [
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "VTERKOVSKI",
-            "TOURNAMENT": "M25 KURSUMLIJSKA BANJA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Kursumlijska_Banja_2026_CV_Vterkovskiy_Bennani",
-            "DATE": "2026-08-05",
-            "hash_id": "02b8037f3556f015"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "CORDOBA",
-            "TOURNAMENT": "M25 GANDIA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Gandia_2026_CV_Cordoba_Bennani",
-            "DATE": "2026-07-15",
-            "hash_id": "62720fcba7c6c09c"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "GIUNTA",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Giunta_Bennani",
-            "DATE": "2026-07-05",
-            "hash_id": "e78122609334ea40"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "AHOUDA",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Bennani_Ahouda",
-            "DATE": "2026-07-04",
-            "hash_id": "470765ea54f64e14"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "BROSKA",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Broska_Bennani",
-            "DATE": "2026-07-03",
-            "hash_id": "71a2d116280e9d94"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "BINDA",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Binda_Bennani",
-            "DATE": "2026-07-02",
-            "hash_id": "4bb4fa80a3ee65c0"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "BECKLES",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Bennani_Beckles",
-            "DATE": "2026-07-01",
-            "hash_id": "40b34360d3b4c4b2"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "CUENIN",
-            "TOURNAMENT": "M25 TANGER 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Tanger_2026_CV_Cuenin_Bennani",
-            "DATE": "2026-06-26",
-            "hash_id": "028fc09f5dcce040"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "SMIEJ",
-            "TOURNAMENT": "M25 TANGER 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Tanger_2026_CV_Smiej_Bennani",
-            "DATE": "2026-06-25",
-            "hash_id": "0a03c9b49bbd5ca1"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "FERRARI",
-            "TOURNAMENT": "M25 TANGER 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Tanger_2026_CV_Bennani_Ferrari",
-            "DATE": "2026-06-24",
-            "hash_id": "e49f3d1dcf44d4b7"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "AYENI",
-            "TOURNAMENT": "ISTANBUL (TTF) 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Istanbul_TTF_2026_CV_Ayeni_Bennani",
-            "DATE": "2026-05-18",
-            "hash_id": "66424e90d850a698"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "DURAN",
-            "TOURNAMENT": "ISTANBUL (TTF) 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Istanbul_TTF_2026_CV_Duran_Bennani",
-            "DATE": "2026-05-17",
-            "hash_id": "fa3b3018e32c0935"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "HEMERY",
-            "TOURNAMENT": "BRAZZAVILLE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Brazzaville_2026_CV_Hemery_Bennani",
-            "DATE": "2026-05-06",
-            "hash_id": "2f345e4ac4c9774d"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "SARAIVA DOS SANTOS",
-            "TOURNAMENT": "BRAZZAVILLE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Brazzaville_2026_CV_Bennani_Santo",
-            "DATE": "2026-05-05",
-            "hash_id": "2c0774356c783f13"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "WU",
-            "TOURNAMENT": "SARASOTA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Sarasota_2026_CV_Wu_Bennani",
-            "DATE": "2026-04-07",
-            "hash_id": "753e2783659aaf70"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "KARKI",
-            "TOURNAMENT": "SARASOTA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Sarasota_2026_CV_Bennani_Karki",
-            "DATE": "2026-04-06",
-            "hash_id": "82d70f354f7da5c7"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "KOBELT",
-            "TOURNAMENT": "SARASOTA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Sarasota_2026_CV_Bennani_Kobelt",
-            "DATE": "2026-04-05",
-            "hash_id": "7db6dd53248121b3"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "BELLUCCI",
-            "TOURNAMENT": "MARRAKECH 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Marrakech_2026_CV_Bellucci_Bennani",
-            "DATE": "2026-03-31",
-            "hash_id": "9beabcf44b931afb"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "GUTIERREZ",
-            "TOURNAMENT": "M25 TARRAGONA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "M25_Tarragona_2026_CV_Bennani_Gutierrez",
-            "DATE": "2026-03-25",
-            "hash_id": "ceb37e95def00f38"
-        },
-        {
-            "PLAYER": "BENNANI",
-            "OPPONENT": "FELDBAUSCH",
-            "TOURNAMENT": "M25 BADALONA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "M25_Badalona_2026_CV_Feldbausch_Bennani",
-            "DATE": "2026-03-19",
-            "hash_id": "941ca14c13fa01fd"
-        }
-    ],
-    "CORDOBA": [
-        {
-            "PLAYER": "CORDOBA",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 GANDIA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Gandia_2026_CV_Cordoba_Bennani",
-            "DATE": "2026-07-15",
-            "hash_id": "43bccdb79e04dae8"
-        }
-    ],
-    "GIUNTA": [
-        {
-            "PLAYER": "GIUNTA",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Giunta_Bennani",
-            "DATE": "2026-07-05",
-            "hash_id": "b800fa9019ecaa79"
-        }
-    ],
-    "AHOUDA": [
-        {
-            "PLAYER": "AHOUDA",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Bennani_Ahouda",
-            "DATE": "2026-07-04",
-            "hash_id": "4ab8f00bc5d5e3c9"
-        }
-    ],
-    "BROSKA": [
-        {
-            "PLAYER": "BROSKA",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Broska_Bennani",
-            "DATE": "2026-07-03",
-            "hash_id": "e7a1a68c0c3c2fbe"
-        }
-    ],
-    "BINDA": [
-        {
-            "PLAYER": "BINDA",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Binda_Bennani",
-            "DATE": "2026-07-02",
-            "hash_id": "6e6554ee951a62b3"
-        }
-    ],
-    "BECKLES": [
-        {
-            "PLAYER": "BECKLES",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 RABAT 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Rabat_2026_CV_Bennani_Beckles",
-            "DATE": "2026-07-01",
-            "hash_id": "591cd810397e68c6"
-        }
-    ],
-    "CUENIN": [
-        {
-            "PLAYER": "CUENIN",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 TANGER 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Tanger_2026_CV_Cuenin_Bennani",
-            "DATE": "2026-06-26",
-            "hash_id": "fdd62f5575b4e3c5"
-        }
-    ],
-    "SMIEJ": [
-        {
-            "PLAYER": "SMIEJ",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 TANGER 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Tanger_2026_CV_Smiej_Bennani",
-            "DATE": "2026-06-25",
-            "hash_id": "164a909f11e0338c"
-        }
-    ],
-    "FERRARI": [
-        {
-            "PLAYER": "FERRARI",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 TANGER 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Tanger_2026_CV_Bennani_Ferrari",
-            "DATE": "2026-06-24",
-            "hash_id": "393458006b1224ff"
-        }
-    ],
-    "KASHITSYNA": [
-        {
-            "PLAYER": "KASHITSYNA",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_KASHITSYNA",
-            "DATE": "2026-02-02",
-            "hash_id": "602faf0694c29850"
-        }
-    ],
-    "ANIKINA": [
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "KASHITSYNA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_KASHITSYNA",
-            "DATE": "2026-02-02",
-            "hash_id": "a575c8bd04a3d210"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "KARABANOVA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_KARABANOVA_ANIKINA",
-            "DATE": "2026-02-02",
-            "hash_id": "28813f83eff3231a"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "AMEY",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_AMEY",
-            "DATE": "2026-01-31",
-            "hash_id": "8913a5c6b6d54708"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "KAPANADZE",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_KAPANADZE",
-            "DATE": "2026-01-31",
-            "hash_id": "27270431e805a81b"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "MICHEVA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_MICHEVA",
-            "DATE": "2026-01-29",
-            "hash_id": "a30911bc4d1340a0"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "STRIKA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_STRIKA",
-            "DATE": "2026-01-27",
-            "hash_id": "df3603755fc967b5"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "GOMEZ ZAVALA PER",
-            "TOURNAMENT": "LES PETITS AS 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2025_CV_ANIKINA_ZAVALA",
-            "DATE": "2025-01-24",
-            "hash_id": "ff931fc52f49a533"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "BARISIC",
-            "TOURNAMENT": "GIRLS FINALS",
-            "YEAR": "2024",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Girls_Finals_2024_CV_Korana_Elizaveta",
-            "DATE": "2024-03-11",
-            "hash_id": "453bf19d4337920b"
-        },
-        {
-            "PLAYER": "ANIKINA",
-            "OPPONENT": "BERNSTEIN",
-            "TOURNAMENT": "LES PETITS AS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_BERNSTEIN_ANIKINA",
-            "DATE": "2026-01-01",
-            "hash_id": "6a139da6c3ffbcd8"
-        }
-    ],
-    "KARABANOVA": [
-        {
-            "PLAYER": "KARABANOVA",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_KARABANOVA_ANIKINA",
-            "DATE": "2026-02-02",
-            "hash_id": "94626e8bfbda198c"
-        }
-    ],
-    "AMEY": [
-        {
-            "PLAYER": "AMEY",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_AMEY",
-            "DATE": "2026-01-31",
-            "hash_id": "0d9ac2962ee7c645"
-        }
-    ],
-    "KAPANADZE": [
-        {
-            "PLAYER": "KAPANADZE",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_KAPANADZE",
-            "DATE": "2026-01-31",
-            "hash_id": "5273522f9c305130"
-        }
-    ],
-    "MICHEVA": [
-        {
-            "PLAYER": "MICHEVA",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_MICHEVA",
-            "DATE": "2026-01-29",
-            "hash_id": "b60e021c8d4a4f2b"
-        }
-    ],
-    "STRIKA": [
-        {
-            "PLAYER": "STRIKA",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_ANIKINA_STRIKA",
-            "DATE": "2026-01-27",
-            "hash_id": "a70af5f27586e06d"
-        }
-    ],
-    "GOMEZ ZAVALA PER": [
-        {
-            "PLAYER": "GOMEZ ZAVALA PER",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2025_CV_ANIKINA_ZAVALA",
-            "DATE": "2025-01-24",
-            "hash_id": "aada65b9b3fc61df"
-        }
-    ],
-    "BARISIC": [
-        {
-            "PLAYER": "BARISIC",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "GIRLS FINALS",
-            "YEAR": "2024",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Girls_Finals_2024_CV_Korana_Elizaveta",
-            "DATE": "2024-03-11",
-            "hash_id": "4ab348b4c9bdcb09"
-        }
-    ],
-    "LIUTOVA": [
-        {
-            "PLAYER": "LIUTOVA",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W35 LAS VEGAS, NV 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Las_Vegas_NV_2026_CV_Pareja_Liutova",
-            "DATE": "2026-02-21",
-            "hash_id": "53195ab09da75a2b"
-        },
-        {
-            "PLAYER": "LIUTOVA",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W100 SAN DIEGO, CA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W100_San_Diego_CA_2026_CV_Pareja_Liutova",
-            "DATE": "2026-01-28",
-            "hash_id": "d846f4a542342fce"
-        }
-    ],
-    "HAN": [
-        {
-            "PLAYER": "HAN",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W35 LAS VEGAS, NV 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Las_Vegas_NV_2026_CV_HAN_Pareja",
-            "DATE": "2026-02-19",
-            "hash_id": "e08d1609c27dee05"
-        }
-    ],
-    "NGIJOL CARR": [
-        {
-            "PLAYER": "NGIJOL CARR",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W35 LAS VEGAS, NV 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Las_Vegas_NV_2026_CV_Carre_Pareja",
-            "DATE": "2026-02-18",
-            "hash_id": "dc30d5ca2ccc9a4a"
-        }
-    ],
-    "CABEZAS": [
-        {
-            "PLAYER": "CABEZAS",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W50 ORLANDO, FL 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Orlando_FL_2026_CV_Dominguez_Pareja",
-            "DATE": "2026-02-03",
-            "hash_id": "6b3cb8ae268ad684"
-        }
-    ],
-    "MARCINKO": [
-        {
-            "PLAYER": "MARCINKO",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W100 EDMOND, OK 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W100_Edmond_OK_2025_CV_Marcinko_Pareja",
-            "DATE": "2025-10-08",
-            "hash_id": "55ee96be2189dc32"
-        }
-    ],
-    "JONES": [
-        {
-            "PLAYER": "JONES",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "W50 RANCHO SANTA FE, CA 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Rancho_Santa_Fe_CA_2025_CV_Jones_Pareja",
-            "DATE": "2025-10-03",
-            "hash_id": "308319057234fb57"
-        }
-    ],
-    "NILSSON": [
-        {
-            "PLAYER": "NILSSON",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "US OPEN 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "US_Open_2025_CV_Pareja_Nilsson",
-            "DATE": "2025-09-03",
-            "hash_id": "70e945876e8ca236"
-        }
-    ],
-    "BUCHNIK": [
-        {
-            "PLAYER": "BUCHNIK",
-            "OPPONENT": "PAREJA",
-            "TOURNAMENT": "US OPEN 2025",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "US_Open_2025_CV_Pareja_Buchnik",
-            "DATE": "2025-08-31",
-            "hash_id": "be16d36532bce2fb"
-        }
-    ],
-    "THOMAS": [
-        {
-            "PLAYER": "THOMAS",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "M25 KLOSTERS 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Klosters_2026_CV_Thomas_Bernet",
-            "DATE": "2026-06-18",
-            "hash_id": "61edce501a1a62f1"
-        }
-    ],
-    "DIAZ ACOSTA": [
-        {
-            "PLAYER": "DIAZ ACOSTA",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "FRANCAVILLA AL MARE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Francavilla_al_Mare_2026_CV_Acosta_Bernet",
-            "DATE": "2026-05-05",
-            "hash_id": "9e35c570fc36fb37"
-        }
-    ],
-    "PAVLOVIC": [
-        {
-            "PLAYER": "PAVLOVIC",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "ROME 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Rome_2026_CV_Bernet_Pavlovic",
-            "DATE": "2026-04-20",
-            "hash_id": "515a4e7cae919fdd"
         }
     ],
     "KOUAME": [
-        {
-            "PLAYER": "KOUAME",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "M25 SANTA MARGHERITA DI PULA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "M25_Santa_Margherita_di_Pula_2026_CV_Bernet_Kouame",
-            "DATE": "2026-04-14",
-            "hash_id": "23cd9299548cbc50"
-        },
         {
             "PLAYER": "KOUAME",
             "OPPONENT": "BASAVAREDDY",
@@ -44320,1010 +41837,494 @@
             "hash_id": "0b4f9d937ef6b2e8"
         }
     ],
-    "MORO CANAS": [
+    "SAFIULLIN": [
         {
-            "PLAYER": "MORO CANAS",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "MADRID 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Madrid_2026_CV_Bernet_Canas",
-            "DATE": "2026-04-07",
-            "hash_id": "762c33226338a6d9"
-        }
-    ],
-    "DOSTANIC": [
-        {
-            "PLAYER": "DOSTANIC",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "HERSONISSOS 2 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Hersonissos_2_2026_CV_Bernet_Dostanic",
-            "DATE": "2026-03-09",
-            "hash_id": "626873dbc7564cff"
-        }
-    ],
-    "SORIANO BARRERA": [
-        {
-            "PLAYER": "SORIANO BARRERA",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "HERSONISSOS 1 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Hersonissos_1_2026_CV_Barrera_Bernet",
-            "DATE": "2026-03-01",
-            "hash_id": "ce189d3a359efd1c"
-        }
-    ],
-    "BUDKOV KJAER": [
-        {
-            "PLAYER": "BUDKOV KJAER",
-            "OPPONENT": "BERNET",
-            "TOURNAMENT": "LUGANO 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Lugano_2026_CV_Kjaer_Bernet",
-            "DATE": "2026-02-23",
-            "hash_id": "1dcdc51633ac3fba"
-        }
-    ],
-    "SHAPATAVA": [
-        {
-            "PLAYER": "SHAPATAVA",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W50 CROISSY-BEAUBOURG 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W50_Croissy_Beaubourg_2026_CV_Shapatava_Stusek",
-            "DATE": "2026-03-23",
-            "hash_id": "09dc09cb5e48211e"
-        }
-    ],
-    "AVDEEVA": [
-        {
-            "PLAYER": "AVDEEVA",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Avdeeva_Stusek",
-            "DATE": "2026-02-21",
-            "hash_id": "3783b33ddde89bb2"
-        }
-    ],
-    "GRANWEHR": [
-        {
-            "PLAYER": "GRANWEHR",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Granwehr_Stusek",
-            "DATE": "2026-02-20",
-            "hash_id": "c40aa8d433ee8001"
-        }
-    ],
-    "HODZIC": [
-        {
-            "PLAYER": "HODZIC",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Hodzic_Stusek",
-            "DATE": "2026-02-19",
-            "hash_id": "6e1c0e5864e1e5fb"
-        }
-    ],
-    "RAJECKI": [
-        {
-            "PLAYER": "RAJECKI",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Rajecki_Stusek",
-            "DATE": "2026-02-17",
-            "hash_id": "4d7aa3168fff61ef"
-        }
-    ],
-    "VOGT": [
-        {
-            "PLAYER": "VOGT",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Vogt_Stusek",
-            "DATE": "2026-02-16",
-            "hash_id": "f3e9285d7660b47a"
-        }
-    ],
-    "HERRMANN": [
-        {
-            "PLAYER": "HERRMANN",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W75 ALTENKIRCHEN 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W75_Altenkirchen_2026_CV_Herrmann_Stusek",
-            "DATE": "2026-02-15",
-            "hash_id": "bd4c63e3b213c61c"
-        }
-    ],
-    "DUNNE": [
-        {
-            "PLAYER": "DUNNE",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W35 SHEFFIELD 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Sheffield_2026_CV_Stusek_Dunne",
-            "DATE": "2026-02-06",
-            "hash_id": "f6bd9be52eeac800"
-        }
-    ],
-    "BAINS": [
-        {
-            "PLAYER": "BAINS",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W35 SHEFFIELD 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Sheffield_2026_CV_Bains_Stusek",
-            "DATE": "2026-02-05",
-            "hash_id": "bf67f9cf8ec85c30"
-        }
-    ],
-    "COOLING": [
-        {
-            "PLAYER": "COOLING",
-            "OPPONENT": "STUSEK",
-            "TOURNAMENT": "W35 SHEFFIELD 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "W35_Sheffield_2026_CV_Cooling_Stusek",
-            "DATE": "2026-02-03",
-            "hash_id": "9221f1cca8fb7149"
-        }
-    ],
-    "AYENI": [
-        {
-            "PLAYER": "AYENI",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "ISTANBUL (TTF) 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Istanbul_TTF_2026_CV_Ayeni_Bennani",
-            "DATE": "2026-05-18",
-            "hash_id": "de820df5bb552229"
-        }
-    ],
-    "DURAN": [
-        {
-            "PLAYER": "DURAN",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "ISTANBUL (TTF) 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Istanbul_TTF_2026_CV_Duran_Bennani",
-            "DATE": "2026-05-17",
-            "hash_id": "bc4d95e681ee8a42"
-        }
-    ],
-    "HEMERY": [
-        {
-            "PLAYER": "HEMERY",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "BRAZZAVILLE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Brazzaville_2026_CV_Hemery_Bennani",
-            "DATE": "2026-05-06",
-            "hash_id": "94db4367761b3765"
-        }
-    ],
-    "SARAIVA DOS SANTOS": [
-        {
-            "PLAYER": "SARAIVA DOS SANTOS",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "BRAZZAVILLE 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Brazzaville_2026_CV_Bennani_Santo",
-            "DATE": "2026-05-05",
-            "hash_id": "a9e8eeb9a934fec1"
-        }
-    ],
-    "WU": [
-        {
-            "PLAYER": "WU",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "SARASOTA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Sarasota_2026_CV_Wu_Bennani",
-            "DATE": "2026-04-07",
-            "hash_id": "c4f728fdc1693f1b"
-        },
-        {
-            "PLAYER": "WU",
+            "PLAYER": "SAFIULLIN",
             "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "3b253bf0-07a5-4748-9485-adbac4375155",
-            "DATE": "2026-05-28",
-            "hash_id": "e165e663d5f2910e"
-        }
-    ],
-    "KARKI": [
-        {
-            "PLAYER": "KARKI",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "SARASOTA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Sarasota_2026_CV_Bennani_Karki",
-            "DATE": "2026-04-06",
-            "hash_id": "45dca7d41c188104"
-        }
-    ],
-    "KOBELT": [
-        {
-            "PLAYER": "KOBELT",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "SARASOTA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Sarasota_2026_CV_Bennani_Kobelt",
-            "DATE": "2026-04-05",
-            "hash_id": "13f37776fa11fc5c"
-        }
-    ],
-    "GUTIERREZ": [
-        {
-            "PLAYER": "GUTIERREZ",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 TARRAGONA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "M25_Tarragona_2026_CV_Bennani_Gutierrez",
-            "DATE": "2026-03-25",
-            "hash_id": "c36400759084c0dd"
-        }
-    ],
-    "FELDBAUSCH": [
-        {
-            "PLAYER": "FELDBAUSCH",
-            "OPPONENT": "BENNANI",
-            "TOURNAMENT": "M25 BADALONA 2026",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "M25_Badalona_2026_CV_Feldbausch_Bennani",
-            "DATE": "2026-03-19",
-            "hash_id": "8b0496ca4e7698ee"
-        }
-    ],
-    "ELIZAVETA ANIKINA": [
-        {
-            "PLAYER": "ELIZAVETA ANIKINA",
-            "OPPONENT": "RAFAELA SOFIA GOMEZ ZAVALA",
-            "TOURNAMENT": "LES PETITS AS",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2025_CV_ANIKINA_ZAVALA",
-            "DATE": "2025-01-20",
-            "hash_id": "908a8ead1a91c0d2"
-        }
-    ],
-    "RAFAELA SOFIA GOMEZ ZAVALA": [
-        {
-            "PLAYER": "RAFAELA SOFIA GOMEZ ZAVALA",
-            "OPPONENT": "ELIZAVETA ANIKINA",
-            "TOURNAMENT": "LES PETITS AS",
-            "YEAR": "2025",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2025_CV_ANIKINA_ZAVALA",
-            "DATE": "2025-01-20",
-            "hash_id": "88a315d1e31cfc5e"
-        }
-    ],
-    "BERNSTEIN": [
-        {
-            "PLAYER": "BERNSTEIN",
-            "OPPONENT": "ANIKINA",
-            "TOURNAMENT": "LES PETITS AS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "Les_Petits_As_2026_CV_BERNSTEIN_ANIKINA",
-            "DATE": "2026-01-01",
-            "hash_id": "6bbcb2b8b0da396f"
-        }
-    ],
-    "HANFMANN": [
-        {
-            "PLAYER": "HANFMANN",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "84ef99de-27a8-4ffc-8741-830dbbb081a7",
-            "DATE": "2026-08-05",
-            "hash_id": "052fc45f7fe03558"
-        }
-    ],
-    "BURRUCHAGA": [
-        {
-            "PLAYER": "BURRUCHAGA",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "UMAG",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "49eb3a3a-3044-40d3-be1a-3d79aa3ee145",
-            "DATE": "2026-07-15",
-            "hash_id": "c7bb6cc58c342aa8"
-        }
-    ],
-    "FERY": [
-        {
-            "PLAYER": "FERY",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "e194ec00-1741-4b2c-88e1-a6031f254d31",
-            "DATE": "2026-07-08",
-            "hash_id": "0ca00ef91f358d84"
-        }
-    ],
-    "KHACHANOV": [
-        {
-            "PLAYER": "KHACHANOV",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "6f667b8b-f212-461f-9436-c212dc796e0f",
-            "DATE": "2026-07-04",
-            "hash_id": "0b9d10be6aae9e9f"
-        }
-    ],
-    "DUCKWORTH": [
-        {
-            "PLAYER": "DUCKWORTH",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "185993f0-9a83-4912-b27c-efb1dde9c2ae",
-            "DATE": "2026-07-02",
-            "hash_id": "d022e9ab49b265a0"
-        },
-        {
-            "PLAYER": "DUCKWORTH",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "ea8b3bb7-d377-4535-b6e8-b3ebbf4635be",
-            "DATE": "2026-05-27",
-            "hash_id": "f9fa66ffdb9d7f50"
-        }
-    ],
-    "TIAFOE": [
-        {
-            "PLAYER": "TIAFOE",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "466f400e-c6d8-4c48-bfb2-eba3ed3f23be",
-            "DATE": "2026-06-15",
-            "hash_id": "8aac0ab06e5c4898"
-        },
-        {
-            "PLAYER": "TIAFOE",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "US OPEN",
-            "YEAR": "2026",
-            "ROUND": "SF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "f6fd7275-da7e-4d01-8f55-1d05c8ada452",
-            "DATE": "2026-09-11",
-            "hash_id": "5daef05b1fb91368"
-        }
-    ],
-    "ALIASSIME": [
-        {
-            "PLAYER": "ALIASSIME",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "ad6ff166-bf6b-42e6-a24a-30616bc01d10",
-            "DATE": "2026-06-03",
-            "hash_id": "1bbfd3dba216f3e6"
-        }
-    ],
-    "PELLEGRINO": [
-        {
-            "PLAYER": "PELLEGRINO",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "b5776b5b-5877-41d2-86e0-db8fc01bd88c",
-            "DATE": "2026-05-25",
-            "hash_id": "2eb088ceaa590104"
-        }
-    ],
-    "ATMANE": [
-        {
-            "PLAYER": "ATMANE",
-            "OPPONENT": "COBOLLI",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "50a9d027-14fb-4650-8725-18e3ea2a6e01",
-            "DATE": "2026-05-09",
-            "hash_id": "58ba5c424353dca8"
-        }
-    ],
-    "GRIEKSPOOR": [
-        {
-            "PLAYER": "GRIEKSPOOR",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "US OPEN",
+            "TOURNAMENT": "BEIJING",
             "YEAR": "2026",
             "ROUND": "R1",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "fc2f75c3-e2a0-4b01-bdb0-5584530565fe",
-            "DATE": "2026-08-31",
-            "hash_id": "565aa5380ca64ae5"
+            "match_id": "f1a33936-21bb-483a-97ec-e91834a31b19",
+            "DATE": "2026-10-01",
+            "hash_id": "1fb4cdf4409ca4ad"
         }
     ],
-    "FARIA": [
+    "CHIDEKH": [
         {
-            "PLAYER": "FARIA",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "e48ce190-c534-4c7b-ae98-6f101ac347f5",
-            "DATE": "2026-08-17",
-            "hash_id": "a962e4beaecd921d"
-        }
-    ],
-    "TABILO": [
-        {
-            "PLAYER": "TABILO",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "acbdbc64-13b3-45d4-8660-915c9b260b77",
-            "DATE": "2026-08-01",
-            "hash_id": "31c56106b21c399c"
-        },
-        {
-            "PLAYER": "TABILO",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "CINCINNATI",
-            "YEAR": "2026",
-            "ROUND": "R3",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "5cd21893-b8fc-4b46-9d5f-f43ed2792998",
-            "DATE": "2026-08-17",
-            "hash_id": "823b0bf44cd97ff3"
-        },
-        {
-            "PLAYER": "TABILO",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "SF",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "c3a0560c-91f1-4211-a02f-4e895223e325",
-            "DATE": "2026-08-02",
-            "hash_id": "7e0f98e55c7d2a33"
-        }
-    ],
-    "HUMBERT": [
-        {
-            "PLAYER": "HUMBERT",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "R2",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "1ada8440-98f9-404f-885a-b57030ffcac3",
-            "DATE": "2026-07-31",
-            "hash_id": "ce80af9ef31a726d"
-        }
-    ],
-    "DAMM": [
-        {
-            "PLAYER": "DAMM",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "WASHINGTON",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "b191cb2b-e2ed-4081-8455-45b4ff628139",
-            "DATE": "2026-07-29",
-            "hash_id": "6ab771e53ad4ada3"
-        }
-    ],
-    "VIRTANEN": [
-        {
-            "PLAYER": "VIRTANEN",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "WIMBLEDON",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "ba4373ad-d80f-44ba-a4de-0383c62914e3",
-            "DATE": "2026-06-30",
-            "hash_id": "f2d0cbc70f75eb14"
-        }
-    ],
-    "FRITZ": [
-        {
-            "PLAYER": "FRITZ",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "HALLE",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "9d917ed5-f656-4ac6-9635-73af0090ab62",
-            "DATE": "2026-06-19",
-            "hash_id": "571f955207953954"
-        },
-        {
-            "PLAYER": "FRITZ",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "STUTTGART",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "d79b6d50-c244-48b2-8944-e4cfddf1fa55",
-            "DATE": "2026-06-14",
-            "hash_id": "fc913685b5e33ff2"
-        },
-        {
-            "PLAYER": "FRITZ",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "WASHINGTON",
+            "PLAYER": "CHIDEKH",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
             "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "4f0f2fd4-d9b2-47e2-9155-1c58b0b50d4d",
-            "DATE": "2026-08-03",
-            "hash_id": "e6967f240b31d3c1"
+            "match_id": "10518a11-ec9e-40b7-8950-9a64f0324efa",
+            "DATE": "2026-10-03",
+            "hash_id": "a535707f0d1837ea"
         }
     ],
-    "SHIMABUKURO": [
+    "BALSHAW": [
         {
-            "PLAYER": "SHIMABUKURO",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "STUTTGART",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "grass",
-            "FORMAT": "CV",
-            "match_id": "3c73cec1-3481-47a3-abf8-1003cdbb719b",
-            "DATE": "2026-06-13",
-            "hash_id": "df8dbf55478efa62"
-        }
-    ],
-    "MERIDA": [
-        {
-            "PLAYER": "MERIDA",
-            "OPPONENT": "SHELTON",
-            "TOURNAMENT": "ROLAND GARROS",
+            "PLAYER": "BALSHAW",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
             "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "6d660a64-e1a0-4471-be24-e3ebe7ff61bc",
-            "DATE": "2026-05-25",
-            "hash_id": "5debb0347e53c5d3"
-        }
-    ],
-    "MUSETTI": [
-        {
-            "PLAYER": "MUSETTI",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "MONTREAL",
-            "YEAR": "2026",
-            "ROUND": "R3",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "54b23f62-5362-44cd-88b7-705639c30bb3",
-            "DATE": "2026-08-07",
-            "hash_id": "9583c07cdcdf6d1b"
-        },
+            "match_id": "38ecf543-5b6a-4f88-bc89-ffb0d3af0903",
+            "DATE": "2026-10-02",
+            "hash_id": "f44a7db29a37a41b"
+        }
+    ],
+    "STRICKER": [
         {
-            "PLAYER": "MUSETTI",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "WASHINGTON",
+            "PLAYER": "STRICKER",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
-            "ROUND": "QF",
+            "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "8d7102b3-69e0-4a70-a395-643788a0862a",
-            "DATE": "2026-08-01",
-            "hash_id": "6ee2a0b3cb2b753a"
+            "match_id": "422c7a5f-0d53-465b-9381-cfed465df383",
+            "DATE": "2026-10-01",
+            "hash_id": "7e3b7bd6c7c2aadf"
         }
     ],
-    "NISHIKORI": [
+    "GLINKA": [
         {
-            "PLAYER": "NISHIKORI",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "WASHINGTON",
+            "PLAYER": "GLINKA",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "MOUILLERON LE CAPTIF",
             "YEAR": "2026",
-            "ROUND": "R2",
+            "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "f5940d17-68b8-4945-8b30-20acc0f466ad",
-            "DATE": "2026-07-30",
-            "hash_id": "b3c00037b0e26763"
+            "match_id": "22db8d18-b43c-4d5e-9a05-70c163c516fb",
+            "DATE": "2026-09-30",
+            "hash_id": "0179260884de0660"
         }
     ],
-    "MOCHIZUKI": [
+    "BANERJEE": [
         {
-            "PLAYER": "MOCHIZUKI",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "WIMBLEDON",
+            "PLAYER": "BANERJEE",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 FALUN",
             "YEAR": "2026",
             "ROUND": "CV",
-            "SURFACE": "grass",
+            "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "d1016c01-2d04-4657-a226-fc00eb60dd0f",
-            "DATE": "2026-07-03",
-            "hash_id": "c4afa9745c7cf042"
+            "match_id": "ea3608e1-cb5b-457f-bf5c-9a13da8b8d26",
+            "DATE": "2026-09-26",
+            "hash_id": "6ef6940c844c4ee7"
         }
     ],
-    "GILL": [
+    "PETROVIC": [
         {
-            "PLAYER": "GILL",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "WIMBLEDON",
+            "PLAYER": "PETROVIC",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 FALUN",
             "YEAR": "2026",
             "ROUND": "CV",
-            "SURFACE": "grass",
+            "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "ba8bf91d-da71-4d6f-b4b3-13497f325ab9",
-            "DATE": "2026-06-29",
-            "hash_id": "8c2cf8e74fc0054f"
+            "match_id": "3af75e51-1b5c-47ac-822e-45c5eda4f9fc",
+            "DATE": "2026-09-25",
+            "hash_id": "b7604f76cafa47fc"
         }
     ],
-    "MICHELSEN": [
+    "FRIBERG": [
         {
-            "PLAYER": "MICHELSEN",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROLAND GARROS",
+            "PLAYER": "FRIBERG",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 FALUN",
             "YEAR": "2026",
             "ROUND": "CV",
-            "SURFACE": "clay",
+            "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "8288e3bf-53aa-4e5c-b1d2-c72060e67bbd",
-            "DATE": "2026-05-29",
-            "hash_id": "096547bf19760048"
+            "match_id": "1acde61a-4543-479a-be00-a42d4e4f85be",
+            "DATE": "2026-09-24",
+            "hash_id": "903350fbef47d1f7"
         }
     ],
-    "KOVACEVIC": [
+    "SIGSGAARD": [
         {
-            "PLAYER": "KOVACEVIC",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROLAND GARROS",
-            "YEAR": "2026",
-            "ROUND": "CV",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "32cb2ab9-8433-45a2-b9e8-4f51f7483fbf",
-            "DATE": "2026-05-25",
-            "hash_id": "a081f4c8bdc0ce2c"
-        }
-    ],
-    "DARDERI": [
-        {
-            "PLAYER": "DARDERI",
-            "OPPONENT": "JODAR",
-            "TOURNAMENT": "ROME",
-            "YEAR": "2026",
-            "ROUND": "QF",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "e8aeb8d0-9967-44cc-a878-9922407499c4",
-            "DATE": "2026-05-14",
-            "hash_id": "5c9e69b3ae87037a"
-        }
-    ],
-    "STOYANOV": [
-        {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "DU PREE",
-            "TOURNAMENT": "W50 OLDENZAAL",
-            "YEAR": "2026",
-            "ROUND": "R32",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "388bb867-5bf9-4bcc-af80-e5d5a5505352",
-            "DATE": "2026-08-26",
-            "hash_id": "c317a8ca2a37cdf4"
-        },
-        {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "SHINIKOVA",
-            "TOURNAMENT": "W50 OLDENZAAL",
+            "PLAYER": "SIGSGAARD",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 FALUN",
             "YEAR": "2026",
             "ROUND": "R16",
-            "SURFACE": "clay",
+            "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "6d067bc6-112f-42a9-96e1-ff5ed027f5f3",
+            "match_id": "0913209c-8226-435a-8dc2-18971e066d6e",
+            "DATE": "2026-09-23",
+            "hash_id": "1093943b8186b0ca"
+        }
+    ],
+    "FRYDRYCH": [
+        {
+            "PLAYER": "FRYDRYCH",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 FALUN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "5286b87a-3223-488c-889e-ef759b403469",
+            "DATE": "2026-09-21",
+            "hash_id": "7b485173302ea132"
+        }
+    ],
+    "PALOMERO": [
+        {
+            "PLAYER": "PALOMERO",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "TULLN",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "3b9ea5ea-0b5d-436e-81aa-e3965a2b7fb8",
+            "DATE": "2026-09-07",
+            "hash_id": "2504ae06a6811319"
+        }
+    ],
+    "WIEDENMANN": [
+        {
+            "PLAYER": "WIEDENMANN",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "TULLN",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "cad7d338-a161-4b8c-980f-d2a4cd692796",
+            "DATE": "2026-09-06",
+            "hash_id": "cc81fc1bcc30a706"
+        }
+    ],
+    "DODIG": [
+        {
+            "PLAYER": "DODIG",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "COMO",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "17f3041d-27cd-4e50-a490-a4253f982727",
+            "DATE": "2026-09-02",
+            "hash_id": "d41cf1a3c956d1c6"
+        }
+    ],
+    "NAPOLITANO": [
+        {
+            "PLAYER": "NAPOLITANO",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "COMO",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "8bc294e2-1d62-4e62-b4de-86d3e176225c",
+            "DATE": "2026-09-01",
+            "hash_id": "73d0d60565565ada"
+        }
+    ],
+    "CHEPELEV": [
+        {
+            "PLAYER": "CHEPELEV",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "bc208331-9486-4631-975a-05ac54d3142a",
+            "DATE": "2026-08-30",
+            "hash_id": "eaab0f6a1c1345e1"
+        }
+    ],
+    "BURDET": [
+        {
+            "PLAYER": "BURDET",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "cb0a21bb-00b3-4ff1-a117-5030f5b22970",
+            "DATE": "2026-08-29",
+            "hash_id": "4e8284cca44d545f"
+        }
+    ],
+    "OVCHARENKO": [
+        {
+            "PLAYER": "OVCHARENKO",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "e20a2c1c-5344-47c2-bb0e-d71974b4346f",
+            "DATE": "2026-08-28",
+            "hash_id": "0f1e87313e9a1cd0"
+        }
+    ],
+    "BAKER": [
+        {
+            "PLAYER": "BAKER",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "d479f986-9496-4148-a9bc-9e162334fdcb",
+            "DATE": "2026-08-27",
+            "hash_id": "059ad1e85998c889"
+        }
+    ],
+    "MARIC": [
+        {
+            "PLAYER": "MARIC",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "M25 LAUSANNE",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "24970c20-8ee2-4bc2-b986-6ce19ea50c0c",
             "DATE": "2026-08-25",
-            "hash_id": "bb58c95c4e374493"
-        },
+            "hash_id": "2e647b2750308df9"
+        }
+    ],
+    "SHELBAYH": [
         {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "CIRIC BAGAR",
-            "TOURNAMENT": "W75 KURSUMLIJSKA BANJA",
+            "PLAYER": "SHELBAYH",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "COLUMBUS",
             "YEAR": "2026",
-            "ROUND": "R16",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "d022d928-2130-4425-ada5-fe7bc3723f84",
-            "DATE": "2026-08-17",
-            "hash_id": "efd2a328aea2a81e"
-        },
-        {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "GLUSHKOVA",
-            "TOURNAMENT": "W75 KURSUMLIJSKA BANJA",
-            "YEAR": "2026",
-            "ROUND": "R32",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "a2fe7a00-2845-49bc-9f62-0f7b7539c845",
-            "DATE": "2026-08-16",
-            "hash_id": "196d4a2adf1f0504"
-        },
-        {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "HERCOG",
-            "TOURNAMENT": "W75 PORTORO\u017d",
-            "YEAR": "2026",
-            "ROUND": "R32",
+            "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "53bc2783-ad21-4556-a031-9c27e8795ec1",
-            "DATE": "2026-04-15",
-            "hash_id": "ee7b2327be3f7721"
-        },
+            "match_id": "e9d2f6d3-b03a-4688-9b23-2f8ff204ceab",
+            "DATE": "2026-10-04",
+            "hash_id": "5d004bb74e58bd99"
+        }
+    ],
+    "ANDRADE": [
         {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "LAGAEV",
-            "TOURNAMENT": "AUSTRALIAN OPEN",
+            "PLAYER": "ANDRADE",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "COLUMBUS",
             "YEAR": "2026",
-            "ROUND": "R2",
+            "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "7cac5129-13d7-4173-abe5-5357ae90179a",
-            "DATE": "2026-01-27",
-            "hash_id": "38ea14efb471792a"
-        },
+            "match_id": "e77a6768-fac3-4b0c-af2e-18d15597f83f",
+            "DATE": "2026-10-03",
+            "hash_id": "93e8b55b2b976dfd"
+        }
+    ],
+    "BLANCH": [
         {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "GUILLEN",
-            "TOURNAMENT": "AUSTRALIAN OPEN",
+            "PLAYER": "BLANCH",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "0ed9f224-6057-4fa1-bb7b-d5b5d700ed1c",
+            "DATE": "2026-10-02",
+            "hash_id": "087d7640974335da"
+        }
+    ],
+    "FENTY": [
+        {
+            "PLAYER": "FENTY",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "36d4c5b6-a68f-457e-8103-b97103aa8a55",
+            "DATE": "2026-09-30",
+            "hash_id": "100555bde6dece05"
+        }
+    ],
+    "WOLF": [
+        {
+            "PLAYER": "WOLF",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "COLUMBUS",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "c49c91d6-e0ff-4f37-b842-47d385370bb2",
+            "DATE": "2026-09-29",
+            "hash_id": "c22adf897e2c7780"
+        }
+    ],
+    "SEARLE": [
+        {
+            "PLAYER": "SEARLE",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "99daf94e-93aa-46bd-a76b-aef7f205205b",
+            "DATE": "2026-09-25",
+            "hash_id": "3d70faa24009fd81"
+        }
+    ],
+    "SMITH": [
+        {
+            "PLAYER": "SMITH",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "61ad2291-af56-4f2a-b688-937efa936a7b",
+            "DATE": "2026-09-23",
+            "hash_id": "4aec60d6c0497344"
+        }
+    ],
+    "DINEV": [
+        {
+            "PLAYER": "DINEV",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "SAN DIEGO 2",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "f23c51a4-afa4-42d3-a4e2-96a8cf127959",
+            "DATE": "2026-09-21",
+            "hash_id": "46f37d5741282286"
+        }
+    ],
+    "PUCINELLI DE ALMEIDA": [
+        {
+            "PLAYER": "PUCINELLI DE ALMEIDA",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "HAMBURG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "clay",
+            "FORMAT": "CV",
+            "match_id": "2f14fd83-df87-4eae-b4b6-01e3aeaa6499",
+            "DATE": "2026-08-14",
+            "hash_id": "b4cc386ca2d49d54"
+        }
+    ],
+    "SACHKO": [
+        {
+            "PLAYER": "SACHKO",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "HAMBURG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "clay",
+            "FORMAT": "CV",
+            "match_id": "42bae5f1-7165-492a-867c-c39cf549eff0",
+            "DATE": "2026-08-12",
+            "hash_id": "f7a4639e5940ecca"
+        }
+    ],
+    "KRUTYKH": [
+        {
+            "PLAYER": "KRUTYKH",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "HAMBURG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "clay",
+            "FORMAT": "CV",
+            "match_id": "458424fe-8a88-4311-8721-b352740316a5",
+            "DATE": "2026-08-11",
+            "hash_id": "4d64ca97ce615aaf"
+        }
+    ],
+    "MAYOT": [
+        {
+            "PLAYER": "MAYOT",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "859f5479-519f-4d32-bdd8-1d32e3a64d44",
+            "DATE": "2026-07-24",
+            "hash_id": "739d72abcabb4ea0"
+        }
+    ],
+    "ALCALA GURRI": [
+        {
+            "PLAYER": "ALCALA GURRI",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "e7ad8a22-9139-4751-b40e-a084555f7bec",
+            "DATE": "2026-07-23",
+            "hash_id": "b76e062e45aff299"
+        }
+    ],
+    "BARRIOS VERA": [
+        {
+            "PLAYER": "BARRIOS VERA",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "ZUG",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "b2008536-e186-4e63-a9d1-4f4748da6d9e",
+            "DATE": "2026-07-21",
+            "hash_id": "0b66365b48c6ae4c"
+        }
+    ],
+    "KYM": [
+        {
+            "PLAYER": "KYM",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "GSTAAD",
             "YEAR": "2026",
             "ROUND": "R1",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "612cdded-6579-499c-a090-159cd1e765db",
-            "DATE": "2026-01-25",
-            "hash_id": "2353fbf8974aa7c9"
-        },
+            "match_id": "78ad0bf5-b248-408e-966e-358d2c0ff6d4",
+            "DATE": "2026-07-14",
+            "hash_id": "10ee764a81b06e38"
+        }
+    ],
+    "SANCHEZ IZQUIERDO": [
         {
-            "PLAYER": "STOYANOV",
-            "OPPONENT": "MIKULSKYTE",
-            "TOURNAMENT": "W50 HERAKLION",
-            "YEAR": "2025",
-            "ROUND": "R32",
+            "PLAYER": "SANCHEZ IZQUIERDO",
+            "OPPONENT": "DIETRICH",
+            "TOURNAMENT": "TRIESTE",
+            "YEAR": "2026",
+            "ROUND": "CV",
             "SURFACE": "hard",
             "FORMAT": "CV",
-            "match_id": "1c15694f-16ee-4435-97a7-d41d818cfb72",
-            "DATE": "2025-10-08",
-            "hash_id": "36b108d4345f002b"
-        }
-    ],
-    "DU PREE": [
-        {
-            "PLAYER": "DU PREE",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "W50 OLDENZAAL",
-            "YEAR": "2026",
-            "ROUND": "R32",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "388bb867-5bf9-4bcc-af80-e5d5a5505352",
-            "DATE": "2026-08-26",
-            "hash_id": "e98bd815b79d0baa"
-        }
-    ],
-    "SHINIKOVA": [
-        {
-            "PLAYER": "SHINIKOVA",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "W50 OLDENZAAL",
-            "YEAR": "2026",
-            "ROUND": "R16",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "6d067bc6-112f-42a9-96e1-ff5ed027f5f3",
-            "DATE": "2026-08-25",
-            "hash_id": "bcb45442deb70aa3"
-        }
-    ],
-    "CIRIC BAGAR": [
-        {
-            "PLAYER": "CIRIC BAGAR",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "W75 KURSUMLIJSKA BANJA",
-            "YEAR": "2026",
-            "ROUND": "R16",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "d022d928-2130-4425-ada5-fe7bc3723f84",
-            "DATE": "2026-08-17",
-            "hash_id": "965d9dbf35037a2a"
-        }
-    ],
-    "GLUSHKOVA": [
-        {
-            "PLAYER": "GLUSHKOVA",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "W75 KURSUMLIJSKA BANJA",
-            "YEAR": "2026",
-            "ROUND": "R32",
-            "SURFACE": "clay",
-            "FORMAT": "CV",
-            "match_id": "a2fe7a00-2845-49bc-9f62-0f7b7539c845",
-            "DATE": "2026-08-16",
-            "hash_id": "0e103cfc5c01ab93"
-        }
-    ],
-    "HERCOG": [
-        {
-            "PLAYER": "HERCOG",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "W75 PORTORO\u017d",
-            "YEAR": "2026",
-            "ROUND": "R32",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "53bc2783-ad21-4556-a031-9c27e8795ec1",
-            "DATE": "2026-04-15",
-            "hash_id": "4c13f92b845cfb76"
-        }
-    ],
-    "GUILLEN": [
-        {
-            "PLAYER": "GUILLEN",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "AUSTRALIAN OPEN",
-            "YEAR": "2026",
-            "ROUND": "R1",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "612cdded-6579-499c-a090-159cd1e765db",
-            "DATE": "2026-01-25",
-            "hash_id": "1615cfe22c836018"
-        }
-    ],
-    "MIKULSKYTE": [
-        {
-            "PLAYER": "MIKULSKYTE",
-            "OPPONENT": "STOYANOV",
-            "TOURNAMENT": "W50 HERAKLION",
-            "YEAR": "2025",
-            "ROUND": "R32",
-            "SURFACE": "hard",
-            "FORMAT": "CV",
-            "match_id": "1c15694f-16ee-4435-97a7-d41d818cfb72",
-            "DATE": "2025-10-08",
-            "hash_id": "3dbce7d9587ea8ee"
+            "match_id": "9f65f4ab-c7d1-4a4a-93a8-6529023338d6",
+            "DATE": "2026-07-07",
+            "hash_id": "e59d50751b278cc7"
         }
     ]
 }

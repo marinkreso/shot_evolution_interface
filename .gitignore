@@ -4,3 +4,4 @@ __pycache__/
 reports/*.html
 
 *.zip
+leaderboard_haddad_new.parquet

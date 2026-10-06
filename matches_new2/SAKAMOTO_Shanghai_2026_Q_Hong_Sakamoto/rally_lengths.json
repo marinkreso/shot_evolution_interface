@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_Q_Hong_Sakamoto": {
+    "player": "SAKAMOTO",
+    "opponent": "HONG",
+    "points_total": 118,
+    "sets": {
+      "ALL": {
+        "player": "SAKAMOTO",
+        "opponent": "HONG",
+        "points_total": 118,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 48,
+            "points_won": {
+              "SAKAMOTO": 30,
+              "HONG": 18
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 40.7
+          },
+          "3-4 shots": {
+            "points_played": 23,
+            "points_won": {
+              "SAKAMOTO": 13,
+              "HONG": 10
+            },
+            "pct_won_poi": 56.5,
+            "frequency_pct": 19.5
+          },
+          "5-8 shots": {
+            "points_played": 29,
+            "points_won": {
+              "SAKAMOTO": 13,
+              "HONG": 16
+            },
+            "pct_won_poi": 44.8,
+            "frequency_pct": 24.6
+          },
+          "9+ shots": {
+            "points_played": 18,
+            "points_won": {
+              "SAKAMOTO": 12,
+              "HONG": 6
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 15.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 6,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 2
+            },
+            "lost": {
+              "2": 5,
+              "3": 4,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 68,
+          "lost": 50,
+          "won_pct": 57.6,
+          "lost_pct": 42.4
+        }
+      },
+      "1": {
+        "player": "SAKAMOTO",
+        "opponent": "HONG",
+        "points_total": 47,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 22,
+            "points_won": {
+              "SAKAMOTO": 15,
+              "HONG": 7
+            },
+            "pct_won_poi": 68.2,
+            "frequency_pct": 46.8
+          },
+          "3-4 shots": {
+            "points_played": 9,
+            "points_won": {
+              "SAKAMOTO": 5,
+              "HONG": 4
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 19.1
+          },
+          "5-8 shots": {
+            "points_played": 10,
+            "points_won": {
+              "SAKAMOTO": 5,
+              "HONG": 5
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 21.3
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "SAKAMOTO": 3,
+              "HONG": 3
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 12.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 4,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 28,
+          "lost": 19,
+          "won_pct": 59.6,
+          "lost_pct": 40.4
+        }
+      },
+      "2": {
+        "player": "SAKAMOTO",
+        "opponent": "HONG",
+        "points_total": 71,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 26,
+            "points_won": {
+              "SAKAMOTO": 15,
+              "HONG": 11
+            },
+            "pct_won_poi": 57.7,
+            "frequency_pct": 36.6
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "SAKAMOTO": 8,
+              "HONG": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 19.7
+          },
+          "5-8 shots": {
+            "points_played": 19,
+            "points_won": {
+              "SAKAMOTO": 8,
+              "HONG": 11
+            },
+            "pct_won_poi": 42.1,
+            "frequency_pct": 26.8
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "SAKAMOTO": 9,
+              "HONG": 3
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 16.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 3,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 40,
+          "lost": 31,
+          "won_pct": 56.3,
+          "lost_pct": 43.7
+        }
+      }
+    }
+  }
+}

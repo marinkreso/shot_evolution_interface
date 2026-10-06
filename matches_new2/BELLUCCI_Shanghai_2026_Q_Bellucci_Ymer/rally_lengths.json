@@ -1,0 +1,309 @@
+{
+  "Shanghai_2026_Q_Bellucci_Ymer": {
+    "player": "BELLUCCI",
+    "opponent": "YMER",
+    "points_total": 230,
+    "sets": {
+      "ALL": {
+        "player": "BELLUCCI",
+        "opponent": "YMER",
+        "points_total": 230,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 74,
+            "points_won": {
+              "BELLUCCI": 47,
+              "YMER": 27
+            },
+            "pct_won_poi": 63.5,
+            "frequency_pct": 32.2
+          },
+          "3-4 shots": {
+            "points_played": 53,
+            "points_won": {
+              "BELLUCCI": 21,
+              "YMER": 32
+            },
+            "pct_won_poi": 39.6,
+            "frequency_pct": 23.0
+          },
+          "5-8 shots": {
+            "points_played": 63,
+            "points_won": {
+              "BELLUCCI": 28,
+              "YMER": 35
+            },
+            "pct_won_poi": 44.4,
+            "frequency_pct": 27.4
+          },
+          "9+ shots": {
+            "points_played": 40,
+            "points_won": {
+              "BELLUCCI": 22,
+              "YMER": 18
+            },
+            "pct_won_poi": 55.0,
+            "frequency_pct": 17.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 17,
+              "3": 3,
+              "4": 5
+            },
+            "lost": {
+              "2": 7,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 14,
+              "3": 5,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 118,
+          "lost": 112,
+          "won_pct": 51.3,
+          "lost_pct": 48.7
+        }
+      },
+      "1": {
+        "player": "BELLUCCI",
+        "opponent": "YMER",
+        "points_total": 52,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 17,
+            "points_won": {
+              "BELLUCCI": 10,
+              "YMER": 7
+            },
+            "pct_won_poi": 58.8,
+            "frequency_pct": 32.7
+          },
+          "3-4 shots": {
+            "points_played": 8,
+            "points_won": {
+              "BELLUCCI": 3,
+              "YMER": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 15.4
+          },
+          "5-8 shots": {
+            "points_played": 17,
+            "points_won": {
+              "BELLUCCI": 5,
+              "YMER": 12
+            },
+            "pct_won_poi": 29.4,
+            "frequency_pct": 32.7
+          },
+          "9+ shots": {
+            "points_played": 10,
+            "points_won": {
+              "BELLUCCI": 5,
+              "YMER": 5
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 19.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 23,
+          "lost": 29,
+          "won_pct": 44.2,
+          "lost_pct": 55.8
+        }
+      },
+      "2": {
+        "player": "BELLUCCI",
+        "opponent": "YMER",
+        "points_total": 92,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 33,
+            "points_won": {
+              "BELLUCCI": 20,
+              "YMER": 13
+            },
+            "pct_won_poi": 60.6,
+            "frequency_pct": 35.9
+          },
+          "3-4 shots": {
+            "points_played": 18,
+            "points_won": {
+              "BELLUCCI": 9,
+              "YMER": 9
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 19.6
+          },
+          "5-8 shots": {
+            "points_played": 24,
+            "points_won": {
+              "BELLUCCI": 11,
+              "YMER": 13
+            },
+            "pct_won_poi": 45.8,
+            "frequency_pct": 26.1
+          },
+          "9+ shots": {
+            "points_played": 17,
+            "points_won": {
+              "BELLUCCI": 9,
+              "YMER": 8
+            },
+            "pct_won_poi": 52.9,
+            "frequency_pct": 18.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 49,
+          "lost": 43,
+          "won_pct": 53.3,
+          "lost_pct": 46.7
+        }
+      },
+      "3": {
+        "player": "BELLUCCI",
+        "opponent": "YMER",
+        "points_total": 86,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 24,
+            "points_won": {
+              "BELLUCCI": 17,
+              "YMER": 7
+            },
+            "pct_won_poi": 70.8,
+            "frequency_pct": 27.9
+          },
+          "3-4 shots": {
+            "points_played": 27,
+            "points_won": {
+              "BELLUCCI": 9,
+              "YMER": 18
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 31.4
+          },
+          "5-8 shots": {
+            "points_played": 22,
+            "points_won": {
+              "BELLUCCI": 12,
+              "YMER": 10
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 25.6
+          },
+          "9+ shots": {
+            "points_played": 13,
+            "points_won": {
+              "BELLUCCI": 8,
+              "YMER": 5
+            },
+            "pct_won_poi": 61.5,
+            "frequency_pct": 15.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 1,
+              "4": 3
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 3,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 46,
+          "lost": 40,
+          "won_pct": 53.5,
+          "lost_pct": 46.5
+        }
+      }
+    }
+  }
+}

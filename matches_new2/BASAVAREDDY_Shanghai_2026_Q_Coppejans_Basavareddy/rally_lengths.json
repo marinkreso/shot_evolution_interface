@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_Q_Coppejans_Basavareddy": {
+    "player": "BASAVAREDDY",
+    "opponent": "COPPEJANS",
+    "points_total": 138,
+    "sets": {
+      "ALL": {
+        "player": "BASAVAREDDY",
+        "opponent": "COPPEJANS",
+        "points_total": 138,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 57,
+            "points_won": {
+              "BASAVAREDDY": 21,
+              "COPPEJANS": 36
+            },
+            "pct_won_poi": 36.8,
+            "frequency_pct": 41.3
+          },
+          "3-4 shots": {
+            "points_played": 33,
+            "points_won": {
+              "BASAVAREDDY": 18,
+              "COPPEJANS": 15
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 23.9
+          },
+          "5-8 shots": {
+            "points_played": 28,
+            "points_won": {
+              "BASAVAREDDY": 13,
+              "COPPEJANS": 15
+            },
+            "pct_won_poi": 46.4,
+            "frequency_pct": 20.3
+          },
+          "9+ shots": {
+            "points_played": 20,
+            "points_won": {
+              "BASAVAREDDY": 12,
+              "COPPEJANS": 8
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 14.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 3,
+              "4": 2
+            },
+            "lost": {
+              "2": 3,
+              "3": 3,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 4,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 64,
+          "lost": 74,
+          "won_pct": 46.4,
+          "lost_pct": 53.6
+        }
+      },
+      "1": {
+        "player": "BASAVAREDDY",
+        "opponent": "COPPEJANS",
+        "points_total": 82,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 29,
+            "points_won": {
+              "BASAVAREDDY": 11,
+              "COPPEJANS": 18
+            },
+            "pct_won_poi": 37.9,
+            "frequency_pct": 35.4
+          },
+          "3-4 shots": {
+            "points_played": 22,
+            "points_won": {
+              "BASAVAREDDY": 13,
+              "COPPEJANS": 9
+            },
+            "pct_won_poi": 59.1,
+            "frequency_pct": 26.8
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "BASAVAREDDY": 8,
+              "COPPEJANS": 8
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 19.5
+          },
+          "9+ shots": {
+            "points_played": 15,
+            "points_won": {
+              "BASAVAREDDY": 8,
+              "COPPEJANS": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 18.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 40,
+          "lost": 42,
+          "won_pct": 48.8,
+          "lost_pct": 51.2
+        }
+      },
+      "2": {
+        "player": "BASAVAREDDY",
+        "opponent": "COPPEJANS",
+        "points_total": 56,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 28,
+            "points_won": {
+              "BASAVAREDDY": 10,
+              "COPPEJANS": 18
+            },
+            "pct_won_poi": 35.7,
+            "frequency_pct": 50.0
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "BASAVAREDDY": 5,
+              "COPPEJANS": 6
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 19.6
+          },
+          "5-8 shots": {
+            "points_played": 12,
+            "points_won": {
+              "BASAVAREDDY": 5,
+              "COPPEJANS": 7
+            },
+            "pct_won_poi": 41.7,
+            "frequency_pct": 21.4
+          },
+          "9+ shots": {
+            "points_played": 5,
+            "points_won": {
+              "BASAVAREDDY": 4,
+              "COPPEJANS": 1
+            },
+            "pct_won_poi": 80.0,
+            "frequency_pct": 8.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 24,
+          "lost": 32,
+          "won_pct": 42.9,
+          "lost_pct": 57.1
+        }
+      }
+    }
+  }
+}
