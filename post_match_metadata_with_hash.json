@@ -10623,6 +10623,18 @@
             "match_id": "Tokyo_2026_R32_Lehecka_Bergs",
             "DATE": "2026-10-01",
             "hash_id": "0049bcb82aca6761"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "KOPRIVA",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Kopriva_Bergs",
+            "DATE": "2026-10-08",
+            "hash_id": "3cc2cec763a82c2b"
         }
     ],
     "KECMANOVIC": [
@@ -22286,6 +22298,18 @@
             "match_id": "Beijing_2026_R32_de-Minaur_Navone",
             "DATE": "2026-10-01",
             "hash_id": "13d98afcff0273f6"
+        },
+        {
+            "PLAYER": "NAVONE",
+            "OPPONENT": "CARRENO-BUSTA",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Navone_Carreno-Busta",
+            "DATE": "2026-10-08",
+            "hash_id": "aaf37788e530a8c9"
         }
     ],
     "GASTON": [
@@ -34352,6 +34376,18 @@
             "match_id": "Hangzhou_2026_R32_Marozsan_Bolt",
             "DATE": "2026-09-24",
             "hash_id": "81a1d73c65c56b5c"
+        },
+        {
+            "PLAYER": "MAROZSAN",
+            "OPPONENT": "SVAJDA",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Marozsan_Svajda",
+            "DATE": "2026-10-08",
+            "hash_id": "666e285fe5bde9dd"
         }
     ],
     "ZVEREV": [

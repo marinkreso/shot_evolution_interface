@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_1st_Marozsan_Svajda": {
+    "player": "MAROZSAN",
+    "opponent": "SVAJDA",
+    "points_total": 125,
+    "sets": {
+      "ALL": {
+        "player": "MAROZSAN",
+        "opponent": "SVAJDA",
+        "points_total": 125,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 42,
+            "points_won": {
+              "MAROZSAN": 18,
+              "SVAJDA": 24
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 33.6
+          },
+          "3-4 shots": {
+            "points_played": 32,
+            "points_won": {
+              "MAROZSAN": 16,
+              "SVAJDA": 16
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 25.6
+          },
+          "5-8 shots": {
+            "points_played": 37,
+            "points_won": {
+              "MAROZSAN": 14,
+              "SVAJDA": 23
+            },
+            "pct_won_poi": 37.8,
+            "frequency_pct": 29.6
+          },
+          "9+ shots": {
+            "points_played": 14,
+            "points_won": {
+              "MAROZSAN": 8,
+              "SVAJDA": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 11.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 3,
+              "4": 3
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 5,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 56,
+          "lost": 69,
+          "won_pct": 44.8,
+          "lost_pct": 55.2
+        }
+      },
+      "1": {
+        "player": "MAROZSAN",
+        "opponent": "SVAJDA",
+        "points_total": 47,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "MAROZSAN": 6,
+              "SVAJDA": 8
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 29.8
+          },
+          "3-4 shots": {
+            "points_played": 13,
+            "points_won": {
+              "MAROZSAN": 6,
+              "SVAJDA": 7
+            },
+            "pct_won_poi": 46.2,
+            "frequency_pct": 27.7
+          },
+          "5-8 shots": {
+            "points_played": 18,
+            "points_won": {
+              "MAROZSAN": 6,
+              "SVAJDA": 12
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 38.3
+          },
+          "9+ shots": {
+            "points_played": 2,
+            "points_won": {
+              "MAROZSAN": 0,
+              "SVAJDA": 2
+            },
+            "pct_won_poi": 0.0,
+            "frequency_pct": 4.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 18,
+          "lost": 29,
+          "won_pct": 38.3,
+          "lost_pct": 61.7
+        }
+      },
+      "2": {
+        "player": "MAROZSAN",
+        "opponent": "SVAJDA",
+        "points_total": 78,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 28,
+            "points_won": {
+              "MAROZSAN": 12,
+              "SVAJDA": 16
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 35.9
+          },
+          "3-4 shots": {
+            "points_played": 19,
+            "points_won": {
+              "MAROZSAN": 10,
+              "SVAJDA": 9
+            },
+            "pct_won_poi": 52.6,
+            "frequency_pct": 24.4
+          },
+          "5-8 shots": {
+            "points_played": 19,
+            "points_won": {
+              "MAROZSAN": 8,
+              "SVAJDA": 11
+            },
+            "pct_won_poi": 42.1,
+            "frequency_pct": 24.4
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "MAROZSAN": 8,
+              "SVAJDA": 4
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 15.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 3
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 3,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 40,
+          "won_pct": 48.7,
+          "lost_pct": 51.3
+        }
+      }
+    }
+  }
+}
