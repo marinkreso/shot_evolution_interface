@@ -1,0 +1,309 @@
+{
+  "Shanghai_2026_1st_Zhang_Machac": {
+    "player": "ZHANG",
+    "opponent": "MACHAC",
+    "points_total": 195,
+    "sets": {
+      "ALL": {
+        "player": "ZHANG",
+        "opponent": "MACHAC",
+        "points_total": 195,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 59,
+            "points_won": {
+              "ZHANG": 30,
+              "MACHAC": 29
+            },
+            "pct_won_poi": 50.8,
+            "frequency_pct": 30.3
+          },
+          "3-4 shots": {
+            "points_played": 61,
+            "points_won": {
+              "ZHANG": 32,
+              "MACHAC": 29
+            },
+            "pct_won_poi": 52.5,
+            "frequency_pct": 31.3
+          },
+          "5-8 shots": {
+            "points_played": 60,
+            "points_won": {
+              "ZHANG": 25,
+              "MACHAC": 35
+            },
+            "pct_won_poi": 41.7,
+            "frequency_pct": 30.8
+          },
+          "9+ shots": {
+            "points_played": 15,
+            "points_won": {
+              "ZHANG": 8,
+              "MACHAC": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 7.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 8,
+              "3": 8,
+              "4": 2
+            },
+            "lost": {
+              "2": 6,
+              "3": 7,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 4,
+              "4": 6
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 95,
+          "lost": 100,
+          "won_pct": 48.7,
+          "lost_pct": 51.3
+        }
+      },
+      "1": {
+        "player": "ZHANG",
+        "opponent": "MACHAC",
+        "points_total": 46,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 12,
+            "points_won": {
+              "ZHANG": 10,
+              "MACHAC": 2
+            },
+            "pct_won_poi": 83.3,
+            "frequency_pct": 26.1
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "ZHANG": 8,
+              "MACHAC": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 32.6
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "ZHANG": 6,
+              "MACHAC": 10
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 34.8
+          },
+          "9+ shots": {
+            "points_played": 3,
+            "points_won": {
+              "ZHANG": 3,
+              "MACHAC": 0
+            },
+            "pct_won_poi": 100.0,
+            "frequency_pct": 6.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 19,
+          "won_pct": 58.7,
+          "lost_pct": 41.3
+        }
+      },
+      "2": {
+        "player": "ZHANG",
+        "opponent": "MACHAC",
+        "points_total": 91,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "ZHANG": 12,
+              "MACHAC": 13
+            },
+            "pct_won_poi": 48.0,
+            "frequency_pct": 27.5
+          },
+          "3-4 shots": {
+            "points_played": 32,
+            "points_won": {
+              "ZHANG": 18,
+              "MACHAC": 14
+            },
+            "pct_won_poi": 56.2,
+            "frequency_pct": 35.2
+          },
+          "5-8 shots": {
+            "points_played": 28,
+            "points_won": {
+              "ZHANG": 12,
+              "MACHAC": 16
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 30.8
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "ZHANG": 2,
+              "MACHAC": 4
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 6.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 4,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 44,
+          "lost": 47,
+          "won_pct": 48.4,
+          "lost_pct": 51.6
+        }
+      },
+      "3": {
+        "player": "ZHANG",
+        "opponent": "MACHAC",
+        "points_total": 58,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 22,
+            "points_won": {
+              "ZHANG": 8,
+              "MACHAC": 14
+            },
+            "pct_won_poi": 36.4,
+            "frequency_pct": 37.9
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "ZHANG": 6,
+              "MACHAC": 8
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 24.1
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "ZHANG": 7,
+              "MACHAC": 9
+            },
+            "pct_won_poi": 43.8,
+            "frequency_pct": 27.6
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "ZHANG": 3,
+              "MACHAC": 3
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 10.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 24,
+          "lost": 34,
+          "won_pct": 41.4,
+          "lost_pct": 58.6
+        }
+      }
+    }
+  }
+}

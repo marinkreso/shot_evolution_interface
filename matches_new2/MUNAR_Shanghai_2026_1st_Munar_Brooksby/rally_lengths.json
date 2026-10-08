@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_1st_Munar_Brooksby": {
+    "player": "MUNAR",
+    "opponent": "BROOKSBY",
+    "points_total": 142,
+    "sets": {
+      "ALL": {
+        "player": "MUNAR",
+        "opponent": "BROOKSBY",
+        "points_total": 142,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 39,
+            "points_won": {
+              "MUNAR": 19,
+              "BROOKSBY": 20
+            },
+            "pct_won_poi": 48.7,
+            "frequency_pct": 27.5
+          },
+          "3-4 shots": {
+            "points_played": 34,
+            "points_won": {
+              "MUNAR": 20,
+              "BROOKSBY": 14
+            },
+            "pct_won_poi": 58.8,
+            "frequency_pct": 23.9
+          },
+          "5-8 shots": {
+            "points_played": 36,
+            "points_won": {
+              "MUNAR": 14,
+              "BROOKSBY": 22
+            },
+            "pct_won_poi": 38.9,
+            "frequency_pct": 25.4
+          },
+          "9+ shots": {
+            "points_played": 33,
+            "points_won": {
+              "MUNAR": 9,
+              "BROOKSBY": 24
+            },
+            "pct_won_poi": 27.3,
+            "frequency_pct": 23.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 8,
+              "3": 4,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 3,
+              "4": 5
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 62,
+          "lost": 80,
+          "won_pct": 43.7,
+          "lost_pct": 56.3
+        }
+      },
+      "1": {
+        "player": "MUNAR",
+        "opponent": "BROOKSBY",
+        "points_total": 83,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "MUNAR": 10,
+              "BROOKSBY": 10
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 24.1
+          },
+          "3-4 shots": {
+            "points_played": 25,
+            "points_won": {
+              "MUNAR": 14,
+              "BROOKSBY": 11
+            },
+            "pct_won_poi": 56.0,
+            "frequency_pct": 30.1
+          },
+          "5-8 shots": {
+            "points_played": 22,
+            "points_won": {
+              "MUNAR": 10,
+              "BROOKSBY": 12
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 26.5
+          },
+          "9+ shots": {
+            "points_played": 16,
+            "points_won": {
+              "MUNAR": 4,
+              "BROOKSBY": 12
+            },
+            "pct_won_poi": 25.0,
+            "frequency_pct": 19.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 45,
+          "won_pct": 45.8,
+          "lost_pct": 54.2
+        }
+      },
+      "2": {
+        "player": "MUNAR",
+        "opponent": "BROOKSBY",
+        "points_total": 59,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 19,
+            "points_won": {
+              "MUNAR": 9,
+              "BROOKSBY": 10
+            },
+            "pct_won_poi": 47.4,
+            "frequency_pct": 32.2
+          },
+          "3-4 shots": {
+            "points_played": 9,
+            "points_won": {
+              "MUNAR": 6,
+              "BROOKSBY": 3
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 15.3
+          },
+          "5-8 shots": {
+            "points_played": 14,
+            "points_won": {
+              "MUNAR": 4,
+              "BROOKSBY": 10
+            },
+            "pct_won_poi": 28.6,
+            "frequency_pct": 23.7
+          },
+          "9+ shots": {
+            "points_played": 17,
+            "points_won": {
+              "MUNAR": 5,
+              "BROOKSBY": 12
+            },
+            "pct_won_poi": 29.4,
+            "frequency_pct": 28.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 24,
+          "lost": 35,
+          "won_pct": 40.7,
+          "lost_pct": 59.3
+        }
+      }
+    }
+  }
+}

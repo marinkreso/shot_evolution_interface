@@ -1,0 +1,309 @@
+{
+  "Shanghai_2026_1st_Bellucci_Zhou": {
+    "player": "BELLUCCI",
+    "opponent": "ZHOU",
+    "points_total": 211,
+    "sets": {
+      "ALL": {
+        "player": "BELLUCCI",
+        "opponent": "ZHOU",
+        "points_total": 211,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 70,
+            "points_won": {
+              "BELLUCCI": 34,
+              "ZHOU": 36
+            },
+            "pct_won_poi": 48.6,
+            "frequency_pct": 33.2
+          },
+          "3-4 shots": {
+            "points_played": 51,
+            "points_won": {
+              "BELLUCCI": 23,
+              "ZHOU": 28
+            },
+            "pct_won_poi": 45.1,
+            "frequency_pct": 24.2
+          },
+          "5-8 shots": {
+            "points_played": 54,
+            "points_won": {
+              "BELLUCCI": 28,
+              "ZHOU": 26
+            },
+            "pct_won_poi": 51.9,
+            "frequency_pct": 25.6
+          },
+          "9+ shots": {
+            "points_played": 36,
+            "points_won": {
+              "BELLUCCI": 19,
+              "ZHOU": 17
+            },
+            "pct_won_poi": 52.8,
+            "frequency_pct": 17.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 8,
+              "3": 5,
+              "4": 5
+            },
+            "lost": {
+              "2": 9,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 8,
+              "3": 9,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 104,
+          "lost": 107,
+          "won_pct": 49.3,
+          "lost_pct": 50.7
+        }
+      },
+      "1": {
+        "player": "BELLUCCI",
+        "opponent": "ZHOU",
+        "points_total": 76,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 27,
+            "points_won": {
+              "BELLUCCI": 11,
+              "ZHOU": 16
+            },
+            "pct_won_poi": 40.7,
+            "frequency_pct": 35.5
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "BELLUCCI": 7,
+              "ZHOU": 8
+            },
+            "pct_won_poi": 46.7,
+            "frequency_pct": 19.7
+          },
+          "5-8 shots": {
+            "points_played": 21,
+            "points_won": {
+              "BELLUCCI": 10,
+              "ZHOU": 11
+            },
+            "pct_won_poi": 47.6,
+            "frequency_pct": 27.6
+          },
+          "9+ shots": {
+            "points_played": 13,
+            "points_won": {
+              "BELLUCCI": 8,
+              "ZHOU": 5
+            },
+            "pct_won_poi": 61.5,
+            "frequency_pct": 17.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 4,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 36,
+          "lost": 40,
+          "won_pct": 47.4,
+          "lost_pct": 52.6
+        }
+      },
+      "2": {
+        "player": "BELLUCCI",
+        "opponent": "ZHOU",
+        "points_total": 49,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 13,
+            "points_won": {
+              "BELLUCCI": 7,
+              "ZHOU": 6
+            },
+            "pct_won_poi": 53.8,
+            "frequency_pct": 26.5
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "BELLUCCI": 8,
+              "ZHOU": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 30.6
+          },
+          "5-8 shots": {
+            "points_played": 10,
+            "points_won": {
+              "BELLUCCI": 7,
+              "ZHOU": 3
+            },
+            "pct_won_poi": 70.0,
+            "frequency_pct": 20.4
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "BELLUCCI": 5,
+              "ZHOU": 6
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 22.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 22,
+          "won_pct": 55.1,
+          "lost_pct": 44.9
+        }
+      },
+      "3": {
+        "player": "BELLUCCI",
+        "opponent": "ZHOU",
+        "points_total": 86,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 30,
+            "points_won": {
+              "BELLUCCI": 16,
+              "ZHOU": 14
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 34.9
+          },
+          "3-4 shots": {
+            "points_played": 21,
+            "points_won": {
+              "BELLUCCI": 8,
+              "ZHOU": 13
+            },
+            "pct_won_poi": 38.1,
+            "frequency_pct": 24.4
+          },
+          "5-8 shots": {
+            "points_played": 23,
+            "points_won": {
+              "BELLUCCI": 11,
+              "ZHOU": 12
+            },
+            "pct_won_poi": 47.8,
+            "frequency_pct": 26.7
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "BELLUCCI": 6,
+              "ZHOU": 6
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 14.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 4
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 3,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 41,
+          "lost": 45,
+          "won_pct": 47.7,
+          "lost_pct": 52.3
+        }
+      }
+    }
+  }
+}

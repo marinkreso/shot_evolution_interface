@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_1st_Coppejans_Tsitsipas": {
+    "player": "TSITSIPAS",
+    "opponent": "COPPEJANS",
+    "points_total": 110,
+    "sets": {
+      "ALL": {
+        "player": "TSITSIPAS",
+        "opponent": "COPPEJANS",
+        "points_total": 110,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 41,
+            "points_won": {
+              "TSITSIPAS": 28,
+              "COPPEJANS": 13
+            },
+            "pct_won_poi": 68.3,
+            "frequency_pct": 37.3
+          },
+          "3-4 shots": {
+            "points_played": 27,
+            "points_won": {
+              "TSITSIPAS": 16,
+              "COPPEJANS": 11
+            },
+            "pct_won_poi": 59.3,
+            "frequency_pct": 24.5
+          },
+          "5-8 shots": {
+            "points_played": 31,
+            "points_won": {
+              "TSITSIPAS": 17,
+              "COPPEJANS": 14
+            },
+            "pct_won_poi": 54.8,
+            "frequency_pct": 28.2
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "TSITSIPAS": 3,
+              "COPPEJANS": 8
+            },
+            "pct_won_poi": 27.3,
+            "frequency_pct": 10.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 4,
+              "4": 5
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 7,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 64,
+          "lost": 46,
+          "won_pct": 58.2,
+          "lost_pct": 41.8
+        }
+      },
+      "1": {
+        "player": "TSITSIPAS",
+        "opponent": "COPPEJANS",
+        "points_total": 43,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "TSITSIPAS": 13,
+              "COPPEJANS": 7
+            },
+            "pct_won_poi": 65.0,
+            "frequency_pct": 46.5
+          },
+          "3-4 shots": {
+            "points_played": 9,
+            "points_won": {
+              "TSITSIPAS": 6,
+              "COPPEJANS": 3
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 20.9
+          },
+          "5-8 shots": {
+            "points_played": 11,
+            "points_won": {
+              "TSITSIPAS": 8,
+              "COPPEJANS": 3
+            },
+            "pct_won_poi": 72.7,
+            "frequency_pct": 25.6
+          },
+          "9+ shots": {
+            "points_played": 3,
+            "points_won": {
+              "TSITSIPAS": 0,
+              "COPPEJANS": 3
+            },
+            "pct_won_poi": 0.0,
+            "frequency_pct": 7.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 3
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 16,
+          "won_pct": 62.8,
+          "lost_pct": 37.2
+        }
+      },
+      "2": {
+        "player": "TSITSIPAS",
+        "opponent": "COPPEJANS",
+        "points_total": 67,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "TSITSIPAS": 15,
+              "COPPEJANS": 6
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 31.3
+          },
+          "3-4 shots": {
+            "points_played": 18,
+            "points_won": {
+              "TSITSIPAS": 10,
+              "COPPEJANS": 8
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 26.9
+          },
+          "5-8 shots": {
+            "points_played": 20,
+            "points_won": {
+              "TSITSIPAS": 9,
+              "COPPEJANS": 11
+            },
+            "pct_won_poi": 45.0,
+            "frequency_pct": 29.9
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "TSITSIPAS": 3,
+              "COPPEJANS": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 11.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 37,
+          "lost": 30,
+          "won_pct": 55.2,
+          "lost_pct": 44.8
+        }
+      }
+    }
+  }
+}

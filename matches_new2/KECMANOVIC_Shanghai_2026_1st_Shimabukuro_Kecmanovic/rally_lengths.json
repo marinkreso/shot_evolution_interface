@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_1st_Shimabukuro_Kecmanovic": {
+    "player": "KECMANOVIC",
+    "opponent": "SHIMABUKURO",
+    "points_total": 118,
+    "sets": {
+      "ALL": {
+        "player": "KECMANOVIC",
+        "opponent": "SHIMABUKURO",
+        "points_total": 118,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 40,
+            "points_won": {
+              "KECMANOVIC": 26,
+              "SHIMABUKURO": 14
+            },
+            "pct_won_poi": 65.0,
+            "frequency_pct": 33.9
+          },
+          "3-4 shots": {
+            "points_played": 27,
+            "points_won": {
+              "KECMANOVIC": 16,
+              "SHIMABUKURO": 11
+            },
+            "pct_won_poi": 59.3,
+            "frequency_pct": 22.9
+          },
+          "5-8 shots": {
+            "points_played": 43,
+            "points_won": {
+              "KECMANOVIC": 21,
+              "SHIMABUKURO": 22
+            },
+            "pct_won_poi": 48.8,
+            "frequency_pct": 36.4
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "KECMANOVIC": 3,
+              "SHIMABUKURO": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 6.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 4,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 6,
+              "3": 3,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 66,
+          "lost": 52,
+          "won_pct": 55.9,
+          "lost_pct": 44.1
+        }
+      },
+      "1": {
+        "player": "KECMANOVIC",
+        "opponent": "SHIMABUKURO",
+        "points_total": 63,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "KECMANOVIC": 14,
+              "SHIMABUKURO": 7
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 33.3
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "KECMANOVIC": 10,
+              "SHIMABUKURO": 5
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 23.8
+          },
+          "5-8 shots": {
+            "points_played": 23,
+            "points_won": {
+              "KECMANOVIC": 12,
+              "SHIMABUKURO": 11
+            },
+            "pct_won_poi": 52.2,
+            "frequency_pct": 36.5
+          },
+          "9+ shots": {
+            "points_played": 4,
+            "points_won": {
+              "KECMANOVIC": 0,
+              "SHIMABUKURO": 4
+            },
+            "pct_won_poi": 0.0,
+            "frequency_pct": 6.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 36,
+          "lost": 27,
+          "won_pct": 57.1,
+          "lost_pct": 42.9
+        }
+      },
+      "2": {
+        "player": "KECMANOVIC",
+        "opponent": "SHIMABUKURO",
+        "points_total": 55,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 19,
+            "points_won": {
+              "KECMANOVIC": 12,
+              "SHIMABUKURO": 7
+            },
+            "pct_won_poi": 63.2,
+            "frequency_pct": 34.5
+          },
+          "3-4 shots": {
+            "points_played": 12,
+            "points_won": {
+              "KECMANOVIC": 6,
+              "SHIMABUKURO": 6
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 21.8
+          },
+          "5-8 shots": {
+            "points_played": 20,
+            "points_won": {
+              "KECMANOVIC": 9,
+              "SHIMABUKURO": 11
+            },
+            "pct_won_poi": 45.0,
+            "frequency_pct": 36.4
+          },
+          "9+ shots": {
+            "points_played": 4,
+            "points_won": {
+              "KECMANOVIC": 3,
+              "SHIMABUKURO": 1
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 7.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 30,
+          "lost": 25,
+          "won_pct": 54.5,
+          "lost_pct": 45.5
+        }
+      }
+    }
+  }
+}

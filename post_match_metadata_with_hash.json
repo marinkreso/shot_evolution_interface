@@ -11585,6 +11585,18 @@
             "match_id": "Beijing_2026_Q_Kecmanovic_Mannarino",
             "DATE": "2026-09-28",
             "hash_id": "3b1490f8c9800ed5"
+        },
+        {
+            "PLAYER": "KECMANOVIC",
+            "OPPONENT": "SHIMABUKURO",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Shimabukuro_Kecmanovic",
+            "DATE": "2026-10-07",
+            "hash_id": "a6b13e949aeafb70"
         }
     ],
     "NAKASHIMA": [
@@ -14133,6 +14145,18 @@
             "match_id": "Tokyo_2026_R16_Vacherot_Tsitsipas",
             "DATE": "2026-10-02",
             "hash_id": "66120a68f235c2e0"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "COPPEJANS",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Coppejans_Tsitsipas",
+            "DATE": "2026-10-08",
+            "hash_id": "5cde34130c7a7a36"
         }
     ],
     "PAUL": [
@@ -16827,6 +16851,18 @@
             "match_id": "Hangzhou_2026_R32_Zhang_Wong",
             "DATE": "2026-09-24",
             "hash_id": "5d9a1164a9d4f066"
+        },
+        {
+            "PLAYER": "ZHANG",
+            "OPPONENT": "MACHAC",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Zhang_Machac",
+            "DATE": "2026-10-07",
+            "hash_id": "f0fcbdca9663558d"
         }
     ],
     "GAUFF": [
@@ -19653,6 +19689,18 @@
             "match_id": "Beijing_2026_Q_Cui_Altmaier",
             "DATE": "2026-09-28",
             "hash_id": "dda0101fe3382f37"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "RUNE",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Rune_Altmaier",
+            "DATE": "2026-10-07",
+            "hash_id": "8d9e0bb5497a79bd"
         }
     ],
     "SEYBOTH WILD": [
@@ -23228,6 +23276,18 @@
             "match_id": "Chengdu_2026_QF_Brooksby_Basilashvili",
             "DATE": "2026-09-27",
             "hash_id": "9bf82d2bcee09c09"
+        },
+        {
+            "PLAYER": "BROOKSBY",
+            "OPPONENT": "MUNAR",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Munar_Brooksby",
+            "DATE": "2026-10-08",
+            "hash_id": "13799bf2eab87084"
         }
     ],
     "QUINN": [
@@ -32894,6 +32954,18 @@
             "match_id": "Shanghai_2026_Q_Bellucci_Muller",
             "DATE": "2026-10-06",
             "hash_id": "2a6cd9a3f6a6b5da"
+        },
+        {
+            "PLAYER": "BELLUCCI",
+            "OPPONENT": "ZHOU",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Bellucci_Zhou",
+            "DATE": "2026-10-07",
+            "hash_id": "f1f2d5861368cb99"
         }
     ],
     "SELL": [
@@ -38509,6 +38581,18 @@
             "match_id": "Cincinnati_2026_1st_Medjedovic_Trungelliti",
             "DATE": "2026-08-14",
             "hash_id": "6e6c92f26785409d"
+        },
+        {
+            "PLAYER": "MEDJEDOVIC",
+            "OPPONENT": "TIRANTE",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Tirante_Medjedovic",
+            "DATE": "2026-10-08",
+            "hash_id": "3af7d8e34056ae07"
         }
     ],
     "LAMENS": [
@@ -38851,6 +38935,18 @@
             "match_id": "Shanghai_2026_Q_Jacquet_Sakamoto",
             "DATE": "2026-10-06",
             "hash_id": "8c086ae86c7283a1"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "TRUNGELLITI",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Trungelliti_Sakamoto",
+            "DATE": "2026-10-07",
+            "hash_id": "778e7e164eac7079"
         }
     ],
     "JODAR": [
@@ -41857,6 +41953,18 @@
             "match_id": "Cincinnati_2026_QF_Tirante_Fils",
             "DATE": "2026-08-21",
             "hash_id": "69d5607efb9b66aa"
+        },
+        {
+            "PLAYER": "TIRANTE",
+            "OPPONENT": "MEDJEDOVIC",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Tirante_Medjedovic",
+            "DATE": "2026-10-08",
+            "hash_id": "4838df8f62a4f34b"
         }
     ],
     "KOUAME": [
@@ -42361,6 +42469,34 @@
             "match_id": "9f65f4ab-c7d1-4a4a-93a8-6529023338d6",
             "DATE": "2026-07-07",
             "hash_id": "e59d50751b278cc7"
+        }
+    ],
+    "COPPEJANS": [
+        {
+            "PLAYER": "COPPEJANS",
+            "OPPONENT": "TSITSIPAS",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Coppejans_Tsitsipas",
+            "DATE": "2026-10-08",
+            "hash_id": "2f17ef9f47d2ea0d"
+        }
+    ],
+    "MUNAR": [
+        {
+            "PLAYER": "MUNAR",
+            "OPPONENT": "BROOKSBY",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_1st_Munar_Brooksby",
+            "DATE": "2026-10-08",
+            "hash_id": "0c73f63d96e39e63"
         }
     ]
 }

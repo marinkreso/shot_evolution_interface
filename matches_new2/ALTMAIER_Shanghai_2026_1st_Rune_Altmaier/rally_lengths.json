@@ -1,0 +1,309 @@
+{
+  "Shanghai_2026_1st_Rune_Altmaier": {
+    "player": "ALTMAIER",
+    "opponent": "RUNE",
+    "points_total": 171,
+    "sets": {
+      "ALL": {
+        "player": "ALTMAIER",
+        "opponent": "RUNE",
+        "points_total": 171,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 47,
+            "points_won": {
+              "ALTMAIER": 26,
+              "RUNE": 21
+            },
+            "pct_won_poi": 55.3,
+            "frequency_pct": 27.5
+          },
+          "3-4 shots": {
+            "points_played": 64,
+            "points_won": {
+              "ALTMAIER": 26,
+              "RUNE": 38
+            },
+            "pct_won_poi": 40.6,
+            "frequency_pct": 37.4
+          },
+          "5-8 shots": {
+            "points_played": 36,
+            "points_won": {
+              "ALTMAIER": 18,
+              "RUNE": 18
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 21.1
+          },
+          "9+ shots": {
+            "points_played": 24,
+            "points_won": {
+              "ALTMAIER": 11,
+              "RUNE": 13
+            },
+            "pct_won_poi": 45.8,
+            "frequency_pct": 14.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 4,
+              "4": 7
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 11,
+              "3": 4,
+              "4": 6
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 81,
+          "lost": 90,
+          "won_pct": 47.4,
+          "lost_pct": 52.6
+        }
+      },
+      "1": {
+        "player": "ALTMAIER",
+        "opponent": "RUNE",
+        "points_total": 36,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 8,
+            "points_won": {
+              "ALTMAIER": 4,
+              "RUNE": 4
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 22.2
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "ALTMAIER": 3,
+              "RUNE": 11
+            },
+            "pct_won_poi": 21.4,
+            "frequency_pct": 38.9
+          },
+          "5-8 shots": {
+            "points_played": 11,
+            "points_won": {
+              "ALTMAIER": 3,
+              "RUNE": 8
+            },
+            "pct_won_poi": 27.3,
+            "frequency_pct": 30.6
+          },
+          "9+ shots": {
+            "points_played": 3,
+            "points_won": {
+              "ALTMAIER": 0,
+              "RUNE": 3
+            },
+            "pct_won_poi": 0.0,
+            "frequency_pct": 8.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 0,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 10,
+          "lost": 26,
+          "won_pct": 27.8,
+          "lost_pct": 72.2
+        }
+      },
+      "2": {
+        "player": "ALTMAIER",
+        "opponent": "RUNE",
+        "points_total": 70,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 18,
+            "points_won": {
+              "ALTMAIER": 10,
+              "RUNE": 8
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 25.7
+          },
+          "3-4 shots": {
+            "points_played": 31,
+            "points_won": {
+              "ALTMAIER": 14,
+              "RUNE": 17
+            },
+            "pct_won_poi": 45.2,
+            "frequency_pct": 44.3
+          },
+          "5-8 shots": {
+            "points_played": 12,
+            "points_won": {
+              "ALTMAIER": 6,
+              "RUNE": 6
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 17.1
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "ALTMAIER": 6,
+              "RUNE": 3
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 12.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 6
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 5
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 36,
+          "lost": 34,
+          "won_pct": 51.4,
+          "lost_pct": 48.6
+        }
+      },
+      "3": {
+        "player": "ALTMAIER",
+        "opponent": "RUNE",
+        "points_total": 65,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "ALTMAIER": 12,
+              "RUNE": 9
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 32.3
+          },
+          "3-4 shots": {
+            "points_played": 19,
+            "points_won": {
+              "ALTMAIER": 9,
+              "RUNE": 10
+            },
+            "pct_won_poi": 47.4,
+            "frequency_pct": 29.2
+          },
+          "5-8 shots": {
+            "points_played": 13,
+            "points_won": {
+              "ALTMAIER": 9,
+              "RUNE": 4
+            },
+            "pct_won_poi": 69.2,
+            "frequency_pct": 20.0
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "ALTMAIER": 5,
+              "RUNE": 7
+            },
+            "pct_won_poi": 41.7,
+            "frequency_pct": 18.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 35,
+          "lost": 30,
+          "won_pct": 53.8,
+          "lost_pct": 46.2
+        }
+      }
+    }
+  }
+}
