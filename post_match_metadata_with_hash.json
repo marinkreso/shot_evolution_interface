@@ -11621,6 +11621,18 @@
             "match_id": "Shanghai_2026_1st_Shimabukuro_Kecmanovic",
             "DATE": "2026-10-07",
             "hash_id": "a6b13e949aeafb70"
+        },
+        {
+            "PLAYER": "KECMANOVIC",
+            "OPPONENT": "MENSIK",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Kecmanovic_Mensik",
+            "DATE": "2026-10-09",
+            "hash_id": "4d4e33b9aa34eab6"
         }
     ],
     "NAKASHIMA": [
@@ -29288,6 +29300,18 @@
             "match_id": "Beijing_2026_R16_Cerundolo_Mensik",
             "DATE": "2026-10-03",
             "hash_id": "9b0ffb8edcfa276f"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "KECMANOVIC",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Kecmanovic_Mensik",
+            "DATE": "2026-10-09",
+            "hash_id": "f0514705f81e47f1"
         }
     ],
     "BENCIC": [
