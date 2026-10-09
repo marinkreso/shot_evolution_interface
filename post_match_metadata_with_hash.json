@@ -23348,6 +23348,18 @@
             "match_id": "Shanghai_2026_1st_Munar_Brooksby",
             "DATE": "2026-10-08",
             "hash_id": "13799bf2eab87084"
+        },
+        {
+            "PLAYER": "BROOKSBY",
+            "OPPONENT": "DAVIDOVICH-FOKINA",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Davidovich-Fokina_Brooksby",
+            "DATE": "2026-10-09",
+            "hash_id": "d677d5efa4bcde63"
         }
     ],
     "QUINN": [
