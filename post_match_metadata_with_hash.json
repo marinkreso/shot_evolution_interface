@@ -1261,6 +1261,18 @@
             "match_id": "Davis_Cup_2026_Q_Lehecka_Shelton",
             "DATE": "2026-09-18",
             "hash_id": "ffc95eb817ac2a90"
+        },
+        {
+            "PLAYER": "SHELTON",
+            "OPPONENT": "ALTMAIER",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Shelton_Altmaier",
+            "DATE": "2026-10-09",
+            "hash_id": "0632b0543bd8c3bd"
         }
     ],
     "COBOLLI": [
@@ -12955,6 +12967,18 @@
             "match_id": "Tokyo_2026_R32_Nakashima_Humbert",
             "DATE": "2026-10-01",
             "hash_id": "271063468339b8ff"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "BERRETTINI",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Berrettini_Nakashima",
+            "DATE": "2026-10-09",
+            "hash_id": "c89ca832f2213d04"
         }
     ],
     "TSITSIPAS": [
@@ -19713,6 +19737,18 @@
             "match_id": "Shanghai_2026_1st_Rune_Altmaier",
             "DATE": "2026-10-07",
             "hash_id": "8d9e0bb5497a79bd"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "SHELTON",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Shelton_Altmaier",
+            "DATE": "2026-10-09",
+            "hash_id": "3fa05c85f7b761b7"
         }
     ],
     "SEYBOTH WILD": [
@@ -33498,6 +33534,18 @@
             "match_id": "US_Open_2026_QF_Khachanov_Blockx",
             "DATE": "2026-09-09",
             "hash_id": "b1896b48b29e4460"
+        },
+        {
+            "PLAYER": "BLOCKX",
+            "OPPONENT": "HALYS",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Halys_Blockx",
+            "DATE": "2026-10-09",
+            "hash_id": "d9d88569dadc39a6"
         }
     ],
     "MAROZSAN": [
@@ -38983,6 +39031,18 @@
             "match_id": "Shanghai_2026_1st_Trungelliti_Sakamoto",
             "DATE": "2026-10-07",
             "hash_id": "778e7e164eac7079"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "RUBLEV",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Sakamoto_Rublev",
+            "DATE": "2026-10-09",
+            "hash_id": "4f136fc049b020d6"
         }
     ],
     "JODAR": [

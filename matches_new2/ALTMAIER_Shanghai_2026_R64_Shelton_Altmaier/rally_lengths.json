@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_R64_Shelton_Altmaier": {
+    "player": "ALTMAIER",
+    "opponent": "SHELTON",
+    "points_total": 139,
+    "sets": {
+      "ALL": {
+        "player": "ALTMAIER",
+        "opponent": "SHELTON",
+        "points_total": 139,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 44,
+            "points_won": {
+              "ALTMAIER": 20,
+              "SHELTON": 24
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 31.7
+          },
+          "3-4 shots": {
+            "points_played": 40,
+            "points_won": {
+              "ALTMAIER": 23,
+              "SHELTON": 17
+            },
+            "pct_won_poi": 57.5,
+            "frequency_pct": 28.8
+          },
+          "5-8 shots": {
+            "points_played": 28,
+            "points_won": {
+              "ALTMAIER": 9,
+              "SHELTON": 19
+            },
+            "pct_won_poi": 32.1,
+            "frequency_pct": 20.1
+          },
+          "9+ shots": {
+            "points_played": 27,
+            "points_won": {
+              "ALTMAIER": 10,
+              "SHELTON": 17
+            },
+            "pct_won_poi": 37.0,
+            "frequency_pct": 19.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 3,
+              "4": 4
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 5,
+              "4": 4
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 62,
+          "lost": 77,
+          "won_pct": 44.6,
+          "lost_pct": 55.4
+        }
+      },
+      "1": {
+        "player": "ALTMAIER",
+        "opponent": "SHELTON",
+        "points_total": 49,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 17,
+            "points_won": {
+              "ALTMAIER": 5,
+              "SHELTON": 12
+            },
+            "pct_won_poi": 29.4,
+            "frequency_pct": 34.7
+          },
+          "3-4 shots": {
+            "points_played": 17,
+            "points_won": {
+              "ALTMAIER": 9,
+              "SHELTON": 8
+            },
+            "pct_won_poi": 52.9,
+            "frequency_pct": 34.7
+          },
+          "5-8 shots": {
+            "points_played": 7,
+            "points_won": {
+              "ALTMAIER": 3,
+              "SHELTON": 4
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 14.3
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "ALTMAIER": 3,
+              "SHELTON": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 16.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 20,
+          "lost": 29,
+          "won_pct": 40.8,
+          "lost_pct": 59.2
+        }
+      },
+      "2": {
+        "player": "ALTMAIER",
+        "opponent": "SHELTON",
+        "points_total": 90,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 27,
+            "points_won": {
+              "ALTMAIER": 15,
+              "SHELTON": 12
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 30.0
+          },
+          "3-4 shots": {
+            "points_played": 23,
+            "points_won": {
+              "ALTMAIER": 14,
+              "SHELTON": 9
+            },
+            "pct_won_poi": 60.9,
+            "frequency_pct": 25.6
+          },
+          "5-8 shots": {
+            "points_played": 21,
+            "points_won": {
+              "ALTMAIER": 6,
+              "SHELTON": 15
+            },
+            "pct_won_poi": 28.6,
+            "frequency_pct": 23.3
+          },
+          "9+ shots": {
+            "points_played": 19,
+            "points_won": {
+              "ALTMAIER": 7,
+              "SHELTON": 12
+            },
+            "pct_won_poi": 36.8,
+            "frequency_pct": 21.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 3
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 4,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 42,
+          "lost": 48,
+          "won_pct": 46.7,
+          "lost_pct": 53.3
+        }
+      }
+    }
+  }
+}
