@@ -1273,6 +1273,18 @@
             "match_id": "Shanghai_2026_R64_Shelton_Altmaier",
             "DATE": "2026-10-09",
             "hash_id": "0632b0543bd8c3bd"
+        },
+        {
+            "PLAYER": "SHELTON",
+            "OPPONENT": "ALTMAIER",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R2",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "cacfca3d-fcb1-4ebd-be5d-ed1b4a55a103",
+            "DATE": "2026-10-09",
+            "hash_id": "ba97f38b1829eca2"
         }
     ],
     "COBOLLI": [
@@ -2439,6 +2451,18 @@
             "match_id": "be4c622d-4ff4-47ab-90a0-49851077f170",
             "DATE": "2026-09-26",
             "hash_id": "892f32e4d4f4d9fc"
+        },
+        {
+            "PLAYER": "COBOLLI",
+            "OPPONENT": "MANNARINO",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R2",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "625f06ab-616c-43d7-b1de-2fe0ba38c860",
+            "DATE": "2026-10-09",
+            "hash_id": "442339b9c993f799"
         }
     ],
     "HURKACZ": [
@@ -2981,6 +3005,18 @@
             "match_id": "RG_2025_1st_Hurkacz_Fonseca",
             "DATE": "2025-05-27",
             "hash_id": "eb73b08be55370ef"
+        },
+        {
+            "PLAYER": "HURKACZ",
+            "OPPONENT": "TIEN",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R1",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "6f50a3ba-414c-4409-9952-3606fa029142",
+            "DATE": "2026-10-01",
+            "hash_id": "b5c711573e7aab5a"
         }
     ],
     "OSAKA": [
@@ -7213,6 +7249,30 @@
             "match_id": "Beijing_2026_R16_Jovic_Swiatek",
             "DATE": "2026-10-07",
             "hash_id": "dbcabd612893e28d"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "MERTENS",
+            "TOURNAMENT": "CHINA OPEN",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "26ccd080-3511-4683-bc16-2463c5cca677",
+            "DATE": "2026-10-09",
+            "hash_id": "401fb74ab9afba30"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "JOVIC",
+            "TOURNAMENT": "CHINA OPEN",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "1f65704f-925a-414f-b2fe-2b846fa10fac",
+            "DATE": "2026-10-07",
+            "hash_id": "0461af68d0ac29b0"
         }
     ],
     "KORDA": [
@@ -10659,6 +10719,18 @@
             "match_id": "Shanghai_2026_1st_Kopriva_Bergs",
             "DATE": "2026-10-08",
             "hash_id": "3cc2cec763a82c2b"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "BUSE",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Buse_Bergs",
+            "DATE": "2026-10-10",
+            "hash_id": "935dcc5deeefb6f8"
         }
     ],
     "KECMANOVIC": [
@@ -14217,6 +14289,18 @@
             "match_id": "Shanghai_2026_1st_Coppejans_Tsitsipas",
             "DATE": "2026-10-08",
             "hash_id": "5cde34130c7a7a36"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "DARDERI",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Darderi_Tsitsipas",
+            "DATE": "2026-10-10",
+            "hash_id": "61cd7610ae337f29"
         }
     ],
     "PAUL": [
@@ -19785,6 +19869,18 @@
             "match_id": "Shanghai_2026_R64_Shelton_Altmaier",
             "DATE": "2026-10-09",
             "hash_id": "3fa05c85f7b761b7"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "SHELTON",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R2",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "cacfca3d-fcb1-4ebd-be5d-ed1b4a55a103",
+            "DATE": "2026-10-09",
+            "hash_id": "950be28b35898fe4"
         }
     ],
     "SEYBOTH WILD": [
@@ -21171,6 +21267,18 @@
             "match_id": "Tokyo_2026_QF_Vacherot_Fils",
             "DATE": "2026-10-04",
             "hash_id": "60a43a895f2d9b1b"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "KOTOV",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Fils_Kotov",
+            "DATE": "2026-10-10",
+            "hash_id": "5241d2b185640fcd"
         }
     ],
     "THOMPSON": [
@@ -27282,6 +27390,18 @@
             "match_id": "Tokyo_2026_R32_Etcheverry_Tsitsipas",
             "DATE": "2026-10-01",
             "hash_id": "a183bfe0e5ed915e"
+        },
+        {
+            "PLAYER": "ETCHEVERRY",
+            "OPPONENT": "SVRCINA",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Svrcina_Etcheverry",
+            "DATE": "2026-10-10",
+            "hash_id": "a2439f62376b21a8"
         }
     ],
     "CORIC": [
@@ -31444,6 +31564,18 @@
             "match_id": "US_Open_2026_R32_Osaka_Mertens",
             "DATE": "2026-09-05",
             "hash_id": "24c0d096e0e486b6"
+        },
+        {
+            "PLAYER": "MERTENS",
+            "OPPONENT": "SWIATEK",
+            "TOURNAMENT": "CHINA OPEN",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "26ccd080-3511-4683-bc16-2463c5cca677",
+            "DATE": "2026-10-09",
+            "hash_id": "c8119e7f9b8e14ae"
         }
     ],
     "DART": [
@@ -36154,6 +36286,18 @@
             "match_id": "Cincinnati_2025_R32_Nakashima_Zverev",
             "DATE": "2025-08-12",
             "hash_id": "1d1bf2711da7efaf"
+        },
+        {
+            "PLAYER": "ZVEREV",
+            "OPPONENT": "TIEN",
+            "TOURNAMENT": "LAVER CUP",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "4d5a96d2-1d4e-42c5-a949-5ffd70176c67",
+            "DATE": "2026-09-27",
+            "hash_id": "0c0e79c627a10c7b"
         }
     ],
     "BUSE": [
@@ -36612,6 +36756,18 @@
             "match_id": "Beijing_2026_R32_Buse_Halys",
             "DATE": "2026-10-01",
             "hash_id": "7e1e11f4651eb599"
+        },
+        {
+            "PLAYER": "BUSE",
+            "OPPONENT": "BERGS",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Buse_Bergs",
+            "DATE": "2026-10-10",
+            "hash_id": "14a10cb0b83fe169"
         }
     ],
     "ENGEL": [
@@ -37915,6 +38071,30 @@
             "match_id": "be4c622d-4ff4-47ab-90a0-49851077f170",
             "DATE": "2026-09-26",
             "hash_id": "bec9f9a14456e8fa"
+        },
+        {
+            "PLAYER": "TIEN",
+            "OPPONENT": "HURKACZ",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R1",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "6f50a3ba-414c-4409-9952-3606fa029142",
+            "DATE": "2026-10-01",
+            "hash_id": "cc60772f37dc3c9d"
+        },
+        {
+            "PLAYER": "TIEN",
+            "OPPONENT": "ZVEREV",
+            "TOURNAMENT": "LAVER CUP",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "4d5a96d2-1d4e-42c5-a949-5ffd70176c67",
+            "DATE": "2026-09-27",
+            "hash_id": "3d23433e07264e1a"
         }
     ],
     "PRIZMIC": [
@@ -39117,6 +39297,42 @@
             "match_id": "AO_2026_1st_Sakamoto_Jodar",
             "DATE": "2026-01-20",
             "hash_id": "ee94851a251972ff"
+        },
+        {
+            "PLAYER": "JODAR",
+            "OPPONENT": "TIRANTE",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R2",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "aef02c05-510a-4744-8c24-8b441d8c21bb",
+            "DATE": "2026-10-10",
+            "hash_id": "efec086d07f0b453"
+        },
+        {
+            "PLAYER": "JODAR",
+            "OPPONENT": "VALLEJO",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R1",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "c9262cc4-4f44-4135-83b0-6996e890768c",
+            "DATE": "2026-10-01",
+            "hash_id": "9ce4fd7e05f341c6"
+        },
+        {
+            "PLAYER": "JODAR",
+            "OPPONENT": "BUBLIK",
+            "TOURNAMENT": "LAVER CUP",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "0b893db8-029a-431c-a2a8-731dd9d598ca",
+            "DATE": "2026-09-25",
+            "hash_id": "446476510b26d64a"
         }
     ],
     "MUCHOVA": [
@@ -41463,6 +41679,18 @@
             "match_id": "US_Open_2026_R32_Jovic_Eala",
             "DATE": "2026-09-05",
             "hash_id": "4fa8e174902b44f5"
+        },
+        {
+            "PLAYER": "JOVIC",
+            "OPPONENT": "SWIATEK",
+            "TOURNAMENT": "CHINA OPEN",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "1f65704f-925a-414f-b2fe-2b846fa10fac",
+            "DATE": "2026-10-07",
+            "hash_id": "f3d267f98daac8e9"
         }
     ],
     "DIETRICH": [
@@ -42205,6 +42433,18 @@
             "match_id": "Shanghai_2026_R64_Tirante_Jodar",
             "DATE": "2026-10-10",
             "hash_id": "7bfc9fd0414fa9af"
+        },
+        {
+            "PLAYER": "TIRANTE",
+            "OPPONENT": "JODAR",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R2",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "aef02c05-510a-4744-8c24-8b441d8c21bb",
+            "DATE": "2026-10-10",
+            "hash_id": "44d0396e37f59606"
         }
     ],
     "KOUAME": [
@@ -42737,6 +42977,48 @@
             "match_id": "Shanghai_2026_1st_Munar_Brooksby",
             "DATE": "2026-10-08",
             "hash_id": "0c73f63d96e39e63"
+        }
+    ],
+    "MANNARINO": [
+        {
+            "PLAYER": "MANNARINO",
+            "OPPONENT": "COBOLLI",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R2",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "625f06ab-616c-43d7-b1de-2fe0ba38c860",
+            "DATE": "2026-10-09",
+            "hash_id": "024fd60970233957"
+        }
+    ],
+    "VALLEJO": [
+        {
+            "PLAYER": "VALLEJO",
+            "OPPONENT": "JODAR",
+            "TOURNAMENT": "TOKYO",
+            "YEAR": "2026",
+            "ROUND": "R1",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "c9262cc4-4f44-4135-83b0-6996e890768c",
+            "DATE": "2026-10-01",
+            "hash_id": "e7e4dbbd01abfcc9"
+        }
+    ],
+    "BUBLIK": [
+        {
+            "PLAYER": "BUBLIK",
+            "OPPONENT": "JODAR",
+            "TOURNAMENT": "LAVER CUP",
+            "YEAR": "2026",
+            "ROUND": "CV",
+            "SURFACE": "hard",
+            "FORMAT": "CV",
+            "match_id": "0b893db8-029a-431c-a2a8-731dd9d598ca",
+            "DATE": "2026-09-25",
+            "hash_id": "49e9fc42710af360"
         }
     ]
 }

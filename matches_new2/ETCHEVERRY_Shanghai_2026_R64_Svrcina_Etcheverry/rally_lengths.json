@@ -1,0 +1,309 @@
+{
+  "Shanghai_2026_R64_Svrcina_Etcheverry": {
+    "player": "ETCHEVERRY",
+    "opponent": "SVRCINA",
+    "points_total": 197,
+    "sets": {
+      "ALL": {
+        "player": "ETCHEVERRY",
+        "opponent": "SVRCINA",
+        "points_total": 197,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 45,
+            "points_won": {
+              "ETCHEVERRY": 31,
+              "SVRCINA": 14
+            },
+            "pct_won_poi": 68.9,
+            "frequency_pct": 22.8
+          },
+          "3-4 shots": {
+            "points_played": 52,
+            "points_won": {
+              "ETCHEVERRY": 21,
+              "SVRCINA": 31
+            },
+            "pct_won_poi": 40.4,
+            "frequency_pct": 26.4
+          },
+          "5-8 shots": {
+            "points_played": 47,
+            "points_won": {
+              "ETCHEVERRY": 23,
+              "SVRCINA": 24
+            },
+            "pct_won_poi": 48.9,
+            "frequency_pct": 23.9
+          },
+          "9+ shots": {
+            "points_played": 53,
+            "points_won": {
+              "ETCHEVERRY": 22,
+              "SVRCINA": 31
+            },
+            "pct_won_poi": 41.5,
+            "frequency_pct": 26.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 4,
+              "4": 5
+            },
+            "lost": {
+              "2": 6,
+              "3": 3,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 10,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 9,
+              "3": 8,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 97,
+          "lost": 100,
+          "won_pct": 49.2,
+          "lost_pct": 50.8
+        }
+      },
+      "1": {
+        "player": "ETCHEVERRY",
+        "opponent": "SVRCINA",
+        "points_total": 54,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 17,
+            "points_won": {
+              "ETCHEVERRY": 11,
+              "SVRCINA": 6
+            },
+            "pct_won_poi": 64.7,
+            "frequency_pct": 31.5
+          },
+          "3-4 shots": {
+            "points_played": 10,
+            "points_won": {
+              "ETCHEVERRY": 5,
+              "SVRCINA": 5
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 18.5
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "ETCHEVERRY": 6,
+              "SVRCINA": 9
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 27.8
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "ETCHEVERRY": 2,
+              "SVRCINA": 10
+            },
+            "pct_won_poi": 16.7,
+            "frequency_pct": 22.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 3,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 24,
+          "lost": 30,
+          "won_pct": 44.4,
+          "lost_pct": 55.6
+        }
+      },
+      "2": {
+        "player": "ETCHEVERRY",
+        "opponent": "SVRCINA",
+        "points_total": 60,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "ETCHEVERRY": 8,
+              "SVRCINA": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 23.3
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "ETCHEVERRY": 10,
+              "SVRCINA": 6
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 26.7
+          },
+          "5-8 shots": {
+            "points_played": 12,
+            "points_won": {
+              "ETCHEVERRY": 9,
+              "SVRCINA": 3
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 20.0
+          },
+          "9+ shots": {
+            "points_played": 18,
+            "points_won": {
+              "ETCHEVERRY": 8,
+              "SVRCINA": 10
+            },
+            "pct_won_poi": 44.4,
+            "frequency_pct": 30.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 35,
+          "lost": 25,
+          "won_pct": 58.3,
+          "lost_pct": 41.7
+        }
+      },
+      "3": {
+        "player": "ETCHEVERRY",
+        "opponent": "SVRCINA",
+        "points_total": 83,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "ETCHEVERRY": 12,
+              "SVRCINA": 2
+            },
+            "pct_won_poi": 85.7,
+            "frequency_pct": 16.9
+          },
+          "3-4 shots": {
+            "points_played": 26,
+            "points_won": {
+              "ETCHEVERRY": 6,
+              "SVRCINA": 20
+            },
+            "pct_won_poi": 23.1,
+            "frequency_pct": 31.3
+          },
+          "5-8 shots": {
+            "points_played": 20,
+            "points_won": {
+              "ETCHEVERRY": 8,
+              "SVRCINA": 12
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 24.1
+          },
+          "9+ shots": {
+            "points_played": 23,
+            "points_won": {
+              "ETCHEVERRY": 12,
+              "SVRCINA": 11
+            },
+            "pct_won_poi": 52.2,
+            "frequency_pct": 27.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 45,
+          "won_pct": 45.8,
+          "lost_pct": 54.2
+        }
+      }
+    }
+  }
+}
