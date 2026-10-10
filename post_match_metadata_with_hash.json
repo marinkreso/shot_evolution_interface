@@ -40581,6 +40581,18 @@
             "match_id": "Tokyo_2026_F_Alcaraz_Lehecka",
             "DATE": "2026-10-06",
             "hash_id": "e91621215c994b22"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "BORGES",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Lehecka_Borges",
+            "DATE": "2026-10-10",
+            "hash_id": "faf490f490f10808"
         }
     ],
     "VALENTOVA": [
@@ -42097,6 +42109,18 @@
             "match_id": "Shanghai_2026_1st_Tirante_Medjedovic",
             "DATE": "2026-10-08",
             "hash_id": "4838df8f62a4f34b"
+        },
+        {
+            "PLAYER": "TIRANTE",
+            "OPPONENT": "JODAR",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R64_Tirante_Jodar",
+            "DATE": "2026-10-10",
+            "hash_id": "7bfc9fd0414fa9af"
         }
     ],
     "KOUAME": [

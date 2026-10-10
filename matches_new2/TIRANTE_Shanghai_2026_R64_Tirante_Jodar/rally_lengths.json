@@ -1,0 +1,309 @@
+{
+  "Shanghai_2026_R64_Tirante_Jodar": {
+    "player": "TIRANTE",
+    "opponent": "JODAR",
+    "points_total": 161,
+    "sets": {
+      "ALL": {
+        "player": "TIRANTE",
+        "opponent": "JODAR",
+        "points_total": 161,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 59,
+            "points_won": {
+              "TIRANTE": 32,
+              "JODAR": 27
+            },
+            "pct_won_poi": 54.2,
+            "frequency_pct": 36.6
+          },
+          "3-4 shots": {
+            "points_played": 43,
+            "points_won": {
+              "TIRANTE": 22,
+              "JODAR": 21
+            },
+            "pct_won_poi": 51.2,
+            "frequency_pct": 26.7
+          },
+          "5-8 shots": {
+            "points_played": 33,
+            "points_won": {
+              "TIRANTE": 16,
+              "JODAR": 17
+            },
+            "pct_won_poi": 48.5,
+            "frequency_pct": 20.5
+          },
+          "9+ shots": {
+            "points_played": 26,
+            "points_won": {
+              "TIRANTE": 8,
+              "JODAR": 18
+            },
+            "pct_won_poi": 30.8,
+            "frequency_pct": 16.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 1,
+              "4": 6
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 9,
+              "3": 7,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 78,
+          "lost": 83,
+          "won_pct": 48.4,
+          "lost_pct": 51.6
+        }
+      },
+      "1": {
+        "player": "TIRANTE",
+        "opponent": "JODAR",
+        "points_total": 55,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 18,
+            "points_won": {
+              "TIRANTE": 12,
+              "JODAR": 6
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 32.7
+          },
+          "3-4 shots": {
+            "points_played": 13,
+            "points_won": {
+              "TIRANTE": 10,
+              "JODAR": 3
+            },
+            "pct_won_poi": 76.9,
+            "frequency_pct": 23.6
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "TIRANTE": 7,
+              "JODAR": 8
+            },
+            "pct_won_poi": 46.7,
+            "frequency_pct": 27.3
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "TIRANTE": 2,
+              "JODAR": 7
+            },
+            "pct_won_poi": 22.2,
+            "frequency_pct": 16.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 3
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 31,
+          "lost": 24,
+          "won_pct": 56.4,
+          "lost_pct": 43.6
+        }
+      },
+      "2": {
+        "player": "TIRANTE",
+        "opponent": "JODAR",
+        "points_total": 42,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "TIRANTE": 10,
+              "JODAR": 10
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 47.6
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "TIRANTE": 4,
+              "JODAR": 10
+            },
+            "pct_won_poi": 28.6,
+            "frequency_pct": 33.3
+          },
+          "5-8 shots": {
+            "points_played": 3,
+            "points_won": {
+              "TIRANTE": 1,
+              "JODAR": 2
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 7.1
+          },
+          "9+ shots": {
+            "points_played": 5,
+            "points_won": {
+              "TIRANTE": 2,
+              "JODAR": 3
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 11.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 3,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 17,
+          "lost": 25,
+          "won_pct": 40.5,
+          "lost_pct": 59.5
+        }
+      },
+      "3": {
+        "player": "TIRANTE",
+        "opponent": "JODAR",
+        "points_total": 64,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "TIRANTE": 10,
+              "JODAR": 11
+            },
+            "pct_won_poi": 47.6,
+            "frequency_pct": 32.8
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "TIRANTE": 8,
+              "JODAR": 8
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 25.0
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "TIRANTE": 8,
+              "JODAR": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 23.4
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "TIRANTE": 4,
+              "JODAR": 8
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 18.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 30,
+          "lost": 34,
+          "won_pct": 46.9,
+          "lost_pct": 53.1
+        }
+      }
+    }
+  }
+}
