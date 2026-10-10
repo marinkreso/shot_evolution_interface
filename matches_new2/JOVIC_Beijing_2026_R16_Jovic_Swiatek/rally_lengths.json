@@ -1,0 +1,234 @@
+{
+  "Beijing_2026_R16_Jovic_Swiatek": {
+    "player": "JOVIC",
+    "opponent": "SWIATEK",
+    "points_total": 111,
+    "sets": {
+      "ALL": {
+        "player": "JOVIC",
+        "opponent": "SWIATEK",
+        "points_total": 111,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 23,
+            "points_won": {
+              "JOVIC": 12,
+              "SWIATEK": 11
+            },
+            "pct_won_poi": 52.2,
+            "frequency_pct": 20.7
+          },
+          "3-4 shots": {
+            "points_played": 22,
+            "points_won": {
+              "JOVIC": 7,
+              "SWIATEK": 15
+            },
+            "pct_won_poi": 31.8,
+            "frequency_pct": 19.8
+          },
+          "5-8 shots": {
+            "points_played": 41,
+            "points_won": {
+              "JOVIC": 14,
+              "SWIATEK": 27
+            },
+            "pct_won_poi": 34.1,
+            "frequency_pct": 36.9
+          },
+          "9+ shots": {
+            "points_played": 25,
+            "points_won": {
+              "JOVIC": 11,
+              "SWIATEK": 14
+            },
+            "pct_won_poi": 44.0,
+            "frequency_pct": 22.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 5,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 5
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 44,
+          "lost": 67,
+          "won_pct": 39.6,
+          "lost_pct": 60.4
+        }
+      },
+      "1": {
+        "player": "JOVIC",
+        "opponent": "SWIATEK",
+        "points_total": 43,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 9,
+            "points_won": {
+              "JOVIC": 4,
+              "SWIATEK": 5
+            },
+            "pct_won_poi": 44.4,
+            "frequency_pct": 20.9
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "JOVIC": 2,
+              "SWIATEK": 9
+            },
+            "pct_won_poi": 18.2,
+            "frequency_pct": 25.6
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "JOVIC": 5,
+              "SWIATEK": 10
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 34.9
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "JOVIC": 3,
+              "SWIATEK": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 18.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 3,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 14,
+          "lost": 29,
+          "won_pct": 32.6,
+          "lost_pct": 67.4
+        }
+      },
+      "2": {
+        "player": "JOVIC",
+        "opponent": "SWIATEK",
+        "points_total": 68,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "JOVIC": 8,
+              "SWIATEK": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 20.6
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "JOVIC": 5,
+              "SWIATEK": 6
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 16.2
+          },
+          "5-8 shots": {
+            "points_played": 26,
+            "points_won": {
+              "JOVIC": 9,
+              "SWIATEK": 17
+            },
+            "pct_won_poi": 34.6,
+            "frequency_pct": 38.2
+          },
+          "9+ shots": {
+            "points_played": 17,
+            "points_won": {
+              "JOVIC": 8,
+              "SWIATEK": 9
+            },
+            "pct_won_poi": 47.1,
+            "frequency_pct": 25.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 30,
+          "lost": 38,
+          "won_pct": 44.1,
+          "lost_pct": 55.9
+        }
+      }
+    }
+  }
+}

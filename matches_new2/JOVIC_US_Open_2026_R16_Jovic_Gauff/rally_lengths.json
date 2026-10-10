@@ -1,0 +1,234 @@
+{
+  "US_Open_2026_R16_Jovic_Gauff": {
+    "player": "JOVIC",
+    "opponent": "GAUFF",
+    "points_total": 109,
+    "sets": {
+      "ALL": {
+        "player": "JOVIC",
+        "opponent": "GAUFF",
+        "points_total": 109,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "JOVIC": 7,
+              "GAUFF": 18
+            },
+            "pct_won_poi": 28.0,
+            "frequency_pct": 22.9
+          },
+          "3-4 shots": {
+            "points_played": 31,
+            "points_won": {
+              "JOVIC": 7,
+              "GAUFF": 24
+            },
+            "pct_won_poi": 22.6,
+            "frequency_pct": 28.4
+          },
+          "5-8 shots": {
+            "points_played": 22,
+            "points_won": {
+              "JOVIC": 14,
+              "GAUFF": 8
+            },
+            "pct_won_poi": 63.6,
+            "frequency_pct": 20.2
+          },
+          "9+ shots": {
+            "points_played": 31,
+            "points_won": {
+              "JOVIC": 13,
+              "GAUFF": 18
+            },
+            "pct_won_poi": 41.9,
+            "frequency_pct": 28.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 8,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 6
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 41,
+          "lost": 68,
+          "won_pct": 37.6,
+          "lost_pct": 62.4
+        }
+      },
+      "1": {
+        "player": "JOVIC",
+        "opponent": "GAUFF",
+        "points_total": 44,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 12,
+            "points_won": {
+              "JOVIC": 2,
+              "GAUFF": 10
+            },
+            "pct_won_poi": 16.7,
+            "frequency_pct": 27.3
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "JOVIC": 2,
+              "GAUFF": 9
+            },
+            "pct_won_poi": 18.2,
+            "frequency_pct": 25.0
+          },
+          "5-8 shots": {
+            "points_played": 10,
+            "points_won": {
+              "JOVIC": 6,
+              "GAUFF": 4
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 22.7
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "JOVIC": 4,
+              "GAUFF": 7
+            },
+            "pct_won_poi": 36.4,
+            "frequency_pct": 25.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 14,
+          "lost": 30,
+          "won_pct": 31.8,
+          "lost_pct": 68.2
+        }
+      },
+      "2": {
+        "player": "JOVIC",
+        "opponent": "GAUFF",
+        "points_total": 65,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 13,
+            "points_won": {
+              "JOVIC": 5,
+              "GAUFF": 8
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 20.0
+          },
+          "3-4 shots": {
+            "points_played": 20,
+            "points_won": {
+              "JOVIC": 5,
+              "GAUFF": 15
+            },
+            "pct_won_poi": 25.0,
+            "frequency_pct": 30.8
+          },
+          "5-8 shots": {
+            "points_played": 12,
+            "points_won": {
+              "JOVIC": 8,
+              "GAUFF": 4
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 18.5
+          },
+          "9+ shots": {
+            "points_played": 20,
+            "points_won": {
+              "JOVIC": 9,
+              "GAUFF": 11
+            },
+            "pct_won_poi": 45.0,
+            "frequency_pct": 30.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 4
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 38,
+          "won_pct": 41.5,
+          "lost_pct": 58.5
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "US_Open_2026_R32_Jovic_Eala": {
+    "player": "JOVIC",
+    "opponent": "EALA",
+    "points_total": 214,
+    "sets": {
+      "ALL": {
+        "player": "JOVIC",
+        "opponent": "EALA",
+        "points_total": 214,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 63,
+            "points_won": {
+              "JOVIC": 27,
+              "EALA": 36
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 29.4
+          },
+          "3-4 shots": {
+            "points_played": 58,
+            "points_won": {
+              "JOVIC": 32,
+              "EALA": 26
+            },
+            "pct_won_poi": 55.2,
+            "frequency_pct": 27.1
+          },
+          "5-8 shots": {
+            "points_played": 59,
+            "points_won": {
+              "JOVIC": 32,
+              "EALA": 27
+            },
+            "pct_won_poi": 54.2,
+            "frequency_pct": 27.6
+          },
+          "9+ shots": {
+            "points_played": 34,
+            "points_won": {
+              "JOVIC": 16,
+              "EALA": 18
+            },
+            "pct_won_poi": 47.1,
+            "frequency_pct": 15.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 4,
+              "4": 5
+            },
+            "lost": {
+              "2": 13,
+              "3": 3,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 10,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 14,
+              "3": 5,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 107,
+          "lost": 107,
+          "won_pct": 50.0,
+          "lost_pct": 50.0
+        }
+      },
+      "1": {
+        "player": "JOVIC",
+        "opponent": "EALA",
+        "points_total": 73,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 18,
+            "points_won": {
+              "JOVIC": 6,
+              "EALA": 12
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 24.7
+          },
+          "3-4 shots": {
+            "points_played": 26,
+            "points_won": {
+              "JOVIC": 17,
+              "EALA": 9
+            },
+            "pct_won_poi": 65.4,
+            "frequency_pct": 35.6
+          },
+          "5-8 shots": {
+            "points_played": 18,
+            "points_won": {
+              "JOVIC": 9,
+              "EALA": 9
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 24.7
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "JOVIC": 6,
+              "EALA": 5
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 15.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 3
+            },
+            "lost": {
+              "2": 5,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 35,
+          "won_pct": 52.1,
+          "lost_pct": 47.9
+        }
+      },
+      "2": {
+        "player": "JOVIC",
+        "opponent": "EALA",
+        "points_total": 64,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "JOVIC": 8,
+              "EALA": 12
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 31.2
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "JOVIC": 7,
+              "EALA": 9
+            },
+            "pct_won_poi": 43.8,
+            "frequency_pct": 25.0
+          },
+          "5-8 shots": {
+            "points_played": 18,
+            "points_won": {
+              "JOVIC": 9,
+              "EALA": 9
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 28.1
+          },
+          "9+ shots": {
+            "points_played": 10,
+            "points_won": {
+              "JOVIC": 4,
+              "EALA": 6
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 15.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 28,
+          "lost": 36,
+          "won_pct": 43.8,
+          "lost_pct": 56.2
+        }
+      },
+      "3": {
+        "player": "JOVIC",
+        "opponent": "EALA",
+        "points_total": 77,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "JOVIC": 13,
+              "EALA": 12
+            },
+            "pct_won_poi": 52.0,
+            "frequency_pct": 32.5
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "JOVIC": 8,
+              "EALA": 8
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 20.8
+          },
+          "5-8 shots": {
+            "points_played": 23,
+            "points_won": {
+              "JOVIC": 14,
+              "EALA": 9
+            },
+            "pct_won_poi": 60.9,
+            "frequency_pct": 29.9
+          },
+          "9+ shots": {
+            "points_played": 13,
+            "points_won": {
+              "JOVIC": 6,
+              "EALA": 7
+            },
+            "pct_won_poi": 46.2,
+            "frequency_pct": 16.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 41,
+          "lost": 36,
+          "won_pct": 53.2,
+          "lost_pct": 46.8
+        }
+      }
+    }
+  }
+}

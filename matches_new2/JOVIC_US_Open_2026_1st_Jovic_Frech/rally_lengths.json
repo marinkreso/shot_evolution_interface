@@ -1,0 +1,234 @@
+{
+  "US_Open_2026_1st_Jovic_Frech": {
+    "player": "JOVIC",
+    "opponent": "FRECH",
+    "points_total": 146,
+    "sets": {
+      "ALL": {
+        "player": "JOVIC",
+        "opponent": "FRECH",
+        "points_total": 146,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 42,
+            "points_won": {
+              "JOVIC": 19,
+              "FRECH": 23
+            },
+            "pct_won_poi": 45.2,
+            "frequency_pct": 28.8
+          },
+          "3-4 shots": {
+            "points_played": 38,
+            "points_won": {
+              "JOVIC": 24,
+              "FRECH": 14
+            },
+            "pct_won_poi": 63.2,
+            "frequency_pct": 26.0
+          },
+          "5-8 shots": {
+            "points_played": 40,
+            "points_won": {
+              "JOVIC": 18,
+              "FRECH": 22
+            },
+            "pct_won_poi": 45.0,
+            "frequency_pct": 27.4
+          },
+          "9+ shots": {
+            "points_played": 26,
+            "points_won": {
+              "JOVIC": 18,
+              "FRECH": 8
+            },
+            "pct_won_poi": 69.2,
+            "frequency_pct": 17.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 4,
+              "4": 2
+            },
+            "lost": {
+              "2": 8,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 12,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 11,
+              "3": 2,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 79,
+          "lost": 67,
+          "won_pct": 54.1,
+          "lost_pct": 45.9
+        }
+      },
+      "1": {
+        "player": "JOVIC",
+        "opponent": "FRECH",
+        "points_total": 76,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 22,
+            "points_won": {
+              "JOVIC": 8,
+              "FRECH": 14
+            },
+            "pct_won_poi": 36.4,
+            "frequency_pct": 28.9
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "JOVIC": 10,
+              "FRECH": 5
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 19.7
+          },
+          "5-8 shots": {
+            "points_played": 22,
+            "points_won": {
+              "JOVIC": 11,
+              "FRECH": 11
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 28.9
+          },
+          "9+ shots": {
+            "points_played": 17,
+            "points_won": {
+              "JOVIC": 12,
+              "FRECH": 5
+            },
+            "pct_won_poi": 70.6,
+            "frequency_pct": 22.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 41,
+          "lost": 35,
+          "won_pct": 53.9,
+          "lost_pct": 46.1
+        }
+      },
+      "2": {
+        "player": "JOVIC",
+        "opponent": "FRECH",
+        "points_total": 70,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "JOVIC": 11,
+              "FRECH": 9
+            },
+            "pct_won_poi": 55.0,
+            "frequency_pct": 28.6
+          },
+          "3-4 shots": {
+            "points_played": 23,
+            "points_won": {
+              "JOVIC": 14,
+              "FRECH": 9
+            },
+            "pct_won_poi": 60.9,
+            "frequency_pct": 32.9
+          },
+          "5-8 shots": {
+            "points_played": 18,
+            "points_won": {
+              "JOVIC": 7,
+              "FRECH": 11
+            },
+            "pct_won_poi": 38.9,
+            "frequency_pct": 25.7
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "JOVIC": 6,
+              "FRECH": 3
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 12.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 32,
+          "won_pct": 54.3,
+          "lost_pct": 45.7
+        }
+      }
+    }
+  }
+}

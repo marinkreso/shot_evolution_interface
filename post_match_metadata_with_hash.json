@@ -7201,6 +7201,18 @@
             "match_id": "Beijing_2026_R32_Vekic_Swiatek",
             "DATE": "2026-10-05",
             "hash_id": "92de4f2bc0922d98"
+        },
+        {
+            "PLAYER": "SWIATEK",
+            "OPPONENT": "JOVIC",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R16_Jovic_Swiatek",
+            "DATE": "2026-10-07",
+            "hash_id": "dbcabd612893e28d"
         }
     ],
     "KORDA": [
@@ -18053,6 +18065,18 @@
             "match_id": "US_Open_2026_SF_Gauff_Rybakina",
             "DATE": "2026-09-11",
             "hash_id": "e651eb2485134cf3"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "JOVIC",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Jovic_Gauff",
+            "DATE": "2026-09-07",
+            "hash_id": "bb9d575f3e6891a4"
         }
     ],
     "HADDAD MAIA": [
@@ -41379,6 +41403,66 @@
             "match_id": "RG_2026_R32_Jovic_Osaka",
             "DATE": "2026-05-30",
             "hash_id": "375ecdcb5fe6cd3b"
+        },
+        {
+            "PLAYER": "JOVIC",
+            "OPPONENT": "SWIATEK",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R16_Jovic_Swiatek",
+            "DATE": "2026-10-07",
+            "hash_id": "2975933a156b4ab7"
+        },
+        {
+            "PLAYER": "JOVIC",
+            "OPPONENT": "JONES",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Jovic_Jones",
+            "DATE": "2026-09-03",
+            "hash_id": "cc756b9f1d9c04b8"
+        },
+        {
+            "PLAYER": "JOVIC",
+            "OPPONENT": "GAUFF",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R16_Jovic_Gauff",
+            "DATE": "2026-09-07",
+            "hash_id": "d3bc186920625397"
+        },
+        {
+            "PLAYER": "JOVIC",
+            "OPPONENT": "FRECH",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Jovic_Frech",
+            "DATE": "2026-09-02",
+            "hash_id": "69958eb8cc7ee862"
+        },
+        {
+            "PLAYER": "JOVIC",
+            "OPPONENT": "EALA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Jovic_Eala",
+            "DATE": "2026-09-05",
+            "hash_id": "4fa8e174902b44f5"
         }
     ],
     "DIETRICH": [
