@@ -13075,6 +13075,18 @@
             "match_id": "Shanghai_2026_R64_Berrettini_Nakashima",
             "DATE": "2026-10-09",
             "hash_id": "c89ca832f2213d04"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "BUBLIK",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R32_Bublik_Nakashima",
+            "DATE": "2026-10-11",
+            "hash_id": "0906163950f24599"
         }
     ],
     "TSITSIPAS": [
@@ -29456,6 +29468,18 @@
             "match_id": "Shanghai_2026_R64_Kecmanovic_Mensik",
             "DATE": "2026-10-09",
             "hash_id": "f0514705f81e47f1"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "CERUNDOLO",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R32_Cerundolo_Mensik",
+            "DATE": "2026-10-11",
+            "hash_id": "686f60abc9a10dee"
         }
     ],
     "BENCIC": [
@@ -39283,6 +39307,18 @@
             "match_id": "Shanghai_2026_R64_Sakamoto_Rublev",
             "DATE": "2026-10-09",
             "hash_id": "4f136fc049b020d6"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "DE-MINAUR",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R32_de-Minaur_Sakamoto",
+            "DATE": "2026-10-11",
+            "hash_id": "6ab5d247a52fd81a"
         }
     ],
     "JODAR": [

@@ -1,0 +1,234 @@
+{
+  "Shanghai_2026_R32_de-Minaur_Sakamoto": {
+    "player": "SAKAMOTO",
+    "opponent": "DE MINAUR",
+    "points_total": 137,
+    "sets": {
+      "ALL": {
+        "player": "SAKAMOTO",
+        "opponent": "DE MINAUR",
+        "points_total": 137,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 51,
+            "points_won": {
+              "SAKAMOTO": 24,
+              "DE MINAUR": 27
+            },
+            "pct_won_poi": 47.1,
+            "frequency_pct": 37.2
+          },
+          "3-4 shots": {
+            "points_played": 43,
+            "points_won": {
+              "SAKAMOTO": 21,
+              "DE MINAUR": 22
+            },
+            "pct_won_poi": 48.8,
+            "frequency_pct": 31.4
+          },
+          "5-8 shots": {
+            "points_played": 26,
+            "points_won": {
+              "SAKAMOTO": 10,
+              "DE MINAUR": 16
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 19.0
+          },
+          "9+ shots": {
+            "points_played": 17,
+            "points_won": {
+              "SAKAMOTO": 7,
+              "DE MINAUR": 10
+            },
+            "pct_won_poi": 41.2,
+            "frequency_pct": 12.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 5,
+              "4": 2
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 6,
+              "4": 4
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 62,
+          "lost": 75,
+          "won_pct": 45.3,
+          "lost_pct": 54.7
+        }
+      },
+      "1": {
+        "player": "SAKAMOTO",
+        "opponent": "DE MINAUR",
+        "points_total": 75,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 30,
+            "points_won": {
+              "SAKAMOTO": 12,
+              "DE MINAUR": 18
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 40.0
+          },
+          "3-4 shots": {
+            "points_played": 20,
+            "points_won": {
+              "SAKAMOTO": 12,
+              "DE MINAUR": 8
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 26.7
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "SAKAMOTO": 7,
+              "DE MINAUR": 8
+            },
+            "pct_won_poi": 46.7,
+            "frequency_pct": 20.0
+          },
+          "9+ shots": {
+            "points_played": 10,
+            "points_won": {
+              "SAKAMOTO": 4,
+              "DE MINAUR": 6
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 13.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 4,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 35,
+          "lost": 40,
+          "won_pct": 46.7,
+          "lost_pct": 53.3
+        }
+      },
+      "2": {
+        "player": "SAKAMOTO",
+        "opponent": "DE MINAUR",
+        "points_total": 62,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "SAKAMOTO": 12,
+              "DE MINAUR": 9
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 33.9
+          },
+          "3-4 shots": {
+            "points_played": 23,
+            "points_won": {
+              "SAKAMOTO": 9,
+              "DE MINAUR": 14
+            },
+            "pct_won_poi": 39.1,
+            "frequency_pct": 37.1
+          },
+          "5-8 shots": {
+            "points_played": 11,
+            "points_won": {
+              "SAKAMOTO": 3,
+              "DE MINAUR": 8
+            },
+            "pct_won_poi": 27.3,
+            "frequency_pct": 17.7
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "SAKAMOTO": 3,
+              "DE MINAUR": 4
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 11.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 35,
+          "won_pct": 43.5,
+          "lost_pct": 56.5
+        }
+      }
+    }
+  }
+}
