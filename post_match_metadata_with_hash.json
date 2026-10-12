@@ -10731,6 +10731,18 @@
             "match_id": "Shanghai_2026_R64_Buse_Bergs",
             "DATE": "2026-10-10",
             "hash_id": "935dcc5deeefb6f8"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "ALCARAZ",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R32_Bergs_Alcaraz",
+            "DATE": "2026-10-12",
+            "hash_id": "1d05fbe5b73a1787"
         }
     ],
     "KECMANOVIC": [
@@ -14313,6 +14325,18 @@
             "match_id": "Shanghai_2026_R64_Darderi_Tsitsipas",
             "DATE": "2026-10-10",
             "hash_id": "61cd7610ae337f29"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "FRITZ",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R32_Tsitsipas_Fritz",
+            "DATE": "2026-10-12",
+            "hash_id": "cef3427f2535c104"
         }
     ],
     "PAUL": [
@@ -21291,6 +21315,18 @@
             "match_id": "Shanghai_2026_R64_Fils_Kotov",
             "DATE": "2026-10-10",
             "hash_id": "5241d2b185640fcd"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "VAN-DE-ZANDSCHULP",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R32_Fils_van-de-Zandschulp",
+            "DATE": "2026-10-12",
+            "hash_id": "68870fe03b31ff82"
         }
     ],
     "THOMPSON": [
@@ -40869,6 +40905,18 @@
             "match_id": "Shanghai_2026_R64_Lehecka_Borges",
             "DATE": "2026-10-10",
             "hash_id": "faf490f490f10808"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "JODAR",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R32_Lehecka_Jodar",
+            "DATE": "2026-10-12",
+            "hash_id": "e0fd86f86fde2854"
         }
     ],
     "VALENTOVA": [
