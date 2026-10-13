@@ -29516,6 +29516,18 @@
             "match_id": "Shanghai_2026_R32_Cerundolo_Mensik",
             "DATE": "2026-10-11",
             "hash_id": "686f60abc9a10dee"
+        },
+        {
+            "PLAYER": "MENSIK",
+            "OPPONENT": "GEA",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R16_Gea_Mensik",
+            "DATE": "2026-10-13",
+            "hash_id": "a0c15a57e1ff5ed6"
         }
     ],
     "BENCIC": [
