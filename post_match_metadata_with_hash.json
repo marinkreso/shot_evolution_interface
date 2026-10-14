@@ -10743,6 +10743,18 @@
             "match_id": "Shanghai_2026_R32_Bergs_Alcaraz",
             "DATE": "2026-10-12",
             "hash_id": "1d05fbe5b73a1787"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "PAUL",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R16_Paul_Bergs",
+            "DATE": "2026-10-14",
+            "hash_id": "ad97835df87d5d2c"
         }
     ],
     "KECMANOVIC": [
@@ -14337,6 +14349,18 @@
             "match_id": "Shanghai_2026_R32_Tsitsipas_Fritz",
             "DATE": "2026-10-12",
             "hash_id": "cef3427f2535c104"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "MEDVEDEV",
+            "TOURNAMENT": "SHANGHAI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Shanghai_2026_R16_Medvedev_Tsitsipas",
+            "DATE": "2026-10-14",
+            "hash_id": "68af4f48883f33b9"
         }
     ],
     "PAUL": [
