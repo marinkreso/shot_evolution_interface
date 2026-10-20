@@ -1,0 +1,234 @@
+{
+  "Brussels_2026_Q_Basavareddy_Butvilas": {
+    "player": "BASAVAREDDY",
+    "opponent": "BUTVILAS",
+    "points_total": 111,
+    "sets": {
+      "ALL": {
+        "player": "BASAVAREDDY",
+        "opponent": "BUTVILAS",
+        "points_total": 111,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 40,
+            "points_won": {
+              "BASAVAREDDY": 21,
+              "BUTVILAS": 19
+            },
+            "pct_won_poi": 52.5,
+            "frequency_pct": 36.0
+          },
+          "3-4 shots": {
+            "points_played": 27,
+            "points_won": {
+              "BASAVAREDDY": 16,
+              "BUTVILAS": 11
+            },
+            "pct_won_poi": 59.3,
+            "frequency_pct": 24.3
+          },
+          "5-8 shots": {
+            "points_played": 31,
+            "points_won": {
+              "BASAVAREDDY": 19,
+              "BUTVILAS": 12
+            },
+            "pct_won_poi": 61.3,
+            "frequency_pct": 27.9
+          },
+          "9+ shots": {
+            "points_played": 13,
+            "points_won": {
+              "BASAVAREDDY": 9,
+              "BUTVILAS": 4
+            },
+            "pct_won_poi": 69.2,
+            "frequency_pct": 11.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 2,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 65,
+          "lost": 46,
+          "won_pct": 58.6,
+          "lost_pct": 41.4
+        }
+      },
+      "1": {
+        "player": "BASAVAREDDY",
+        "opponent": "BUTVILAS",
+        "points_total": 60,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 23,
+            "points_won": {
+              "BASAVAREDDY": 12,
+              "BUTVILAS": 11
+            },
+            "pct_won_poi": 52.2,
+            "frequency_pct": 38.3
+          },
+          "3-4 shots": {
+            "points_played": 13,
+            "points_won": {
+              "BASAVAREDDY": 8,
+              "BUTVILAS": 5
+            },
+            "pct_won_poi": 61.5,
+            "frequency_pct": 21.7
+          },
+          "5-8 shots": {
+            "points_played": 17,
+            "points_won": {
+              "BASAVAREDDY": 9,
+              "BUTVILAS": 8
+            },
+            "pct_won_poi": 52.9,
+            "frequency_pct": 28.3
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "BASAVAREDDY": 4,
+              "BUTVILAS": 3
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 11.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 33,
+          "lost": 27,
+          "won_pct": 55.0,
+          "lost_pct": 45.0
+        }
+      },
+      "2": {
+        "player": "BASAVAREDDY",
+        "opponent": "BUTVILAS",
+        "points_total": 51,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 17,
+            "points_won": {
+              "BASAVAREDDY": 9,
+              "BUTVILAS": 8
+            },
+            "pct_won_poi": 52.9,
+            "frequency_pct": 33.3
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "BASAVAREDDY": 8,
+              "BUTVILAS": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 27.5
+          },
+          "5-8 shots": {
+            "points_played": 14,
+            "points_won": {
+              "BASAVAREDDY": 10,
+              "BUTVILAS": 4
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 27.5
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "BASAVAREDDY": 5,
+              "BUTVILAS": 1
+            },
+            "pct_won_poi": 83.3,
+            "frequency_pct": 11.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 32,
+          "lost": 19,
+          "won_pct": 62.7,
+          "lost_pct": 37.3
+        }
+      }
+    }
+  }
+}
