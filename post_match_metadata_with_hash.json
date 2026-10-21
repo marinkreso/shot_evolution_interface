@@ -10743,6 +10743,18 @@
             "match_id": "Shanghai_2026_R16_Paul_Bergs",
             "DATE": "2026-10-14",
             "hash_id": "ad97835df87d5d2c"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "SAMUEL",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R32_Samuel_Bergs",
+            "DATE": "2026-10-20",
+            "hash_id": "f08919af976b86c2"
         }
     ],
     "KECMANOVIC": [
@@ -13111,6 +13123,18 @@
             "match_id": "Shanghai_2026_R32_Bublik_Nakashima",
             "DATE": "2026-10-11",
             "hash_id": "0906163950f24599"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "MEDJEDOVIC",
+            "TOURNAMENT": "LYON",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Lyon_2026_R32_Medjedovic_Nakashima",
+            "DATE": "2026-10-20",
+            "hash_id": "cf8d374f854a1e95"
         }
     ],
     "TSITSIPAS": [
@@ -22550,6 +22574,18 @@
             "match_id": "Shanghai_2026_1st_Navone_Carreno-Busta",
             "DATE": "2026-10-08",
             "hash_id": "aaf37788e530a8c9"
+        },
+        {
+            "PLAYER": "NAVONE",
+            "OPPONENT": "CERUNDOLO",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R32_Navone_Cerundolo",
+            "DATE": "2026-10-20",
+            "hash_id": "ba3279e05b0dc367"
         }
     ],
     "GASTON": [
@@ -25682,6 +25718,18 @@
             "match_id": "Brussels_2026_Q_Basavareddy_Butvilas",
             "DATE": "2026-10-17",
             "hash_id": "130775a3c4883fba"
+        },
+        {
+            "PLAYER": "BASAVAREDDY",
+            "OPPONENT": "COLLIGNON",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R32_Basavareddy_Collignon",
+            "DATE": "2026-10-20",
+            "hash_id": "37ae5e2f551fdb57"
         }
     ],
     "COMESANA": [
@@ -37731,6 +37779,18 @@
             "match_id": "Winston_Salem_2026_R32_Collignon_Hijikata",
             "DATE": "2026-08-25",
             "hash_id": "eb5c8f96cc46a554"
+        },
+        {
+            "PLAYER": "COLLIGNON",
+            "OPPONENT": "BASAVAREDDY",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R32_Basavareddy_Collignon",
+            "DATE": "2026-10-20",
+            "hash_id": "583d7f5ff49284cb"
         }
     ],
     "MBOKO": [
@@ -38953,6 +39013,18 @@
             "match_id": "Shanghai_2026_1st_Tirante_Medjedovic",
             "DATE": "2026-10-08",
             "hash_id": "3af7d8e34056ae07"
+        },
+        {
+            "PLAYER": "MEDJEDOVIC",
+            "OPPONENT": "NAKASHIMA",
+            "TOURNAMENT": "LYON",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Lyon_2026_R32_Medjedovic_Nakashima",
+            "DATE": "2026-10-20",
+            "hash_id": "b55dc5025a59ddf8"
         }
     ],
     "LAMENS": [
@@ -39355,6 +39427,18 @@
             "match_id": "Almaty_2026_Q_Omarkhanov_Sakamoto",
             "DATE": "2026-10-17",
             "hash_id": "e7c690e0efc77242"
+        },
+        {
+            "PLAYER": "SAKAMOTO",
+            "OPPONENT": "KHACHANOV",
+            "TOURNAMENT": "ALMATY",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Almaty_2026_R32_Sakamoto_Khachanov",
+            "DATE": "2026-10-20",
+            "hash_id": "f7646f697291e9b5"
         }
     ],
     "JODAR": [

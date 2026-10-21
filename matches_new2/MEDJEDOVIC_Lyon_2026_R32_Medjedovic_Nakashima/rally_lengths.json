@@ -1,0 +1,309 @@
+{
+  "Lyon_2026_R32_Medjedovic_Nakashima": {
+    "player": "MEDJEDOVIC",
+    "opponent": "NAKASHIMA",
+    "points_total": 188,
+    "sets": {
+      "ALL": {
+        "player": "MEDJEDOVIC",
+        "opponent": "NAKASHIMA",
+        "points_total": 188,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 96,
+            "points_won": {
+              "MEDJEDOVIC": 37,
+              "NAKASHIMA": 59
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 51.1
+          },
+          "3-4 shots": {
+            "points_played": 43,
+            "points_won": {
+              "MEDJEDOVIC": 21,
+              "NAKASHIMA": 22
+            },
+            "pct_won_poi": 48.8,
+            "frequency_pct": 22.9
+          },
+          "5-8 shots": {
+            "points_played": 34,
+            "points_won": {
+              "MEDJEDOVIC": 24,
+              "NAKASHIMA": 10
+            },
+            "pct_won_poi": 70.6,
+            "frequency_pct": 18.1
+          },
+          "9+ shots": {
+            "points_played": 15,
+            "points_won": {
+              "MEDJEDOVIC": 7,
+              "NAKASHIMA": 8
+            },
+            "pct_won_poi": 46.7,
+            "frequency_pct": 8.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 8,
+              "3": 4,
+              "4": 8
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 10,
+              "3": 4,
+              "4": 9
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 89,
+          "lost": 99,
+          "won_pct": 47.3,
+          "lost_pct": 52.7
+        }
+      },
+      "1": {
+        "player": "MEDJEDOVIC",
+        "opponent": "NAKASHIMA",
+        "points_total": 77,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 41,
+            "points_won": {
+              "MEDJEDOVIC": 14,
+              "NAKASHIMA": 27
+            },
+            "pct_won_poi": 34.1,
+            "frequency_pct": 53.2
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "MEDJEDOVIC": 9,
+              "NAKASHIMA": 6
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 19.5
+          },
+          "5-8 shots": {
+            "points_played": 14,
+            "points_won": {
+              "MEDJEDOVIC": 12,
+              "NAKASHIMA": 2
+            },
+            "pct_won_poi": 85.7,
+            "frequency_pct": 18.2
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "MEDJEDOVIC": 3,
+              "NAKASHIMA": 4
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 9.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 0,
+              "4": 4
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 7,
+              "3": 1,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 39,
+          "won_pct": 49.4,
+          "lost_pct": 50.6
+        }
+      },
+      "2": {
+        "player": "MEDJEDOVIC",
+        "opponent": "NAKASHIMA",
+        "points_total": 69,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 30,
+            "points_won": {
+              "MEDJEDOVIC": 12,
+              "NAKASHIMA": 18
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 43.5
+          },
+          "3-4 shots": {
+            "points_played": 19,
+            "points_won": {
+              "MEDJEDOVIC": 11,
+              "NAKASHIMA": 8
+            },
+            "pct_won_poi": 57.9,
+            "frequency_pct": 27.5
+          },
+          "5-8 shots": {
+            "points_played": 13,
+            "points_won": {
+              "MEDJEDOVIC": 9,
+              "NAKASHIMA": 4
+            },
+            "pct_won_poi": 69.2,
+            "frequency_pct": 18.8
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "MEDJEDOVIC": 4,
+              "NAKASHIMA": 3
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 10.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 3,
+              "4": 3
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 36,
+          "lost": 33,
+          "won_pct": 52.2,
+          "lost_pct": 47.8
+        }
+      },
+      "3": {
+        "player": "MEDJEDOVIC",
+        "opponent": "NAKASHIMA",
+        "points_total": 42,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "MEDJEDOVIC": 11,
+              "NAKASHIMA": 14
+            },
+            "pct_won_poi": 44.0,
+            "frequency_pct": 59.5
+          },
+          "3-4 shots": {
+            "points_played": 9,
+            "points_won": {
+              "MEDJEDOVIC": 1,
+              "NAKASHIMA": 8
+            },
+            "pct_won_poi": 11.1,
+            "frequency_pct": 21.4
+          },
+          "5-8 shots": {
+            "points_played": 7,
+            "points_won": {
+              "MEDJEDOVIC": 3,
+              "NAKASHIMA": 4
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 16.7
+          },
+          "9+ shots": {
+            "points_played": 1,
+            "points_won": {
+              "MEDJEDOVIC": 0,
+              "NAKASHIMA": 1
+            },
+            "pct_won_poi": 0.0,
+            "frequency_pct": 2.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 15,
+          "lost": 27,
+          "won_pct": 35.7,
+          "lost_pct": 64.3
+        }
+      }
+    }
+  }
+}

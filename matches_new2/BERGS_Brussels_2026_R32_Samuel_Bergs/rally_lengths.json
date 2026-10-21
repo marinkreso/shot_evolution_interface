@@ -1,0 +1,234 @@
+{
+  "Brussels_2026_R32_Samuel_Bergs": {
+    "player": "BERGS",
+    "opponent": "SAMUEL",
+    "points_total": 128,
+    "sets": {
+      "ALL": {
+        "player": "BERGS",
+        "opponent": "SAMUEL",
+        "points_total": 128,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 55,
+            "points_won": {
+              "BERGS": 33,
+              "SAMUEL": 22
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 43.0
+          },
+          "3-4 shots": {
+            "points_played": 31,
+            "points_won": {
+              "BERGS": 15,
+              "SAMUEL": 16
+            },
+            "pct_won_poi": 48.4,
+            "frequency_pct": 24.2
+          },
+          "5-8 shots": {
+            "points_played": 28,
+            "points_won": {
+              "BERGS": 14,
+              "SAMUEL": 14
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 21.9
+          },
+          "9+ shots": {
+            "points_played": 14,
+            "points_won": {
+              "BERGS": 8,
+              "SAMUEL": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 10.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 5,
+              "4": 4
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 7,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 70,
+          "lost": 58,
+          "won_pct": 54.7,
+          "lost_pct": 45.3
+        }
+      },
+      "1": {
+        "player": "BERGS",
+        "opponent": "SAMUEL",
+        "points_total": 50,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 24,
+            "points_won": {
+              "BERGS": 14,
+              "SAMUEL": 10
+            },
+            "pct_won_poi": 58.3,
+            "frequency_pct": 48.0
+          },
+          "3-4 shots": {
+            "points_played": 13,
+            "points_won": {
+              "BERGS": 6,
+              "SAMUEL": 7
+            },
+            "pct_won_poi": 46.2,
+            "frequency_pct": 26.0
+          },
+          "5-8 shots": {
+            "points_played": 11,
+            "points_won": {
+              "BERGS": 7,
+              "SAMUEL": 4
+            },
+            "pct_won_poi": 63.6,
+            "frequency_pct": 22.0
+          },
+          "9+ shots": {
+            "points_played": 2,
+            "points_won": {
+              "BERGS": 2,
+              "SAMUEL": 0
+            },
+            "pct_won_poi": 100.0,
+            "frequency_pct": 4.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 29,
+          "lost": 21,
+          "won_pct": 58.0,
+          "lost_pct": 42.0
+        }
+      },
+      "2": {
+        "player": "BERGS",
+        "opponent": "SAMUEL",
+        "points_total": 78,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 31,
+            "points_won": {
+              "BERGS": 19,
+              "SAMUEL": 12
+            },
+            "pct_won_poi": 61.3,
+            "frequency_pct": 39.7
+          },
+          "3-4 shots": {
+            "points_played": 18,
+            "points_won": {
+              "BERGS": 9,
+              "SAMUEL": 9
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 23.1
+          },
+          "5-8 shots": {
+            "points_played": 17,
+            "points_won": {
+              "BERGS": 7,
+              "SAMUEL": 10
+            },
+            "pct_won_poi": 41.2,
+            "frequency_pct": 21.8
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "BERGS": 6,
+              "SAMUEL": 6
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 15.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 3
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 4,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 41,
+          "lost": 37,
+          "won_pct": 52.6,
+          "lost_pct": 47.4
+        }
+      }
+    }
+  }
+}
