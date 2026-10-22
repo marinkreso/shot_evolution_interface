@@ -1,0 +1,234 @@
+{
+  "Almaty_2026_R16_Tsitsipas_Kukushkin": {
+    "player": "KUKUSHKIN",
+    "opponent": "TSITSIPAS",
+    "points_total": 90,
+    "sets": {
+      "ALL": {
+        "player": "KUKUSHKIN",
+        "opponent": "TSITSIPAS",
+        "points_total": 90,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 29,
+            "points_won": {
+              "KUKUSHKIN": 9,
+              "TSITSIPAS": 20
+            },
+            "pct_won_poi": 31.0,
+            "frequency_pct": 32.2
+          },
+          "3-4 shots": {
+            "points_played": 27,
+            "points_won": {
+              "KUKUSHKIN": 6,
+              "TSITSIPAS": 21
+            },
+            "pct_won_poi": 22.2,
+            "frequency_pct": 30.0
+          },
+          "5-8 shots": {
+            "points_played": 24,
+            "points_won": {
+              "KUKUSHKIN": 7,
+              "TSITSIPAS": 17
+            },
+            "pct_won_poi": 29.2,
+            "frequency_pct": 26.7
+          },
+          "9+ shots": {
+            "points_played": 10,
+            "points_won": {
+              "KUKUSHKIN": 7,
+              "TSITSIPAS": 3
+            },
+            "pct_won_poi": 70.0,
+            "frequency_pct": 11.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 1,
+              "4": 2
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 3,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 29,
+          "lost": 61,
+          "won_pct": 32.2,
+          "lost_pct": 67.8
+        }
+      },
+      "1": {
+        "player": "KUKUSHKIN",
+        "opponent": "TSITSIPAS",
+        "points_total": 38,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "KUKUSHKIN": 4,
+              "TSITSIPAS": 10
+            },
+            "pct_won_poi": 28.6,
+            "frequency_pct": 36.8
+          },
+          "3-4 shots": {
+            "points_played": 13,
+            "points_won": {
+              "KUKUSHKIN": 4,
+              "TSITSIPAS": 9
+            },
+            "pct_won_poi": 30.8,
+            "frequency_pct": 34.2
+          },
+          "5-8 shots": {
+            "points_played": 8,
+            "points_won": {
+              "KUKUSHKIN": 1,
+              "TSITSIPAS": 7
+            },
+            "pct_won_poi": 12.5,
+            "frequency_pct": 21.1
+          },
+          "9+ shots": {
+            "points_played": 3,
+            "points_won": {
+              "KUKUSHKIN": 2,
+              "TSITSIPAS": 1
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 7.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 11,
+          "lost": 27,
+          "won_pct": 28.9,
+          "lost_pct": 71.1
+        }
+      },
+      "2": {
+        "player": "KUKUSHKIN",
+        "opponent": "TSITSIPAS",
+        "points_total": 52,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 15,
+            "points_won": {
+              "KUKUSHKIN": 5,
+              "TSITSIPAS": 10
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 28.8
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "KUKUSHKIN": 2,
+              "TSITSIPAS": 12
+            },
+            "pct_won_poi": 14.3,
+            "frequency_pct": 26.9
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "KUKUSHKIN": 6,
+              "TSITSIPAS": 10
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 30.8
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "KUKUSHKIN": 5,
+              "TSITSIPAS": 2
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 13.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 2
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 18,
+          "lost": 34,
+          "won_pct": 34.6,
+          "lost_pct": 65.4
+        }
+      }
+    }
+  }
+}

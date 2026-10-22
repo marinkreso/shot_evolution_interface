@@ -14397,6 +14397,18 @@
             "match_id": "Almaty_2026_R32_Tsitsipas_Kovacevic",
             "DATE": "2026-10-20",
             "hash_id": "be68bb6b6e2fd60e"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "KUKUSHKIN",
+            "TOURNAMENT": "ALMATY",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Almaty_2026_R16_Tsitsipas_Kukushkin",
+            "DATE": "2026-10-21",
+            "hash_id": "359091c86d92f5d0"
         }
     ],
     "PAUL": [
@@ -22586,6 +22598,18 @@
             "match_id": "Brussels_2026_R32_Navone_Cerundolo",
             "DATE": "2026-10-20",
             "hash_id": "ba3279e05b0dc367"
+        },
+        {
+            "PLAYER": "NAVONE",
+            "OPPONENT": "GRIEKSPOOR",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R16_Navone_Griekspoor",
+            "DATE": "2026-10-21",
+            "hash_id": "3390b724b46a727c"
         }
     ],
     "GASTON": [
@@ -27522,6 +27546,18 @@
             "match_id": "Shanghai_2026_R64_Svrcina_Etcheverry",
             "DATE": "2026-10-10",
             "hash_id": "a2439f62376b21a8"
+        },
+        {
+            "PLAYER": "ETCHEVERRY",
+            "OPPONENT": "BELLUCCI",
+            "TOURNAMENT": "ALMATY",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Almaty_2026_R32_Bellucci_Etcheverry",
+            "DATE": "2026-10-21",
+            "hash_id": "c95dede14046834b"
         }
     ],
     "CORIC": [
@@ -33350,6 +33386,18 @@
             "match_id": "Shanghai_2026_1st_Bellucci_Zhou",
             "DATE": "2026-10-07",
             "hash_id": "f1f2d5861368cb99"
+        },
+        {
+            "PLAYER": "BELLUCCI",
+            "OPPONENT": "ETCHEVERRY",
+            "TOURNAMENT": "ALMATY",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Almaty_2026_R32_Bellucci_Etcheverry",
+            "DATE": "2026-10-21",
+            "hash_id": "1a99f94e9e3f240c"
         }
     ],
     "SELL": [
@@ -42373,6 +42421,34 @@
             "match_id": "41253e76-fbc4-4a32-8e1c-e9058027a2b4",
             "DATE": "2026-10-13",
             "hash_id": "095ea3ae9b8d85d2"
+        }
+    ],
+    "KUKUSHKIN": [
+        {
+            "PLAYER": "KUKUSHKIN",
+            "OPPONENT": "TSITSIPAS",
+            "TOURNAMENT": "ALMATY",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Almaty_2026_R16_Tsitsipas_Kukushkin",
+            "DATE": "2026-10-21",
+            "hash_id": "c138b066f8f86ac0"
+        }
+    ],
+    "GRIEKSPOOR": [
+        {
+            "PLAYER": "GRIEKSPOOR",
+            "OPPONENT": "NAVONE",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R16_Navone_Griekspoor",
+            "DATE": "2026-10-21",
+            "hash_id": "e203d71e258cce86"
         }
     ]
 }
