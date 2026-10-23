@@ -1,0 +1,234 @@
+{
+  "Cincinnati_2026_R16_Gauff_Bouzkova": {
+    "player": "BOUZKOVA",
+    "opponent": "GAUFF",
+    "points_total": 136,
+    "sets": {
+      "ALL": {
+        "player": "BOUZKOVA",
+        "opponent": "GAUFF",
+        "points_total": 136,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 38,
+            "points_won": {
+              "BOUZKOVA": 19,
+              "GAUFF": 19
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 27.9
+          },
+          "3-4 shots": {
+            "points_played": 40,
+            "points_won": {
+              "BOUZKOVA": 16,
+              "GAUFF": 24
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 29.4
+          },
+          "5-8 shots": {
+            "points_played": 36,
+            "points_won": {
+              "BOUZKOVA": 12,
+              "GAUFF": 24
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 26.5
+          },
+          "9+ shots": {
+            "points_played": 22,
+            "points_won": {
+              "BOUZKOVA": 12,
+              "GAUFF": 10
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 16.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 4,
+              "4": 0
+            },
+            "lost": {
+              "2": 8,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 6,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 59,
+          "lost": 77,
+          "won_pct": 43.4,
+          "lost_pct": 56.6
+        }
+      },
+      "1": {
+        "player": "BOUZKOVA",
+        "opponent": "GAUFF",
+        "points_total": 71,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 19,
+            "points_won": {
+              "BOUZKOVA": 7,
+              "GAUFF": 12
+            },
+            "pct_won_poi": 36.8,
+            "frequency_pct": 26.8
+          },
+          "3-4 shots": {
+            "points_played": 25,
+            "points_won": {
+              "BOUZKOVA": 12,
+              "GAUFF": 13
+            },
+            "pct_won_poi": 48.0,
+            "frequency_pct": 35.2
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "BOUZKOVA": 6,
+              "GAUFF": 10
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 22.5
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "BOUZKOVA": 6,
+              "GAUFF": 5
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 15.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 3,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 31,
+          "lost": 40,
+          "won_pct": 43.7,
+          "lost_pct": 56.3
+        }
+      },
+      "2": {
+        "player": "BOUZKOVA",
+        "opponent": "GAUFF",
+        "points_total": 65,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 19,
+            "points_won": {
+              "BOUZKOVA": 12,
+              "GAUFF": 7
+            },
+            "pct_won_poi": 63.2,
+            "frequency_pct": 29.2
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "BOUZKOVA": 4,
+              "GAUFF": 11
+            },
+            "pct_won_poi": 26.7,
+            "frequency_pct": 23.1
+          },
+          "5-8 shots": {
+            "points_played": 20,
+            "points_won": {
+              "BOUZKOVA": 6,
+              "GAUFF": 14
+            },
+            "pct_won_poi": 30.0,
+            "frequency_pct": 30.8
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "BOUZKOVA": 6,
+              "GAUFF": 5
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 16.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 28,
+          "lost": 37,
+          "won_pct": 43.1,
+          "lost_pct": 56.9
+        }
+      }
+    }
+  }
+}

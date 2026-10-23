@@ -18293,6 +18293,246 @@
             "match_id": "US_Open_2026_R16_Jovic_Gauff",
             "DATE": "2026-09-07",
             "hash_id": "bb9d575f3e6891a4"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "NOSKOVA",
+            "TOURNAMENT": "MADRID",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "clay",
+            "FORMAT": "HE",
+            "match_id": "Madrid_2026_R16_Noskova_Gauff",
+            "DATE": "2026-04-27",
+            "hash_id": "8b9aad681b98eea5"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "JEANJEAN",
+            "TOURNAMENT": "MADRID",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "clay",
+            "FORMAT": "HE",
+            "match_id": "Madrid_2026_R64_Jeanjean_Gauff",
+            "DATE": "2026-04-24",
+            "hash_id": "8e2e9f25db5fadcf"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "CIRSTEA",
+            "TOURNAMENT": "MADRID",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "clay",
+            "FORMAT": "HE",
+            "match_id": "Madrid_2026_R32_Cirstea_Gauff",
+            "DATE": "2026-04-26",
+            "hash_id": "49c97337c14aa3fc"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "SAMSONOVA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R64_Gauff_Samsonova",
+            "DATE": "2026-08-16",
+            "hash_id": "4a5f0c37c763c4fd"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "PEGULA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "F",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_F_Gauff_Pegula",
+            "DATE": "2026-08-23",
+            "hash_id": "8a1364e6132ed421"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "BOUZKOVA",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Gauff_Bouzkova",
+            "DATE": "2026-08-19",
+            "hash_id": "b5d56c77892dc9cd"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "LI",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R32_Gauff_Li",
+            "DATE": "2026-08-18",
+            "hash_id": "a9bf66105f2ce711"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "KOSTYUK",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_QF_Gauff_Kostyuk",
+            "DATE": "2026-08-22",
+            "hash_id": "ff4ba19df85de93d"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "BEJLEK",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "SF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_SF_Bejlek_Gauff",
+            "DATE": "2026-08-23",
+            "hash_id": "054a23cf02add1be"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "OSORIO",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R64_Gauff_Osorio",
+            "DATE": "2026-10-03",
+            "hash_id": "188cd0e55fa23346"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "MERTENS",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R16_Gauff_Mertens",
+            "DATE": "2026-10-07",
+            "hash_id": "49fd93cb27475e1b"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "SUN",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R32_Gauff_Sun",
+            "DATE": "2026-10-05",
+            "hash_id": "e01453ede0da1b39"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "JOVIC",
+            "TOURNAMENT": "ROME",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "clay",
+            "FORMAT": "HE",
+            "match_id": "Rome_2026_R16_Gauff_Jovic",
+            "DATE": "2026-05-11",
+            "hash_id": "c700899af7bcec7d"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "ANDREEVA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_QF_Andreeva_Gauff",
+            "DATE": "2026-09-09",
+            "hash_id": "c9f280921eb8c205"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "BUCSA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R32_Bucsa_Gauff",
+            "DATE": "2026-09-05",
+            "hash_id": "9a18efc6af859629"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "BADOSA",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Badosa_Gauff",
+            "DATE": "2026-09-03",
+            "hash_id": "54b6a2e49ea9339f"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "SONMEZ",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "1st",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_1st_Sonmez_Gauff",
+            "DATE": "2026-09-01",
+            "hash_id": "0c9b504a8f23ee53"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "KORNEEVA",
+            "TOURNAMENT": "ROGERS CUP",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Rogers_cup_2026_R16_Korneeva_Gauff",
+            "DATE": "2026-08-09",
+            "hash_id": "2170aa0b8d6f38ba"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "SAKKARI",
+            "TOURNAMENT": "ROGERS CUP",
+            "YEAR": "2026",
+            "ROUND": "R32",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Rogers_cup_2026_R32_Sakkari_Gauff",
+            "DATE": "2026-08-07",
+            "hash_id": "6dd9d13ce8c0fd57"
+        },
+        {
+            "PLAYER": "GAUFF",
+            "OPPONENT": "ANDREESCU",
+            "TOURNAMENT": "SAN DIEGO",
+            "YEAR": "2022",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "San_Diego_2022_R16_Andreescu_Gauff",
+            "DATE": "2022-10-13",
+            "hash_id": "82433b4b4a0837c5"
         }
     ],
     "HADDAD MAIA": [
@@ -27978,6 +28218,18 @@
             "match_id": "Austin_2026_SF_Badosa_Andreescu",
             "DATE": "2026-03-13",
             "hash_id": "10e58ce8330178fd"
+        },
+        {
+            "PLAYER": "ANDREESCU",
+            "OPPONENT": "GAUFF",
+            "TOURNAMENT": "SAN DIEGO",
+            "YEAR": "2022",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "San_Diego_2022_R16_Andreescu_Gauff",
+            "DATE": "2022-10-13",
+            "hash_id": "94fee16842eecf2c"
         }
     ],
     "MENSIK": [
@@ -30434,6 +30686,18 @@
             "match_id": "US_Open_2026_R32_Swiatek_Bouzkova",
             "DATE": "2026-09-05",
             "hash_id": "f490d5f570d47dcb"
+        },
+        {
+            "PLAYER": "BOUZKOVA",
+            "OPPONENT": "GAUFF",
+            "TOURNAMENT": "CINCINNATI",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Cincinnati_2026_R16_Gauff_Bouzkova",
+            "DATE": "2026-08-19",
+            "hash_id": "5758f961ef4d405e"
         }
     ],
     "RAKHIMOVA": [
@@ -31768,6 +32032,18 @@
             "match_id": "US_Open_2026_R32_Osaka_Mertens",
             "DATE": "2026-09-05",
             "hash_id": "24c0d096e0e486b6"
+        },
+        {
+            "PLAYER": "MERTENS",
+            "OPPONENT": "GAUFF",
+            "TOURNAMENT": "BEIJING",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Beijing_2026_R16_Gauff_Mertens",
+            "DATE": "2026-10-07",
+            "hash_id": "2499762e29fe7da6"
         }
     ],
     "DART": [
@@ -32412,6 +32688,18 @@
             "match_id": "Adelaide_2025_1st_Stearns_Badosa",
             "DATE": "2025-01-06",
             "hash_id": "645a0ae4237b6a3e"
+        },
+        {
+            "PLAYER": "BADOSA",
+            "OPPONENT": "GAUFF",
+            "TOURNAMENT": "US OPEN",
+            "YEAR": "2026",
+            "ROUND": "R64",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "US_Open_2026_R64_Badosa_Gauff",
+            "DATE": "2026-09-03",
+            "hash_id": "c77baf50e3c8e92d"
         }
     ],
     "BELLUCCI": [

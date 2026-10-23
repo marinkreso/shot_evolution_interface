@@ -1,0 +1,309 @@
+{
+  "US_Open_2026_QF_Andreeva_Gauff": {
+    "player": "GAUFF",
+    "opponent": "ANDREEVA",
+    "points_total": 186,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "ANDREEVA",
+        "points_total": 186,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 63,
+            "points_won": {
+              "GAUFF": 43,
+              "ANDREEVA": 20
+            },
+            "pct_won_poi": 68.3,
+            "frequency_pct": 33.9
+          },
+          "3-4 shots": {
+            "points_played": 45,
+            "points_won": {
+              "GAUFF": 22,
+              "ANDREEVA": 23
+            },
+            "pct_won_poi": 48.9,
+            "frequency_pct": 24.2
+          },
+          "5-8 shots": {
+            "points_played": 43,
+            "points_won": {
+              "GAUFF": 20,
+              "ANDREEVA": 23
+            },
+            "pct_won_poi": 46.5,
+            "frequency_pct": 23.1
+          },
+          "9+ shots": {
+            "points_played": 35,
+            "points_won": {
+              "GAUFF": 20,
+              "ANDREEVA": 15
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 18.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 3,
+              "4": 9
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 0,
+              "4": 3
+            },
+            "lost": {
+              "2": 5,
+              "3": 5,
+              "4": 4
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 105,
+          "lost": 81,
+          "won_pct": 56.5,
+          "lost_pct": 43.5
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "ANDREEVA",
+        "points_total": 43,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "GAUFF": 12,
+              "ANDREEVA": 8
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 46.5
+          },
+          "3-4 shots": {
+            "points_played": 10,
+            "points_won": {
+              "GAUFF": 3,
+              "ANDREEVA": 7
+            },
+            "pct_won_poi": 30.0,
+            "frequency_pct": 23.3
+          },
+          "5-8 shots": {
+            "points_played": 8,
+            "points_won": {
+              "GAUFF": 3,
+              "ANDREEVA": 5
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 18.6
+          },
+          "9+ shots": {
+            "points_played": 5,
+            "points_won": {
+              "GAUFF": 1,
+              "ANDREEVA": 4
+            },
+            "pct_won_poi": 20.0,
+            "frequency_pct": 11.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 19,
+          "lost": 24,
+          "won_pct": 44.2,
+          "lost_pct": 55.8
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "ANDREEVA",
+        "points_total": 103,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 36,
+            "points_won": {
+              "GAUFF": 27,
+              "ANDREEVA": 9
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 35.0
+          },
+          "3-4 shots": {
+            "points_played": 24,
+            "points_won": {
+              "GAUFF": 11,
+              "ANDREEVA": 13
+            },
+            "pct_won_poi": 45.8,
+            "frequency_pct": 23.3
+          },
+          "5-8 shots": {
+            "points_played": 25,
+            "points_won": {
+              "GAUFF": 12,
+              "ANDREEVA": 13
+            },
+            "pct_won_poi": 48.0,
+            "frequency_pct": 24.3
+          },
+          "9+ shots": {
+            "points_played": 18,
+            "points_won": {
+              "GAUFF": 11,
+              "ANDREEVA": 7
+            },
+            "pct_won_poi": 61.1,
+            "frequency_pct": 17.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 6
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 3,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 61,
+          "lost": 42,
+          "won_pct": 59.2,
+          "lost_pct": 40.8
+        }
+      },
+      "3": {
+        "player": "GAUFF",
+        "opponent": "ANDREEVA",
+        "points_total": 40,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 7,
+            "points_won": {
+              "GAUFF": 4,
+              "ANDREEVA": 3
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 17.5
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 8,
+              "ANDREEVA": 3
+            },
+            "pct_won_poi": 72.7,
+            "frequency_pct": 27.5
+          },
+          "5-8 shots": {
+            "points_played": 10,
+            "points_won": {
+              "GAUFF": 5,
+              "ANDREEVA": 5
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 25.0
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "GAUFF": 8,
+              "ANDREEVA": 4
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 30.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 2
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 25,
+          "lost": 15,
+          "won_pct": 62.5,
+          "lost_pct": 37.5
+        }
+      }
+    }
+  }
+}

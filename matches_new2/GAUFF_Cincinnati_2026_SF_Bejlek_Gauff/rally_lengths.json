@@ -1,0 +1,234 @@
+{
+  "Cincinnati_2026_SF_Bejlek_Gauff": {
+    "player": "GAUFF",
+    "opponent": "BEJLEK",
+    "points_total": 98,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "BEJLEK",
+        "points_total": 98,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 19,
+            "points_won": {
+              "GAUFF": 11,
+              "BEJLEK": 8
+            },
+            "pct_won_poi": 57.9,
+            "frequency_pct": 19.4
+          },
+          "3-4 shots": {
+            "points_played": 19,
+            "points_won": {
+              "GAUFF": 11,
+              "BEJLEK": 8
+            },
+            "pct_won_poi": 57.9,
+            "frequency_pct": 19.4
+          },
+          "5-8 shots": {
+            "points_played": 28,
+            "points_won": {
+              "GAUFF": 22,
+              "BEJLEK": 6
+            },
+            "pct_won_poi": 78.6,
+            "frequency_pct": 28.6
+          },
+          "9+ shots": {
+            "points_played": 32,
+            "points_won": {
+              "GAUFF": 16,
+              "BEJLEK": 16
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 32.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 3
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 4,
+              "4": 2
+            },
+            "lost": {
+              "2": 7,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 60,
+          "lost": 38,
+          "won_pct": 61.2,
+          "lost_pct": 38.8
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "BEJLEK",
+        "points_total": 59,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 5,
+              "BEJLEK": 6
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 18.6
+          },
+          "3-4 shots": {
+            "points_played": 12,
+            "points_won": {
+              "GAUFF": 5,
+              "BEJLEK": 7
+            },
+            "pct_won_poi": 41.7,
+            "frequency_pct": 20.3
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "GAUFF": 12,
+              "BEJLEK": 3
+            },
+            "pct_won_poi": 80.0,
+            "frequency_pct": 25.4
+          },
+          "9+ shots": {
+            "points_played": 21,
+            "points_won": {
+              "GAUFF": 11,
+              "BEJLEK": 10
+            },
+            "pct_won_poi": 52.4,
+            "frequency_pct": 35.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 33,
+          "lost": 26,
+          "won_pct": 55.9,
+          "lost_pct": 44.1
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "BEJLEK",
+        "points_total": 39,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 8,
+            "points_won": {
+              "GAUFF": 6,
+              "BEJLEK": 2
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 20.5
+          },
+          "3-4 shots": {
+            "points_played": 7,
+            "points_won": {
+              "GAUFF": 6,
+              "BEJLEK": 1
+            },
+            "pct_won_poi": 85.7,
+            "frequency_pct": 17.9
+          },
+          "5-8 shots": {
+            "points_played": 13,
+            "points_won": {
+              "GAUFF": 10,
+              "BEJLEK": 3
+            },
+            "pct_won_poi": 76.9,
+            "frequency_pct": 33.3
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 5,
+              "BEJLEK": 6
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 28.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 12,
+          "won_pct": 69.2,
+          "lost_pct": 30.8
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "Madrid_2026_R32_Cirstea_Gauff": {
+    "player": "GAUFF",
+    "opponent": "CIRSTEA",
+    "points_total": 181,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "CIRSTEA",
+        "points_total": 181,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 39,
+            "points_won": {
+              "GAUFF": 24,
+              "CIRSTEA": 15
+            },
+            "pct_won_poi": 61.5,
+            "frequency_pct": 21.5
+          },
+          "3-4 shots": {
+            "points_played": 49,
+            "points_won": {
+              "GAUFF": 20,
+              "CIRSTEA": 29
+            },
+            "pct_won_poi": 40.8,
+            "frequency_pct": 27.1
+          },
+          "5-8 shots": {
+            "points_played": 55,
+            "points_won": {
+              "GAUFF": 34,
+              "CIRSTEA": 21
+            },
+            "pct_won_poi": 61.8,
+            "frequency_pct": 30.4
+          },
+          "9+ shots": {
+            "points_played": 38,
+            "points_won": {
+              "GAUFF": 21,
+              "CIRSTEA": 17
+            },
+            "pct_won_poi": 55.3,
+            "frequency_pct": 21.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 8,
+              "3": 4,
+              "4": 1
+            },
+            "lost": {
+              "2": 6,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 4,
+              "4": 4
+            },
+            "lost": {
+              "2": 7,
+              "3": 4,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 99,
+          "lost": 82,
+          "won_pct": 54.7,
+          "lost_pct": 45.3
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "CIRSTEA",
+        "points_total": 64,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 8,
+              "CIRSTEA": 3
+            },
+            "pct_won_poi": 72.7,
+            "frequency_pct": 17.2
+          },
+          "3-4 shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 4,
+              "CIRSTEA": 13
+            },
+            "pct_won_poi": 23.5,
+            "frequency_pct": 26.6
+          },
+          "5-8 shots": {
+            "points_played": 24,
+            "points_won": {
+              "GAUFF": 14,
+              "CIRSTEA": 10
+            },
+            "pct_won_poi": 58.3,
+            "frequency_pct": 37.5
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "GAUFF": 4,
+              "CIRSTEA": 8
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 18.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 30,
+          "lost": 34,
+          "won_pct": 46.9,
+          "lost_pct": 53.1
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "CIRSTEA",
+        "points_total": 58,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 7,
+              "CIRSTEA": 10
+            },
+            "pct_won_poi": 41.2,
+            "frequency_pct": 29.3
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "GAUFF": 11,
+              "CIRSTEA": 4
+            },
+            "pct_won_poi": 73.3,
+            "frequency_pct": 25.9
+          },
+          "5-8 shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 10,
+              "CIRSTEA": 7
+            },
+            "pct_won_poi": 58.8,
+            "frequency_pct": 29.3
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "GAUFF": 6,
+              "CIRSTEA": 3
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 15.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 34,
+          "lost": 24,
+          "won_pct": 58.6,
+          "lost_pct": 41.4
+        }
+      },
+      "3": {
+        "player": "GAUFF",
+        "opponent": "CIRSTEA",
+        "points_total": 59,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 9,
+              "CIRSTEA": 2
+            },
+            "pct_won_poi": 81.8,
+            "frequency_pct": 18.6
+          },
+          "3-4 shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 5,
+              "CIRSTEA": 12
+            },
+            "pct_won_poi": 29.4,
+            "frequency_pct": 28.8
+          },
+          "5-8 shots": {
+            "points_played": 14,
+            "points_won": {
+              "GAUFF": 10,
+              "CIRSTEA": 4
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 23.7
+          },
+          "9+ shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 11,
+              "CIRSTEA": 6
+            },
+            "pct_won_poi": 64.7,
+            "frequency_pct": 28.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 35,
+          "lost": 24,
+          "won_pct": 59.3,
+          "lost_pct": 40.7
+        }
+      }
+    }
+  }
+}

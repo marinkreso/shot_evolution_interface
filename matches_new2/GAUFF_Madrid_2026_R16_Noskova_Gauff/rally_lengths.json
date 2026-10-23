@@ -1,0 +1,309 @@
+{
+  "Madrid_2026_R16_Noskova_Gauff": {
+    "player": "GAUFF",
+    "opponent": "NOSKOVA",
+    "points_total": 188,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "NOSKOVA",
+        "points_total": 188,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 78,
+            "points_won": {
+              "GAUFF": 48,
+              "NOSKOVA": 30
+            },
+            "pct_won_poi": 61.5,
+            "frequency_pct": 41.5
+          },
+          "3-4 shots": {
+            "points_played": 55,
+            "points_won": {
+              "GAUFF": 23,
+              "NOSKOVA": 32
+            },
+            "pct_won_poi": 41.8,
+            "frequency_pct": 29.3
+          },
+          "5-8 shots": {
+            "points_played": 44,
+            "points_won": {
+              "GAUFF": 22,
+              "NOSKOVA": 22
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 23.4
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 6,
+              "NOSKOVA": 5
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 5.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 4,
+              "4": 6
+            },
+            "lost": {
+              "2": 6,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 4,
+              "4": 0
+            },
+            "lost": {
+              "2": 8,
+              "3": 4,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 99,
+          "lost": 89,
+          "won_pct": 52.7,
+          "lost_pct": 47.3
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "NOSKOVA",
+        "points_total": 55,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 27,
+            "points_won": {
+              "GAUFF": 17,
+              "NOSKOVA": 10
+            },
+            "pct_won_poi": 63.0,
+            "frequency_pct": 49.1
+          },
+          "3-4 shots": {
+            "points_played": 13,
+            "points_won": {
+              "GAUFF": 4,
+              "NOSKOVA": 9
+            },
+            "pct_won_poi": 30.8,
+            "frequency_pct": 23.6
+          },
+          "5-8 shots": {
+            "points_played": 13,
+            "points_won": {
+              "GAUFF": 2,
+              "NOSKOVA": 11
+            },
+            "pct_won_poi": 15.4,
+            "frequency_pct": 23.6
+          },
+          "9+ shots": {
+            "points_played": 2,
+            "points_won": {
+              "GAUFF": 1,
+              "NOSKOVA": 1
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 3.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 24,
+          "lost": 31,
+          "won_pct": 43.6,
+          "lost_pct": 56.4
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "NOSKOVA",
+        "points_total": 38,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 13,
+              "NOSKOVA": 4
+            },
+            "pct_won_poi": 76.5,
+            "frequency_pct": 44.7
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 8,
+              "NOSKOVA": 3
+            },
+            "pct_won_poi": 72.7,
+            "frequency_pct": 28.9
+          },
+          "5-8 shots": {
+            "points_played": 9,
+            "points_won": {
+              "GAUFF": 5,
+              "NOSKOVA": 4
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 23.7
+          },
+          "9+ shots": {
+            "points_played": 1,
+            "points_won": {
+              "GAUFF": 1,
+              "NOSKOVA": 0
+            },
+            "pct_won_poi": 100.0,
+            "frequency_pct": 2.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 3
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 11,
+          "won_pct": 71.1,
+          "lost_pct": 28.9
+        }
+      },
+      "3": {
+        "player": "GAUFF",
+        "opponent": "NOSKOVA",
+        "points_total": 95,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 34,
+            "points_won": {
+              "GAUFF": 18,
+              "NOSKOVA": 16
+            },
+            "pct_won_poi": 52.9,
+            "frequency_pct": 35.8
+          },
+          "3-4 shots": {
+            "points_played": 31,
+            "points_won": {
+              "GAUFF": 11,
+              "NOSKOVA": 20
+            },
+            "pct_won_poi": 35.5,
+            "frequency_pct": 32.6
+          },
+          "5-8 shots": {
+            "points_played": 22,
+            "points_won": {
+              "GAUFF": 15,
+              "NOSKOVA": 7
+            },
+            "pct_won_poi": 68.2,
+            "frequency_pct": 23.2
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "GAUFF": 4,
+              "NOSKOVA": 4
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 8.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 1,
+              "4": 2
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 48,
+          "lost": 47,
+          "won_pct": 50.5,
+          "lost_pct": 49.5
+        }
+      }
+    }
+  }
+}

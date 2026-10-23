@@ -1,0 +1,234 @@
+{
+  "Rogers_cup_2026_R16_Korneeva_Gauff": {
+    "player": "GAUFF",
+    "opponent": "KORNEEVA",
+    "points_total": 116,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "KORNEEVA",
+        "points_total": 116,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 27,
+            "points_won": {
+              "GAUFF": 18,
+              "KORNEEVA": 9
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 23.3
+          },
+          "3-4 shots": {
+            "points_played": 34,
+            "points_won": {
+              "GAUFF": 18,
+              "KORNEEVA": 16
+            },
+            "pct_won_poi": 52.9,
+            "frequency_pct": 29.3
+          },
+          "5-8 shots": {
+            "points_played": 38,
+            "points_won": {
+              "GAUFF": 21,
+              "KORNEEVA": 17
+            },
+            "pct_won_poi": 55.3,
+            "frequency_pct": 32.8
+          },
+          "9+ shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 10,
+              "KORNEEVA": 7
+            },
+            "pct_won_poi": 58.8,
+            "frequency_pct": 14.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 1,
+              "4": 2
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 3,
+              "4": 4
+            },
+            "lost": {
+              "2": 8,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 67,
+          "lost": 49,
+          "won_pct": 57.8,
+          "lost_pct": 42.2
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "KORNEEVA",
+        "points_total": 59,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 12,
+            "points_won": {
+              "GAUFF": 9,
+              "KORNEEVA": 3
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 20.3
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "GAUFF": 8,
+              "KORNEEVA": 8
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 27.1
+          },
+          "5-8 shots": {
+            "points_played": 22,
+            "points_won": {
+              "GAUFF": 12,
+              "KORNEEVA": 10
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 37.3
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "GAUFF": 5,
+              "KORNEEVA": 4
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 15.3
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 34,
+          "lost": 25,
+          "won_pct": 57.6,
+          "lost_pct": 42.4
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "KORNEEVA",
+        "points_total": 57,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 15,
+            "points_won": {
+              "GAUFF": 9,
+              "KORNEEVA": 6
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 26.3
+          },
+          "3-4 shots": {
+            "points_played": 18,
+            "points_won": {
+              "GAUFF": 10,
+              "KORNEEVA": 8
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 31.6
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "GAUFF": 9,
+              "KORNEEVA": 7
+            },
+            "pct_won_poi": 56.2,
+            "frequency_pct": 28.1
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "GAUFF": 5,
+              "KORNEEVA": 3
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 14.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 3,
+              "4": 2
+            },
+            "lost": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 33,
+          "lost": 24,
+          "won_pct": 57.9,
+          "lost_pct": 42.1
+        }
+      }
+    }
+  }
+}

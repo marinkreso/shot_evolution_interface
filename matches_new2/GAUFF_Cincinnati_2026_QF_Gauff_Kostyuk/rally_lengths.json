@@ -1,0 +1,234 @@
+{
+  "Cincinnati_2026_QF_Gauff_Kostyuk": {
+    "player": "GAUFF",
+    "opponent": "KOSTYUK",
+    "points_total": 103,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "KOSTYUK",
+        "points_total": 103,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 36,
+            "points_won": {
+              "GAUFF": 21,
+              "KOSTYUK": 15
+            },
+            "pct_won_poi": 58.3,
+            "frequency_pct": 35.0
+          },
+          "3-4 shots": {
+            "points_played": 35,
+            "points_won": {
+              "GAUFF": 20,
+              "KOSTYUK": 15
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 34.0
+          },
+          "5-8 shots": {
+            "points_played": 27,
+            "points_won": {
+              "GAUFF": 16,
+              "KOSTYUK": 11
+            },
+            "pct_won_poi": 59.3,
+            "frequency_pct": 26.2
+          },
+          "9+ shots": {
+            "points_played": 5,
+            "points_won": {
+              "GAUFF": 4,
+              "KOSTYUK": 1
+            },
+            "pct_won_poi": 80.0,
+            "frequency_pct": 4.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 4,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 10,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 4,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 61,
+          "lost": 42,
+          "won_pct": 59.2,
+          "lost_pct": 40.8
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "KOSTYUK",
+        "points_total": 56,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 22,
+            "points_won": {
+              "GAUFF": 13,
+              "KOSTYUK": 9
+            },
+            "pct_won_poi": 59.1,
+            "frequency_pct": 39.3
+          },
+          "3-4 shots": {
+            "points_played": 20,
+            "points_won": {
+              "GAUFF": 10,
+              "KOSTYUK": 10
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 35.7
+          },
+          "5-8 shots": {
+            "points_played": 13,
+            "points_won": {
+              "GAUFF": 8,
+              "KOSTYUK": 5
+            },
+            "pct_won_poi": 61.5,
+            "frequency_pct": 23.2
+          },
+          "9+ shots": {
+            "points_played": 1,
+            "points_won": {
+              "GAUFF": 1,
+              "KOSTYUK": 0
+            },
+            "pct_won_poi": 100.0,
+            "frequency_pct": 1.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 32,
+          "lost": 24,
+          "won_pct": 57.1,
+          "lost_pct": 42.9
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "KOSTYUK",
+        "points_total": 47,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "GAUFF": 8,
+              "KOSTYUK": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 29.8
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "GAUFF": 10,
+              "KOSTYUK": 5
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 31.9
+          },
+          "5-8 shots": {
+            "points_played": 14,
+            "points_won": {
+              "GAUFF": 8,
+              "KOSTYUK": 6
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 29.8
+          },
+          "9+ shots": {
+            "points_played": 4,
+            "points_won": {
+              "GAUFF": 3,
+              "KOSTYUK": 1
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 8.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 29,
+          "lost": 18,
+          "won_pct": 61.7,
+          "lost_pct": 38.3
+        }
+      }
+    }
+  }
+}

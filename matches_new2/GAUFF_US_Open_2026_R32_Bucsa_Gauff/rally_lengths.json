@@ -1,0 +1,234 @@
+{
+  "US_Open_2026_R32_Bucsa_Gauff": {
+    "player": "GAUFF",
+    "opponent": "BUCSA",
+    "points_total": 126,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "BUCSA",
+        "points_total": 126,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 33,
+            "points_won": {
+              "GAUFF": 24,
+              "BUCSA": 9
+            },
+            "pct_won_poi": 72.7,
+            "frequency_pct": 26.2
+          },
+          "3-4 shots": {
+            "points_played": 41,
+            "points_won": {
+              "GAUFF": 25,
+              "BUCSA": 16
+            },
+            "pct_won_poi": 61.0,
+            "frequency_pct": 32.5
+          },
+          "5-8 shots": {
+            "points_played": 30,
+            "points_won": {
+              "GAUFF": 18,
+              "BUCSA": 12
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 23.8
+          },
+          "9+ shots": {
+            "points_played": 22,
+            "points_won": {
+              "GAUFF": 11,
+              "BUCSA": 11
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 17.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 3,
+              "4": 6
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 7,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 6,
+              "3": 3,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 78,
+          "lost": 48,
+          "won_pct": 61.9,
+          "lost_pct": 38.1
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "BUCSA",
+        "points_total": 73,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 19,
+            "points_won": {
+              "GAUFF": 13,
+              "BUCSA": 6
+            },
+            "pct_won_poi": 68.4,
+            "frequency_pct": 26.0
+          },
+          "3-4 shots": {
+            "points_played": 20,
+            "points_won": {
+              "GAUFF": 12,
+              "BUCSA": 8
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 27.4
+          },
+          "5-8 shots": {
+            "points_played": 19,
+            "points_won": {
+              "GAUFF": 11,
+              "BUCSA": 8
+            },
+            "pct_won_poi": 57.9,
+            "frequency_pct": 26.0
+          },
+          "9+ shots": {
+            "points_played": 15,
+            "points_won": {
+              "GAUFF": 9,
+              "BUCSA": 6
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 20.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 3
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 3,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 45,
+          "lost": 28,
+          "won_pct": 61.6,
+          "lost_pct": 38.4
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "BUCSA",
+        "points_total": 53,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 14,
+            "points_won": {
+              "GAUFF": 11,
+              "BUCSA": 3
+            },
+            "pct_won_poi": 78.6,
+            "frequency_pct": 26.4
+          },
+          "3-4 shots": {
+            "points_played": 21,
+            "points_won": {
+              "GAUFF": 13,
+              "BUCSA": 8
+            },
+            "pct_won_poi": 61.9,
+            "frequency_pct": 39.6
+          },
+          "5-8 shots": {
+            "points_played": 11,
+            "points_won": {
+              "GAUFF": 7,
+              "BUCSA": 4
+            },
+            "pct_won_poi": 63.6,
+            "frequency_pct": 20.8
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "GAUFF": 2,
+              "BUCSA": 5
+            },
+            "pct_won_poi": 28.6,
+            "frequency_pct": 13.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 3
+            },
+            "lost": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 33,
+          "lost": 20,
+          "won_pct": 62.3,
+          "lost_pct": 37.7
+        }
+      }
+    }
+  }
+}

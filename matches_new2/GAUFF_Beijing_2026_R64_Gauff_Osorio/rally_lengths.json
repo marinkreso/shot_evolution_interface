@@ -1,0 +1,309 @@
+{
+  "Beijing_2026_R64_Gauff_Osorio": {
+    "player": "GAUFF",
+    "opponent": "OSORIO",
+    "points_total": 194,
+    "sets": {
+      "ALL": {
+        "player": "GAUFF",
+        "opponent": "OSORIO",
+        "points_total": 194,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 54,
+            "points_won": {
+              "GAUFF": 30,
+              "OSORIO": 24
+            },
+            "pct_won_poi": 55.6,
+            "frequency_pct": 27.8
+          },
+          "3-4 shots": {
+            "points_played": 46,
+            "points_won": {
+              "GAUFF": 18,
+              "OSORIO": 28
+            },
+            "pct_won_poi": 39.1,
+            "frequency_pct": 23.7
+          },
+          "5-8 shots": {
+            "points_played": 64,
+            "points_won": {
+              "GAUFF": 35,
+              "OSORIO": 29
+            },
+            "pct_won_poi": 54.7,
+            "frequency_pct": 33.0
+          },
+          "9+ shots": {
+            "points_played": 30,
+            "points_won": {
+              "GAUFF": 16,
+              "OSORIO": 14
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 15.5
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 9,
+              "3": 4,
+              "4": 4
+            },
+            "lost": {
+              "2": 7,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 5,
+              "4": 0
+            },
+            "lost": {
+              "2": 11,
+              "3": 2,
+              "4": 4
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 99,
+          "lost": 95,
+          "won_pct": 51.0,
+          "lost_pct": 49.0
+        }
+      },
+      "1": {
+        "player": "GAUFF",
+        "opponent": "OSORIO",
+        "points_total": 88,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "GAUFF": 13,
+              "OSORIO": 12
+            },
+            "pct_won_poi": 52.0,
+            "frequency_pct": 28.4
+          },
+          "3-4 shots": {
+            "points_played": 21,
+            "points_won": {
+              "GAUFF": 6,
+              "OSORIO": 15
+            },
+            "pct_won_poi": 28.6,
+            "frequency_pct": 23.9
+          },
+          "5-8 shots": {
+            "points_played": 27,
+            "points_won": {
+              "GAUFF": 14,
+              "OSORIO": 13
+            },
+            "pct_won_poi": 51.9,
+            "frequency_pct": 30.7
+          },
+          "9+ shots": {
+            "points_played": 15,
+            "points_won": {
+              "GAUFF": 9,
+              "OSORIO": 6
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 17.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 42,
+          "lost": 46,
+          "won_pct": 47.7,
+          "lost_pct": 52.3
+        }
+      },
+      "2": {
+        "player": "GAUFF",
+        "opponent": "OSORIO",
+        "points_total": 60,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 17,
+            "points_won": {
+              "GAUFF": 11,
+              "OSORIO": 6
+            },
+            "pct_won_poi": 64.7,
+            "frequency_pct": 28.3
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "GAUFF": 6,
+              "OSORIO": 9
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 25.0
+          },
+          "5-8 shots": {
+            "points_played": 19,
+            "points_won": {
+              "GAUFF": 8,
+              "OSORIO": 11
+            },
+            "pct_won_poi": 42.1,
+            "frequency_pct": 31.7
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "GAUFF": 3,
+              "OSORIO": 6
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 15.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 1,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 28,
+          "lost": 32,
+          "won_pct": 46.7,
+          "lost_pct": 53.3
+        }
+      },
+      "3": {
+        "player": "GAUFF",
+        "opponent": "OSORIO",
+        "points_total": 46,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 12,
+            "points_won": {
+              "GAUFF": 6,
+              "OSORIO": 6
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 26.1
+          },
+          "3-4 shots": {
+            "points_played": 10,
+            "points_won": {
+              "GAUFF": 6,
+              "OSORIO": 4
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 21.7
+          },
+          "5-8 shots": {
+            "points_played": 18,
+            "points_won": {
+              "GAUFF": 13,
+              "OSORIO": 5
+            },
+            "pct_won_poi": 72.2,
+            "frequency_pct": 39.1
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "GAUFF": 4,
+              "OSORIO": 2
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 13.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 29,
+          "lost": 17,
+          "won_pct": 63.0,
+          "lost_pct": 37.0
+        }
+      }
+    }
+  }
+}

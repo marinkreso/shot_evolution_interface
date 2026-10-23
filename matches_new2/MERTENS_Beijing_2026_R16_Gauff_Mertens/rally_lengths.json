@@ -1,0 +1,234 @@
+{
+  "Beijing_2026_R16_Gauff_Mertens": {
+    "player": "MERTENS",
+    "opponent": "GAUFF",
+    "points_total": 114,
+    "sets": {
+      "ALL": {
+        "player": "MERTENS",
+        "opponent": "GAUFF",
+        "points_total": 114,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 44,
+            "points_won": {
+              "MERTENS": 25,
+              "GAUFF": 19
+            },
+            "pct_won_poi": 56.8,
+            "frequency_pct": 38.6
+          },
+          "3-4 shots": {
+            "points_played": 26,
+            "points_won": {
+              "MERTENS": 20,
+              "GAUFF": 6
+            },
+            "pct_won_poi": 76.9,
+            "frequency_pct": 22.8
+          },
+          "5-8 shots": {
+            "points_played": 31,
+            "points_won": {
+              "MERTENS": 12,
+              "GAUFF": 19
+            },
+            "pct_won_poi": 38.7,
+            "frequency_pct": 27.2
+          },
+          "9+ shots": {
+            "points_played": 13,
+            "points_won": {
+              "MERTENS": 8,
+              "GAUFF": 5
+            },
+            "pct_won_poi": 61.5,
+            "frequency_pct": 11.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 3,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 6,
+              "3": 4,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 65,
+          "lost": 49,
+          "won_pct": 57.0,
+          "lost_pct": 43.0
+        }
+      },
+      "1": {
+        "player": "MERTENS",
+        "opponent": "GAUFF",
+        "points_total": 60,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 19,
+            "points_won": {
+              "MERTENS": 8,
+              "GAUFF": 11
+            },
+            "pct_won_poi": 42.1,
+            "frequency_pct": 31.7
+          },
+          "3-4 shots": {
+            "points_played": 17,
+            "points_won": {
+              "MERTENS": 13,
+              "GAUFF": 4
+            },
+            "pct_won_poi": 76.5,
+            "frequency_pct": 28.3
+          },
+          "5-8 shots": {
+            "points_played": 17,
+            "points_won": {
+              "MERTENS": 7,
+              "GAUFF": 10
+            },
+            "pct_won_poi": 41.2,
+            "frequency_pct": 28.3
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "MERTENS": 5,
+              "GAUFF": 2
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 11.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 33,
+          "lost": 27,
+          "won_pct": 55.0,
+          "lost_pct": 45.0
+        }
+      },
+      "2": {
+        "player": "MERTENS",
+        "opponent": "GAUFF",
+        "points_total": 54,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "MERTENS": 17,
+              "GAUFF": 8
+            },
+            "pct_won_poi": 68.0,
+            "frequency_pct": 46.3
+          },
+          "3-4 shots": {
+            "points_played": 9,
+            "points_won": {
+              "MERTENS": 7,
+              "GAUFF": 2
+            },
+            "pct_won_poi": 77.8,
+            "frequency_pct": 16.7
+          },
+          "5-8 shots": {
+            "points_played": 14,
+            "points_won": {
+              "MERTENS": 5,
+              "GAUFF": 9
+            },
+            "pct_won_poi": 35.7,
+            "frequency_pct": 25.9
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "MERTENS": 3,
+              "GAUFF": 3
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 11.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 2,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 32,
+          "lost": 22,
+          "won_pct": 59.3,
+          "lost_pct": 40.7
+        }
+      }
+    }
+  }
+}

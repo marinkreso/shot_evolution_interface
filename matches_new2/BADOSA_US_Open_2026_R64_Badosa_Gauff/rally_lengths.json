@@ -1,0 +1,234 @@
+{
+  "US_Open_2026_R64_Badosa_Gauff": {
+    "player": "BADOSA",
+    "opponent": "GAUFF",
+    "points_total": 156,
+    "sets": {
+      "ALL": {
+        "player": "BADOSA",
+        "opponent": "GAUFF",
+        "points_total": 156,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 47,
+            "points_won": {
+              "BADOSA": 16,
+              "GAUFF": 31
+            },
+            "pct_won_poi": 34.0,
+            "frequency_pct": 30.1
+          },
+          "3-4 shots": {
+            "points_played": 44,
+            "points_won": {
+              "BADOSA": 20,
+              "GAUFF": 24
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 28.2
+          },
+          "5-8 shots": {
+            "points_played": 46,
+            "points_won": {
+              "BADOSA": 23,
+              "GAUFF": 23
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 29.5
+          },
+          "9+ shots": {
+            "points_played": 19,
+            "points_won": {
+              "BADOSA": 9,
+              "GAUFF": 10
+            },
+            "pct_won_poi": 47.4,
+            "frequency_pct": 12.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 10,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 7,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 4,
+              "4": 5
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 68,
+          "lost": 88,
+          "won_pct": 43.6,
+          "lost_pct": 56.4
+        }
+      },
+      "1": {
+        "player": "BADOSA",
+        "opponent": "GAUFF",
+        "points_total": 68,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 24,
+            "points_won": {
+              "BADOSA": 8,
+              "GAUFF": 16
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 35.3
+          },
+          "3-4 shots": {
+            "points_played": 18,
+            "points_won": {
+              "BADOSA": 8,
+              "GAUFF": 10
+            },
+            "pct_won_poi": 44.4,
+            "frequency_pct": 26.5
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "BADOSA": 8,
+              "GAUFF": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 22.1
+          },
+          "9+ shots": {
+            "points_played": 11,
+            "points_won": {
+              "BADOSA": 5,
+              "GAUFF": 6
+            },
+            "pct_won_poi": 45.5,
+            "frequency_pct": 16.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 3,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 29,
+          "lost": 39,
+          "won_pct": 42.6,
+          "lost_pct": 57.4
+        }
+      },
+      "2": {
+        "player": "BADOSA",
+        "opponent": "GAUFF",
+        "points_total": 88,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 23,
+            "points_won": {
+              "BADOSA": 8,
+              "GAUFF": 15
+            },
+            "pct_won_poi": 34.8,
+            "frequency_pct": 26.1
+          },
+          "3-4 shots": {
+            "points_played": 26,
+            "points_won": {
+              "BADOSA": 12,
+              "GAUFF": 14
+            },
+            "pct_won_poi": 46.2,
+            "frequency_pct": 29.5
+          },
+          "5-8 shots": {
+            "points_played": 31,
+            "points_won": {
+              "BADOSA": 15,
+              "GAUFF": 16
+            },
+            "pct_won_poi": 48.4,
+            "frequency_pct": 35.2
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "BADOSA": 4,
+              "GAUFF": 4
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 9.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 1,
+              "4": 2
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 39,
+          "lost": 49,
+          "won_pct": 44.3,
+          "lost_pct": 55.7
+        }
+      }
+    }
+  }
+}
