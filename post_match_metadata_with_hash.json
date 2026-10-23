@@ -10755,6 +10755,18 @@
             "match_id": "Brussels_2026_R32_Samuel_Bergs",
             "DATE": "2026-10-20",
             "hash_id": "f08919af976b86c2"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "DZUMHUR",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R16_Dzumhur_Bergs",
+            "DATE": "2026-10-22",
+            "hash_id": "8b4b74f0c98c06af"
         }
     ],
     "KECMANOVIC": [
@@ -13135,6 +13147,18 @@
             "match_id": "Lyon_2026_R32_Medjedovic_Nakashima",
             "DATE": "2026-10-20",
             "hash_id": "cf8d374f854a1e95"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "JACQUET",
+            "TOURNAMENT": "LYON",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Lyon_2026_R16_Jacquet_Nakashima",
+            "DATE": "2026-10-22",
+            "hash_id": "642c64fcb0ca005a"
         }
     ],
     "TSITSIPAS": [
@@ -37839,6 +37863,18 @@
             "match_id": "Brussels_2026_R32_Basavareddy_Collignon",
             "DATE": "2026-10-20",
             "hash_id": "583d7f5ff49284cb"
+        },
+        {
+            "PLAYER": "COLLIGNON",
+            "OPPONENT": "LEHECKA",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R16_Collignon_Lehecka",
+            "DATE": "2026-10-22",
+            "hash_id": "d5961896ab686aaf"
         }
     ],
     "MBOKO": [
@@ -40857,6 +40893,18 @@
             "match_id": "99cf0f0d-30bb-4cc9-9b9d-56798dcb0817",
             "DATE": "2026-10-12",
             "hash_id": "8472fef678eff18e"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "COLLIGNON",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "R16",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_R16_Collignon_Lehecka",
+            "DATE": "2026-10-22",
+            "hash_id": "c7da8132ac378347"
         }
     ],
     "VALENTOVA": [

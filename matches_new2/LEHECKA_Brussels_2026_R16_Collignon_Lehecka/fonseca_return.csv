@@ -1,0 +1,13 @@
+Serve,Court Side,Position,Returns,Return In %,Return Win %,Win if In %
+1st,Deuce,Up,5,60%,0%,0%
+1st,Deuce,Middle,11,100%,45%,45%
+1st,Deuce,Back,2,50%,0%,0%
+1st,Ad,Up,0,NO DATA,NO DATA,NO DATA
+1st,Ad,Middle,16,68%,31%,45%
+1st,Ad,Back,0,NO DATA,NO DATA,NO DATA
+2nd,Deuce,Up,6,83%,66%,80%
+2nd,Deuce,Middle,1,100%,0%,0%
+2nd,Deuce,Back,0,NO DATA,NO DATA,NO DATA
+2nd,Ad,Up,11,90%,63%,70%
+2nd,Ad,Middle,0,NO DATA,NO DATA,NO DATA
+2nd,Ad,Back,0,NO DATA,NO DATA,NO DATA
