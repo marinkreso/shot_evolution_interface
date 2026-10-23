@@ -13159,6 +13159,18 @@
             "match_id": "Lyon_2026_R16_Jacquet_Nakashima",
             "DATE": "2026-10-22",
             "hash_id": "642c64fcb0ca005a"
+        },
+        {
+            "PLAYER": "NAKASHIMA",
+            "OPPONENT": "COBOLLI",
+            "TOURNAMENT": "LYON",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Lyon_2026_QF_Cobolli_Nakashima",
+            "DATE": "2026-10-23",
+            "hash_id": "d076990f94d7da3c"
         }
     ],
     "TSITSIPAS": [
@@ -14433,6 +14445,18 @@
             "match_id": "Almaty_2026_R16_Tsitsipas_Kukushkin",
             "DATE": "2026-10-21",
             "hash_id": "359091c86d92f5d0"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "DUCKWORTH",
+            "TOURNAMENT": "ALMATY",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Almaty_2026_QF_Tsitsipas_Duckworth",
+            "DATE": "2026-10-23",
+            "hash_id": "1438cb7679794d9a"
         }
     ],
     "PAUL": [
@@ -20241,6 +20265,18 @@
             "match_id": "Shanghai_2026_R64_Shelton_Altmaier",
             "DATE": "2026-10-09",
             "hash_id": "3fa05c85f7b761b7"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "FRITZ",
+            "TOURNAMENT": "LYON",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Lyon_2026_QF_Altmaier_Fritz",
+            "DATE": "2026-10-23",
+            "hash_id": "ccbf8c56a854375d"
         }
     ],
     "SEYBOTH WILD": [
@@ -21639,6 +21675,18 @@
             "match_id": "Shanghai_2026_R32_Fils_van-de-Zandschulp",
             "DATE": "2026-10-12",
             "hash_id": "68870fe03b31ff82"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "MICHELSEN",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_QF_Fils_Michelsen",
+            "DATE": "2026-10-23",
+            "hash_id": "303166c0b5e1e440"
         }
     ],
     "THOMPSON": [
@@ -41193,6 +41241,18 @@
             "match_id": "Brussels_2026_R16_Collignon_Lehecka",
             "DATE": "2026-10-22",
             "hash_id": "c7da8132ac378347"
+        },
+        {
+            "PLAYER": "LEHECKA",
+            "OPPONENT": "GRIEKSPOOR",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_QF_Griekspoor_Lehecka",
+            "DATE": "2026-10-23",
+            "hash_id": "1671c85867739ed2"
         }
     ],
     "VALENTOVA": [

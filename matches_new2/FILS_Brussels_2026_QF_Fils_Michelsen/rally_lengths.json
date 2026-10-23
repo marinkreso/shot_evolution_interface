@@ -1,0 +1,234 @@
+{
+  "Brussels_2026_QF_Fils_Michelsen": {
+    "player": "FILS",
+    "opponent": "MICHELSEN",
+    "points_total": 154,
+    "sets": {
+      "ALL": {
+        "player": "FILS",
+        "opponent": "MICHELSEN",
+        "points_total": 154,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 42,
+            "points_won": {
+              "FILS": 25,
+              "MICHELSEN": 17
+            },
+            "pct_won_poi": 59.5,
+            "frequency_pct": 27.3
+          },
+          "3-4 shots": {
+            "points_played": 42,
+            "points_won": {
+              "FILS": 29,
+              "MICHELSEN": 13
+            },
+            "pct_won_poi": 69.0,
+            "frequency_pct": 27.3
+          },
+          "5-8 shots": {
+            "points_played": 47,
+            "points_won": {
+              "FILS": 20,
+              "MICHELSEN": 27
+            },
+            "pct_won_poi": 42.6,
+            "frequency_pct": 30.5
+          },
+          "9+ shots": {
+            "points_played": 23,
+            "points_won": {
+              "FILS": 7,
+              "MICHELSEN": 16
+            },
+            "pct_won_poi": 30.4,
+            "frequency_pct": 14.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 1,
+              "4": 5
+            },
+            "lost": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 10,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 81,
+          "lost": 73,
+          "won_pct": 52.6,
+          "lost_pct": 47.4
+        }
+      },
+      "1": {
+        "player": "FILS",
+        "opponent": "MICHELSEN",
+        "points_total": 62,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "FILS": 12,
+              "MICHELSEN": 9
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 33.9
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "FILS": 12,
+              "MICHELSEN": 4
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 25.8
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "FILS": 8,
+              "MICHELSEN": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 24.2
+          },
+          "9+ shots": {
+            "points_played": 10,
+            "points_won": {
+              "FILS": 2,
+              "MICHELSEN": 8
+            },
+            "pct_won_poi": 20.0,
+            "frequency_pct": 16.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 34,
+          "lost": 28,
+          "won_pct": 54.8,
+          "lost_pct": 45.2
+        }
+      },
+      "2": {
+        "player": "FILS",
+        "opponent": "MICHELSEN",
+        "points_total": 92,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "FILS": 13,
+              "MICHELSEN": 8
+            },
+            "pct_won_poi": 61.9,
+            "frequency_pct": 22.8
+          },
+          "3-4 shots": {
+            "points_played": 26,
+            "points_won": {
+              "FILS": 17,
+              "MICHELSEN": 9
+            },
+            "pct_won_poi": 65.4,
+            "frequency_pct": 28.3
+          },
+          "5-8 shots": {
+            "points_played": 32,
+            "points_won": {
+              "FILS": 12,
+              "MICHELSEN": 20
+            },
+            "pct_won_poi": 37.5,
+            "frequency_pct": 34.8
+          },
+          "9+ shots": {
+            "points_played": 13,
+            "points_won": {
+              "FILS": 5,
+              "MICHELSEN": 8
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 14.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 4
+            },
+            "lost": {
+              "2": 3,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 6,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 47,
+          "lost": 45,
+          "won_pct": 51.1,
+          "lost_pct": 48.9
+        }
+      }
+    }
+  }
+}
