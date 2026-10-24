@@ -10767,6 +10767,18 @@
             "match_id": "Brussels_2026_R16_Dzumhur_Bergs",
             "DATE": "2026-10-22",
             "hash_id": "8b4b74f0c98c06af"
+        },
+        {
+            "PLAYER": "BERGS",
+            "OPPONENT": "STRUFF",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "QF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_QF_Struff_Bergs",
+            "DATE": "2026-10-23",
+            "hash_id": "49365d29bb74b911"
         }
     ],
     "KECMANOVIC": [
