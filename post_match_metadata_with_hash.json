@@ -11777,6 +11777,18 @@
             "match_id": "Almaty_2026_R32_Kecmanovic_Duckworth",
             "DATE": "2026-10-19",
             "hash_id": "3516f182ee134f88"
+        },
+        {
+            "PLAYER": "KECMANOVIC",
+            "OPPONENT": "HIJIKATA",
+            "TOURNAMENT": "BASEL",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Basel_2026_Q_Kecmanovic_Hijikata",
+            "DATE": "2026-10-24",
+            "hash_id": "75b56ae9c5c80a58"
         }
     ],
     "NAKASHIMA": [
@@ -14469,6 +14481,18 @@
             "match_id": "Almaty_2026_QF_Tsitsipas_Duckworth",
             "DATE": "2026-10-23",
             "hash_id": "1438cb7679794d9a"
+        },
+        {
+            "PLAYER": "TSITSIPAS",
+            "OPPONENT": "BASILASHVILI",
+            "TOURNAMENT": "ALMATY",
+            "YEAR": "2026",
+            "ROUND": "SF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Almaty_2026_SF_Basilashvili_Tsitsipas",
+            "DATE": "2026-10-24",
+            "hash_id": "c27f762fe362c3ba"
         }
     ],
     "PAUL": [
@@ -20289,6 +20313,18 @@
             "match_id": "Lyon_2026_QF_Altmaier_Fritz",
             "DATE": "2026-10-23",
             "hash_id": "ccbf8c56a854375d"
+        },
+        {
+            "PLAYER": "ALTMAIER",
+            "OPPONENT": "BERNET",
+            "TOURNAMENT": "BASEL",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Basel_2026_Q_Bernet_Altmaier",
+            "DATE": "2026-10-24",
+            "hash_id": "8d1060d334670f5d"
         }
     ],
     "SEYBOTH WILD": [
@@ -21699,6 +21735,18 @@
             "match_id": "Brussels_2026_QF_Fils_Michelsen",
             "DATE": "2026-10-23",
             "hash_id": "303166c0b5e1e440"
+        },
+        {
+            "PLAYER": "FILS",
+            "OPPONENT": "STRUFF",
+            "TOURNAMENT": "BRUSSELS",
+            "YEAR": "2026",
+            "ROUND": "SF",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Brussels_2026_SF_Fils_Struff",
+            "DATE": "2026-10-24",
+            "hash_id": "131501a59162af25"
         }
     ],
     "THOMPSON": [
@@ -35180,6 +35228,18 @@
             "match_id": "Shanghai_2026_1st_Marozsan_Svajda",
             "DATE": "2026-10-08",
             "hash_id": "666e285fe5bde9dd"
+        },
+        {
+            "PLAYER": "MAROZSAN",
+            "OPPONENT": "SORGER",
+            "TOURNAMENT": "VIENNA",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Vienna_2026_Q_Marozsan_Sorger",
+            "DATE": "2026-10-24",
+            "hash_id": "139c4d337f0bf08c"
         }
     ],
     "ZVEREV": [
@@ -39457,6 +39517,18 @@
             "match_id": "Lyon_2026_R32_Medjedovic_Nakashima",
             "DATE": "2026-10-20",
             "hash_id": "b55dc5025a59ddf8"
+        },
+        {
+            "PLAYER": "MEDJEDOVIC",
+            "OPPONENT": "MOLCAN",
+            "TOURNAMENT": "VIENNA",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Vienna_2026_Q_Molcan_Medjedovic",
+            "DATE": "2026-10-24",
+            "hash_id": "6aa01b48e7840872"
         }
     ],
     "LAMENS": [
@@ -40047,6 +40119,18 @@
             "match_id": "55ca7b9c-6603-4487-96dd-aea86a00dd52",
             "DATE": "2026-10-11",
             "hash_id": "04b879fefdb92e25"
+        },
+        {
+            "PLAYER": "BERNET",
+            "OPPONENT": "ALTMAIER",
+            "TOURNAMENT": "BASEL",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Basel_2026_Q_Bernet_Altmaier",
+            "DATE": "2026-10-24",
+            "hash_id": "76ee89e9cb17b1e7"
         }
     ],
     "MONTEIRO": [
@@ -42661,6 +42745,18 @@
             "match_id": "Almaty_2026_R32_Tirante_Diaz-Acosta",
             "DATE": "2026-10-19",
             "hash_id": "2215cd05d7d92b31"
+        },
+        {
+            "PLAYER": "TIRANTE",
+            "OPPONENT": "MANNARINO",
+            "TOURNAMENT": "VIENNA",
+            "YEAR": "2026",
+            "ROUND": "Q",
+            "SURFACE": "hard",
+            "FORMAT": "HE",
+            "match_id": "Vienna_2026_Q_Tirante_Mannarino",
+            "DATE": "2026-10-24",
+            "hash_id": "9041c08d509f86da"
         }
     ],
     "KOUAME": [

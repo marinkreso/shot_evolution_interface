@@ -1,0 +1,309 @@
+{
+  "Almaty_2026_SF_Basilashvili_Tsitsipas": {
+    "player": "TSITSIPAS",
+    "opponent": "BASILASHVILI",
+    "points_total": 192,
+    "sets": {
+      "ALL": {
+        "player": "TSITSIPAS",
+        "opponent": "BASILASHVILI",
+        "points_total": 192,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 82,
+            "points_won": {
+              "TSITSIPAS": 45,
+              "BASILASHVILI": 37
+            },
+            "pct_won_poi": 54.9,
+            "frequency_pct": 42.7
+          },
+          "3-4 shots": {
+            "points_played": 52,
+            "points_won": {
+              "TSITSIPAS": 20,
+              "BASILASHVILI": 32
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 27.1
+          },
+          "5-8 shots": {
+            "points_played": 46,
+            "points_won": {
+              "TSITSIPAS": 22,
+              "BASILASHVILI": 24
+            },
+            "pct_won_poi": 47.8,
+            "frequency_pct": 24.0
+          },
+          "9+ shots": {
+            "points_played": 12,
+            "points_won": {
+              "TSITSIPAS": 2,
+              "BASILASHVILI": 10
+            },
+            "pct_won_poi": 16.7,
+            "frequency_pct": 6.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 12,
+              "3": 5,
+              "4": 4
+            },
+            "lost": {
+              "2": 5,
+              "3": 2,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 7,
+              "4": 7
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 89,
+          "lost": 103,
+          "won_pct": 46.4,
+          "lost_pct": 53.6
+        }
+      },
+      "1": {
+        "player": "TSITSIPAS",
+        "opponent": "BASILASHVILI",
+        "points_total": 52,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 23,
+            "points_won": {
+              "TSITSIPAS": 10,
+              "BASILASHVILI": 13
+            },
+            "pct_won_poi": 43.5,
+            "frequency_pct": 44.2
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "TSITSIPAS": 7,
+              "BASILASHVILI": 9
+            },
+            "pct_won_poi": 43.8,
+            "frequency_pct": 30.8
+          },
+          "5-8 shots": {
+            "points_played": 10,
+            "points_won": {
+              "TSITSIPAS": 6,
+              "BASILASHVILI": 4
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 19.2
+          },
+          "9+ shots": {
+            "points_played": 3,
+            "points_won": {
+              "TSITSIPAS": 0,
+              "BASILASHVILI": 3
+            },
+            "pct_won_poi": 0.0,
+            "frequency_pct": 5.8
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 1
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 23,
+          "lost": 29,
+          "won_pct": 44.2,
+          "lost_pct": 55.8
+        }
+      },
+      "2": {
+        "player": "TSITSIPAS",
+        "opponent": "BASILASHVILI",
+        "points_total": 89,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 39,
+            "points_won": {
+              "TSITSIPAS": 25,
+              "BASILASHVILI": 14
+            },
+            "pct_won_poi": 64.1,
+            "frequency_pct": 43.8
+          },
+          "3-4 shots": {
+            "points_played": 23,
+            "points_won": {
+              "TSITSIPAS": 6,
+              "BASILASHVILI": 17
+            },
+            "pct_won_poi": 26.1,
+            "frequency_pct": 25.8
+          },
+          "5-8 shots": {
+            "points_played": 20,
+            "points_won": {
+              "TSITSIPAS": 13,
+              "BASILASHVILI": 7
+            },
+            "pct_won_poi": 65.0,
+            "frequency_pct": 22.5
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "TSITSIPAS": 2,
+              "BASILASHVILI": 5
+            },
+            "pct_won_poi": 28.6,
+            "frequency_pct": 7.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 7,
+              "3": 2,
+              "4": 2
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 3,
+              "3": 3,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 46,
+          "lost": 43,
+          "won_pct": 51.7,
+          "lost_pct": 48.3
+        }
+      },
+      "3": {
+        "player": "TSITSIPAS",
+        "opponent": "BASILASHVILI",
+        "points_total": 51,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 20,
+            "points_won": {
+              "TSITSIPAS": 10,
+              "BASILASHVILI": 10
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 39.2
+          },
+          "3-4 shots": {
+            "points_played": 13,
+            "points_won": {
+              "TSITSIPAS": 7,
+              "BASILASHVILI": 6
+            },
+            "pct_won_poi": 53.8,
+            "frequency_pct": 25.5
+          },
+          "5-8 shots": {
+            "points_played": 16,
+            "points_won": {
+              "TSITSIPAS": 3,
+              "BASILASHVILI": 13
+            },
+            "pct_won_poi": 18.8,
+            "frequency_pct": 31.4
+          },
+          "9+ shots": {
+            "points_played": 2,
+            "points_won": {
+              "TSITSIPAS": 0,
+              "BASILASHVILI": 2
+            },
+            "pct_won_poi": 0.0,
+            "frequency_pct": 3.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 0,
+              "3": 3,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 20,
+          "lost": 31,
+          "won_pct": 39.2,
+          "lost_pct": 60.8
+        }
+      }
+    }
+  }
+}

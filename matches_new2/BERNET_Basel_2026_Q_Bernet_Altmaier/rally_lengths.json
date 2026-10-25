@@ -1,0 +1,234 @@
+{
+  "Basel_2026_Q_Bernet_Altmaier": {
+    "player": "BERNET",
+    "opponent": "ALTMAIER",
+    "points_total": 159,
+    "sets": {
+      "ALL": {
+        "player": "BERNET",
+        "opponent": "ALTMAIER",
+        "points_total": 159,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 63,
+            "points_won": {
+              "BERNET": 25,
+              "ALTMAIER": 38
+            },
+            "pct_won_poi": 39.7,
+            "frequency_pct": 39.6
+          },
+          "3-4 shots": {
+            "points_played": 47,
+            "points_won": {
+              "BERNET": 25,
+              "ALTMAIER": 22
+            },
+            "pct_won_poi": 53.2,
+            "frequency_pct": 29.6
+          },
+          "5-8 shots": {
+            "points_played": 40,
+            "points_won": {
+              "BERNET": 23,
+              "ALTMAIER": 17
+            },
+            "pct_won_poi": 57.5,
+            "frequency_pct": 25.2
+          },
+          "9+ shots": {
+            "points_played": 9,
+            "points_won": {
+              "BERNET": 4,
+              "ALTMAIER": 5
+            },
+            "pct_won_poi": 44.4,
+            "frequency_pct": 5.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 6,
+              "3": 6,
+              "4": 3
+            },
+            "lost": {
+              "2": 5,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 10,
+              "3": 6,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 77,
+          "lost": 82,
+          "won_pct": 48.4,
+          "lost_pct": 51.6
+        }
+      },
+      "1": {
+        "player": "BERNET",
+        "opponent": "ALTMAIER",
+        "points_total": 81,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 24,
+            "points_won": {
+              "BERNET": 10,
+              "ALTMAIER": 14
+            },
+            "pct_won_poi": 41.7,
+            "frequency_pct": 29.6
+          },
+          "3-4 shots": {
+            "points_played": 29,
+            "points_won": {
+              "BERNET": 14,
+              "ALTMAIER": 15
+            },
+            "pct_won_poi": 48.3,
+            "frequency_pct": 35.8
+          },
+          "5-8 shots": {
+            "points_played": 21,
+            "points_won": {
+              "BERNET": 12,
+              "ALTMAIER": 9
+            },
+            "pct_won_poi": 57.1,
+            "frequency_pct": 25.9
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "BERNET": 3,
+              "ALTMAIER": 4
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 8.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 2,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 39,
+          "lost": 42,
+          "won_pct": 48.1,
+          "lost_pct": 51.9
+        }
+      },
+      "2": {
+        "player": "BERNET",
+        "opponent": "ALTMAIER",
+        "points_total": 78,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 39,
+            "points_won": {
+              "BERNET": 15,
+              "ALTMAIER": 24
+            },
+            "pct_won_poi": 38.5,
+            "frequency_pct": 50.0
+          },
+          "3-4 shots": {
+            "points_played": 18,
+            "points_won": {
+              "BERNET": 11,
+              "ALTMAIER": 7
+            },
+            "pct_won_poi": 61.1,
+            "frequency_pct": 23.1
+          },
+          "5-8 shots": {
+            "points_played": 19,
+            "points_won": {
+              "BERNET": 11,
+              "ALTMAIER": 8
+            },
+            "pct_won_poi": 57.9,
+            "frequency_pct": 24.4
+          },
+          "9+ shots": {
+            "points_played": 2,
+            "points_won": {
+              "BERNET": 1,
+              "ALTMAIER": 1
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 2.6
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 3,
+              "4": 2
+            },
+            "lost": {
+              "2": 4,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 4,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 38,
+          "lost": 40,
+          "won_pct": 48.7,
+          "lost_pct": 51.3
+        }
+      }
+    }
+  }
+}
