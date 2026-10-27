@@ -1,0 +1,234 @@
+{
+  "Vienna_2026_R32_Mensik_Neumayer": {
+    "player": "MENSIK",
+    "opponent": "NEUMAYER",
+    "points_total": 89,
+    "sets": {
+      "ALL": {
+        "player": "MENSIK",
+        "opponent": "NEUMAYER",
+        "points_total": 89,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 28,
+            "points_won": {
+              "MENSIK": 18,
+              "NEUMAYER": 10
+            },
+            "pct_won_poi": 64.3,
+            "frequency_pct": 31.5
+          },
+          "3-4 shots": {
+            "points_played": 26,
+            "points_won": {
+              "MENSIK": 14,
+              "NEUMAYER": 12
+            },
+            "pct_won_poi": 53.8,
+            "frequency_pct": 29.2
+          },
+          "5-8 shots": {
+            "points_played": 20,
+            "points_won": {
+              "MENSIK": 13,
+              "NEUMAYER": 7
+            },
+            "pct_won_poi": 65.0,
+            "frequency_pct": 22.5
+          },
+          "9+ shots": {
+            "points_played": 15,
+            "points_won": {
+              "MENSIK": 10,
+              "NEUMAYER": 5
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 16.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 4,
+              "4": 2
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 8,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 3,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 55,
+          "lost": 34,
+          "won_pct": 61.8,
+          "lost_pct": 38.2
+        }
+      },
+      "1": {
+        "player": "MENSIK",
+        "opponent": "NEUMAYER",
+        "points_total": 47,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 16,
+            "points_won": {
+              "MENSIK": 9,
+              "NEUMAYER": 7
+            },
+            "pct_won_poi": 56.2,
+            "frequency_pct": 34.0
+          },
+          "3-4 shots": {
+            "points_played": 11,
+            "points_won": {
+              "MENSIK": 6,
+              "NEUMAYER": 5
+            },
+            "pct_won_poi": 54.5,
+            "frequency_pct": 23.4
+          },
+          "5-8 shots": {
+            "points_played": 12,
+            "points_won": {
+              "MENSIK": 8,
+              "NEUMAYER": 4
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 25.5
+          },
+          "9+ shots": {
+            "points_played": 8,
+            "points_won": {
+              "MENSIK": 5,
+              "NEUMAYER": 3
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 17.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 5,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 28,
+          "lost": 19,
+          "won_pct": 59.6,
+          "lost_pct": 40.4
+        }
+      },
+      "2": {
+        "player": "MENSIK",
+        "opponent": "NEUMAYER",
+        "points_total": 42,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 12,
+            "points_won": {
+              "MENSIK": 9,
+              "NEUMAYER": 3
+            },
+            "pct_won_poi": 75.0,
+            "frequency_pct": 28.6
+          },
+          "3-4 shots": {
+            "points_played": 15,
+            "points_won": {
+              "MENSIK": 8,
+              "NEUMAYER": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 35.7
+          },
+          "5-8 shots": {
+            "points_played": 8,
+            "points_won": {
+              "MENSIK": 5,
+              "NEUMAYER": 3
+            },
+            "pct_won_poi": 62.5,
+            "frequency_pct": 19.0
+          },
+          "9+ shots": {
+            "points_played": 7,
+            "points_won": {
+              "MENSIK": 5,
+              "NEUMAYER": 2
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 16.7
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 0,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 3,
+              "3": 0,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 1,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 27,
+          "lost": 15,
+          "won_pct": 64.3,
+          "lost_pct": 35.7
+        }
+      }
+    }
+  }
+}

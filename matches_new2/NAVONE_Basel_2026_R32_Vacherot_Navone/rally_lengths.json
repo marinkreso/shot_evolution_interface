@@ -1,0 +1,234 @@
+{
+  "Basel_2026_R32_Vacherot_Navone": {
+    "player": "NAVONE",
+    "opponent": "VACHEROT",
+    "points_total": 152,
+    "sets": {
+      "ALL": {
+        "player": "NAVONE",
+        "opponent": "VACHEROT",
+        "points_total": 152,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 53,
+            "points_won": {
+              "NAVONE": 22,
+              "VACHEROT": 31
+            },
+            "pct_won_poi": 41.5,
+            "frequency_pct": 34.9
+          },
+          "3-4 shots": {
+            "points_played": 32,
+            "points_won": {
+              "NAVONE": 13,
+              "VACHEROT": 19
+            },
+            "pct_won_poi": 40.6,
+            "frequency_pct": 21.1
+          },
+          "5-8 shots": {
+            "points_played": 39,
+            "points_won": {
+              "NAVONE": 20,
+              "VACHEROT": 19
+            },
+            "pct_won_poi": 51.3,
+            "frequency_pct": 25.7
+          },
+          "9+ shots": {
+            "points_played": 28,
+            "points_won": {
+              "NAVONE": 17,
+              "VACHEROT": 11
+            },
+            "pct_won_poi": 60.7,
+            "frequency_pct": 18.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 5,
+              "3": 7,
+              "4": 2
+            },
+            "lost": {
+              "2": 4,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 5,
+              "3": 6,
+              "4": 3
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 72,
+          "lost": 80,
+          "won_pct": 47.4,
+          "lost_pct": 52.6
+        }
+      },
+      "1": {
+        "player": "NAVONE",
+        "opponent": "VACHEROT",
+        "points_total": 63,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 25,
+            "points_won": {
+              "NAVONE": 10,
+              "VACHEROT": 15
+            },
+            "pct_won_poi": 40.0,
+            "frequency_pct": 39.7
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "NAVONE": 8,
+              "VACHEROT": 8
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 25.4
+          },
+          "5-8 shots": {
+            "points_played": 12,
+            "points_won": {
+              "NAVONE": 4,
+              "VACHEROT": 8
+            },
+            "pct_won_poi": 33.3,
+            "frequency_pct": 19.0
+          },
+          "9+ shots": {
+            "points_played": 10,
+            "points_won": {
+              "NAVONE": 6,
+              "VACHEROT": 4
+            },
+            "pct_won_poi": 60.0,
+            "frequency_pct": 15.9
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 4,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 28,
+          "lost": 35,
+          "won_pct": 44.4,
+          "lost_pct": 55.6
+        }
+      },
+      "2": {
+        "player": "NAVONE",
+        "opponent": "VACHEROT",
+        "points_total": 89,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 28,
+            "points_won": {
+              "NAVONE": 12,
+              "VACHEROT": 16
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 31.5
+          },
+          "3-4 shots": {
+            "points_played": 16,
+            "points_won": {
+              "NAVONE": 5,
+              "VACHEROT": 11
+            },
+            "pct_won_poi": 31.2,
+            "frequency_pct": 18.0
+          },
+          "5-8 shots": {
+            "points_played": 27,
+            "points_won": {
+              "NAVONE": 16,
+              "VACHEROT": 11
+            },
+            "pct_won_poi": 59.3,
+            "frequency_pct": 30.3
+          },
+          "9+ shots": {
+            "points_played": 18,
+            "points_won": {
+              "NAVONE": 11,
+              "VACHEROT": 7
+            },
+            "pct_won_poi": 61.1,
+            "frequency_pct": 20.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 5,
+              "4": 2
+            },
+            "lost": {
+              "2": 2,
+              "3": 1,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 0
+            },
+            "lost": {
+              "2": 4,
+              "3": 4,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 44,
+          "lost": 45,
+          "won_pct": 49.4,
+          "lost_pct": 50.6
+        }
+      }
+    }
+  }
+}
