@@ -1,0 +1,74 @@
+{
+    "selected_player_name": "CHWALINSKA",
+    "opponent_name": "BRENGLE",
+    "Movement_data": {
+        "Total Match Duration": "53 minute(s)",
+        "Effective Playing Time": "28 minute(s)",
+        "Effective Time / Total Match Duration": "52%",
+        "Total Distance Covered": "664.5 m",
+        "Avg Speed": "2.03 m/s",
+        "Sum of All Strokes": 255
+    },
+    "1st_serve_placement": "1st DEUCE W: 46%, 1st DEUCE T: 15%, 1st AD W: 53%, 1st AD T: 27%",
+    "Number of runs to reach dropshots": 2,
+    "path_to_games": "haddad_games.csv",
+    "shots_data_numbers": {
+        "First Serve": 30,
+        "Second Serve": 7,
+        "Forehand": 86,
+        "Backhand": 86,
+        "Forehand Return": 27,
+        "Backhand Return": 19,
+        "Volleys": 3,
+        "Slices": 29,
+        "Dropshots": 10
+    },
+    "distance_moved": {
+        "0-1 m": "7% (15 times)",
+        "1-2 m": "21% (46 times)",
+        "2-3 m": "26% (56 times)",
+        "3-4 m": "22% (47 times)",
+        "4-5 m": "18% (38 times)",
+        "5-10 m": "6% (13 times)",
+        "10+ m": "1% (2 times)"
+    },
+    "distance_moved_per_point": {
+        "0-10 m": "65% (47 times)",
+        "11-25 m": "29% (21 times)",
+        "26-50 m": "6% (4 times)",
+        "51-75 m": "0% (0 times)",
+        "76-100 m": "0% (0 times)",
+        "101-500 m": "0% (0 times)"
+    },
+    "number_of_sprints": {
+        "0 - 1 m/s": "0% (1 times)",
+        "1 - 1.5 m/s": "1% (3 times)",
+        "1.5 - 2 m/s": "6% (14 times)",
+        "2 - 2.5 m/s": "8% (18 times)",
+        "2.5 - 3 m/s": "13% (30 times)",
+        "3 - 3.5 m/s": "21% (48 times)",
+        "3.5+ m/s": "50% (112 times)"
+    },
+    "placement_first": {
+        "1st DEUCE W": "46% (6 serves), 17 win%",
+        "1st DEUCE B": "38% (5 serves), 60 win%",
+        "1st DEUCE T": "15% (2 serves), 0 win%",
+        "1st AD W": "53% (8 serves), 50 win%",
+        "1st AD B": "20% (3 serves), 33 win%",
+        "1st AD T": "27% (4 serves), 100 win%"
+    },
+    "placement_second": {
+        "2nd DEUCE W": "50% (1 serves), 100 win%",
+        "2nd DEUCE B": "50% (1 serves), 0 win%",
+        "2nd DEUCE T": "0% (0 serves), nan win%",
+        "2nd AD W": "25% (1 serves), 0 win%",
+        "2nd AD B": "75% (3 serves), 100 win%",
+        "2nd AD T": "0% (0 serves), nan win%"
+    },
+    "sets": [
+        "ALL",
+        "1",
+        "2"
+    ],
+    "source": "cv"
+}

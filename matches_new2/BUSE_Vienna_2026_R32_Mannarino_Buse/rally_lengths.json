@@ -1,0 +1,309 @@
+{
+  "Vienna_2026_R32_Mannarino_Buse": {
+    "player": "BUSE",
+    "opponent": "MANNARINO",
+    "points_total": 172,
+    "sets": {
+      "ALL": {
+        "player": "BUSE",
+        "opponent": "MANNARINO",
+        "points_total": 172,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 46,
+            "points_won": {
+              "BUSE": 30,
+              "MANNARINO": 16
+            },
+            "pct_won_poi": 65.2,
+            "frequency_pct": 26.7
+          },
+          "3-4 shots": {
+            "points_played": 30,
+            "points_won": {
+              "BUSE": 15,
+              "MANNARINO": 15
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 17.4
+          },
+          "5-8 shots": {
+            "points_played": 51,
+            "points_won": {
+              "BUSE": 22,
+              "MANNARINO": 29
+            },
+            "pct_won_poi": 43.1,
+            "frequency_pct": 29.7
+          },
+          "9+ shots": {
+            "points_played": 45,
+            "points_won": {
+              "BUSE": 22,
+              "MANNARINO": 23
+            },
+            "pct_won_poi": 48.9,
+            "frequency_pct": 26.2
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 3,
+              "3": 6,
+              "4": 3
+            },
+            "lost": {
+              "2": 3,
+              "3": 4,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 4,
+              "4": 1
+            },
+            "lost": {
+              "2": 10,
+              "3": 4,
+              "4": 2
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 89,
+          "lost": 83,
+          "won_pct": 51.7,
+          "lost_pct": 48.3
+        }
+      },
+      "1": {
+        "player": "BUSE",
+        "opponent": "MANNARINO",
+        "points_total": 30,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 7,
+            "points_won": {
+              "BUSE": 5,
+              "MANNARINO": 2
+            },
+            "pct_won_poi": 71.4,
+            "frequency_pct": 23.3
+          },
+          "3-4 shots": {
+            "points_played": 7,
+            "points_won": {
+              "BUSE": 7,
+              "MANNARINO": 0
+            },
+            "pct_won_poi": 100.0,
+            "frequency_pct": 23.3
+          },
+          "5-8 shots": {
+            "points_played": 10,
+            "points_won": {
+              "BUSE": 9,
+              "MANNARINO": 1
+            },
+            "pct_won_poi": 90.0,
+            "frequency_pct": 33.3
+          },
+          "9+ shots": {
+            "points_played": 6,
+            "points_won": {
+              "BUSE": 3,
+              "MANNARINO": 3
+            },
+            "pct_won_poi": 50.0,
+            "frequency_pct": 20.0
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 0,
+              "4": 2
+            },
+            "lost": {
+              "2": 0,
+              "3": 0,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 2,
+              "4": 1
+            },
+            "lost": {
+              "2": 2,
+              "3": 0,
+              "4": 0
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 24,
+          "lost": 6,
+          "won_pct": 80.0,
+          "lost_pct": 20.0
+        }
+      },
+      "2": {
+        "player": "BUSE",
+        "opponent": "MANNARINO",
+        "points_total": 74,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 21,
+            "points_won": {
+              "BUSE": 14,
+              "MANNARINO": 7
+            },
+            "pct_won_poi": 66.7,
+            "frequency_pct": 28.4
+          },
+          "3-4 shots": {
+            "points_played": 14,
+            "points_won": {
+              "BUSE": 6,
+              "MANNARINO": 8
+            },
+            "pct_won_poi": 42.9,
+            "frequency_pct": 18.9
+          },
+          "5-8 shots": {
+            "points_played": 15,
+            "points_won": {
+              "BUSE": 4,
+              "MANNARINO": 11
+            },
+            "pct_won_poi": 26.7,
+            "frequency_pct": 20.3
+          },
+          "9+ shots": {
+            "points_played": 24,
+            "points_won": {
+              "BUSE": 11,
+              "MANNARINO": 13
+            },
+            "pct_won_poi": 45.8,
+            "frequency_pct": 32.4
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 3,
+              "4": 1
+            },
+            "lost": {
+              "2": 1,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 4,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 6,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 35,
+          "lost": 39,
+          "won_pct": 47.3,
+          "lost_pct": 52.7
+        }
+      },
+      "3": {
+        "player": "BUSE",
+        "opponent": "MANNARINO",
+        "points_total": 68,
+        "rally_lengths": {
+          "1-2 shots": {
+            "points_played": 18,
+            "points_won": {
+              "BUSE": 11,
+              "MANNARINO": 7
+            },
+            "pct_won_poi": 61.1,
+            "frequency_pct": 26.5
+          },
+          "3-4 shots": {
+            "points_played": 9,
+            "points_won": {
+              "BUSE": 2,
+              "MANNARINO": 7
+            },
+            "pct_won_poi": 22.2,
+            "frequency_pct": 13.2
+          },
+          "5-8 shots": {
+            "points_played": 26,
+            "points_won": {
+              "BUSE": 9,
+              "MANNARINO": 17
+            },
+            "pct_won_poi": 34.6,
+            "frequency_pct": 38.2
+          },
+          "9+ shots": {
+            "points_played": 15,
+            "points_won": {
+              "BUSE": 8,
+              "MANNARINO": 7
+            },
+            "pct_won_poi": 53.3,
+            "frequency_pct": 22.1
+          }
+        },
+        "points_in_a_row": {
+          "service_games": {
+            "won": {
+              "2": 1,
+              "3": 3,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 0
+            }
+          },
+          "return_games": {
+            "won": {
+              "2": 0,
+              "3": 1,
+              "4": 0
+            },
+            "lost": {
+              "2": 2,
+              "3": 2,
+              "4": 1
+            }
+          }
+        },
+        "points_won_lost": {
+          "won": 30,
+          "lost": 38,
+          "won_pct": 44.1,
+          "lost_pct": 55.9
+        }
+      }
+    }
+  }
+}

@@ -242,7 +242,13 @@ def add_he_features(cvdf):
         df["receiver_name"] = df["returner"]
 
     # --- shot descriptors ------------------------------------------------------
-    df["is_shot_in"] = (~df["placement_gsa"].str.contains("Out|Net", na=True)).astype(int)
+    # in = placement not Out/Net; when CV has no placement (bounce not located,
+    # common on returns) fall back to the shot outcome: the ball stayed in play
+    # if the rally continued or the shot was a winner/ace.
+    no_place = df["placement_gsa"].isna()
+    in_by_place = ~df["placement_gsa"].str.contains("Out|Net", na=True)
+    in_by_outcome = no_place & df["outcome"].isin(["Rally", "Winner", "Ace"])
+    df["is_shot_in"] = (in_by_place | in_by_outcome).astype(int)
     df["is_shot_serve"] = (df["shot_no"] == 1).astype(int)
     df["shot_type"] = df["stroke"].map(lambda x: x[0].upper() if isinstance(x, str) and x else None)
 
